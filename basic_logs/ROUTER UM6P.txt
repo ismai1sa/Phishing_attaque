@@ -1,0 +1,41 @@
+May 26 08:10:15 Router1 UM6P %SYS-5-CONFIG_I: Configured from console by admin
+May 26 08:11:03 Router1 UM6P %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+May 26 08:11:05 Router1 UM6P %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+May 26 08:12:10 Router1 UM6P %ROUTING-5-ADJCHANGE: IP routing adjacency with 192.168.10.1 on GigabitEthernet0/1 is up
+May 26 08:12:47 Router1 UM6P %DHCPD-6-ADDRESS_ASSIGN: Assigned IP 192.168.10.105 to MAC 00:1A:2B:3C:4D:5E on GigabitEthernet0/1
+May 26 08:13:22 Router1 UM6P %OSPF-5-ADJCHG: Neighbor 192.168.10.110 on GigabitEthernet0/1 changed state to FULL
+May 26 08:14:02 Router1 UM6P %SYS-5-RELOAD: Reload requested by admin
+May 26 08:15:40 Router1 UM6P %ROUTING-4-RT_FAIL: Routing failed to reach 198.51.100.42 via 192.168.10.1, dropping packet
+May 26 08:16:11 Router1 UM6P %ACL-6-LOGGING: Denied TCP src 192.168.10.105/445 dst 192.168.10.150/80 by access-group 101
+May 26 08:16:48 Router1 UM6P %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to down
+May 26 08:17:05 Router1 UM6P %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+May 26 08:17:55 Router1 UM6P %DHCPD-4-EXPIRE: Lease expired for IP 192.168.10.105 on GigabitEthernet0/1
+May 26 08:18:33 Router1 UM6P %ROUTING-5-UPDATE: Route to 10.0.0.0/24 via 192.168.10.1 added
+May 26 08:19:12 Router1 UM6P %SYS-5-RELOAD: Reload complete
+May 26 08:19:59 Router1 UM6P %OSPF-5-NEIGHBOR_CHANGE: Neighbor 192.168.10.115 on GigabitEthernet0/1 went down
+May 26 08:20:35 Router1 UM6P %ACL-6-LOGGING: Denied UDP src 192.168.10.105/53 dst 198.51.100.42/53 by access-group 102
+May 26 08:21:11 Router1 UM6P %DHCPD-6-ADDRESS_ASSIGN: Assigned IP 192.168.10.115 to MAC 00:1A:2B:3C:4D:5F on GigabitEthernet0/1
+May 26 08:21:48 Router1 UM6P %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to up
+May 26 08:22:15 Router1 UM6P %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to up
+May 26 08:22:50 Router1 UM6P %ROUTING-5-UPDATE: Route to 192.168.10.0/24 via 10.0.0.1 removed
+May 26 08:23:26 Router1 UM6P %ACL-6-LOGGING: Permitted TCP src 192.168.10.110/25 dst 10.0.1.20/21 by access-group 103
+May 26 08:24:01 Router1 UM6P %DHCPD-4-EXPIRE: Lease expired for IP 192.168.10.110 on GigabitEthernet0/1
+May 26 08:24:38 Router1 UM6P %ROUTING-4-RT_FAIL: Routing failed to reach 203.0.113.10 via 192.168.10.1, dropping packet
+May 26 08:25:14 Router1 UM6P %OSPF-5-ADJCHANGE: Neighbor 192.168.10.120 on GigabitEthernet0/1 changed state to FULL
+May 26 08:25:51 Router1 UM6P %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to down
+May 26 08:26:27 Router1 UM6P %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+May 26 08:27:04 Router1 UM6P %ACL-6-LOGGING: Denied ICMP src 192.168.10.105 dst 198.51.100.42 by access-group 104
+May 26 08:27:40 Router1 UM6P %DHCPD-6-ADDRESS_ASSIGN: Assigned IP 192.168.10.130 to MAC 00:1A:2B:3C:4D:60 on GigabitEthernet0/3
+May 26 08:28:16 Router1 UM6P %ROUTING-5-UPDATE: Route to 198.51.100.0/24 via 192.168.10.1 added
+May 26 08:28:53 Router1 UM6P %OSPF-5-NEIGHBOR_CHANGE: Neighbor 192.168.10.105 on GigabitEthernet0/1 went down
+May 26 08:29:29 Router1 UM6P %ACL-6-LOGGING: Permitted UDP src 192.168.10.115/53 dst 192.168.10.130/53 by access-group 105
+May 26 08:30:05 Router1 UM6P %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+May 26 08:30:42 Router1 UM6P %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+May 26 08:31:18 Router1 UM6P %DHCPD-4-EXPIRE: Lease expired for IP 192.168.10.115 on GigabitEthernet0/1
+May 26 08:31:54 Router1 UM6P %ROUTING-4-RT_FAIL: Routing failed to reach 192.0.2.50 via 192.168.10.1, dropping packet
+May 26 08:32:31 Router1 UM6P %ACL-6-LOGGING: Denied TCP src 192.168.10.105/3389 dst 192.168.10.115/3389 by access-group 106
+May 26 08:33:07 Router1 UM6P %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+May 26 08:33:43 Router1 UM6P %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+May 26 08:34:19 Router1 UM6P %ROUTING-5-UPDATE: Route to 10.1.0.0/16 via 192.168.10.1 added
+May 26 08:34:55 Router1 UM6P %ACL-6-LOGGING: Permitted TCP src 192.168.10.110/25 dst 198.51.100.42/443 by access-group 107
+May 26 08:35:31 Router1 UM6P %DHCPD-6-ADDRESS_ASSIGN: Assigned IP 192.168.10.140 to MAC 00:1A:2B:3C:4D:61 on GigabitEthernet0/1

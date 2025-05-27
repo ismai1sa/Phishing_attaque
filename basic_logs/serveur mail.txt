@@ -1,0 +1,50 @@
+2025-05-26 08:00:12 MAIL user.jaad LOGIN_SUCCESS Connexion au webmail via IP 10.10.12.45 validée par AD
+2025-05-26 08:01:34 MAIL user.jaad READ_EMAIL Sujet: Réunion UM6P - Infos internes
+2025-05-26 08:02:45 MAIL user.jaad READ_EMAIL Sujet: Demande urgente - budget service IT
+2025-05-26 08:03:55 MAIL user.jaad DOWNLOAD_ATTACHMENT Fichier: budget_2025.xlsx
+2025-05-26 08:05:10 MAIL user.jaad FORWARD_EMAIL À: ext_client@gmail.com Sujet: Réunion UM6P - Infos internes
+2025-05-26 08:05:42 MAIL user.jaad LOGIN_FROM_NEW_DEVICE IP: 10.10.13.80 Device: WIN-CLIENT001
+2025-05-26 08:06:27 MAIL user.jaad READ_EMAIL Sujet: Planning formation cybersécurité
+2025-05-26 08:07:10 MAIL user.jaad SEND_EMAIL À: it_support@um6p.ma Sujet: Changement mot de passe urgent
+2025-05-26 08:08:22 MAIL user.jaad SEND_EMAIL À: user.fati@um6p.ma Sujet: Regarde ce document LIEN: http://um6p-docs-support.com/login
+2025-05-26 08:09:40 MAIL user.fati CLICKED_LINK LIEN: http://um6p-docs-support.com/login REDIR=PHISH
+
+2025-05-26 08:10:10 MAIL user.fati LOGIN_FAILED Échec tentative via IP 10.10.12.45 lié à activité suspecte FW
+2025-05-26 08:11:32 MAIL user.jaad ATTACHMENT_SENT Fichier: infra_config_UM6P.pdf À: unknown@protonmail.com
+2025-05-26 08:12:01 MAIL user.jaad EMAIL_DELETION Sujet: infra_config_UM6P.pdf
+2025-05-26 08:13:23 MAIL user.jaad MULTIPLE_LOGIN_LOCATIONS IP: 10.10.12.45, 10.10.13.80, 10.10.14.10
+2025-05-26 08:14:55 MAIL user.admin ALERT_TRIGGERED Connexion simultanée de user.jaad sur 3 terminaux
+2025-05-26 08:15:33 MAIL user.jaad EMAIL_SEARCH Requête: Mots de passe VPN UM6P
+2025-05-26 08:16:11 MAIL user.jaad FORWARD_EMAIL Sujet: Accès VPN personnel À: extvpnservice@mail.com
+2025-05-26 08:17:50 MAIL user.jaad ATTACHMENT_DOWNLOAD Fichier: vpn_access_manual.pdf
+2025-05-26 08:18:19 MAIL user.fati REPORTED_PHISHING Sujet: Regarde ce document
+2025-05-26 08:19:44 MAIL user.admin ACCOUNT_LOCK user.jaad bloqué suite alertes AD
+
+2025-05-26 08:20:10 MAIL system RULE_TRIGGERED Règle UEBA envoi inhabituel vers domaine externe
+2025-05-26 08:21:02 MAIL user.jaad ATTACHMENT_SENT Fichier: users_db.csv À: unknown@tutanota.com
+2025-05-26 08:22:39 MAIL user.jaad SEND_EMAIL Sujet: UM6P Annual Strategy - Draft À: ceo.fake@company.org
+2025-05-26 08:23:22 MAIL system ANOMALY_DETECTED Activité sortante anormale depuis IP 10.10.12.45
+2025-05-26 08:24:47 MAIL user.admin ACCOUNT_UNLOCK user.fati réactivé après blocage AD
+2025-05-26 08:25:10 MAIL user.jaad FORWARD_EMAIL Sujet: Stratégie 2025 À: attacker_mail@mail.ru
+2025-05-26 08:26:50 MAIL system INTEGRITY_ALERT Modification des journaux de messagerie détectée
+2025-05-26 08:27:30 MAIL user.admin POLICY_UPDATE Règles d’envoi externe renforcées
+2025-05-26 08:28:10 MAIL user.jaad ATTACHMENT_DOWNLOAD Fichier: orgchart_um6p.pptx
+2025-05-26 08:29:41 MAIL system DETECTED_AUTO_FORWARD Redirection suspecte vers extuser@mail.com
+2025-05-26 08:30:18 MAIL user.fati REPLY_EMAIL Sujet: Regarde ce document MSG: C'est quoi ce lien bizarre ?
+
+2025-05-26 08:31:44 MAIL user.jaad SEND_EMAIL Sujet: Liste des employés UM6P À: hackerbox@torbox.org
+2025-05-26 08:32:09 MAIL system ALERT_ADMIN utilisateur user.jaad compromis
+2025-05-26 08:33:35 MAIL user.admin BLOCK_OUTBOUND Compte user.jaad bloqué en envoi
+2025-05-26 08:34:22 MAIL user.jaad EMAIL_DELETION 3 messages supprimés manuellement
+2025-05-26 08:35:03 MAIL system RULE_TRIGGERED Mots-clés sensibles détectés dans corps du message
+2025-05-26 08:36:49 MAIL user.admin EXPORT_LOGS Extraction logs liés à user.jaad envoyée à SOC
+2025-05-26 08:37:22 MAIL user.jaad LOGIN_FAILED Tentative depuis IP: 192.168.20.12 non UM6P
+2025-05-26 08:38:01 MAIL system GEOIP_ALERT Connexion en échec depuis pays non autorisé
+2025-05-26 08:39:10 MAIL user.jaad FORWARD_EMAIL Sujet: Accès SI À: attkserver@temp-mail.org
+2025-05-26 08:40:31 MAIL user.jaad ATTACHMENT_SENT Fichier: comptes_admin.txt
+2025-05-26 08:41:45 MAIL system CONTENT_FILTER_ALERT Email contenant mots-clés: admin, vpn, shadow
+2025-05-26 08:42:19 MAIL user.fati REPORT_ADMIN Activité suspecte de user.jaad détectée sur webmail
+2025-05-26 08:43:55 MAIL user.jaad LOGOUT Session terminée volontairement
+2025-05-26 08:44:32 MAIL system SYNC_LOGS Synchronisation avec logs AD/FW pour incident user.jaad
+2025-05-26 08:45:17 MAIL user.admin ARCHIVE_EMAILS Archive complète boîte mail de user.jaad
+2025-05-26 08:46:01 MAIL system ALERT_CLOSED Incident #PH20250526-03 traité par équipe SOC

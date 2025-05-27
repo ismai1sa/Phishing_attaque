@@ -1,0 +1,47 @@
+[SIEM] [2025-05-26T08:01:12Z] Source=UserPC(192.168.10.105) Event=BrowserAccess URL="http://um6p-login-verification.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T08:01:14Z] Source=Firewall Action=Allowed Connection dstIP=144.76.32.17 dstPort=80 Signature="Known Phishing Domain"
+[SIEM] [2025-05-26T08:01:20Z] Source=UserPC(192.168.10.105) Event=ProcessStart process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T08:01:28Z] Source=EDR Host=UserPC File=dump.tmp Behavior=EncodedCommand Risk=High
+[SIEM] [2025-05-26T08:02:05Z] Source=ActiveDirectory User=jsmith Login=Success Device=UserPC Method=NTLM Anomaly=True
+[SIEM] [2025-05-26T08:02:13Z] Source=Firewall Action=Allowed dstIP=192.168.10.20 dstPort=389 Protocol=LDAP
+[SIEM] [2025-05-26T08:02:20Z] Source=AD Event=LDAPBind User=jsmith Origin=UserPC AuthMethod=NTLM Result=Success
+[SIEM] [2025-05-26T08:03:00Z] Source=UserPC Event=EmailRead Subject="UM6P Password Expiry" LinkClicked=True
+[SIEM] [2025-05-26T08:03:12Z] Source=Proxy URL=bit.ly/um6p-reset ResolvedURL=http://um6p-login-verification.com Action=Allowed
+[SIEM] [2025-05-26T08:03:35Z] Source=Firewall Alert=External DNS Query domain="um6p-login-verification.com"
+[SIEM] [2025-05-26T08:03:58Z] Source=MailServer User=jsmith To=external@phishmail.com Attachment=invoice.exe Sent=True
+[SIEM] [2025-05-26T08:04:00Z] Source=IAM User=jsmith RoleChange=TemporaryAdmin TriggeredBy=ADPolicy ByPass=True
+[SIEM] [2025-05-26T08:04:08Z] Source=SIEM Alert=PrivEsc Detected On=UserPC Severity=High LinkedTo=IAM
+[SIEM] [2025-05-26T08:04:14Z] Source=Firewall Alert=Unusual LDAP Traffic from UserPC to AD
+[SIEM] [2025-05-26T08:04:30Z] Source=EDR Event=ScriptExecution Cmd="powershell -enc ..." Classification=Malware
+[SIEM] [2025-05-26T08:04:50Z] Source=Proxy Event=URLAccess domain="suspicious-api.com" Reputation=Low
+[SIEM] [2025-05-26T08:05:00Z] Source=IAM Alert=SessionHijack DetectedOn=jsmith
+[SIEM] [2025-05-26T08:05:12Z] Source=Router Traffic=High src=UserPC dst=MailServer
+[SIEM] [2025-05-26T08:05:30Z] Source=SIEM Correlation=AD_Login_Anomaly + EmailExfiltration + ProxyRequest Severity=Critical
+[SIEM] [2025-05-26T08:05:42Z] Source=UserPC FileCreated=C:\Temp\payload.dll Hash=... Signature=Malicious
+[SIEM] [2025-05-26T08:06:00Z] Source=Firewall Block dst=212.47.244.97 Port=443 Reason=IOC Match
+[SIEM] [2025-05-26T08:06:12Z] Source=SIEM Alert=Outbound C2 Attempt Blocked by Firewall
+[SIEM] [2025-05-26T08:06:30Z] Source=MailServer SMTP Auth Failure user=jsmith from=UserPC
+[SIEM] [2025-05-26T08:06:42Z] Source=IAM AccessRequest user=jsmith resource=IAM_AdminPortal Denied
+[SIEM] [2025-05-26T08:07:00Z] Source=EDR Alert=SuspiciousParentChild winword.exe -> powershell.exe
+[SIEM] [2025-05-26T08:07:14Z] Source=SIEM ThreatScore user=jsmith score=9.2/10 Reason=Multiple Unusual Events
+[SIEM] [2025-05-26T08:07:32Z] Source=Router DNSRequest Hostname=exfil.um6p-bypass.net
+[SIEM] [2025-05-26T08:07:44Z] Source=Proxy Alert=DataExfiltration Pattern Detected from UserPC
+[SIEM] [2025-05-26T08:08:00Z] Source=SIEM Alert=Confirmed Attack Chain PC1 -> AD -> Mail -> Proxy -> IAM
+[SIEM] [2025-05-26T08:08:20Z] Source=EDR Quarantine File=C:\Users\jsmith\AppData\invoice.exe
+[SIEM] [2025-05-26T08:08:32Z] Source=SIEM Mitigation AutoResponse=Trigger_Isolation Target=UserPC
+[SIEM] [2025-05-26T08:08:45Z] Source=Firewall Block src=UserPC dst=Proxy Reason=Isolated Host
+[SIEM] [2025-05-26T08:09:00Z] Source=IAM Alert=User Deactivated jsmith Reason=IncidentResponse
+[SIEM] [2025-05-26T08:09:15Z] Source=SIEM Alert=IncidentClosed Status=Mitigated Summary="Lateral phishing propagation contained"
+[SIEM] [2025-05-26T08:10:00Z] Source=SIEM CorrelationLog EventsLinked=41 User=jsmith FinalScore=9.5
+[SIEM] [2025-05-26T08:10:20Z] Source=Firewall LogReview ID=192.168.10.105 Result=Blocked IOC Domains
+[SIEM] [2025-05-26T08:10:35Z] Source=AD Audit=jsmith disabled by admin
+[SIEM] [2025-05-26T08:10:50Z] Source=EDR FinalReport Host=UserPC RiskScore=Critical
+[SIEM] [2025-05-26T08:11:05Z] Source=SIEM ForensicAnalysis Started CaseID=UM6P-THREAT-2025-0501
+[SIEM] [2025-05-26T08:11:18Z] Source=SIEM AnalystNotes="Entry via phishing mail, privilege escalation via IAM, exfiltration blocked"
+[SIEM] [2025-05-26T08:11:30Z] Source=IAM Log="Policy violation - elevated permissions granted to user jsmith without MFA"
+[SIEM] [2025-05-26T08:11:45Z] Source=Proxy Request=api.suspiciousserver.ru Pattern=encodedpayload Detected=True
+[SIEM] [2025-05-26T08:12:00Z] Source=Router Interface=LAN_TX Traffic=UnusualPeak DetectedFrom=PC1
+[SIEM] [2025-05-26T08:12:15Z] Source=SIEM MachineLearning Alert=UserBehaviorDeviation user=jsmith Pattern=OutOfOfficeAccess
+[SIEM] [2025-05-26T08:12:30Z] Source=SIEM Summary="Lateral Movement Attempt Blocked Successfully"
+[SIEM] [2025-05-26T08:12:45Z] Source=EDR IsolationCompleted host=UserPC Time=5s
+[SIEM] [2025-05-26T08:13:00Z] Source=SIEM ThreatDetectionModule Version=8.1.2 SignatureUpdate=2025-05-25

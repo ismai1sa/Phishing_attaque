@@ -1,0 +1,48 @@
+[2025-05-26 08:12:03] EventID=4624; User=yassine.benali; IP=192.168.1.22; Workstation=UM6P-CLT01; Description=Successful logon - Interactive
+[2025-05-26 08:13:17] EventID=4672; User=yassine.benali; Privilege=SeBackupPrivilege; Description=Special privileges assigned
+[2025-05-26 08:15:02] EventID=4662; User=yassine.benali; Object=CN=Users,DC=um6p,DC=local; AccessMask=0x10; Description=Directory object access attempt
+[2025-05-26 08:16:55] EventID=4625; User=svc_backup; IP=192.168.1.22; Description=Failed logon attempt using service account
+[2025-05-26 08:17:04] EventID=4624; User=svc_backup; IP=192.168.1.22; Description=Successful logon - Network
+[2025-05-26 08:17:48] EventID=4732; User=yassine.benali; Target=IT_Admins; Description=User added to security-enabled local group
+[2025-05-26 08:18:10] EventID=4722; User=yassine.benali; Target=disabled_account1; Description=User account enabled
+[2025-05-26 08:18:59] EventID=4624; User=disabled_account1; IP=192.168.1.22; Description=Logon success - suspicious account
+[2025-05-26 08:19:43] EventID=4720; User=disabled_account1; Target=tmp_admin; Description=New user account created
+[2025-05-26 08:20:01] EventID=4723; User=disabled_account1; Target=tmp_admin; Description=Password changed for user
+[2025-05-26 08:21:13] EventID=4625; User=tmp_admin; IP=192.168.1.23; Description=Failed logon from nearby host
+[2025-05-26 08:22:01] EventID=4624; User=tmp_admin; IP=192.168.1.23; Description=Successful logon - Admin share
+[2025-05-26 08:23:21] EventID=4662; User=tmp_admin; Object=CN=Domain Admins,DC=um6p,DC=local; AccessMask=0x100; Description=Enumeration of admin group
+[2025-05-26 08:24:30] EventID=4735; User=tmp_admin; Target=HelpDesk; Description=Security group modified
+[2025-05-26 08:25:12] EventID=4624; User=admin.rachid; IP=192.168.1.30; Description=Normal logon - Admin workstation
+[2025-05-26 08:25:15] EventID=4625; User=admin.rachid; IP=192.168.1.22; Description=Failed logon attempt from unusual client
+[2025-05-26 08:26:50] EventID=4672; User=tmp_admin; Privilege=SeDebugPrivilege; Description=Special privileges assigned
+[2025-05-26 08:27:10] EventID=4662; User=tmp_admin; Object=LDAP://CN=Schema,CN=Configuration; AccessMask=0x20; Description=Attempt to read AD schema
+[2025-05-26 08:28:02] EventID=4624; User=tmp_admin; IP=192.168.1.50; Description=Remote logon - File server
+[2025-05-26 08:29:33] EventID=4625; User=svc_db; IP=192.168.1.22; Description=Failed logon - out of office hours
+[2025-05-26 08:30:20] EventID=4722; User=tmp_admin; Target=old_hr; Description=Previously disabled HR account re-enabled
+[2025-05-26 08:31:15] EventID=4624; User=old_hr; IP=192.168.1.22; Description=Suspicious logon from compromised host
+[2025-05-26 08:32:05] EventID=4662; User=old_hr; Object=OU=HR,DC=um6p,DC=local; AccessMask=0x8; Description=Attempt to list HR user directory
+[2025-05-26 08:33:44] EventID=4624; User=tmp_admin; IP=192.168.1.22; Description=RDP logon to internal server
+[2025-05-26 08:34:20] EventID=4672; User=tmp_admin; Privilege=SeTakeOwnershipPrivilege; Description=Privilege escalation possible
+[2025-05-26 08:35:03] EventID=4625; User=svc_web; IP=192.168.1.22; Description=Failed logon - abnormal usage pattern
+[2025-05-26 08:36:00] EventID=4624; User=svc_web; IP=192.168.1.22; Description=Successful logon - night hours
+[2025-05-26 08:37:21] EventID=4732; User=tmp_admin; Target=RemoteUsers; Description=User added to RDP access group
+[2025-05-26 08:38:11] EventID=4624; User=tmp_admin; IP=192.168.1.70; Description=Remote logon - suspicious destination
+[2025-05-26 08:39:01] EventID=4624; User=admin.rachid; IP=192.168.1.30; Description=Normal logon
+[2025-05-26 08:40:07] EventID=4720; User=tmp_admin; Target=exfil_bot; Description=New local user account created
+[2025-05-26 08:40:33] EventID=4723; User=tmp_admin; Target=exfil_bot; Description=Password set
+[2025-05-26 08:41:10] EventID=4624; User=exfil_bot; IP=192.168.1.22; Description=Automated account used
+[2025-05-26 08:42:01] EventID=4662; User=exfil_bot; Object=\\file.UM6P.local\HR\contracts; AccessMask=0x2; Description=File read
+[2025-05-26 08:43:50] EventID=4624; User=exfil_bot; IP=192.168.1.22; Description=FTP logon attempt
+[2025-05-26 08:44:32] EventID=4625; User=svc_ftp; IP=192.168.1.22; Description=Repeated failed logon attempts
+[2025-05-26 08:45:30] EventID=4735; User=tmp_admin; Target=RemoteUsers; Description=Security group updated
+[2025-05-26 08:46:14] EventID=4624; User=admin.rachid; IP=192.168.1.30; Description=Logon - working hours
+[2025-05-26 08:47:21] EventID=4625; User=tmp_admin; IP=192.168.1.22; Description=Failed access to Domain Admins
+[2025-05-26 08:48:12] EventID=4625; User=exfil_bot; IP=192.168.1.22; Description=Logon attempt outside of approved time
+[2025-05-26 08:49:31] EventID=4672; User=exfil_bot; Privilege=SeRestorePrivilege; Description=Rare privilege usage
+[2025-05-26 08:50:44] EventID=4624; User=tmp_admin; IP=192.168.1.23; Description=Persistent logon
+[2025-05-26 08:51:28] EventID=4625; User=svc_web; IP=192.168.1.22; Description=Failed logon repeated - alert threshold
+[2025-05-26 08:52:37] EventID=4662; User=tmp_admin; Object=OU=Finance,DC=um6p,DC=local; AccessMask=0x10; Description=Object access
+[2025-05-26 08:53:12] EventID=4624; User=tmp_admin; IP=192.168.1.22; Description=Interactive logon from locked workstation
+[2025-05-26 08:54:59] EventID=4672; User=tmp_admin; Privilege=SeRemoteInteractiveLogonRight; Description=RDP session granted
+[2025-05-26 08:55:44] EventID=4722; User=tmp_admin; Target=support_temp; Description=Temporary support user enabled
+[2025-05-26 08:56:22] EventID=4624; User=support_temp; IP=192.168.1.22; Description=Logon success - temporary session
