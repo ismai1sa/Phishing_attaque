@@ -1,0 +1,1000 @@
+2025-05-26 08:00:00 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 08:01:26 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 08:02:14 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.45 Trafic normal
+2025-05-26 08:03:21 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:04:08 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Succès authentification AD
+2025-05-26 08:04:25 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:07:12 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 08:03:58 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 08:04:32 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.46 Succès authentification AD
+2025-05-26 08:07:48 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 08:14:20 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 08:15:02 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 08:08:36 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 08:08:14 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 08:09:34 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 08:10:45 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Succès authentification AD
+2025-05-26 08:15:12 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 08:15:52 PROXY user.admin GET http://hackerbox.tor IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 08:14:06 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.46 Trafic normal
+2025-05-26 08:22:10 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:29:40 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 08:18:33 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:28:14 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 08:26:50 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 08:34:48 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:28:45 PROXY user.fati POST http://hackerbox.tor IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 08:18:12 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 08:16:12 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 08:25:40 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.46 Succès authentification AD
+2025-05-26 08:36:15 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 08:15:00 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.14.10 Succès authentification AD
+2025-05-26 08:19:07 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 08:21:20 PROXY user.fati GET https://external-storage.com/upload IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 08:46:12 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 08:45:54 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 08:21:00 PROXY user.jaad POST http://unknown-site.com IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 08:21:36 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 08:41:19 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 08:32:18 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 08:49:24 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 08:28:40 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 08:38:57 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.12.46 Trafic normal
+2025-05-26 08:58:06 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:26:31 PROXY user.jaad POST http://hackerbox.tor IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:42:32 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 08:46:30 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.12.46 Succès authentification AD
+2025-05-26 08:56:44 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 08:51:42 PROXY user.admin POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:31:12 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 08:49:49 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.45 Trafic normal
+2025-05-26 09:05:50 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.46 Succès authentification AD
+2025-05-26 08:30:36 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 08:35:32 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 08:50:21 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 08:50:24 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 09:00:30 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:50:24 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 08:28:30 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 09:08:38 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 09:11:47 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 08:32:00 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 08:52:52 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.45 Trafic normal
+2025-05-26 09:03:02 PROXY user.admin GET http://um6p.ma/support/faq.html IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 09:11:24 PROXY user.jaad POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 08:49:04 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 09:37:30 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 09:18:06 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 08:43:33 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 09:38:36 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 08:50:36 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Succès authentification AD
+2025-05-26 09:03:00 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 08:47:20 PROXY user.admin GET http://unknown-site.com IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 08:52:48 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 08:59:37 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 09:11:32 PROXY user.jaad GET http://um6p.ma/support/faq.html IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 09:26:15 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.45 Succès authentification AD
+2025-05-26 09:13:28 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 08:42:21 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 09:36:12 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 08:56:37 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 09:29:20 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.14.10 Trafic normal
+2025-05-26 09:57:27 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 09:22:00 PROXY user.admin GET http://login.um6p.ma/login.php IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 09:28:32 PROXY user.admin GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 09:22:36 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 09:43:25 PROXY user.fati GET http://phishing-site.com/login IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:41:46 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:51:39 PROXY user.fati POST http://unknown-site.com IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 08:48:24 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 08:47:28 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 10:01:30 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 09:03:42 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 09:41:12 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 09:14:24 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:35:34 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Trafic normal
+2025-05-26 08:55:25 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 09:48:48 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.14.10 Succès authentification AD
+2025-05-26 09:15:59 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 09:52:42 PROXY user.admin GET http://um6p.ma/support/faq.html IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 09:50:33 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 08:51:40 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 09:20:48 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 09:18:12 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.46 Succès authentification AD
+2025-05-26 09:29:16 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 08:58:56 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 10:20:00 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 09:00:04 PROXY user.admin GET http://login.um6p.ma/login.php IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:14:54 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 09:42:36 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 10:25:20 PROXY user.jaad GET http://um6p.ma/support/faq.html IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 09:28:00 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:15:03 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:18:08 PROXY user.jaad GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 09:00:16 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:59:42 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 10:46:45 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 09:48:16 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 09:58:57 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 10:09:48 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 09:37:11 PROXY user.admin GET http://phishing-site.com/login IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 10:34:00 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 10:05:02 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 10:02:00 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 09:46:36 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 10:49:28 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 09:06:40 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Succès authentification AD
+2025-05-26 09:57:36 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 10:42:59 PROXY user.fati GET http://phishing-site.com/login IP:10.10.12.45 Succès authentification AD
+2025-05-26 10:33:36 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 09:36:45 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 11:08:30 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 11:03:24 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.46 Succès authentification AD
+2025-05-26 09:34:36 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 11:01:46 PROXY user.admin GET http://unknown-site.com IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:33:48 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 11:06:45 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:18:16 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 10:51:15 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 09:41:12 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.46 Succès authentification AD
+2025-05-26 10:21:19 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 10:29:20 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 11:15:03 PROXY user.admin GET https://external-storage.com/upload IP:10.10.12.46 Trafic normal
+2025-05-26 10:43:18 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 11:13:03 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 10:24:00 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 11:13:20 PROXY user.jaad POST http://unknown-site.com IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 09:49:30 PROXY user.fati GET http://phishing-site.com/login IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 11:13:33 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 11:27:12 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 11:03:46 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 09:37:30 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 09:53:15 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 10:24:24 PROXY user.admin POST http://hackerbox.tor IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 11:41:51 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 11:40:44 PROXY user.admin GET http://phishing-site.com/login IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 09:22:40 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 11:35:48 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 10:52:42 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 09:37:26 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.46 Trafic normal
+2025-05-26 10:41:39 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 09:49:20 PROXY user.jaad POST http://unknown-site.com IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 09:50:01 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 11:27:54 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 09:32:22 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.12.45 Trafic normal
+2025-05-26 09:30:12 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 11:07:00 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 11:49:38 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 11:23:11 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 10:14:24 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 09:35:46 PROXY user.fati POST https://ceo-fake.company.org IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:33:00 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 11:36:36 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Succès authentification AD
+2025-05-26 10:03:16 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 10:53:00 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 11:20:06 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 12:02:05 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 09:28:00 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 09:34:24 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 09:40:52 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic normal
+2025-05-26 10:32:09 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 11:03:00 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 10:45:55 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:52:14 PROXY user.admin GET http://login.um6p.ma/login.php IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 10:29:27 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Succès authentification AD
+2025-05-26 10:57:52 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.46 Succès authentification AD
+2025-05-26 09:38:40 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 09:33:00 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 11:03:53 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 11:39:20 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 10:40:39 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.46 Succès authentification AD
+2025-05-26 09:38:10 PROXY user.jaad POST http://um6p.ma/support/faq.html IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 11:33:17 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 11:37:36 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 10:31:11 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:15:26 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Succès authentification AD
+2025-05-26 10:10:00 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 11:58:28 PROXY user.admin POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Succès authentification AD
+2025-05-26 10:47:27 PROXY user.admin GET http://hackerbox.tor IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 11:14:42 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 12:02:07 PROXY user.jaad GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 12:03:20 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 12:21:18 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.14.10 Trafic normal
+2025-05-26 10:34:52 PROXY user.jaad POST http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 12:00:13 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 09:55:36 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 10:26:55 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 11:08:50 PROXY user.fati GET http://hackerbox.tor IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 11:16:39 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 11:07:12 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Trafic normal
+2025-05-26 10:26:18 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 11:51:00 PROXY user.jaad GET https://ceo-fake.company.org IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 10:31:13 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 10:17:48 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:15:57 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 12:34:38 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 12:46:40 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 10:42:00 PROXY user.jaad GET http://hackerbox.tor IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 10:35:31 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 11:05:18 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:44:42 PROXY user.fati GET http://hackerbox.tor IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 12:57:00 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 10:08:55 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 10:42:48 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 10:50:58 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 10:48:00 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 10:18:45 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 11:38:28 PROXY user.fati GET http://hackerbox.tor IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 12:02:08 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 12:45:00 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.14.10 Succès authentification AD
+2025-05-26 10:32:40 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 11:27:00 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 13:23:24 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 10:03:44 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 12:31:50 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 13:15:54 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Trafic normal
+2025-05-26 12:06:45 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 10:17:40 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 12:28:36 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 13:21:18 PROXY user.admin POST http://unknown-site.com IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 13:14:41 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 12:36:00 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 10:28:37 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 13:58:58 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 12:19:12 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:13:08 PROXY user.fati POST https://external-storage.com/upload IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 13:47:05 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:10:06 PROXY user.jaad POST http://um6p.ma/support/faq.html IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 10:44:40 PROXY user.admin GET http://hackerbox.tor IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:14:08 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 13:36:09 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 13:04:10 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:22:14 PROXY user.jaad POST http://hackerbox.tor IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 13:15:00 PROXY user.admin POST http://unknown-site.com IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 10:27:35 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 10:07:00 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 10:28:45 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 13:07:12 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 13:29:49 PROXY user.fati POST http://unknown-site.com IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 12:09:24 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 11:18:34 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:16:20 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 12:34:03 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 11:03:24 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 11:39:10 PROXY user.admin POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 13:12:24 PROXY user.admin GET https://external-storage.com/upload IP:10.10.12.46 Trafic normal
+2025-05-26 12:33:50 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:21:52 PROXY user.jaad GET https://ceo-fake.company.org IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 12:13:39 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 11:56:44 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.14.10 Trafic normal
+2025-05-26 14:16:36 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 11:40:30 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 14:19:24 PROXY user.jaad POST http://hackerbox.tor IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 11:28:32 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 11:47:30 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 12:24:52 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 11:17:05 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 11:08:36 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 12:04:41 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Succès authentification AD
+2025-05-26 13:19:42 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 12:52:57 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 10:57:20 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 13:32:31 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 15:03:00 PROXY user.jaad POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 14:40:55 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:58:12 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 12:11:45 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 14:40:24 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 12:23:05 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 14:19:12 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 10:29:19 PROXY user.admin GET http://unknown-site.com IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 14:46:00 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 15:11:39 PROXY user.admin GET http://hackerbox.tor IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 13:26:04 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 10:26:30 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.46 Trafic normal
+2025-05-26 12:24:36 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic normal
+2025-05-26 14:13:40 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 11:51:52 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 10:43:21 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 14:52:14 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 10:29:30 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 10:45:00 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 14:16:15 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 11:46:30 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 10:56:45 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 15:05:36 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 13:45:40 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.12.45 Trafic normal
+2025-05-26 13:51:54 PROXY user.admin GET http://login.um6p.ma/login.php IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 12:51:39 PROXY user.jaad POST http://um6p.ma/support/faq.html IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 15:42:00 PROXY user.fati POST http://unknown-site.com IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 13:24:27 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 10:45:20 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 14:33:56 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 11:43:36 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 15:23:25 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:42:36 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:36:00 PROXY user.admin POST http://unknown-site.com IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 14:29:44 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 13:22:17 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 13:39:12 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.14.10 Trafic normal
+2025-05-26 14:22:48 PROXY user.admin POST http://unknown-site.com IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 11:49:20 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:43:33 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 11:18:34 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 13:49:55 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Trafic normal
+2025-05-26 14:39:36 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 12:57:55 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 15:03:48 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 15:10:33 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 15:50:08 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Trafic normal
+2025-05-26 14:07:23 PROXY user.admin GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 16:15:00 PROXY user.admin POST http://unknown-site.com IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 11:46:11 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 11:52:24 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 15:29:33 PROXY user.jaad GET https://ceo-fake.company.org IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 12:04:56 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 16:16:55 PROXY user.admin GET http://unknown-site.com IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 15:11:12 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 12:18:22 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 12:47:18 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 13:16:24 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 12:49:00 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Succès authentification AD
+2025-05-26 12:10:04 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 15:30:18 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 12:34:24 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 11:09:12 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 16:31:45 PROXY user.fati POST http://unknown-site.com IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 12:36:48 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 15:48:27 PROXY user.admin GET https://external-storage.com/upload IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 16:24:36 PROXY user.admin POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Succès authentification AD
+2025-05-26 13:54:49 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 16:04:10 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 14:26:06 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 14:44:48 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 14:04:46 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 16:27:24 PROXY user.fati POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 11:21:10 PROXY user.admin POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 13:02:36 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 13:15:21 PROXY user.admin GET https://external-storage.com/upload IP:10.10.12.46 Succès authentification AD
+2025-05-26 14:33:48 PROXY user.fati GET http://phishing-site.com/login IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 14:40:53 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 15:42:00 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 13:42:57 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 11:01:00 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 11:31:45 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 14:16:08 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 12:58:05 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 11:15:12 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 11:03:30 PROXY user.admin POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 14:32:32 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Trafic normal
+2025-05-26 12:12:09 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 14:10:00 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 11:11:41 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Succès authentification AD
+2025-05-26 12:39:00 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Succès authentification AD
+2025-05-26 13:54:21 PROXY user.admin POST http://unknown-site.com IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 16:06:12 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 14:52:30 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 14:41:04 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 11:46:12 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 16:42:54 PROXY user.jaad POST http://um6p.ma/support/faq.html IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 11:09:30 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 16:45:40 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 16:15:18 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 15:38:24 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Succès authentification AD
+2025-05-26 15:58:45 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 12:41:36 PROXY user.fati POST http://hackerbox.tor IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 14:05:45 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 12:04:28 PROXY user.fati POST https://external-storage.com/upload IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 13:03:09 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 12:51:00 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 15:59:46 PROXY user.admin POST http://hackerbox.tor IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 16:33:30 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 17:26:57 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 13:00:32 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Succès authentification AD
+2025-05-26 12:08:54 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Trafic normal
+2025-05-26 11:23:34 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 14:21:50 PROXY user.fati POST https://ceo-fake.company.org IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 12:24:00 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 13:44:04 PROXY user.fati POST http://unknown-site.com IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 15:44:20 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 11:32:48 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 17:33:20 PROXY user.jaad GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 12:54:04 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 14:55:24 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 17:30:55 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 14:50:44 PROXY user.jaad GET https://ceo-fake.company.org IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 17:54:00 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.14.10 Succès authentification AD
+2025-05-26 14:39:14 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 11:23:30 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:11:36 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 12:59:56 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 16:05:10 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 14:51:00 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 13:15:52 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 13:09:45 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 12:56:42 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 16:45:40 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 15:16:48 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 15:52:36 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 17:59:08 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 18:28:30 PROXY user.fati POST http://phishing-site.com/login IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 14:25:00 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.45 Trafic normal
+2025-05-26 18:24:29 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 12:55:24 PROXY user.jaad POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 15:38:15 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 17:18:16 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.12.46 Succès authentification AD
+2025-05-26 12:15:00 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 16:24:06 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 16:25:17 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 15:00:52 PROXY user.fati POST http://phishing-site.com/login IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 15:30:27 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 18:45:00 PROXY user.admin POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 14:06:21 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 13:24:00 PROXY user.jaad POST http://unknown-site.com IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 15:41:52 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.14.10 Trafic normal
+2025-05-26 14:08:54 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 12:13:45 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 14:39:40 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 18:33:39 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 17:07:30 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 18:58:30 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 19:00:00 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 16:56:33 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.12.46 Succès authentification AD
+2025-05-26 16:13:34 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 12:33:11 PROXY user.admin GET http://hackerbox.tor IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 13:47:48 PROXY user.fati POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 13:26:20 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 12:49:54 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 12:50:33 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 17:57:20 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 16:51:19 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 12:52:30 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 14:15:50 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 15:01:52 PROXY user.admin POST http://phishing-site.com/login IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 15:25:27 PROXY user.jaad POST http://unknown-site.com IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 15:26:26 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 13:10:55 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 16:52:00 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 17:31:15 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 14:06:24 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 14:22:30 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 15:40:00 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 12:44:17 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.14.10 Succès authentification AD
+2025-05-26 14:48:06 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 15:04:25 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.45 Trafic normal
+2025-05-26 14:26:40 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 16:00:30 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 19:00:10 PROXY user.admin GET http://um6p.ma/support/faq.html IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 13:26:54 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 12:17:24 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 13:20:29 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:42:00 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:06:09 PROXY user.fati GET http://unknown-site.com IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 16:07:44 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 15:45:07 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 15:54:00 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 16:58:20 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 12:21:48 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 13:10:03 PROXY user.fati POST https://ceo-fake.company.org IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 14:06:28 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 13:59:15 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 13:36:00 PROXY user.jaad GET http://unknown-site.com IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 18:33:19 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 12:57:14 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 17:47:39 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 16:44:20 PROXY user.admin GET http://hackerbox.tor IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 17:33:55 PROXY user.jaad POST http://hackerbox.tor IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 15:25:30 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 18:41:13 PROXY user.fati POST https://external-storage.com/upload IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 19:15:04 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 13:34:09 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 16:10:00 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 13:35:31 PROXY user.fati POST https://external-storage.com/upload IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 15:31:00 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 12:22:56 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 17:28:06 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 19:16:30 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 18:44:48 PROXY user.jaad POST http://vpn-service.um6p.ma/login IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 19:35:48 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 18:30:48 PROXY user.jaad POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 14:30:53 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 13:58:20 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 16:04:18 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 13:17:56 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Succès authentification AD
+2025-05-26 17:04:55 PROXY user.fati GET http://phishing-site.com/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 17:48:00 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 18:06:00 PROXY user.fati GET http://hackerbox.tor IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 19:56:50 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 18:59:06 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 15:20:16 PROXY user.admin POST http://unknown-site.com IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 12:14:30 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 12:15:00 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 19:29:51 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 15:32:16 PROXY user.admin GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 16:07:21 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Trafic normal
+2025-05-26 15:34:02 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 18:35:10 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 18:45:00 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 19:03:29 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 20:57:00 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 19:23:21 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 20:42:40 PROXY user.fati POST https://external-storage.com/upload IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 20:35:27 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 12:47:06 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 15:15:50 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 14:15:32 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 18:21:15 PROXY user.admin POST http://hackerbox.tor IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 17:47:22 PROXY user.fati GET https://external-storage.com/upload IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 17:48:29 PROXY user.admin GET http://unknown-site.com IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 17:58:24 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 16:49:00 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.12.45 Succès authentification AD
+2025-05-26 17:25:20 PROXY user.jaad POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 15:22:30 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 15:49:56 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 19:41:47 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 21:03:12 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 18:50:55 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 14:59:52 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:53:21 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 19:30:26 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 13:14:25 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 16:15:00 PROXY user.fati POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 16:15:55 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 15:04:34 PROXY user.admin GET https://external-storage.com/upload IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 16:17:45 PROXY user.admin GET http://login.um6p.ma/login.php IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 17:40:16 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 14:03:20 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 17:33:18 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Succès authentification AD
+2025-05-26 18:47:17 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 19:06:44 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 13:29:24 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 13:57:30 PROXY user.admin GET http://um6p.ma/support/faq.html IP:10.10.14.10 Succès authentification AD
+2025-05-26 19:56:18 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 16:26:00 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 21:31:04 PROXY user.jaad POST https://ceo-fake.company.org IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 20:00:12 PROXY user.admin GET http://unknown-site.com IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 17:15:00 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 14:57:00 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 14:39:11 PROXY user.admin GET http://unknown-site.com IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 20:51:54 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 13:16:46 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Trafic normal
+2025-05-26 18:44:00 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 20:09:18 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 18:36:56 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 18:56:50 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Trafic normal
+2025-05-26 17:33:24 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 13:20:10 PROXY user.admin GET http://hackerbox.tor IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 19:09:46 PROXY user.fati GET http://unknown-site.com IP:10.10.12.45 Trafic normal
+2025-05-26 17:55:21 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 14:09:12 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 19:22:48 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 14:29:30 PROXY user.admin GET http://unknown-site.com IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 19:44:14 PROXY user.fati POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 21:58:56 PROXY user.admin POST http://phishing-site.com/login IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 14:02:54 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.45 Trafic normal
+2025-05-26 20:35:46 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Trafic normal
+2025-05-26 20:37:05 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Succès authentification AD
+2025-05-26 22:14:24 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.14.10 Succès authentification AD
+2025-05-26 16:39:18 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Succès authentification AD
+2025-05-26 16:11:18 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 16:02:30 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Succès authentification AD
+2025-05-26 21:41:40 PROXY user.fati POST http://phishing-site.com/login IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 21:04:21 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 20:56:00 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 16:05:50 PROXY user.admin GET http://unknown-site.com IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 12:52:00 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 19:22:30 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 15:09:44 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 14:21:33 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 16:29:36 PROXY user.jaad GET http://hackerbox.tor IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 16:01:01 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Succès authentification AD
+2025-05-26 15:32:20 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 16:32:12 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 14:24:48 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 21:50:12 PROXY user.fati POST http://hackerbox.tor IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 20:42:18 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 14:26:45 PROXY user.jaad GET http://um6p.ma/support/faq.html IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 17:46:04 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 21:35:54 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 18:47:50 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 16:49:07 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 18:30:00 PROXY user.admin POST http://unknown-site.com IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 20:01:12 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 14:11:14 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 13:21:36 PROXY user.admin POST https://external-storage.com/upload IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 15:53:08 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 21:16:35 PROXY user.admin GET https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 19:57:06 PROXY user.fati GET https://external-storage.com/upload IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 13:33:51 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 21:20:32 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 16:57:57 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 18:50:40 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 13:46:14 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 14:07:12 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 15:29:32 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 14:49:20 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 20:38:30 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 20:39:44 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 15:42:45 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 13:19:18 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 14:11:24 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 14:53:20 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 20:45:54 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 21:49:20 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 19:35:41 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 21:52:00 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.12.45 Trafic normal
+2025-05-26 22:14:10 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 16:41:40 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 17:03:24 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 20:44:04 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 15:30:47 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 16:03:00 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 20:05:39 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 20:38:24 PROXY user.jaad GET http://hackerbox.tor IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 15:54:45 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 21:12:30 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Trafic normal
+2025-05-26 22:06:40 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 16:07:36 PROXY user.jaad GET http://hackerbox.tor IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 20:44:24 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 20:45:36 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 22:43:57 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 23:38:40 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 22:36:02 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 21:54:36 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Trafic normal
+2025-05-26 20:30:10 PROXY user.admin POST https://external-storage.com/upload IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 16:45:56 PROXY user.jaad GET http://hackerbox.tor IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 19:28:00 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 15:10:40 PROXY user.admin POST https://external-storage.com/upload IP:10.10.14.10 Trafic normal
+2025-05-26 13:55:51 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.12.45 Trafic normal
+2025-05-26 16:16:48 PROXY user.jaad GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 18:49:00 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 15:24:10 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 13:25:30 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 22:29:20 PROXY user.fati GET https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 15:26:13 PROXY user.admin POST http://unknown-site.com IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 21:59:18 PROXY user.fati GET http://unknown-site.com IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 15:05:45 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 22:56:32 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 17:40:21 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 14:12:52 PROXY user.admin GET http://hackerbox.tor IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 23:11:37 PROXY user.fati POST https://external-storage.com/upload IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 22:40:00 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 14:14:34 PROXY user.admin POST http://unknown-site.com IP:10.10.12.45 Succès authentification AD
+2025-05-26 17:11:40 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 21:48:45 PROXY user.admin POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 18:08:40 PROXY user.admin GET http://vpn-service.um6p.ma/login IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 14:39:00 PROXY user.admin POST http://hackerbox.tor IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 23:54:36 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 23:44:55 PROXY user.fati GET https://external-storage.com/upload IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 15:47:36 PROXY user.admin GET http://phishing-site.com/login IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 13:34:30 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 21:57:30 PROXY user.fati GET http://unknown-site.com IP:10.10.14.10 Trafic normal
+2025-05-26 22:43:29 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 20:19:12 PROXY user.jaad GET http://hackerbox.tor IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 18:05:42 PROXY user.jaad POST https://ceo-fake.company.org IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 15:51:48 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 14:45:00 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 23:12:36 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 14:01:04 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 15:32:00 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 21:34:48 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 14:14:00 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 15:56:42 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 19:44:44 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 19:57:09 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Succès authentification AD
+2025-05-26 13:42:00 PROXY user.admin POST http://um6p.ma/admin/settings IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 16:22:20 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 20:57:28 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 22:53:06 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Trafic normal
+2025-05-26 15:04:16 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 19:17:31 PROXY user.fati GET http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 15:40:00 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 20:05:33 PROXY user.fati POST https://external-storage.com/upload IP:10.10.12.46 Succès authentification AD
+2025-05-26 17:02:04 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:12:09 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 21:41:14 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-27 00:24:35 PROXY user.fati GET http://phishing-site.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 19:12:48 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 23:40:57 PROXY user.admin POST https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 14:23:54 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-27 01:28:30 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:41:40 PROXY user.admin GET http://phishing-site.com/login IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 15:59:01 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 18:08:24 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.12.46 Trafic normal
+2025-05-26 23:49:03 PROXY user.fati GET http://hackerbox.tor IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 22:28:16 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 19:33:15 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 23:17:48 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 14:05:17 PROXY user.fati GET http://phishing-site.com/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 23:55:48 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 17:15:23 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 15:29:40 PROXY user.admin GET https://external-storage.com/upload IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 20:38:24 PROXY user.jaad POST https://ceo-fake.company.org IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 14:55:20 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.12.45 Trafic normal
+2025-05-26 21:51:50 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 18:06:54 PROXY user.fati GET https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 23:17:35 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 23:06:56 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 21:56:30 PROXY user.admin GET http://um6p.ma/support/faq.html IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 21:09:48 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-27 01:58:30 PROXY user.admin GET https://external-storage.com/upload IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 15:00:00 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 16:36:43 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 15:25:14 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 17:14:18 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Trafic normal
+2025-05-26 18:15:24 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 16:51:40 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 14:51:24 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 16:53:08 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 21:45:04 PROXY user.admin POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 01:37:03 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 16:31:00 PROXY user.admin GET http://hackerbox.tor IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-27 01:15:35 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 16:32:24 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-27 02:07:17 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 02:21:00 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 14:32:00 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 14:20:16 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 15:22:12 PROXY user.jaad GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 01:25:30 PROXY user.fati GET http://unknown-site.com IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 21:57:32 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-26 16:25:40 PROXY user.jaad POST http://um6p.ma/support/faq.html IP:10.10.14.10 Succès authentification AD
+2025-05-26 15:49:18 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 23:15:08 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 17:29:38 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 15:14:00 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 18:33:15 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 23:57:22 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 22:19:03 PROXY user.fati POST http://phishing-site.com/login IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 20:28:00 PROXY user.admin POST http://phishing-site.com/login IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 15:04:26 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 23:50:00 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 19:28:25 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 19:04:16 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-27 01:34:12 PROXY user.jaad POST https://ceo-fake.company.org IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 20:46:34 PROXY user.fati POST http://phishing-site.com/login IP:10.10.12.46 Succès authentification AD
+2025-05-26 23:43:45 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.12.46 Succès authentification AD
+2025-05-27 02:54:00 PROXY user.jaad POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 14:31:07 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 19:09:34 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 17:16:36 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 20:14:40 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 20:15:38 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 19:51:12 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 22:24:44 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 21:47:40 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 17:08:15 PROXY user.jaad POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 22:28:08 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 16:56:54 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 23:08:48 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 16:07:02 PROXY user.fati GET http://hackerbox.tor IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 15:29:10 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-27 00:03:45 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 17:51:52 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 21:18:46 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-27 00:07:30 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-27 00:21:40 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 16:24:24 PROXY user.fati POST http://um6p-docs-support.com/login IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 15:59:09 PROXY user.fati POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-26 19:53:10 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 23:47:47 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 15:35:00 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:37:49 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-26 21:15:02 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-26 19:05:33 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Succès authentification AD
+2025-05-26 18:40:16 PROXY user.fati POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 17:48:45 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 16:04:42 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 14:59:44 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 23:06:12 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-27 01:58:18 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 18:32:00 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-27 00:28:45 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 22:57:36 PROXY user.admin GET https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 17:54:45 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Succès authentification AD
+2025-05-26 14:50:14 PROXY user.fati POST https://ceo-fake.company.org IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 20:35:15 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 17:43:44 PROXY user.fati GET http://unknown-site.com IP:10.10.12.46 Succès authentification AD
+2025-05-27 00:36:15 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Succès authentification AD
+2025-05-26 15:58:48 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 15:59:24 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:13:20 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.45 Succès authentification AD
+2025-05-26 16:13:57 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 22:02:06 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-27 02:04:03 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 17:49:36 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 16:03:00 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-27 02:08:06 PROXY user.fati GET http://phishing-site.com/login IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 23:28:03 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 22:35:20 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 21:42:29 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-26 19:01:30 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 17:41:13 PROXY user.admin POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 22:53:12 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-27 02:58:12 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 17:02:40 PROXY user.admin GET http://hackerbox.tor IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-27 02:47:25 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.45 Trafic normal
+2025-05-26 19:06:24 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Trafic normal
+2025-05-26 23:25:56 PROXY user.fati GET http://hackerbox.tor IP:10.10.12.45 Trafic normal
+2025-05-26 22:46:10 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Trafic normal
+2025-05-26 15:03:09 PROXY user.admin POST http://um6p-docs-support.com/login IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-26 16:25:40 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 21:54:41 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 18:57:36 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-26 21:01:51 PROXY user.fati POST http://unknown-site.com IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-27 03:41:04 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 18:32:30 PROXY user.admin POST https://ceo-fake.company.org IP:10.10.14.10 Bloqué par FW, domaine suspect
+2025-05-27 01:12:30 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 16:16:12 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-27 02:37:48 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 20:39:55 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 18:22:30 PROXY user.fati POST http://hackerbox.tor IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-27 03:23:24 PROXY user.jaad GET http://phishing-site.com/login IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 19:19:28 PROXY user.jaad GET http://um6p.ma/support/faq.html IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-27 04:49:30 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 23:03:30 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Succès authentification AD
+2025-05-26 19:49:45 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 01:38:56 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 17:18:00 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-27 02:37:20 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 22:12:59 PROXY user.admin POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic normal
+2025-05-27 00:34:00 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Succès authentification AD
+2025-05-27 04:33:28 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-27 02:14:36 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine blacklisté
+2025-05-26 19:28:27 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 20:39:36 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-27 00:25:50 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-26 21:37:48 PROXY user.jaad GET http://unknown-site.com IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 22:07:00 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-27 02:08:16 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-27 03:48:36 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 21:13:20 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 23:50:17 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 16:31:12 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 20:19:16 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 18:26:16 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.14.10 Succès authentification AD
+2025-05-26 17:44:15 PROXY user.admin GET http://hackerbox.tor IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 19:24:48 PROXY user.fati GET http://um6p.ma/support/faq.html IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 18:42:45 PROXY user.admin GET http://login.um6p.ma/login.php IP:10.10.12.45 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 04:44:06 PROXY user.jaad POST http://hackerbox.tor IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-27 03:33:58 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 16:21:40 PROXY user.fati POST http://phishing-site.com/submit IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 15:24:51 PROXY user.jaad POST http://phishing-site.com/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 16:22:50 PROXY user.jaad GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Tentative de phishing confirmée par logs mail
+2025-05-27 00:18:04 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.14.10 Trafic normal
+2025-05-26 23:21:36 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.14.10 Trafic normal
+2025-05-27 02:01:15 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 04:55:42 PROXY user.fati GET http://unknown-site.com IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 15:13:30 PROXY user.admin POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 20:46:44 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-27 02:06:15 PROXY user.jaad POST http://unknown-site.com IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 17:54:30 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 17:40:40 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 23:15:36 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 16:58:21 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 21:21:10 PROXY user.jaad POST http://unknown-site.com IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-27 05:52:30 PROXY user.fati POST http://um6p.ma/admin/panel IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-27 01:31:12 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 21:53:09 PROXY user.jaad POST http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-27 00:20:26 PROXY user.fati GET http://unknown-site.com IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-27 03:32:00 PROXY user.admin GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-27 03:04:00 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-27 00:53:09 PROXY user.admin GET https://um6p.ma/resources/css/style.css IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 19:45:36 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-27 02:23:45 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.46 Trafic normal
+2025-05-26 21:15:36 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 15:22:30 PROXY user.admin GET https://external-storage.com/upload IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-27 02:57:02 PROXY user.fati POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 17:51:20 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 21:19:12 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Succès authentification AD, connexion FW validée
+2025-05-26 22:04:33 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-26 17:23:40 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-27 02:04:03 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 16:55:12 PROXY user.admin POST http://hackerbox.tor IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-27 02:06:29 PROXY user.admin POST https://external-storage.com/upload IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 23:53:36 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 01:09:15 PROXY user.jaad GET http://um6p.ma/resources/js/app.js IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 16:42:40 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Succès authentification AD
+2025-05-27 05:40:39 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic normal
+2025-05-26 20:43:18 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-26 21:14:07 PROXY user.fati POST http://um6p.ma/support/faq.html IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 17:15:00 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-27 00:16:05 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.14.10 Succès authentification AD
+2025-05-26 19:16:30 PROXY user.admin GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 22:17:51 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.14.10 Succès authentification AD
+2025-05-27 05:50:48 PROXY user.fati POST http://login.um6p.ma/login.php IP:10.10.12.45 Trafic normal
+2025-05-27 06:37:30 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 16:18:18 PROXY user.fati GET http://um6p.ma/admin/settings IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 22:06:32 PROXY user.jaad GET http://um6p-docs-support.com/login IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 20:36:40 PROXY user.jaad POST https://um6p.ma/resources/css/style.css IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-27 02:56:15 PROXY user.jaad GET http://unknown-site.com IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-27 00:56:10 PROXY user.jaad POST http://um6p.ma/admin/panel IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-27 04:14:40 PROXY user.jaad GET https://external-storage.com/upload IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 15:51:12 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 21:56:55 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 22:28:18 PROXY user.fati POST http://hackerbox.tor IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-26 18:10:00 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 17:24:52 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-27 05:54:22 PROXY user.fati GET http://um6p-docs-support.com/login IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 17:56:42 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 16:25:27 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Données envoyées, activité suspecte
+2025-05-26 19:14:40 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.12.46 Succès authentification AD, connexion FW validée
+2025-05-27 03:11:15 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Bloqué par FW, domaine suspect
+2025-05-27 04:29:20 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-26 23:07:37 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 06:19:48 PROXY user.admin GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 20:50:50 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.12.45 Succès authentification AD
+2025-05-27 00:58:36 PROXY user.admin GET http://um6p-docs-support.com/login IP:10.10.14.10 Trafic normal
+2025-05-26 18:33:27 PROXY user.jaad POST http://phishing-site.com/submit IP:10.10.12.46 Trafic normal
+2025-05-27 01:00:48 PROXY user.admin POST https://um6p.ma/resources/css/style.css IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-26 23:29:00 PROXY user.admin POST http://login.um6p.ma/login.php IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-27 04:40:00 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:05:09 PROXY user.admin GET http://um6p.ma/admin/settings IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 17:03:40 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.45 Bloqué, tentative accès externe suspect
+2025-05-26 17:19:48 PROXY user.admin POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-27 03:43:04 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 04:31:05 PROXY user.fati POST http://intranet.um6p.ma/page1.html IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-26 21:31:12 PROXY user.jaad GET http://um6p.ma/admin/panel IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-26 23:52:37 PROXY user.admin POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Accès validé par AD, FW OK
+2025-05-27 00:09:16 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.12.46 Succès authentification AD
+2025-05-26 20:46:51 PROXY user.fati GET https://ceo-fake.company.org IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-27 03:03:40 PROXY user.admin GET http://um6p.ma/admin/panel IP:10.10.12.46 Échec connexion suspecté, alerté FW/AD
+2025-05-27 02:33:31 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Succès authentification AD
+2025-05-26 16:38:06 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.14.10 Tentative de phishing confirmée par logs mail
+2025-05-26 23:58:43 PROXY user.jaad GET http://login.um6p.ma/login.php IP:10.10.12.45 Succès authentification AD, connexion FW validée
+2025-05-27 05:45:52 PROXY user.fati GET http://um6p.ma/resources/js/app.js IP:10.10.12.46 Accepté, validé par AD et FW
+2025-05-26 19:01:30 PROXY user.fati POST http://phishing-site.com/login IP:10.10.14.10 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 03:42:30 PROXY user.admin POST http://hackerbox.tor IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 19:02:54 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-27 00:51:12 PROXY user.jaad GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 00:20:38 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-27 04:35:00 PROXY user.fati GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-27 05:55:33 PROXY user.jaad GET http://um6p.ma/admin/settings IP:10.10.12.45 Bloqué par FW, domaine suspect
+2025-05-27 03:02:24 PROXY user.jaad GET http://um6p.ma/support/faq.html IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-27 03:35:22 PROXY user.fati GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 19:55:30 PROXY user.fati GET https://um6p.ma/resources/css/style.css IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-26 18:36:40 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.14.10 Échec connexion suspecté, alerté FW/AD
+2025-05-26 18:53:16 PROXY user.fati POST http://um6p.ma/admin/settings IP:10.10.14.10 Succès authentification AD
+2025-05-27 00:28:54 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.12.46 Bloqué par FW, domaine blacklisté
+2025-05-26 15:59:00 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.12.46 Bloqué par FW, domaine inconnu
+2025-05-26 16:15:29 PROXY user.jaad POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 23:28:00 PROXY user.admin POST http://um6p.ma/support/faq.html IP:10.10.14.10 Trafic inhabituel, upload suspect
+2025-05-26 17:52:37 PROXY user.jaad GET http://vpn-service.um6p.ma/login IP:10.10.14.10 Bloqué par FW, domaine blacklisté
+2025-05-26 20:17:32 PROXY user.jaad POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Succès authentification AD
+2025-05-26 16:17:33 PROXY user.fati GET http://um6p.ma/admin/panel IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-27 05:09:16 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-27 07:19:15 PROXY user.jaad POST http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.14.10 Bloqué, tentative accès externe suspect
+2025-05-27 02:47:00 PROXY user.admin POST http://um6p.ma/admin/panel IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-27 03:36:31 PROXY user.admin POST http://phishing-site.com/login IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-26 18:45:20 PROXY user.jaad POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Données envoyées, activité suspecte
+2025-05-27 03:55:06 PROXY user.fati POST http://vpn-service.um6p.ma/login IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-27 05:33:20 PROXY user.jaad POST http://login.um6p.ma/login.php IP:10.10.12.46 Tentative de phishing confirmée par logs mail
+2025-05-27 03:41:23 PROXY user.jaad POST http://vpn-service.um6p.ma/login IP:10.10.12.45 Échec connexion suspecté, alerté FW/AD
+2025-05-27 00:28:12 PROXY user.jaad POST https://ceo-fake.company.org IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 04:00:02 PROXY user.fati POST http://hackerbox.tor IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-26 20:10:30 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-27 07:17:30 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 21:33:20 PROXY user.jaad GET http://intranet.um6p.ma/page1.html IP:10.10.12.46 Bloqué, tentative accès externe suspect
+2025-05-27 07:52:56 PROXY user.fati GET http://phishing-site.com/submit IP:10.10.12.46 Trafic normal
+2025-05-26 17:46:48 PROXY user.fati GET http://vpn-service.um6p.ma/login IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-27 05:12:42 PROXY user.jaad GET http://um6p.ma/docs/infra_config_UM6P.pdf IP:10.10.12.45 Accepté, validé par AD et FW
+2025-05-27 06:35:40 PROXY user.jaad GET http://phishing-site.com/submit IP:10.10.12.45 Trafic normal
+2025-05-26 22:42:54 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-26 19:27:24 PROXY user.fati POST https://external-storage.com/download/manual.pdf IP:10.10.14.10 Accepté, domaine non blacklisté
+2025-05-26 21:39:10 PROXY user.admin GET https://external-storage.com/download/manual.pdf IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 05:35:36 PROXY user.admin POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-27 02:36:20 PROXY user.fati POST http://um6p.ma/resources/js/app.js IP:10.10.12.46 Données envoyées, activité suspecte
+2025-05-26 21:58:06 PROXY user.admin POST http://phishing-site.com/submit IP:10.10.14.10 Accès validé par AD, FW OK
+2025-05-27 04:50:12 PROXY user.jaad POST http://unknown-site.com IP:10.10.12.46 Accepté, domaine non blacklisté
+2025-05-27 07:36:08 PROXY user.fati GET http://unknown-site.com IP:10.10.12.45 Accès validé par AD, FW OK
+2025-05-27 07:21:05 PROXY user.admin GET https://ceo-fake.company.org IP:10.10.14.10 Accepté, validé par AD et FW
+2025-05-27 02:42:00 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.12.46 Accepté, anomalie détectée, lien vers mail UM6P
+2025-05-27 04:22:14 PROXY user.admin GET http://phishing-site.com/submit IP:10.10.12.45 Bloqué par FW, domaine inconnu
+2025-05-27 03:00:48 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-27 02:45:24 PROXY user.fati POST http://unknown-site.com IP:10.10.12.45 Trafic inhabituel, upload suspect
+2025-05-26 21:15:12 PROXY user.admin GET http://intranet.um6p.ma/page1.html IP:10.10.14.10 Succès authentification AD
+2025-05-27 06:56:25 PROXY user.jaad POST https://external-storage.com/upload IP:10.10.12.46 Trafic normal
+2025-05-26 21:33:24 PROXY user.jaad POST http://intranet.um6p.ma/page1.html IP:10.10.14.10 Bloqué par FW, domaine inconnu
+2025-05-26 21:17:36 PROXY user.fati GET https://external-storage.com/download/manual.pdf IP:10.10.12.45 Accepté, domaine non blacklisté
+2025-05-26 21:18:24 PROXY user.fati POST https://external-storage.com/upload IP:10.10.12.46 Trafic inhabituel, upload suspect
+2025-05-26 18:16:03 PROXY user.jaad POST http://um6p-docs-support.com/login IP:10.10.14.10 Bloqué par FW, domaine suspect

@@ -1,0 +1,1000 @@
+[SIEM] [2025-05-26T08:00:00Z] Source=PC-ADAM(10.103.65.203) Event=User Deactivated Process=explorer.exe Domain=malicious.com User=jenkinsryan Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:00:19Z] Source=PC-ADAM(192.168.242.135) Event=ProcessStart Process=explorer.exe Domain=phishmail.com User=donald33 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:00:52Z] Source=UserPC(10.119.140.100) Event=LDAPBind Process=winword.exe Domain=suspicious-api.com User=sbush Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:01:30Z] Source=PC-jaad(10.16.10.61) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=jenniferlopez Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:02:40Z] Source=PC-fati(192.168.138.189) Event=URLAccess Process=powershell.exe Domain=malicious.com User=sandy34 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:03:00Z] Source=PC-BLACK(10.58.121.109) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=theresawilliams Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:01:54Z] Source=PC-BLACK(192.168.129.207) Event=FileCreated Process=explorer.exe Domain=phishmail.com User=rodney99 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:04:26Z] Source=Pc-Admin(192.168.238.203) Event=FileCreated Process=winword.exe Domain=phishmail.com User=rknight Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:05:12Z] Source=UserPC(172.25.104.148) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=morganmaria Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:03:36Z] Source=PC-ADAM(172.22.213.255) Event=EmailRead Process=winword.exe Domain=um6p-login-verification.com User=sanchezbobby Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:04:00Z] Source=Pc-Admin(192.168.234.244) Event=BrowserAccess Process=explorer.exe Domain=um6p-login-verification.com User=vrodriguez Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:02:56Z] Source=PC-ADAM(172.20.127.99) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=fdecker Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:04:24Z] Source=PC-fati(192.168.235.105) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=castroconnie Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:04:07Z] Source=PC-jaad(10.130.158.99) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=rebekah99 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:06:18Z] Source=Pc-Admin(10.237.67.8) Event=Outbound C2 Attempt Process=explorer.exe Domain=phishmail.com User=jmorrison Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:04:30Z] Source=PC-BLACK(172.17.91.157) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=victoria00 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:07:12Z] Source=PC-Nina(192.168.170.176) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=jameswright Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:04:49Z] Source=UserPC(192.168.217.26) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=jonesjeremy Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:08:42Z] Source=PC-ADAM(192.168.97.72) Event=PrivEsc Process=cmd.exe Domain=malicious.com User=deborahmccall Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:05:42Z] Source=PC-jaad(172.17.129.232) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=xcruz Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:11:40Z] Source=PC-jaad(10.21.123.208) Event=BrowserAccess Process=powershell.exe Domain=phishmail.com User=scott32 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:08:24Z] Source=UserPC(192.168.34.253) Event=DataExfiltration Process=powershell.exe Domain=phishmail.com User=mprice Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:12:28Z] Source=PC-jaad(192.168.78.25) Event=PrivEsc Process=winword.exe Domain=suspicious-api.com User=iparks Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:14:34Z] Source=PC-fati(192.168.90.145) Event=Outbound C2 Attempt Process=winword.exe Domain=malicious.com User=josephjacobson Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:10:48Z] Source=PC-ADAM(10.177.124.233) Event=ProcessStart Process=cmd.exe Domain=suspicious-api.com User=brian20 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:05:25Z] Source=Pc-Admin(172.29.148.181) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=rachel61 Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T08:09:32Z] Source=Pc-Admin(10.142.160.197) Event=User Deactivated Process=explorer.exe Domain=suspicious-api.com User=dustin30 Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:07:39Z] Source=PC-jaad(172.24.229.250) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=craigdebbie Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:16:48Z] Source=PC-BLACK(192.168.47.115) Event=ScriptExecution Process=winword.exe Domain=suspicious-api.com User=nicholsharry Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:08:13Z] Source=UserPC(172.25.136.94) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=warrenwayne Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:08:00Z] Source=PC-jaad(10.169.108.157) Event=BrowserAccess Process=winword.exe Domain=suspicious-api.com User=christopher75 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:18:36Z] Source=UserPC(192.168.37.119) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=brandiho Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:11:44Z] Source=Pc-Admin(172.27.7.154) Event=PrivEsc Process=cmd.exe Domain=suspicious-api.com User=lisa63 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:06:03Z] Source=PC-fati(192.168.91.232) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=douglasthomas Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:06:14Z] Source=PC-jaad(192.168.29.77) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=kayla89 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:22:45Z] Source=UserPC(10.18.227.120) Event=DataExfiltration Process=cmd.exe Domain=phishmail.com User=salazarleah Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:11:24Z] Source=UserPC(10.99.171.168) Event=ScriptExecution Process=winword.exe Domain=um6p-login-verification.com User=bjohnson Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:09:15Z] Source=PC-fati(172.29.98.82) Event=FileCreated Process=explorer.exe Domain=um6p-login-verification.com User=blynch Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:24:04Z] Source=PC-Nina(192.168.213.105) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=william46 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:15:36Z] Source=PC-BLACK(172.19.14.192) Event=URLAccess Process=explorer.exe Domain=um6p-login-verification.com User=frostjeremy Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:15:20Z] Source=PC-jaad(10.91.131.234) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=jay25 Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:21:52Z] Source=PC-ADAM(172.29.23.198) Event=URLAccess Process=explorer.exe Domain=phishmail.com User=xdawson Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:27:18Z] Source=PC-fati(10.142.79.13) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=lydiadavis Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:12:54Z] Source=PC-BLACK(172.18.172.197) Event=SessionHijack Process=powershell.exe Domain=phishmail.com User=deborah96 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:26:24Z] Source=PC-ADAM(192.168.59.84) Event=URLAccess Process=powershell.exe Domain=phishmail.com User=yperez Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:14:15Z] Source=UserPC(172.31.131.27) Event=Outbound C2 Attempt Process=powershell.exe Domain=um6p-login-verification.com User=mayelizabeth Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:16:52Z] Source=UserPC(172.25.21.80) Event=SessionHijack Process=cmd.exe Domain=malicious.com User=john11 Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:19:35Z] Source=UserPC(192.168.21.238) Event=LDAPBind Process=explorer.exe Domain=malicious.com User=herringjason Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:13:36Z] Source=Pc-Admin(192.168.121.42) Event=FileCreated Process=explorer.exe Domain=phishmail.com User=stevensonrichard Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:21:14Z] Source=Pc-Admin(10.75.106.30) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=dana29 Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:27:30Z] Source=Pc-Admin(192.168.18.206) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=millerdaniel Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:30:36Z] Source=PC-Nina(192.168.240.45) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=spencer50 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:31:12Z] Source=Pc-Admin(10.194.178.136) Event=URLAccess Process=explorer.exe Domain=malicious.com User=jasonpalmer Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:24:44Z] Source=UserPC(192.168.138.66) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=bgrant Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:09:54Z] Source=Pc-Admin(192.168.144.79) Event=SessionHijack Process=powershell.exe Domain=um6p-login-verification.com User=jonesadam Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:11:00Z] Source=PC-fati(192.168.1.167) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=wgriffith Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:19:36Z] Source=PC-fati(192.168.241.33) Event=Outbound C2 Attempt Process=cmd.exe Domain=um6p-login-verification.com User=mary80 Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:23:45Z] Source=UserPC(192.168.155.207) Event=LDAPBind Process=explorer.exe Domain=malicious.com User=sharonsmith Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:24:10Z] Source=PC-jaad(10.126.89.95) Event=FileCreated Process=cmd.exe Domain=phishmail.com User=krystalhines Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:38:21Z] Source=PC-fati(10.48.83.52) Event=ProcessStart Process=explorer.exe Domain=suspicious-api.com User=fthompson Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:40:00Z] Source=Pc-Admin(192.168.73.201) Event=URLAccess Process=cmd.exe Domain=phishmail.com User=icollins Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:28:28Z] Source=UserPC(192.168.238.2) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=fishertim Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:13:26Z] Source=PC-Nina(172.20.174.245) Event=User Deactivated Process=powershell.exe Domain=um6p-login-verification.com User=james52 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:37:48Z] Source=PC-Nina(10.247.202.145) Event=LDAPBind Process=powershell.exe Domain=malicious.com User=ivan91 Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:28:48Z] Source=PC-ADAM(10.98.145.172) Event=EmailRead Process=cmd.exe Domain=suspicious-api.com User=victoriamacdonald Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:29:15Z] Source=UserPC(172.24.170.3) Event=FileCreated Process=winword.exe Domain=phishmail.com User=kblake Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:16:30Z] Source=PC-fati(192.168.23.38) Event=ScriptExecution Process=winword.exe Domain=suspicious-api.com User=jermainearroyo Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:27:55Z] Source=PC-fati(192.168.152.187) Event=DataExfiltration Process=winword.exe Domain=um6p-login-verification.com User=phillip65 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:31:44Z] Source=PC-ADAM(192.168.160.119) Event=PrivEsc Process=winword.exe Domain=malicious.com User=sanderscandice Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:37:57Z] Source=PC-jaad(172.30.239.36) Event=ScriptExecution Process=powershell.exe Domain=malicious.com User=kevinkelly Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:40:50Z] Source=PC-ADAM(172.21.235.173) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=gutierrezmichelle Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:14:12Z] Source=UserPC(192.168.224.78) Event=User Deactivated Process=powershell.exe Domain=um6p-login-verification.com User=kimberlyconley Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:33:36Z] Source=Pc-Admin(10.234.95.201) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=brian90 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:31:38Z] Source=PC-ADAM(192.168.45.50) Event=BrowserAccess Process=winword.exe Domain=suspicious-api.com User=longemily Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:37:00Z] Source=PC-fati(10.180.144.110) Event=Outbound C2 Attempt Process=cmd.exe Domain=suspicious-api.com User=alvaradolinda Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:33:45Z] Source=UserPC(10.43.199.142) Event=EmailRead Process=powershell.exe Domain=malicious.com User=hpatel Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:38:00Z] Source=PC-fati(192.168.229.206) Event=PrivEsc Process=winword.exe Domain=malicious.com User=smithjacob Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:51:20Z] Source=UserPC(10.49.236.229) Event=URLAccess Process=powershell.exe Domain=malicious.com User=weisstyler Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:42:54Z] Source=PC-Nina(10.188.170.132) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=greenmelissa Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:22:23Z] Source=PC-fati(172.20.163.145) Event=PrivEsc Process=cmd.exe Domain=um6p-login-verification.com User=ahansen Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:13:20Z] Source=PC-fati(192.168.71.161) Event=BrowserAccess Process=powershell.exe Domain=phishmail.com User=miguel39 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:36:27Z] Source=PC-Nina(10.45.62.63) Event=EmailRead Process=powershell.exe Domain=malicious.com User=melissa23 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:54:40Z] Source=PC-jaad(10.228.227.248) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=mcintyreerin Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:13:50Z] Source=PC-jaad(10.198.109.239) Event=SessionHijack Process=powershell.exe Domain=phishmail.com User=justinstevens Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:35:00Z] Source=PC-Nina(192.168.183.215) Event=DataExfiltration Process=powershell.exe Domain=phishmail.com User=johnsonpatrick Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:43:55Z] Source=PC-Nina(10.168.231.145) Event=FileCreated Process=explorer.exe Domain=malicious.com User=hendrixjulia Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:37:16Z] Source=PC-ADAM(172.17.221.70) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=jason63 Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:30:27Z] Source=PC-Nina(10.108.237.87) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=dcannon Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:35:12Z] Source=PC-BLACK(192.168.241.142) Event=BrowserAccess Process=winword.exe Domain=um6p-login-verification.com User=wisedanny Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:28:11Z] Source=Pc-Admin(172.24.127.50) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=mark26 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:31:30Z] Source=PC-Nina(172.22.166.24) Event=LDAPBind Process=winword.exe Domain=suspicious-api.com User=omcgrath Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:51:34Z] Source=PC-fati(172.24.184.212) Event=BrowserAccess Process=cmd.exe Domain=um6p-login-verification.com User=brianwallace Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:18:24Z] Source=PC-jaad(172.22.245.102) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=amber78 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:34:06Z] Source=Pc-Admin(192.168.110.242) Event=FileCreated Process=explorer.exe Domain=malicious.com User=chelsearay Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:57:58Z] Source=PC-BLACK(10.91.126.100) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=vmcmahon Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:30:05Z] Source=Pc-Admin(10.62.61.25) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=susantran Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:25:36Z] Source=UserPC(172.21.100.49) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=juliaball Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:54:58Z] Source=Pc-Admin(172.17.47.81) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=darryl57 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:22:52Z] Source=PC-ADAM(10.26.235.57) Event=FileCreated Process=explorer.exe Domain=um6p-login-verification.com User=natalie80 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:28:03Z] Source=PC-BLACK(192.168.126.172) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=ocase Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:06:40Z] Source=UserPC(192.168.22.80) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=philipwarner Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:33:40Z] Source=PC-jaad(192.168.233.20) Event=URLAccess Process=powershell.exe Domain=phishmail.com User=browntimothy Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:04:36Z] Source=PC-ADAM(172.26.8.102) Event=ProcessStart Process=winword.exe Domain=malicious.com User=vcole Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:42:55Z] Source=PC-ADAM(10.152.158.129) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=bradleymontgomery Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:20:48Z] Source=PC-ADAM(172.18.68.47) Event=LDAPBind Process=winword.exe Domain=um6p-login-verification.com User=laura75 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:08:15Z] Source=PC-jaad(192.168.190.44) Event=BrowserAccess Process=cmd.exe Domain=phishmail.com User=smiller Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:24:44Z] Source=PC-BLACK(172.23.138.73) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=carolowens Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:32:06Z] Source=PC-BLACK(10.15.251.191) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=alexandriagay Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:57:36Z] Source=PC-ADAM(192.168.254.219) Event=User Deactivated Process=explorer.exe Domain=suspicious-api.com User=robert49 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:07:13Z] Source=PC-Nina(10.192.117.38) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=robertgeorge Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:22:00Z] Source=UserPC(192.168.201.76) Event=User Deactivated Process=powershell.exe Domain=phishmail.com User=ann08 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:14:00Z] Source=PC-jaad(192.168.42.33) Event=URLAccess Process=winword.exe Domain=malicious.com User=sullivanloretta Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:52:16Z] Source=PC-ADAM(172.27.124.144) Event=EmailRead Process=powershell.exe Domain=malicious.com User=aarmstrong Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:05:55Z] Source=PC-BLACK(192.168.117.91) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=seth84 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:32:18Z] Source=Pc-Admin(10.128.129.204) Event=Outbound C2 Attempt Process=cmd.exe Domain=phishmail.com User=ksalas Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T08:24:55Z] Source=PC-BLACK(10.82.113.241) Event=ScriptExecution Process=explorer.exe Domain=phishmail.com User=mgreen Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T08:27:04Z] Source=PC-fati(192.168.2.106) Event=FileCreated Process=winword.exe Domain=suspicious-api.com User=flemingjames Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:42:54Z] Source=PC-ADAM(172.27.19.126) Event=PrivEsc Process=winword.exe Domain=phishmail.com User=lisa48 Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:35:24Z] Source=PC-fati(172.31.109.50) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=chad56 Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:09:25Z] Source=PC-jaad(192.168.161.177) Event=FileCreated Process=cmd.exe Domain=phishmail.com User=emilywaller Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:00:00Z] Source=PC-Nina(172.25.202.233) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=xrosario Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:20:40Z] Source=PC-BLACK(192.168.0.159) Event=LDAPBind Process=powershell.exe Domain=suspicious-api.com User=amy55 Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:32:32Z] Source=PC-jaad(192.168.114.198) Event=User Deactivated Process=cmd.exe Domain=phishmail.com User=nealrachel Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:28:42Z] Source=UserPC(192.168.113.226) Event=FileCreated Process=winword.exe Domain=malicious.com User=rhunt Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:55:48Z] Source=PC-Nina(10.216.38.44) Event=BrowserAccess Process=cmd.exe Domain=phishmail.com User=lopezwendy Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:06:40Z] Source=UserPC(192.168.11.77) Event=PrivEsc Process=explorer.exe Domain=suspicious-api.com User=lee49 Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T08:25:12Z] Source=PC-fati(10.231.149.42) Event=FileCreated Process=powershell.exe Domain=malicious.com User=rbrown Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:09:51Z] Source=PC-Nina(172.17.64.199) Event=URLAccess Process=powershell.exe Domain=suspicious-api.com User=kurtrobinson Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:21:20Z] Source=UserPC(172.17.150.25) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=xcook Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:49:27Z] Source=UserPC(172.19.84.137) Event=PrivEsc Process=winword.exe Domain=malicious.com User=mendozabrandi Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:24:30Z] Source=Pc-Admin(172.19.175.139) Event=URLAccess Process=powershell.exe Domain=suspicious-api.com User=penachristopher Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:30:34Z] Source=PC-fati(172.22.57.93) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=hoffmanandre Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:30:48Z] Source=PC-jaad(10.127.86.252) Event=EmailRead Process=explorer.exe Domain=malicious.com User=david93 Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:17:35Z] Source=PC-ADAM(192.168.32.102) Event=User Deactivated Process=cmd.exe Domain=phishmail.com User=leebrown Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:31:16Z] Source=PC-Nina(192.168.201.12) Event=ProcessStart Process=cmd.exe Domain=malicious.com User=melissasmith Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:22:30Z] Source=PC-Nina(192.168.85.225) Event=PrivEsc Process=winword.exe Domain=um6p-login-verification.com User=helen72 Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:22:40Z] Source=PC-Nina(172.20.200.56) Event=BrowserAccess Process=winword.exe Domain=suspicious-api.com User=tparker Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T08:27:24Z] Source=Pc-Admin(10.121.153.232) Event=User Deactivated Process=winword.exe Domain=um6p-login-verification.com User=brownkelly Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:22:48Z] Source=Pc-Admin(10.206.174.254) Event=URLAccess Process=explorer.exe Domain=malicious.com User=aimee09 Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:55:36Z] Source=PC-Nina(10.138.250.247) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=jortiz Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:37:20Z] Source=PC-BLACK(192.168.83.185) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=michael96 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:03:27Z] Source=UserPC(172.25.21.215) Event=SessionHijack Process=powershell.exe Domain=phishmail.com User=andrewjones Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:13:22Z] Source=PC-Nina(10.109.222.98) Event=ProcessStart Process=powershell.exe Domain=suspicious-api.com User=jose95 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:04:21Z] Source=UserPC(192.168.145.1) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=williamthompson Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:24:00Z] Source=PC-ADAM(172.22.33.110) Event=PrivEsc Process=cmd.exe Domain=phishmail.com User=ijohnson Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:07:40Z] Source=Pc-Admin(10.191.189.254) Event=FileCreated Process=powershell.exe Domain=um6p-login-verification.com User=matthew28 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:55:58Z] Source=UserPC(172.27.125.167) Event=ScriptExecution Process=cmd.exe Domain=suspicious-api.com User=robertsshirley Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:23:18Z] Source=PC-ADAM(172.24.155.239) Event=FileCreated Process=powershell.exe Domain=suspicious-api.com User=derrickbrown Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:59:12Z] Source=PC-jaad(172.20.234.101) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=aguilarmichael Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:32:17Z] Source=PC-BLACK(192.168.212.7) Event=LDAPBind Process=cmd.exe Domain=malicious.com User=hkrause Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:35:00Z] Source=PC-jaad(10.116.112.32) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=nathankane Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T08:55:22Z] Source=Pc-Admin(172.17.186.247) Event=FileCreated Process=winword.exe Domain=suspicious-api.com User=april49 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:25:20Z] Source=PC-Nina(172.23.205.80) Event=BrowserAccess Process=explorer.exe Domain=phishmail.com User=barbarajackson Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:42:00Z] Source=PC-jaad(172.30.39.207) Event=URLAccess Process=cmd.exe Domain=malicious.com User=jessica78 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:30:48Z] Source=UserPC(172.23.64.17) Event=ScriptExecution Process=cmd.exe Domain=suspicious-api.com User=odowns Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:54:15Z] Source=PC-BLACK(192.168.154.205) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=michaeljacobs Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:36:24Z] Source=PC-ADAM(192.168.167.24) Event=DataExfiltration Process=winword.exe Domain=malicious.com User=epeters Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T09:18:30Z] Source=PC-fati(192.168.64.23) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=zkramer Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:28:58Z] Source=PC-ADAM(10.98.197.79) Event=ProcessStart Process=explorer.exe Domain=malicious.com User=juliaromero Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:34:27Z] Source=PC-fati(10.31.14.241) Event=Outbound C2 Attempt Process=explorer.exe Domain=um6p-login-verification.com User=tonyahart Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T08:34:40Z] Source=PC-fati(10.40.224.103) Event=EmailRead Process=winword.exe Domain=malicious.com User=williamsterri Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:29:31Z] Source=PC-jaad(192.168.161.81) Event=PrivEsc Process=winword.exe Domain=phishmail.com User=imack Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:40:30Z] Source=PC-jaad(172.20.161.52) Event=BrowserAccess Process=explorer.exe Domain=malicious.com User=mdennis Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:27:10Z] Source=Pc-Admin(172.23.230.107) Event=EmailRead Process=cmd.exe Domain=suspicious-api.com User=youngkyle Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:24:44Z] Source=PC-Nina(10.10.17.146) Event=User Deactivated Process=explorer.exe Domain=um6p-login-verification.com User=francis08 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:49:30Z] Source=PC-ADAM(10.22.23.61) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=katherineanderson Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:35:58Z] Source=PC-jaad(192.168.34.90) Event=ScriptExecution Process=cmd.exe Domain=phishmail.com User=sandovalkatelyn Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:33:24Z] Source=PC-fati(192.168.124.145) Event=ScriptExecution Process=powershell.exe Domain=malicious.com User=richardsdennis Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:44:48Z] Source=Pc-Admin(172.24.162.137) Event=ScriptExecution Process=winword.exe Domain=um6p-login-verification.com User=andrew69 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:56:20Z] Source=UserPC(10.65.135.151) Event=EmailRead Process=winword.exe Domain=phishmail.com User=katherinehawkins Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:16:30Z] Source=PC-ADAM(172.27.70.143) Event=ScriptExecution Process=cmd.exe Domain=malicious.com User=bmarshall Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:57:00Z] Source=PC-Nina(10.111.1.96) Event=DataExfiltration Process=winword.exe Domain=malicious.com User=nancy73 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:20:16Z] Source=PC-jaad(192.168.241.237) Event=ProcessStart Process=powershell.exe Domain=malicious.com User=randerson Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:29:23Z] Source=PC-Nina(172.28.62.20) Event=FileCreated Process=cmd.exe Domain=malicious.com User=kylehall Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:21:12Z] Source=UserPC(172.17.241.72) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=jowens Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:21:40Z] Source=PC-BLACK(192.168.68.187) Event=ProcessStart Process=powershell.exe Domain=malicious.com User=woodardjeffery Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:45:36Z] Source=PC-jaad(192.168.184.162) Event=FileCreated Process=cmd.exe Domain=suspicious-api.com User=shafferann Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:07:51Z] Source=Pc-Admin(10.145.187.178) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=navarrokeith Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:23:04Z] Source=PC-ADAM(192.168.4.154) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=chaneystephanie Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:38:27Z] Source=PC-jaad(172.30.92.51) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=elizabeth23 Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:36:00Z] Source=PC-Nina(10.56.87.47) Event=ScriptExecution Process=cmd.exe Domain=phishmail.com User=rebecca84 Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:36:12Z] Source=UserPC(192.168.147.33) Event=User Deactivated Process=winword.exe Domain=phishmail.com User=andrewmorris Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:52:14Z] Source=Pc-Admin(172.22.167.94) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=brianjackson Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:39:39Z] Source=PC-Nina(172.17.207.87) Event=LDAPBind Process=powershell.exe Domain=malicious.com User=abrennan Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:39:52Z] Source=PC-BLACK(10.216.93.236) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=xclayton Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T08:55:30Z] Source=PC-BLACK(10.149.184.117) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=michellehorn Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:20:36Z] Source=PC-Nina(192.168.62.177) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=michelle97 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T09:02:20Z] Source=UserPC(192.168.126.71) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=hnovak Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:12:04Z] Source=Pc-Admin(172.30.20.244) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=gonzalezchristopher Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:37:48Z] Source=PC-Nina(172.17.216.199) Event=User Deactivated Process=powershell.exe Domain=um6p-login-verification.com User=jreid Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:57:10Z] Source=PC-fati(172.19.34.40) Event=ProcessStart Process=cmd.exe Domain=malicious.com User=xcarroll Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:29:08Z] Source=PC-BLACK(10.185.197.8) Event=BrowserAccess Process=winword.exe Domain=malicious.com User=msalazar Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:20:00Z] Source=Pc-Admin(10.64.12.137) Event=FileCreated Process=powershell.exe Domain=suspicious-api.com User=courtneysimpson Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:59:01Z] Source=PC-ADAM(192.168.195.32) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=carterstephen Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:40:14Z] Source=PC-fati(10.51.122.207) Event=Outbound C2 Attempt Process=powershell.exe Domain=suspicious-api.com User=melendezdebra Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:31:00Z] Source=PC-BLACK(10.52.214.237) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=mariajimenez Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:32:40Z] Source=PC-Nina(192.168.184.215) Event=LDAPBind Process=winword.exe Domain=phishmail.com User=robert95 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:48:21Z] Source=PC-jaad(192.168.197.231) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=mccallnancy Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:02:42Z] Source=PC-fati(10.105.99.235) Event=EmailRead Process=winword.exe Domain=malicious.com User=howardcynthia Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:36:29Z] Source=UserPC(172.31.144.64) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=christopherfuller Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T08:50:00Z] Source=Pc-Admin(10.240.76.202) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=donalddunn Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:50:33Z] Source=PC-BLACK(172.24.166.128) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=rstephens Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:43:46Z] Source=Pc-Admin(192.168.227.105) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=lonnie77 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:34:44Z] Source=PC-ADAM(10.96.191.158) Event=BrowserAccess Process=explorer.exe Domain=phishmail.com User=matthewcain Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:18:12Z] Source=PC-BLACK(192.168.63.103) Event=LDAPBind Process=winword.exe Domain=malicious.com User=melissa02 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:47:50Z] Source=PC-fati(192.168.255.94) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=diazteresa Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:25:50Z] Source=PC-jaad(172.19.225.115) Event=EmailRead Process=explorer.exe Domain=malicious.com User=adamhale Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:12:27Z] Source=Pc-Admin(10.225.186.146) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=gonzaleswarren Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:33:36Z] Source=PC-BLACK(172.22.248.51) Event=Outbound C2 Attempt Process=cmd.exe Domain=um6p-login-verification.com User=jeremycollins Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:15:51Z] Source=PC-BLACK(172.30.96.175) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=johnsonandrea Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T10:09:30Z] Source=PC-BLACK(172.20.98.169) Event=LDAPBind Process=winword.exe Domain=suspicious-api.com User=jeremyvaldez Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:31:26Z] Source=PC-Nina(10.245.213.139) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=yjohnson Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:00:08Z] Source=PC-fati(192.168.55.80) Event=SessionHijack Process=explorer.exe Domain=suspicious-api.com User=mmurillo Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:42:57Z] Source=Pc-Admin(172.17.160.159) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=sherry48 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T10:22:40Z] Source=PC-BLACK(172.23.231.32) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=stephanie36 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:47:30Z] Source=PC-BLACK(10.177.39.160) Event=ProcessStart Process=powershell.exe Domain=suspicious-api.com User=mary51 Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:55:12Z] Source=PC-ADAM(10.2.254.156) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=mrodriguez Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T08:57:52Z] Source=PC-BLACK(192.168.44.155) Event=LDAPBind Process=cmd.exe Domain=malicious.com User=christine66 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:10:48Z] Source=PC-BLACK(192.168.232.88) Event=ProcessStart Process=winword.exe Domain=malicious.com User=jennifercrawford Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:26:00Z] Source=PC-jaad(172.23.187.99) Event=SessionHijack Process=cmd.exe Domain=malicious.com User=christopher94 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:46:20Z] Source=PC-fati(10.182.97.44) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=courtney12 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T08:51:34Z] Source=PC-ADAM(10.33.61.58) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=vargasdavid Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:39:54Z] Source=UserPC(192.168.190.3) Event=EmailRead Process=winword.exe Domain=malicious.com User=stacey44 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:02:39Z] Source=PC-fati(172.30.214.149) Event=SessionHijack Process=explorer.exe Domain=suspicious-api.com User=popelori Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:25:36Z] Source=PC-fati(10.200.53.150) Event=FileCreated Process=winword.exe Domain=suspicious-api.com User=brittany87 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:03:45Z] Source=PC-jaad(172.23.53.253) Event=ScriptExecution Process=powershell.exe Domain=phishmail.com User=nichole53 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:22:52Z] Source=PC-fati(172.20.60.88) Event=URLAccess Process=cmd.exe Domain=phishmail.com User=ncontreras Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:31:20Z] Source=UserPC(10.165.118.179) Event=FileCreated Process=winword.exe Domain=malicious.com User=dannyvasquez Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:38:48Z] Source=UserPC(172.22.40.102) Event=URLAccess Process=explorer.exe Domain=um6p-login-verification.com User=christina39 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:09:46Z] Source=PC-ADAM(172.28.167.240) Event=SessionHijack Process=powershell.exe Domain=um6p-login-verification.com User=patriciarivas Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:10:20Z] Source=PC-BLACK(172.31.105.224) Event=EmailRead Process=powershell.exe Domain=um6p-login-verification.com User=waynerodgers Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:09:18Z] Source=UserPC(172.26.52.163) Event=PrivEsc Process=winword.exe Domain=malicious.com User=jonesnichole Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T10:11:28Z] Source=PC-Nina(10.99.124.145) Event=LDAPBind Process=winword.exe Domain=suspicious-api.com User=carol60 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:27:34Z] Source=PC-jaad(192.168.77.251) Event=BrowserAccess Process=explorer.exe Domain=phishmail.com User=dawncrawford Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T08:39:00Z] Source=PC-BLACK(10.160.19.145) Event=URLAccess Process=winword.exe Domain=um6p-login-verification.com User=kellyburke Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:22:15Z] Source=PC-fati(192.168.225.101) Event=User Deactivated Process=winword.exe Domain=malicious.com User=tammie35 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:01:56Z] Source=PC-Nina(192.168.253.233) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=maureenjohnson Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:38:45Z] Source=PC-jaad(172.31.229.193) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=stephen87 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:39:10Z] Source=PC-fati(172.27.124.30) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=leewayne Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:03:44Z] Source=PC-ADAM(172.28.216.189) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=carol87 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:00:00Z] Source=PC-ADAM(192.168.115.36) Event=LDAPBind Process=powershell.exe Domain=phishmail.com User=ulopez Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:36:39Z] Source=PC-ADAM(172.25.11.14) Event=URLAccess Process=winword.exe Domain=um6p-login-verification.com User=sonya56 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:05:02Z] Source=PC-Nina(172.23.103.200) Event=ProcessStart Process=explorer.exe Domain=phishmail.com User=garciashannon Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:25:48Z] Source=Pc-Admin(172.17.188.123) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=kelseyortiz Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:02:00Z] Source=PC-fati(192.168.69.80) Event=URLAccess Process=explorer.exe Domain=phishmail.com User=smithshelly Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T08:44:55Z] Source=UserPC(192.168.88.72) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=angela89 Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:22:00Z] Source=Pc-Admin(192.168.144.20) Event=DataExfiltration Process=explorer.exe Domain=um6p-login-verification.com User=michaelreid Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:59:23Z] Source=PC-ADAM(10.149.239.158) Event=ProcessStart Process=cmd.exe Domain=suspicious-api.com User=prattelizabeth Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:22:40Z] Source=Pc-Admin(172.20.168.97) Event=FileCreated Process=cmd.exe Domain=malicious.com User=jasongomez Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:39:36Z] Source=PC-fati(10.237.221.87) Event=PrivEsc Process=explorer.exe Domain=malicious.com User=robinmitchell Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:10:50Z] Source=PC-jaad(172.25.24.111) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=jshort Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:05:30Z] Source=PC-fati(192.168.19.179) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=ryan03 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:18:36Z] Source=PC-ADAM(172.26.240.163) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=christopherhowe Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:53:51Z] Source=PC-jaad(10.119.78.7) Event=Outbound C2 Attempt Process=cmd.exe Domain=suspicious-api.com User=vjohnson Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:28:54Z] Source=PC-fati(192.168.160.174) Event=ProcessStart Process=powershell.exe Domain=malicious.com User=wrightjohn Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:37:45Z] Source=PC-ADAM(192.168.46.203) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=kcarpenter Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T09:25:20Z] Source=PC-BLACK(192.168.240.88) Event=DataExfiltration Process=winword.exe Domain=phishmail.com User=kmartin Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:51:22Z] Source=UserPC(172.29.158.67) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=catherine42 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:08:48Z] Source=PC-jaad(10.31.92.133) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=hunterparker Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:43:36Z] Source=PC-Nina(172.18.46.36) Event=User Deactivated Process=explorer.exe Domain=um6p-login-verification.com User=amandagordon Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:36:00Z] Source=PC-fati(172.26.23.177) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=solomonjerry Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:06:09Z] Source=PC-BLACK(192.168.244.181) Event=User Deactivated Process=powershell.exe Domain=um6p-login-verification.com User=parkssarah Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:52:24Z] Source=Pc-Admin(10.52.163.192) Event=BrowserAccess Process=winword.exe Domain=um6p-login-verification.com User=melissa43 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:14:31Z] Source=PC-Nina(10.55.126.128) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=josephhardin Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:16:24Z] Source=PC-Nina(10.11.0.114) Event=SessionHijack Process=explorer.exe Domain=suspicious-api.com User=ibaxter Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T08:44:10Z] Source=UserPC(10.130.240.22) Event=DataExfiltration Process=powershell.exe Domain=malicious.com User=callen Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:55:16Z] Source=Pc-Admin(172.17.25.35) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=gmalone Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:37:54Z] Source=Pc-Admin(172.24.221.164) Event=EmailRead Process=explorer.exe Domain=malicious.com User=morgandonna Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:42:44Z] Source=PC-fati(172.21.99.2) Event=DataExfiltration Process=powershell.exe Domain=suspicious-api.com User=cmcmahon Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T08:44:50Z] Source=PC-Nina(192.168.170.156) Event=User Deactivated Process=cmd.exe Domain=suspicious-api.com User=mrios Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:30:00Z] Source=PC-Nina(192.168.89.179) Event=EmailRead Process=explorer.exe Domain=malicious.com User=smithjenna Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:03:14Z] Source=UserPC(192.168.106.70) Event=ProcessStart Process=winword.exe Domain=phishmail.com User=xruiz Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:56:48Z] Source=PC-Nina(10.198.134.87) Event=EmailRead Process=winword.exe Domain=um6p-login-verification.com User=heidi46 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:26:27Z] Source=UserPC(192.168.229.16) Event=BrowserAccess Process=winword.exe Domain=suspicious-api.com User=anichols Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:31:20Z] Source=PC-Nina(10.212.3.71) Event=ProcessStart Process=cmd.exe Domain=malicious.com User=teresa75 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:59:10Z] Source=PC-jaad(192.168.32.9) Event=ProcessStart Process=cmd.exe Domain=phishmail.com User=whiteryan Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:04:00Z] Source=Pc-Admin(192.168.136.26) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=vincentsosa Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:18:30Z] Source=UserPC(172.23.106.162) Event=PrivEsc Process=winword.exe Domain=phishmail.com User=restrada Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:46:48Z] Source=UserPC(192.168.208.155) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=robertsdaniel Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:56:15Z] Source=UserPC(10.247.32.151) Event=ScriptExecution Process=powershell.exe Domain=suspicious-api.com User=rbenton Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:24:40Z] Source=UserPC(172.30.237.15) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=carpenteralexandra Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:05:34Z] Source=PC-BLACK(10.255.195.156) Event=ScriptExecution Process=cmd.exe Domain=phishmail.com User=angelamitchell Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:44:30Z] Source=UserPC(192.168.139.252) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=justin91 Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:59:14Z] Source=PC-jaad(192.168.178.130) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=hhudson Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:31:28Z] Source=UserPC(192.168.49.128) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=tuckertanya Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:44:30Z] Source=PC-fati(172.26.214.88) Event=PrivEsc Process=explorer.exe Domain=phishmail.com User=turnerashley Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:01:58Z] Source=UserPC(172.22.110.67) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=lisafernandez Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:26:06Z] Source=Pc-Admin(10.237.242.19) Event=LDAPBind Process=cmd.exe Domain=phishmail.com User=carolynchambers Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:07:12Z] Source=PC-Nina(172.17.194.63) Event=SessionHijack Process=explorer.exe Domain=phishmail.com User=bentleyrichard Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:07:51Z] Source=PC-fati(192.168.181.169) Event=ProcessStart Process=powershell.exe Domain=suspicious-api.com User=shawnhernandez Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:41:30Z] Source=PC-BLACK(10.199.63.140) Event=User Deactivated Process=explorer.exe Domain=um6p-login-verification.com User=timothy97 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:46:42Z] Source=UserPC(172.20.51.26) Event=ScriptExecution Process=explorer.exe Domain=phishmail.com User=christopher73 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:14:40Z] Source=UserPC(10.241.186.140) Event=DataExfiltration Process=powershell.exe Domain=malicious.com User=alexandraflores Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T08:48:50Z] Source=PC-BLACK(172.20.28.96) Event=LDAPBind Process=winword.exe Domain=malicious.com User=gregoryboyer Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:36:48Z] Source=PC-Nina(172.25.246.71) Event=EmailRead Process=winword.exe Domain=malicious.com User=ellisonstephen Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:28:30Z] Source=Pc-Admin(10.123.243.7) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=stacey06 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:13:12Z] Source=Pc-Admin(10.157.156.138) Event=BrowserAccess Process=winword.exe Domain=malicious.com User=lthomas Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:09:18Z] Source=PC-ADAM(172.31.167.3) Event=ScriptExecution Process=cmd.exe Domain=suspicious-api.com User=dwatson Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:24:02Z] Source=PC-fati(172.21.156.204) Event=PrivEsc Process=explorer.exe Domain=phishmail.com User=cbass Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:29:30Z] Source=PC-BLACK(192.168.234.14) Event=User Deactivated Process=winword.exe Domain=suspicious-api.com User=deborah37 Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:05:00Z] Source=UserPC(10.244.202.30) Event=FileCreated Process=winword.exe Domain=malicious.com User=wramirez Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:10:26Z] Source=PC-BLACK(192.168.4.111) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=udavis Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:15:30Z] Source=PC-Nina(10.230.155.40) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=yreyes Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:01:48Z] Source=PC-BLACK(10.140.207.250) Event=EmailRead Process=cmd.exe Domain=phishmail.com User=ulopez Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T08:55:44Z] Source=PC-fati(192.168.69.111) Event=BrowserAccess Process=explorer.exe Domain=um6p-login-verification.com User=sesparza Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:52:50Z] Source=PC-ADAM(192.168.216.221) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=jjohnston Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:31:48Z] Source=PC-BLACK(172.28.171.243) Event=FileCreated Process=explorer.exe Domain=malicious.com User=barberkevin Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:32:06Z] Source=PC-Nina(10.234.243.71) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=xsantos Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:47:48Z] Source=PC-BLACK(10.35.17.180) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=dennis40 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T08:51:30Z] Source=PC-Nina(172.23.162.186) Event=EmailRead Process=powershell.exe Domain=malicious.com User=mgonzalez Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:12:20Z] Source=PC-ADAM(192.168.20.199) Event=User Deactivated Process=cmd.exe Domain=suspicious-api.com User=lshort Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:02:12Z] Source=PC-BLACK(192.168.44.11) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=uyoung Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:17:36Z] Source=PC-jaad(10.237.189.212) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=thill Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:26:04Z] Source=PC-Nina(10.25.97.135) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=kimberly85 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:55:08Z] Source=PC-jaad(10.2.239.94) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=rebeccastevens Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:30:00Z] Source=Pc-Admin(10.179.114.28) Event=DataExfiltration Process=explorer.exe Domain=malicious.com User=brownjulie Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:19:00Z] Source=Pc-Admin(10.238.53.42) Event=FileCreated Process=explorer.exe Domain=malicious.com User=smithcalvin Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:59:38Z] Source=Pc-Admin(10.111.131.189) Event=FileCreated Process=powershell.exe Domain=um6p-login-verification.com User=ikelley Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:08:54Z] Source=Pc-Admin(192.168.88.14) Event=DataExfiltration Process=winword.exe Domain=suspicious-api.com User=hwhitaker Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:39:30Z] Source=PC-ADAM(172.18.205.95) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=john61 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:46:40Z] Source=UserPC(10.101.98.136) Event=EmailRead Process=explorer.exe Domain=malicious.com User=smithdale Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:28:39Z] Source=PC-ADAM(10.153.132.137) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=drew94 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:57:06Z] Source=PC-fati(192.168.206.9) Event=PrivEsc Process=cmd.exe Domain=malicious.com User=pottsmichael Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T09:42:17Z] Source=PC-jaad(10.128.219.87) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=hconley Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:25:12Z] Source=PC-fati(192.168.176.78) Event=Outbound C2 Attempt Process=powershell.exe Domain=um6p-login-verification.com User=jamiemcmahon Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T09:21:15Z] Source=UserPC(10.228.175.228) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=vjohnson Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:10:10Z] Source=PC-BLACK(192.168.65.1) Event=ProcessStart Process=cmd.exe Domain=phishmail.com User=anthonymontgomery Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T08:59:57Z] Source=PC-ADAM(172.24.147.163) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=loganmatthew Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:22:08Z] Source=PC-BLACK(192.168.73.98) Event=URLAccess Process=powershell.exe Domain=phishmail.com User=xwilson Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:00:57Z] Source=PC-jaad(172.22.138.182) Event=ProcessStart Process=winword.exe Domain=malicious.com User=lesliegonzales Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:28:00Z] Source=PC-jaad(192.168.226.198) Event=Outbound C2 Attempt Process=powershell.exe Domain=suspicious-api.com User=luke95 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:45:30Z] Source=PC-BLACK(10.98.224.137) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=thomasgarcia Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T10:57:04Z] Source=PC-ADAM(10.29.246.114) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=qoliver Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:42:00Z] Source=PC-fati(192.168.191.96) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=zfowler Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:30:18Z] Source=PC-Nina(10.216.73.163) Event=EmailRead Process=cmd.exe Domain=um6p-login-verification.com User=yolandaknight Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:07:00Z] Source=PC-BLACK(192.168.91.71) Event=DataExfiltration Process=explorer.exe Domain=phishmail.com User=michaelwilliams Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:38:24Z] Source=PC-Nina(192.168.186.106) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=griffinjohn Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:29:52Z] Source=PC-Nina(172.24.105.105) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=ucoleman Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:22:48Z] Source=UserPC(10.232.167.69) Event=User Deactivated Process=explorer.exe Domain=suspicious-api.com User=amandacampbell Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T11:00:48Z] Source=PC-Nina(172.17.240.181) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=starkroger Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:24:00Z] Source=PC-jaad(192.168.72.250) Event=EmailRead Process=winword.exe Domain=malicious.com User=jill78 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:30:17Z] Source=UserPC(10.231.200.241) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=michellesmith Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:25:30Z] Source=Pc-Admin(10.165.0.177) Event=LDAPBind Process=powershell.exe Domain=phishmail.com User=brian94 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T09:37:11Z] Source=PC-jaad(192.168.228.25) Event=LDAPBind Process=powershell.exe Domain=suspicious-api.com User=lyonskayla Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:46:16Z] Source=UserPC(172.26.68.72) Event=User Deactivated Process=winword.exe Domain=suspicious-api.com User=rebeccastevens Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:58:15Z] Source=PC-ADAM(10.177.38.31) Event=EmailRead Process=cmd.exe Domain=um6p-login-verification.com User=zrosales Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:26:30Z] Source=PC-Nina(10.10.142.58) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=drobertson Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:10:51Z] Source=PC-fati(10.245.209.223) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=xburns Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:25:00Z] Source=PC-ADAM(172.24.73.100) Event=URLAccess Process=powershell.exe Domain=malicious.com User=susansmith Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T10:54:30Z] Source=PC-jaad(192.168.137.2) Event=FileCreated Process=winword.exe Domain=um6p-login-verification.com User=jennifersutton Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:27:30Z] Source=PC-ADAM(10.125.208.71) Event=User Deactivated Process=powershell.exe Domain=um6p-login-verification.com User=michaelvincent Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:08:42Z] Source=UserPC(192.168.231.79) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=lsmith Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:25:20Z] Source=PC-fati(10.237.211.245) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=ibrown Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T09:28:15Z] Source=Pc-Admin(172.31.129.93) Event=Outbound C2 Attempt Process=cmd.exe Domain=um6p-login-verification.com User=usullivan Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:08:48Z] Source=Pc-Admin(10.197.109.133) Event=ProcessStart Process=powershell.exe Domain=suspicious-api.com User=gordon14 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:15:15Z] Source=PC-Nina(192.168.48.130) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=swansonbenjamin Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:52:44Z] Source=Pc-Admin(172.17.226.171) Event=PrivEsc Process=powershell.exe Domain=suspicious-api.com User=laura01 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:58:00Z] Source=PC-fati(172.22.38.146) Event=DataExfiltration Process=powershell.exe Domain=malicious.com User=michael72 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:23:32Z] Source=PC-fati(10.173.25.111) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=smithashley Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:23:36Z] Source=PC-BLACK(172.28.7.137) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=fnielsen Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:00:00Z] Source=PC-jaad(192.168.16.219) Event=User Deactivated Process=powershell.exe Domain=phishmail.com User=bradyalyssa Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:30:35Z] Source=Pc-Admin(172.28.158.13) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=elizabeth51 Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:48:56Z] Source=PC-ADAM(10.56.181.229) Event=EmailRead Process=winword.exe Domain=malicious.com User=ebyrd Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:25:12Z] Source=UserPC(192.168.170.195) Event=SessionHijack Process=powershell.exe Domain=phishmail.com User=leahbautista Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:20:12Z] Source=PC-fati(172.17.111.137) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=evansmatthew Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:55:35Z] Source=PC-jaad(10.77.241.240) Event=FileCreated Process=powershell.exe Domain=phishmail.com User=steven57 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:27:24Z] Source=PC-Nina(192.168.79.154) Event=User Deactivated Process=powershell.exe Domain=um6p-login-verification.com User=lauradillon Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:40:12Z] Source=UserPC(10.251.138.33) Event=ScriptExecution Process=powershell.exe Domain=phishmail.com User=ghunter Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:22:24Z] Source=UserPC(192.168.118.82) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=gonzalezkayla Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:09:09Z] Source=PC-BLACK(10.169.128.137) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=mccartydavid Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:06:40Z] Source=PC-BLACK(172.18.59.99) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=xlewis Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:01:50Z] Source=PC-fati(192.168.242.91) Event=FileCreated Process=cmd.exe Domain=suspicious-api.com User=robert19 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:49:24Z] Source=PC-fati(192.168.230.61) Event=DataExfiltration Process=cmd.exe Domain=phishmail.com User=shortchristopher Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:39:28Z] Source=PC-ADAM(192.168.222.55) Event=BrowserAccess Process=winword.exe Domain=malicious.com User=perrygraves Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:25:42Z] Source=UserPC(172.25.185.31) Event=EmailRead Process=explorer.exe Domain=malicious.com User=kristenjohnson Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:08:45Z] Source=PC-jaad(10.47.105.208) Event=LDAPBind Process=cmd.exe Domain=phishmail.com User=robinsondaniel Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:17:52Z] Source=Pc-Admin(10.194.186.254) Event=BrowserAccess Process=winword.exe Domain=malicious.com User=michele74 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:21:04Z] Source=PC-jaad(192.168.128.212) Event=ProcessStart Process=cmd.exe Domain=suspicious-api.com User=uortega Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:21:54Z] Source=PC-Nina(10.157.25.67) Event=Outbound C2 Attempt Process=cmd.exe Domain=um6p-login-verification.com User=austin53 Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:41:05Z] Source=PC-jaad(10.211.220.217) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=harrisdaniel Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T10:57:20Z] Source=PC-jaad(192.168.113.113) Event=PrivEsc Process=cmd.exe Domain=malicious.com User=prattbeth Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:13:21Z] Source=PC-fati(10.113.37.108) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=ulee Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T09:22:46Z] Source=UserPC(192.168.62.87) Event=Outbound C2 Attempt Process=winword.exe Domain=malicious.com User=victorsexton Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:43:25Z] Source=PC-fati(192.168.191.174) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=kchambers Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:09:36Z] Source=PC-ADAM(172.26.123.113) Event=EmailRead Process=cmd.exe Domain=phishmail.com User=mccoyanthony Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:01:55Z] Source=PC-BLACK(10.37.107.127) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=wurita Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:47:16Z] Source=PC-BLACK(10.109.122.101) Event=PrivEsc Process=powershell.exe Domain=suspicious-api.com User=jerrybrown Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:47:42Z] Source=PC-BLACK(172.24.127.139) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=rcox Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:20:28Z] Source=PC-fati(192.168.253.251) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=josephsnyder Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T12:12:51Z] Source=PC-BLACK(172.27.9.187) Event=Outbound C2 Attempt Process=explorer.exe Domain=um6p-login-verification.com User=franciscozhang Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:13:30Z] Source=PC-ADAM(10.71.146.143) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=warrenali Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:50:47Z] Source=PC-ADAM(172.29.221.64) Event=User Deactivated Process=winword.exe Domain=malicious.com User=daniellarsen Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:42:08Z] Source=PC-BLACK(192.168.246.171) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=bparrish Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:15:27Z] Source=PC-Nina(172.17.89.33) Event=FileCreated Process=explorer.exe Domain=phishmail.com User=zperez Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:02:58Z] Source=PC-ADAM(192.168.240.52) Event=Outbound C2 Attempt Process=winword.exe Domain=phishmail.com User=andersonshelby Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:23:20Z] Source=PC-Nina(172.31.61.62) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=hscott Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:18:00Z] Source=PC-fati(10.125.87.131) Event=Outbound C2 Attempt Process=winword.exe Domain=malicious.com User=kathleen63 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:44:58Z] Source=PC-fati(172.20.61.236) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=michaelgray Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:59:06Z] Source=PC-Nina(10.237.218.174) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=jordangerald Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:19:21Z] Source=UserPC(10.255.169.251) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=gmoore Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:20:00Z] Source=PC-Nina(192.168.88.50) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=selenarichardson Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:33:34Z] Source=PC-fati(172.20.247.116) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=piercebrandi Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:33:48Z] Source=Pc-Admin(10.131.20.6) Event=SessionHijack Process=winword.exe Domain=suspicious-api.com User=shaunlopez Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:08:04Z] Source=PC-BLACK(10.142.127.71) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=jennifer14 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:14:04Z] Source=Pc-Admin(172.27.106.116) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=jesse70 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:54:45Z] Source=Pc-Admin(10.115.227.176) Event=BrowserAccess Process=cmd.exe Domain=um6p-login-verification.com User=xmelendez Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:34:44Z] Source=PC-fati(192.168.119.191) Event=DataExfiltration Process=cmd.exe Domain=phishmail.com User=stephaniejones Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:17:46Z] Source=PC-BLACK(10.143.200.129) Event=ScriptExecution Process=powershell.exe Domain=suspicious-api.com User=cassandrafernandez Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:02:24Z] Source=PC-ADAM(10.35.57.44) Event=ScriptExecution Process=powershell.exe Domain=um6p-login-verification.com User=karenfritz Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:50:25Z] Source=PC-ADAM(172.29.184.44) Event=BrowserAccess Process=winword.exe Domain=suspicious-api.com User=ecompton Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:30:20Z] Source=Pc-Admin(10.196.172.87) Event=LDAPBind Process=cmd.exe Domain=malicious.com User=rebeccagomez Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:11:48Z] Source=UserPC(192.168.186.138) Event=PrivEsc Process=winword.exe Domain=suspicious-api.com User=veronicavalenzuela Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:49:52Z] Source=PC-jaad(192.168.203.86) Event=URLAccess Process=powershell.exe Domain=phishmail.com User=hansenrobert Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:40:16Z] Source=PC-BLACK(10.138.152.168) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=klowe Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T12:29:06Z] Source=PC-fati(10.120.195.122) Event=FileCreated Process=powershell.exe Domain=um6p-login-verification.com User=gomezcarrie Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:02:05Z] Source=UserPC(192.168.139.70) Event=LDAPBind Process=winword.exe Domain=phishmail.com User=obriendebra Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:28:00Z] Source=PC-fati(10.73.206.244) Event=PrivEsc Process=winword.exe Domain=suspicious-api.com User=martineznatasha Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:23:24Z] Source=PC-fati(10.105.141.86) Event=ScriptExecution Process=explorer.exe Domain=phishmail.com User=acostachristopher Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:16:38Z] Source=PC-ADAM(10.222.164.228) Event=URLAccess Process=explorer.exe Domain=um6p-login-verification.com User=annjackson Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:09:50Z] Source=UserPC(192.168.50.171) Event=Outbound C2 Attempt Process=powershell.exe Domain=um6p-login-verification.com User=brownsamantha Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:58:00Z] Source=UserPC(10.89.107.44) Event=ScriptExecution Process=cmd.exe Domain=malicious.com User=whiterobert Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:24:12Z] Source=PC-BLACK(172.23.132.244) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=xsnyder Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:31:26Z] Source=Pc-Admin(10.68.115.224) Event=PrivEsc Process=explorer.exe Domain=phishmail.com User=bhawkins Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:27:54Z] Source=PC-ADAM(192.168.226.21) Event=Outbound C2 Attempt Process=winword.exe Domain=um6p-login-verification.com User=moralesduane Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:03:44Z] Source=PC-fati(10.167.40.164) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=james37 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:57:05Z] Source=PC-BLACK(192.168.92.161) Event=ScriptExecution Process=powershell.exe Domain=suspicious-api.com User=janetmorris Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:08:30Z] Source=PC-Nina(172.20.39.185) Event=ScriptExecution Process=powershell.exe Domain=suspicious-api.com User=gbrooks Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:18:17Z] Source=PC-BLACK(172.21.174.244) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=amy84 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:08:24Z] Source=PC-ADAM(172.23.150.203) Event=URLAccess Process=explorer.exe Domain=malicious.com User=evanhill Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:58:45Z] Source=Pc-Admin(10.72.217.32) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=kathy63 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:01:50Z] Source=PC-BLACK(192.168.239.160) Event=FileCreated Process=winword.exe Domain=malicious.com User=gcollier Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:25:47Z] Source=PC-jaad(192.168.2.21) Event=SessionHijack Process=explorer.exe Domain=um6p-login-verification.com User=hurstjessica Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:57:36Z] Source=PC-BLACK(172.26.97.227) Event=SessionHijack Process=explorer.exe Domain=phishmail.com User=bmcdaniel Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T11:14:51Z] Source=UserPC(172.16.28.212) Event=User Deactivated Process=cmd.exe Domain=malicious.com User=smithjames Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:17:26Z] Source=PC-Nina(10.228.88.227) Event=DataExfiltration Process=winword.exe Domain=malicious.com User=melissabenson Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:44:45Z] Source=UserPC(10.15.15.236) Event=FileCreated Process=winword.exe Domain=malicious.com User=bakerrandy Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:38:00Z] Source=PC-Nina(192.168.34.24) Event=SessionHijack Process=powershell.exe Domain=suspicious-api.com User=kristin42 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T11:23:56Z] Source=Pc-Admin(172.31.252.163) Event=User Deactivated Process=cmd.exe Domain=malicious.com User=eadams Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:24:24Z] Source=PC-Nina(192.168.79.26) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=alvinmaynard Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:02:55Z] Source=UserPC(10.177.50.22) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=perry06 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:32:40Z] Source=PC-Nina(172.23.70.166) Event=FileCreated Process=powershell.exe Domain=um6p-login-verification.com User=hgibson Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:13:30Z] Source=PC-BLACK(192.168.102.37) Event=BrowserAccess Process=winword.exe Domain=malicious.com User=timothythomas Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:32:34Z] Source=UserPC(192.168.84.26) Event=User Deactivated Process=winword.exe Domain=phishmail.com User=alexis83 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:20:17Z] Source=PC-fati(192.168.186.191) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=amanda47 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:49:24Z] Source=PC-Nina(192.168.191.248) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=zmcknight Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:34:25Z] Source=UserPC(192.168.14.78) Event=FileCreated Process=cmd.exe Domain=malicious.com User=cynthiasmith Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:21:46Z] Source=PC-ADAM(10.156.162.29) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=michael83 Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:51:21Z] Source=PC-Nina(172.19.143.51) Event=BrowserAccess Process=explorer.exe Domain=phishmail.com User=patriciawells Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:06:40Z] Source=PC-Nina(172.24.184.42) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=victoria01 Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:14:34Z] Source=PC-fati(172.26.55.226) Event=LDAPBind Process=cmd.exe Domain=phishmail.com User=lisabright Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:37:30Z] Source=UserPC(10.210.88.204) Event=PrivEsc Process=cmd.exe Domain=suspicious-api.com User=ahayes Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:00:32Z] Source=PC-Nina(192.168.42.112) Event=FileCreated Process=explorer.exe Domain=suspicious-api.com User=wilsondouglas Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:38:28Z] Source=PC-BLACK(10.8.144.81) Event=URLAccess Process=winword.exe Domain=phishmail.com User=mark21 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:01:12Z] Source=PC-jaad(172.20.56.100) Event=LDAPBind Process=cmd.exe Domain=phishmail.com User=michael62 Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T10:16:12Z] Source=PC-fati(10.192.136.146) Event=User Deactivated Process=cmd.exe Domain=suspicious-api.com User=richardrobinson Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:17:50Z] Source=PC-fati(192.168.169.78) Event=ProcessStart Process=cmd.exe Domain=phishmail.com User=shanecrawford Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:09:12Z] Source=PC-BLACK(10.178.191.201) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=tmoore Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:23:47Z] Source=PC-jaad(172.30.6.40) Event=ScriptExecution Process=powershell.exe Domain=um6p-login-verification.com User=daviddelgado Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:47:56Z] Source=PC-ADAM(10.69.131.218) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=floresrobert Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:06:00Z] Source=PC-fati(172.20.29.135) Event=URLAccess Process=powershell.exe Domain=phishmail.com User=yodonnell Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:39:40Z] Source=UserPC(10.125.115.50) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=robinsonrobert Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:28:55Z] Source=UserPC(172.19.163.88) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=kwade Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:03:12Z] Source=PC-ADAM(172.24.165.98) Event=LDAPBind Process=cmd.exe Domain=malicious.com User=wrightjessica Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:03:28Z] Source=PC-ADAM(192.168.48.187) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=zwilkerson Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:44:16Z] Source=UserPC(10.123.125.150) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=fergusonthomas Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:25:15Z] Source=Pc-Admin(192.168.172.101) Event=ScriptExecution Process=cmd.exe Domain=suspicious-api.com User=tlee Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:17:40Z] Source=UserPC(172.27.192.200) Event=Outbound C2 Attempt Process=cmd.exe Domain=suspicious-api.com User=mark53 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:14:35Z] Source=UserPC(172.31.199.172) Event=ProcessStart Process=explorer.exe Domain=suspicious-api.com User=yellis Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:12:00Z] Source=PC-Nina(192.168.83.255) Event=ScriptExecution Process=cmd.exe Domain=malicious.com User=emoreno Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:38:52Z] Source=UserPC(10.128.68.32) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=jennifer72 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:21:00Z] Source=PC-ADAM(192.168.72.93) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=iromero Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:18:30Z] Source=Pc-Admin(172.27.4.146) Event=SessionHijack Process=cmd.exe Domain=malicious.com User=jonathan20 Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T12:58:56Z] Source=PC-BLACK(10.207.211.177) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=hubbardadriana Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:04:23Z] Source=PC-ADAM(10.56.65.132) Event=LDAPBind Process=cmd.exe Domain=phishmail.com User=janesmith Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:52:18Z] Source=PC-Nina(10.188.102.19) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=christinehahn Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:29:10Z] Source=PC-BLACK(192.168.54.63) Event=URLAccess Process=winword.exe Domain=phishmail.com User=ashleyjarvis Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:14:52Z] Source=PC-ADAM(10.58.93.135) Event=BrowserAccess Process=cmd.exe Domain=phishmail.com User=carol58 Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:38:15Z] Source=UserPC(192.168.139.149) Event=PrivEsc Process=winword.exe Domain=um6p-login-verification.com User=laura64 Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:38:50Z] Source=PC-ADAM(10.31.132.251) Event=FileCreated Process=powershell.exe Domain=malicious.com User=jennifer07 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:11:36Z] Source=PC-jaad(192.168.122.140) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=kshepard Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:16:00Z] Source=PC-BLACK(10.139.145.62) Event=SessionHijack Process=powershell.exe Domain=phishmail.com User=hoganelaine Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:20:25Z] Source=PC-fati(192.168.116.15) Event=EmailRead Process=powershell.exe Domain=um6p-login-verification.com User=tiffany59 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:04:46Z] Source=PC-ADAM(10.28.128.111) Event=LDAPBind Process=winword.exe Domain=malicious.com User=garciaalex Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:44:39Z] Source=Pc-Admin(172.29.24.28) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=adavis Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T09:20:40Z] Source=UserPC(192.168.193.226) Event=ProcessStart Process=winword.exe Domain=suspicious-api.com User=hillsharon Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T12:02:30Z] Source=PC-BLACK(10.235.47.244) Event=User Deactivated Process=winword.exe Domain=phishmail.com User=loganjeremy Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:37:12Z] Source=PC-ADAM(192.168.219.58) Event=FileCreated Process=powershell.exe Domain=suspicious-api.com User=matthewfowler Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:17:59Z] Source=Pc-Admin(172.21.216.39) Event=ScriptExecution Process=cmd.exe Domain=suspicious-api.com User=mcdonaldkara Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T12:36:32Z] Source=PC-ADAM(172.31.50.182) Event=LDAPBind Process=winword.exe Domain=um6p-login-verification.com User=chenkristy Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T09:45:57Z] Source=Pc-Admin(172.27.55.248) Event=LDAPBind Process=powershell.exe Domain=phishmail.com User=rachel66 Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:24:10Z] Source=PC-Nina(10.121.218.3) Event=ScriptExecution Process=winword.exe Domain=um6p-login-verification.com User=hayskathryn Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:02:45Z] Source=Pc-Admin(172.31.59.48) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=waynemoyer Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:00:24Z] Source=Pc-Admin(192.168.194.229) Event=DataExfiltration Process=explorer.exe Domain=malicious.com User=sarahrivers Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:46:49Z] Source=UserPC(172.16.71.153) Event=Outbound C2 Attempt Process=powershell.exe Domain=malicious.com User=hknight Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:58:46Z] Source=PC-jaad(192.168.168.165) Event=User Deactivated Process=winword.exe Domain=suspicious-api.com User=mkeith Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T12:48:45Z] Source=PC-fati(172.16.215.136) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=gwang Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:22:24Z] Source=PC-fati(172.21.71.105) Event=URLAccess Process=powershell.exe Domain=malicious.com User=brichardson Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:33:21Z] Source=PC-ADAM(172.26.26.181) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=ronniejohnson Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:35:48Z] Source=PC-ADAM(192.168.126.185) Event=FileCreated Process=explorer.exe Domain=um6p-login-verification.com User=andrew98 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T12:42:46Z] Source=PC-ADAM(10.160.95.64) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=ericking Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T13:25:00Z] Source=Pc-Admin(192.168.246.43) Event=EmailRead Process=winword.exe Domain=phishmail.com User=jeremymanning Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:18:51Z] Source=PC-jaad(192.168.136.55) Event=Outbound C2 Attempt Process=cmd.exe Domain=phishmail.com User=renee31 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:44:28Z] Source=UserPC(192.168.252.155) Event=ScriptExecution Process=cmd.exe Domain=phishmail.com User=mitchellmallory Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:32:13Z] Source=PC-ADAM(172.21.230.41) Event=EmailRead Process=powershell.exe Domain=um6p-login-verification.com User=james26 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:22:48Z] Source=PC-BLACK(192.168.214.174) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=kingsamantha Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:13:35Z] Source=UserPC(172.26.81.84) Event=BrowserAccess Process=explorer.exe Domain=malicious.com User=woodsjessica Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:06:30Z] Source=PC-fati(10.75.48.200) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=npierce Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:32:06Z] Source=PC-Nina(192.168.244.71) Event=LDAPBind Process=winword.exe Domain=phishmail.com User=julie04 Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T12:14:00Z] Source=PC-ADAM(172.29.87.120) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=yclark Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:57:32Z] Source=PC-fati(172.22.225.149) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=chorne Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:24:00Z] Source=PC-fati(192.168.199.7) Event=DataExfiltration Process=winword.exe Domain=phishmail.com User=katrina92 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:49:34Z] Source=UserPC(192.168.31.118) Event=DataExfiltration Process=powershell.exe Domain=phishmail.com User=jessearcher Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:42:08Z] Source=PC-Nina(192.168.193.3) Event=FileCreated Process=cmd.exe Domain=malicious.com User=allensydney Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T13:42:00Z] Source=PC-fati(172.22.192.91) Event=ScriptExecution Process=cmd.exe Domain=um6p-login-verification.com User=athompson Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:34:12Z] Source=PC-jaad(172.20.59.54) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=hsmall Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:51:35Z] Source=Pc-Admin(10.205.182.102) Event=ScriptExecution Process=powershell.exe Domain=um6p-login-verification.com User=rileyjames Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:01:00Z] Source=PC-jaad(192.168.157.10) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=grantsimmons Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T13:44:40Z] Source=PC-Nina(172.16.84.176) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=nicholas73 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:01:18Z] Source=Pc-Admin(172.16.48.160) Event=EmailRead Process=cmd.exe Domain=malicious.com User=jacksonkaren Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:28:09Z] Source=PC-BLACK(172.23.83.246) Event=EmailRead Process=powershell.exe Domain=um6p-login-verification.com User=fmcclain Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:11:20Z] Source=UserPC(10.93.61.142) Event=Outbound C2 Attempt Process=explorer.exe Domain=malicious.com User=evelyn66 Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:47:20Z] Source=PC-Nina(10.229.183.38) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=moorecharles Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:55:48Z] Source=PC-Nina(192.168.1.18) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=jennifer29 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:04:04Z] Source=PC-fati(10.25.234.87) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=clarkmichael Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:54:40Z] Source=PC-fati(10.98.129.151) Event=URLAccess Process=explorer.exe Domain=malicious.com User=lclark Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:46:15Z] Source=PC-BLACK(192.168.225.38) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=michellestewart Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:33:08Z] Source=Pc-Admin(192.168.4.179) Event=Outbound C2 Attempt Process=winword.exe Domain=phishmail.com User=yzimmerman Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:02:58Z] Source=PC-fati(10.157.184.154) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=xperez Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:34:24Z] Source=PC-fati(172.20.32.152) Event=FileCreated Process=explorer.exe Domain=um6p-login-verification.com User=hwarner Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T12:42:08Z] Source=PC-fati(172.26.16.70) Event=ProcessStart Process=explorer.exe Domain=phishmail.com User=brookstimothy Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T13:53:20Z] Source=PC-jaad(172.30.126.97) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=nicole12 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:14:42Z] Source=PC-ADAM(192.168.217.96) Event=SessionHijack Process=explorer.exe Domain=um6p-login-verification.com User=smithzachary Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:26:00Z] Source=PC-fati(10.34.52.189) Event=ProcessStart Process=winword.exe Domain=suspicious-api.com User=monica84 Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T09:37:43Z] Source=PC-fati(10.158.187.142) Event=PrivEsc Process=explorer.exe Domain=malicious.com User=anthonyortega Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T13:11:30Z] Source=PC-fati(10.84.230.141) Event=BrowserAccess Process=cmd.exe Domain=um6p-login-verification.com User=gregory92 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:51:50Z] Source=PC-BLACK(192.168.214.191) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=hfoley Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:40:48Z] Source=PC-ADAM(172.26.117.15) Event=LDAPBind Process=winword.exe Domain=suspicious-api.com User=simmonsrachel Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T13:13:15Z] Source=PC-ADAM(172.24.245.115) Event=ProcessStart Process=cmd.exe Domain=malicious.com User=hernandezgabrielle Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:53:08Z] Source=PC-Nina(10.168.35.254) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=klopez Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:14:45Z] Source=PC-jaad(192.168.170.133) Event=LDAPBind Process=powershell.exe Domain=malicious.com User=singletonkimberly Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T09:48:00Z] Source=PC-BLACK(192.168.39.193) Event=BrowserAccess Process=powershell.exe Domain=malicious.com User=michelewebb Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T14:00:40Z] Source=PC-Nina(172.20.42.224) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=emily45 Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:25:12Z] Source=UserPC(172.30.36.141) Event=Outbound C2 Attempt Process=explorer.exe Domain=um6p-login-verification.com User=joanna20 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T13:07:42Z] Source=PC-BLACK(192.168.192.68) Event=EmailRead Process=winword.exe Domain=phishmail.com User=owenshannah Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T10:52:16Z] Source=PC-ADAM(10.106.117.56) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=davisandrew Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:28:55Z] Source=Pc-Admin(10.5.19.18) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=tapiachristopher Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T13:27:36Z] Source=Pc-Admin(172.19.92.141) Event=User Deactivated Process=explorer.exe Domain=phishmail.com User=nkirby Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T12:51:44Z] Source=PC-ADAM(172.25.181.199) Event=Outbound C2 Attempt Process=winword.exe Domain=um6p-login-verification.com User=davidbarnes Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:40:28Z] Source=Pc-Admin(172.28.74.17) Event=EmailRead Process=winword.exe Domain=malicious.com User=floydblake Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:12:09Z] Source=Pc-Admin(172.18.226.19) Event=BrowserAccess Process=winword.exe Domain=malicious.com User=patricia54 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:25:50Z] Source=PC-ADAM(192.168.174.65) Event=User Deactivated Process=explorer.exe Domain=suspicious-api.com User=cwagner Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:35:30Z] Source=PC-BLACK(172.25.242.204) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=keithzavala Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:27:12Z] Source=PC-ADAM(192.168.170.220) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=benjamin09 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T13:04:09Z] Source=PC-fati(10.137.200.142) Event=SessionHijack Process=cmd.exe Domain=phishmail.com User=matthewodonnell Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:23:08Z] Source=PC-BLACK(10.231.223.168) Event=DataExfiltration Process=powershell.exe Domain=phishmail.com User=woodjackie Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:09:30Z] Source=PC-BLACK(10.243.12.35) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=katherinejimenez Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:09:44Z] Source=PC-fati(192.168.35.93) Event=DataExfiltration Process=powershell.exe Domain=malicious.com User=foleyjulie Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:33:31Z] Source=PC-Nina(192.168.224.133) Event=URLAccess Process=cmd.exe Domain=malicious.com User=petersonerika Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:02:42Z] Source=UserPC(172.29.234.206) Event=ProcessStart Process=explorer.exe Domain=suspicious-api.com User=hinesjustin Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:01:07Z] Source=PC-BLACK(172.21.237.103) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=watsonshelly Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:29:20Z] Source=Pc-Admin(192.168.109.117) Event=User Deactivated Process=powershell.exe Domain=phishmail.com User=shelbysheppard Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:53:45Z] Source=PC-BLACK(192.168.83.144) Event=User Deactivated Process=explorer.exe Domain=phishmail.com User=kyates Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T13:55:56Z] Source=PC-Nina(10.53.202.112) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=wdavis Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T14:05:57Z] Source=Pc-Admin(172.18.38.102) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=david35 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:11:36Z] Source=PC-jaad(10.63.81.28) Event=BrowserAccess Process=powershell.exe Domain=suspicious-api.com User=joseph12 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:57:50Z] Source=PC-fati(10.46.136.129) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=angelalewis Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:55:50Z] Source=PC-fati(172.20.177.89) Event=ProcessStart Process=powershell.exe Domain=malicious.com User=bjordan Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:24:36Z] Source=PC-BLACK(10.116.17.24) Event=LDAPBind Process=winword.exe Domain=suspicious-api.com User=debrabutler Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:59:52Z] Source=PC-ADAM(192.168.69.114) Event=EmailRead Process=winword.exe Domain=phishmail.com User=ericwilliams Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:19:20Z] Source=Pc-Admin(10.5.221.128) Event=DataExfiltration Process=winword.exe Domain=phishmail.com User=mharris Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:54:30Z] Source=Pc-Admin(10.240.183.80) Event=User Deactivated Process=winword.exe Domain=um6p-login-verification.com User=gmoreno Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T09:54:12Z] Source=PC-Nina(192.168.98.127) Event=Outbound C2 Attempt Process=explorer.exe Domain=phishmail.com User=barbara60 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:26:56Z] Source=PC-fati(172.26.220.31) Event=EmailRead Process=winword.exe Domain=um6p-login-verification.com User=ubrown Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:39:39Z] Source=Pc-Admin(10.153.153.192) Event=ProcessStart Process=winword.exe Domain=phishmail.com User=ywillis Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:59:10Z] Source=Pc-Admin(192.168.53.55) Event=User Deactivated Process=winword.exe Domain=malicious.com User=xgregory Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:45:00Z] Source=UserPC(10.250.211.57) Event=FileCreated Process=cmd.exe Domain=phishmail.com User=bsolis Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T13:07:12Z] Source=PC-jaad(172.20.204.83) Event=DataExfiltration Process=winword.exe Domain=malicious.com User=luisjohnson Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:05:26Z] Source=PC-ADAM(172.22.20.106) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=ricky90 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:45:58Z] Source=PC-ADAM(10.126.208.143) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=montgomerygina Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:22:39Z] Source=PC-jaad(172.30.132.68) Event=ScriptExecution Process=winword.exe Domain=suspicious-api.com User=smithvictor Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:15:20Z] Source=PC-ADAM(192.168.192.122) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=carlamiller Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T13:00:11Z] Source=PC-Nina(192.168.23.143) Event=LDAPBind Process=cmd.exe Domain=malicious.com User=jacquelinelewis Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T13:00:42Z] Source=Pc-Admin(10.93.105.254) Event=ProcessStart Process=powershell.exe Domain=malicious.com User=fpatton Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T12:51:30Z] Source=PC-jaad(192.168.32.49) Event=LDAPBind Process=winword.exe Domain=um6p-login-verification.com User=ahale Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T09:56:48Z] Source=PC-Nina(192.168.238.165) Event=BrowserAccess Process=cmd.exe Domain=um6p-login-verification.com User=jo62 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:34:30Z] Source=PC-ADAM(172.16.174.35) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=cherryjoshua Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T14:20:54Z] Source=Pc-Admin(192.168.133.144) Event=PrivEsc Process=explorer.exe Domain=malicious.com User=avilajames Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:11:46Z] Source=Pc-Admin(192.168.134.145) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=richard69 Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T09:47:48Z] Source=UserPC(10.141.189.135) Event=PrivEsc Process=winword.exe Domain=um6p-login-verification.com User=joseph75 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:26:09Z] Source=PC-Nina(10.219.133.21) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=munozcynthia Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:57:00Z] Source=UserPC(192.168.140.59) Event=URLAccess Process=powershell.exe Domain=malicious.com User=patricklong Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:46:33Z] Source=PC-fati(172.28.215.154) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=vasquezgregory Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T13:35:28Z] Source=PC-ADAM(10.255.14.226) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=mitchelljason Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:58:36Z] Source=PC-fati(10.128.230.143) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=jacobwhite Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T09:58:48Z] Source=PC-jaad(172.21.109.150) Event=ScriptExecution Process=cmd.exe Domain=um6p-login-verification.com User=yjohnson Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:36:40Z] Source=PC-ADAM(10.222.133.66) Event=EmailRead Process=winword.exe Domain=um6p-login-verification.com User=staceywall Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:58:48Z] Source=PC-fati(10.20.5.22) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=johnstonbriana Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T14:08:09Z] Source=PC-ADAM(10.201.10.166) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=deborahbell Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:59:00Z] Source=UserPC(192.168.16.198) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=rodney73 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:29:39Z] Source=PC-BLACK(172.30.33.128) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=andrewshelton Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:00:00Z] Source=PC-Nina(10.68.183.9) Event=URLAccess Process=winword.exe Domain=phishmail.com User=zeverett Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:10:31Z] Source=PC-jaad(172.24.224.168) Event=ProcessStart Process=winword.exe Domain=phishmail.com User=andrew09 Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:40:56Z] Source=PC-ADAM(192.168.39.75) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=ystone Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T13:41:42Z] Source=UserPC(192.168.163.39) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=sarahbonilla Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:02:00Z] Source=PC-BLACK(10.96.209.209) Event=ScriptExecution Process=powershell.exe Domain=suspicious-api.com User=ibuckley Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T14:13:05Z] Source=PC-jaad(10.45.160.135) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=xbeck Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T13:23:12Z] Source=UserPC(172.25.13.178) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=sbyrd Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:21:38Z] Source=PC-ADAM(10.125.198.54) Event=Outbound C2 Attempt Process=explorer.exe Domain=um6p-login-verification.com User=alexanderhall Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T13:14:08Z] Source=UserPC(172.17.75.254) Event=LDAPBind Process=powershell.exe Domain=malicious.com User=fross Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:52:33Z] Source=PC-ADAM(192.168.63.72) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=alancunningham Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T13:15:10Z] Source=PC-ADAM(10.28.13.164) Event=PrivEsc Process=explorer.exe Domain=suspicious-api.com User=mirandaherrera Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:12:23Z] Source=PC-Nina(10.34.106.66) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=markpena Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T13:06:00Z] Source=PC-ADAM(10.151.24.149) Event=User Deactivated Process=powershell.exe Domain=phishmail.com User=williamsdan Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:12:49Z] Source=PC-jaad(10.173.126.70) Event=FileCreated Process=powershell.exe Domain=malicious.com User=christinehawkins Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:36:18Z] Source=UserPC(10.45.226.197) Event=BrowserAccess Process=powershell.exe Domain=malicious.com User=jasonrodgers Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T14:29:30Z] Source=UserPC(192.168.185.61) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=andreabennett Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:45:52Z] Source=PC-jaad(172.25.79.42) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=freyjennifer Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T13:39:21Z] Source=Pc-Admin(192.168.30.196) Event=Outbound C2 Attempt Process=cmd.exe Domain=suspicious-api.com User=shaffergregory Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T13:19:18Z] Source=PC-BLACK(10.213.129.102) Event=LDAPBind Process=powershell.exe Domain=suspicious-api.com User=christopher00 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T14:21:43Z] Source=PC-jaad(10.36.198.119) Event=SessionHijack Process=explorer.exe Domain=malicious.com User=nicholasmadden Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T12:49:20Z] Source=PC-fati(10.72.112.160) Event=ScriptExecution Process=cmd.exe Domain=suspicious-api.com User=khardin Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:47:42Z] Source=PC-jaad(192.168.144.234) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=martinkelley Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:00:38Z] Source=PC-ADAM(192.168.12.88) Event=FileCreated Process=powershell.exe Domain=phishmail.com User=adamvasquez Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:13:48Z] Source=PC-BLACK(192.168.92.251) Event=LDAPBind Process=cmd.exe Domain=malicious.com User=alankennedy Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:15:12Z] Source=PC-Nina(172.18.232.165) Event=ProcessStart Process=winword.exe Domain=malicious.com User=shannonmeyer Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:10:00Z] Source=PC-ADAM(192.168.94.212) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=pwilliams Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T09:44:20Z] Source=PC-ADAM(172.27.81.73) Event=ScriptExecution Process=winword.exe Domain=um6p-login-verification.com User=emily65 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:00:21Z] Source=PC-jaad(10.19.132.210) Event=FileCreated Process=winword.exe Domain=um6p-login-verification.com User=evanstracy Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:16:04Z] Source=UserPC(172.27.217.178) Event=URLAccess Process=cmd.exe Domain=malicious.com User=ryancourtney Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:59:20Z] Source=PC-jaad(10.52.71.186) Event=BrowserAccess Process=powershell.exe Domain=phishmail.com User=qhamilton Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:19:30Z] Source=PC-fati(172.29.81.102) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=patrickdestiny Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T14:39:38Z] Source=PC-jaad(192.168.169.55) Event=ProcessStart Process=powershell.exe Domain=malicious.com User=sotoamanda Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:30:40Z] Source=PC-Nina(10.191.80.37) Event=User Deactivated Process=explorer.exe Domain=um6p-login-verification.com User=jgutierrez Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T09:45:30Z] Source=PC-BLACK(172.27.60.69) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=qmiller Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:31:20Z] Source=UserPC(172.21.60.57) Event=URLAccess Process=powershell.exe Domain=malicious.com User=wilkinskelsey Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T14:21:00Z] Source=PC-jaad(10.67.26.76) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=cglass Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:46:00Z] Source=Pc-Admin(10.46.9.52) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=bauerteresa Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:32:49Z] Source=Pc-Admin(192.168.79.49) Event=Outbound C2 Attempt Process=explorer.exe Domain=phishmail.com User=anna88 Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:53:56Z] Source=PC-BLACK(192.168.249.57) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=bettywise Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T11:11:42Z] Source=PC-ADAM(172.30.36.116) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=glennjones Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T15:06:40Z] Source=PC-Nina(172.25.23.56) Event=ScriptExecution Process=powershell.exe Domain=suspicious-api.com User=tstokes Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:16:24Z] Source=PC-jaad(172.29.20.112) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=billy22 Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T11:44:42Z] Source=PC-ADAM(172.17.245.113) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=browngarrett Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:17:12Z] Source=PC-BLACK(10.178.174.132) Event=BrowserAccess Process=powershell.exe Domain=malicious.com User=reyesryan Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:30:16Z] Source=PC-jaad(10.138.86.82) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=mcortez Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:35:00Z] Source=PC-ADAM(172.25.45.70) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=vwade Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:41:30Z] Source=PC-Nina(192.168.218.113) Event=URLAccess Process=explorer.exe Domain=malicious.com User=moorericardo Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T09:47:50Z] Source=Pc-Admin(172.31.141.157) Event=FileCreated Process=explorer.exe Domain=suspicious-api.com User=michael14 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T12:51:36Z] Source=Pc-Admin(10.229.12.126) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=davidwells Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:36:20Z] Source=UserPC(10.254.133.208) Event=FileCreated Process=winword.exe Domain=phishmail.com User=jacobtodd Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:41:40Z] Source=UserPC(192.168.240.178) Event=FileCreated Process=winword.exe Domain=um6p-login-verification.com User=alexiscurtis Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:52:18Z] Source=PC-ADAM(10.195.77.195) Event=URLAccess Process=explorer.exe Domain=um6p-login-verification.com User=amandadeleon Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:31:40Z] Source=PC-Nina(10.154.113.0) Event=URLAccess Process=winword.exe Domain=malicious.com User=scottjennifer Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:37:23Z] Source=UserPC(10.54.86.244) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=nancy58 Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T14:21:30Z] Source=UserPC(172.26.93.21) Event=ScriptExecution Process=winword.exe Domain=malicious.com User=tina97 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:21:55Z] Source=PC-BLACK(172.19.106.228) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=mbennett Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:33:36Z] Source=UserPC(10.104.50.226) Event=URLAccess Process=cmd.exe Domain=malicious.com User=jonesjoshua Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T11:49:57Z] Source=UserPC(172.28.195.16) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=brianortiz Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T11:28:22Z] Source=PC-jaad(10.12.128.19) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=marcus69 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:19:20Z] Source=PC-fati(10.94.91.241) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=mariachapman Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T14:03:00Z] Source=PC-fati(192.168.152.54) Event=ScriptExecution Process=explorer.exe Domain=um6p-login-verification.com User=carolheath Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:34:14Z] Source=PC-Nina(192.168.94.95) Event=BrowserAccess Process=winword.exe Domain=suspicious-api.com User=jamesvang Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:51:42Z] Source=UserPC(192.168.62.210) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=richardsonpaul Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:47:18Z] Source=PC-jaad(192.168.204.163) Event=User Deactivated Process=explorer.exe Domain=phishmail.com User=david38 Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:30:16Z] Source=PC-jaad(172.20.3.188) Event=ScriptExecution Process=powershell.exe Domain=um6p-login-verification.com User=brandy67 Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:08:25Z] Source=UserPC(10.153.191.86) Event=BrowserAccess Process=cmd.exe Domain=phishmail.com User=andredean Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T15:01:48Z] Source=PC-ADAM(172.25.47.186) Event=ProcessStart Process=cmd.exe Domain=suspicious-api.com User=hunttiffany Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:13:24Z] Source=Pc-Admin(192.168.143.194) Event=ScriptExecution Process=winword.exe Domain=phishmail.com User=rparker Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T13:45:08Z] Source=PC-jaad(172.21.17.235) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=hayesdavid Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:54:09Z] Source=UserPC(192.168.149.247) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=blackvalerie Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:21:00Z] Source=UserPC(172.20.223.176) Event=SessionHijack Process=powershell.exe Domain=um6p-login-verification.com User=richard79 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T14:53:47Z] Source=PC-ADAM(192.168.197.92) Event=PrivEsc Process=explorer.exe Domain=um6p-login-verification.com User=smithkathleen Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:10:24Z] Source=PC-fati(10.34.13.29) Event=Outbound C2 Attempt Process=powershell.exe Domain=suspicious-api.com User=chasesmith Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T10:25:49Z] Source=PC-fati(172.18.1.61) Event=PrivEsc Process=explorer.exe Domain=suspicious-api.com User=petersonsabrina Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T15:18:06Z] Source=PC-jaad(10.66.104.3) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=christophercastillo Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:56:15Z] Source=PC-BLACK(10.207.69.147) Event=Outbound C2 Attempt Process=powershell.exe Domain=suspicious-api.com User=mcole Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T14:11:48Z] Source=PC-Nina(192.168.204.159) Event=DataExfiltration Process=winword.exe Domain=malicious.com User=jefferychase Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T14:46:12Z] Source=PC-jaad(192.168.78.40) Event=URLAccess Process=cmd.exe Domain=phishmail.com User=samantha54 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T09:53:00Z] Source=PC-jaad(172.18.145.74) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=ashleyvincent Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:38:26Z] Source=PC-Nina(10.176.97.75) Event=ProcessStart Process=explorer.exe Domain=malicious.com User=hornejames Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:32:00Z] Source=PC-Nina(192.168.40.173) Event=PrivEsc Process=winword.exe Domain=phishmail.com User=heidi20 Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T11:12:57Z] Source=PC-ADAM(172.22.210.255) Event=FileCreated Process=powershell.exe Domain=phishmail.com User=tsanchez Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T15:11:56Z] Source=Pc-Admin(10.132.232.33) Event=EmailRead Process=winword.exe Domain=phishmail.com User=shirley18 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T15:12:34Z] Source=PC-jaad(172.19.226.30) Event=ProcessStart Process=cmd.exe Domain=phishmail.com User=yrobinson Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:16:48Z] Source=PC-jaad(172.27.191.32) Event=URLAccess Process=winword.exe Domain=phishmail.com User=thomas71 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T13:19:40Z] Source=PC-ADAM(172.24.28.27) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=randalltodd Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:25:48Z] Source=PC-jaad(10.181.130.253) Event=ProcessStart Process=cmd.exe Domain=um6p-login-verification.com User=tmcconnell Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:37:33Z] Source=PC-BLACK(10.183.96.6) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=levirodriguez Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T15:27:12Z] Source=PC-fati(172.30.120.16) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=feliciaboyd Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T14:18:57Z] Source=PC-jaad(192.168.59.169) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=traviswilliams Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:42:30Z] Source=UserPC(172.23.181.181) Event=Outbound C2 Attempt Process=powershell.exe Domain=malicious.com User=corey69 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T10:18:12Z] Source=PC-jaad(10.196.15.112) Event=URLAccess Process=winword.exe Domain=malicious.com User=andreajohnson Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T12:25:16Z] Source=UserPC(10.25.183.74) Event=Outbound C2 Attempt Process=winword.exe Domain=um6p-login-verification.com User=stricklandmelanie Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:34:57Z] Source=PC-Nina(10.176.6.93) Event=User Deactivated Process=winword.exe Domain=phishmail.com User=james99 Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:07:14Z] Source=PC-fati(10.44.236.220) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=timothy68 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:59:05Z] Source=PC-fati(192.168.217.201) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=tylermyers Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T14:46:00Z] Source=PC-Nina(172.19.108.195) Event=ScriptExecution Process=winword.exe Domain=um6p-login-verification.com User=fallen Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:03:57Z] Source=PC-Nina(172.23.42.28) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=nelsonzoe Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T15:45:20Z] Source=PC-jaad(172.25.74.23) Event=PrivEsc Process=explorer.exe Domain=phishmail.com User=hendersonmichael Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T09:56:30Z] Source=Pc-Admin(10.3.139.98) Event=Outbound C2 Attempt Process=cmd.exe Domain=phishmail.com User=washingtonkathleen Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T14:01:40Z] Source=PC-BLACK(172.17.114.21) Event=URLAccess Process=explorer.exe Domain=malicious.com User=hfisher Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:30:18Z] Source=PC-Nina(10.47.244.50) Event=User Deactivated Process=cmd.exe Domain=phishmail.com User=petersrobert Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:43:48Z] Source=PC-ADAM(10.251.141.18) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=linalbert Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T14:14:56Z] Source=PC-BLACK(172.19.4.153) Event=SessionHijack Process=cmd.exe Domain=malicious.com User=richardstrong Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:07:44Z] Source=PC-Nina(172.30.211.141) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=meganedwards Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:31:30Z] Source=UserPC(192.168.204.93) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=robert20 Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:56:30Z] Source=PC-Nina(192.168.231.246) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=burgessjoshua Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T15:15:59Z] Source=Pc-Admin(192.168.160.222) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=wilsonmichael Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T10:45:12Z] Source=PC-BLACK(172.20.135.105) Event=EmailRead Process=explorer.exe Domain=malicious.com User=danielhunter Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T15:17:13Z] Source=Pc-Admin(172.31.218.138) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=michelle41 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T15:06:00Z] Source=PC-jaad(192.168.38.200) Event=FileCreated Process=cmd.exe Domain=phishmail.com User=aallison Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T13:31:48Z] Source=Pc-Admin(172.27.102.23) Event=ProcessStart Process=winword.exe Domain=malicious.com User=oarmstrong Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:33:36Z] Source=Pc-Admin(10.193.173.253) Event=FileCreated Process=cmd.exe Domain=suspicious-api.com User=dmorales Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T14:08:23Z] Source=PC-ADAM(172.31.3.160) Event=LDAPBind Process=explorer.exe Domain=um6p-login-verification.com User=nicholaswilson Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:22:48Z] Source=Pc-Admin(192.168.6.14) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=ibarradaniel Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:22:10Z] Source=PC-Nina(10.47.118.88) Event=ScriptExecution Process=powershell.exe Domain=um6p-login-verification.com User=paula43 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T15:57:20Z] Source=Pc-Admin(10.96.171.30) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=odonnellcatherine Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:47:18Z] Source=Pc-Admin(192.168.52.39) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=mark05 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T13:35:04Z] Source=Pc-Admin(172.27.79.164) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=steven64 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:11:44Z] Source=PC-ADAM(192.168.151.243) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=walshjohn Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:00:00Z] Source=Pc-Admin(172.23.199.56) Event=PrivEsc Process=explorer.exe Domain=phishmail.com User=pattersonronald Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T15:24:37Z] Source=PC-fati(10.16.149.115) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=morganaguirre Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T13:36:56Z] Source=PC-ADAM(10.76.209.198) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=acordova Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T10:12:33Z] Source=PC-BLACK(10.186.18.90) Event=BrowserAccess Process=winword.exe Domain=um6p-login-verification.com User=dlester Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:14:04Z] Source=Pc-Admin(172.22.218.83) Event=LDAPBind Process=explorer.exe Domain=malicious.com User=ujohnston Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:49:35Z] Source=PC-Nina(192.168.38.207) Event=DataExfiltration Process=powershell.exe Domain=suspicious-api.com User=maureennguyen Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:13:36Z] Source=PC-jaad(10.74.49.34) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=joshua51 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:27:09Z] Source=PC-jaad(172.29.211.196) Event=BrowserAccess Process=cmd.exe Domain=um6p-login-verification.com User=kathleen71 Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:50:32Z] Source=UserPC(172.24.193.186) Event=SessionHijack Process=explorer.exe Domain=phishmail.com User=smithchad Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:38:42Z] Source=PC-BLACK(192.168.89.112) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=toneal Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:05:50Z] Source=PC-BLACK(10.14.216.177) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=melinda19 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T15:18:36Z] Source=PC-ADAM(172.24.48.212) Event=DataExfiltration Process=cmd.exe Domain=phishmail.com User=vmarks Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T13:53:48Z] Source=PC-ADAM(192.168.125.244) Event=DataExfiltration Process=winword.exe Domain=um6p-login-verification.com User=teresa53 Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T13:29:51Z] Source=PC-fati(192.168.208.88) Event=SessionHijack Process=cmd.exe Domain=suspicious-api.com User=wenglish Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:54:46Z] Source=PC-BLACK(172.18.197.188) Event=BrowserAccess Process=powershell.exe Domain=phishmail.com User=xbrown Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:29:30Z] Source=PC-Nina(10.198.35.206) Event=SessionHijack Process=powershell.exe Domain=phishmail.com User=parkerrobert Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:08:00Z] Source=PC-ADAM(172.31.191.233) Event=SessionHijack Process=cmd.exe Domain=suspicious-api.com User=hsimpson Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T12:54:48Z] Source=PC-jaad(10.117.29.87) Event=LDAPBind Process=powershell.exe Domain=suspicious-api.com User=rmiller Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T14:45:54Z] Source=PC-fati(10.194.83.202) Event=BrowserAccess Process=cmd.exe Domain=phishmail.com User=gonzalezrodney Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:27:48Z] Source=PC-ADAM(192.168.55.166) Event=SessionHijack Process=explorer.exe Domain=malicious.com User=jdavies Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:57:40Z] Source=UserPC(10.26.230.62) Event=BrowserAccess Process=cmd.exe Domain=um6p-login-verification.com User=wlivingston Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T15:49:18Z] Source=Pc-Admin(172.19.240.182) Event=DataExfiltration Process=explorer.exe Domain=um6p-login-verification.com User=kstewart Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:21:32Z] Source=PC-jaad(172.23.56.81) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=dennistracy Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:34:21Z] Source=PC-jaad(172.31.224.14) Event=URLAccess Process=explorer.exe Domain=suspicious-api.com User=manningvictoria Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:04:00Z] Source=PC-ADAM(192.168.180.79) Event=FileCreated Process=winword.exe Domain=suspicious-api.com User=whitekevin Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T15:14:35Z] Source=PC-Nina(192.168.160.57) Event=ProcessStart Process=powershell.exe Domain=suspicious-api.com User=james19 Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T15:52:28Z] Source=PC-jaad(192.168.223.47) Event=FileCreated Process=powershell.exe Domain=phishmail.com User=kenneth45 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:19:12Z] Source=PC-BLACK(192.168.153.222) Event=ScriptExecution Process=cmd.exe Domain=phishmail.com User=kimberly24 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T14:14:00Z] Source=PC-ADAM(172.18.51.8) Event=ProcessStart Process=winword.exe Domain=phishmail.com User=chavezemily Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:34:38Z] Source=UserPC(10.142.224.171) Event=Outbound C2 Attempt Process=winword.exe Domain=phishmail.com User=jasmine91 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:07:30Z] Source=PC-fati(172.21.184.244) Event=FileCreated Process=explorer.exe Domain=malicious.com User=daniel36 Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T10:55:14Z] Source=PC-ADAM(192.168.192.115) Event=FileCreated Process=powershell.exe Domain=malicious.com User=willie92 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:20:32Z] Source=PC-ADAM(10.227.173.3) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=ugarrett Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:48:39Z] Source=UserPC(192.168.123.53) Event=User Deactivated Process=cmd.exe Domain=phishmail.com User=benjamin13 Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T15:32:24Z] Source=PC-jaad(10.240.101.31) Event=EmailRead Process=powershell.exe Domain=suspicious-api.com User=bcobb Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T15:33:00Z] Source=UserPC(10.150.175.109) Event=User Deactivated Process=cmd.exe Domain=phishmail.com User=jpacheco Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T14:43:12Z] Source=PC-ADAM(10.149.178.132) Event=FileCreated Process=winword.exe Domain=phishmail.com User=amy74 Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T12:24:57Z] Source=PC-fati(10.92.147.204) Event=PrivEsc Process=cmd.exe Domain=phishmail.com User=erin76 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T13:03:12Z] Source=PC-Nina(10.46.202.217) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=vhuffman Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:32:09Z] Source=UserPC(10.217.177.137) Event=URLAccess Process=winword.exe Domain=phishmail.com User=thomascampbell Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:57:20Z] Source=PC-Nina(192.168.234.24) Event=DataExfiltration Process=powershell.exe Domain=phishmail.com User=nguyenmark Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:13:40Z] Source=PC-fati(172.21.123.59) Event=SessionHijack Process=winword.exe Domain=malicious.com User=jacksonerica Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T15:11:48Z] Source=PC-fati(10.162.183.162) Event=ProcessStart Process=explorer.exe Domain=suspicious-api.com User=christopher76 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T13:56:04Z] Source=PC-BLACK(192.168.234.239) Event=Outbound C2 Attempt Process=powershell.exe Domain=malicious.com User=thompsonsusan Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:56:32Z] Source=PC-BLACK(192.168.77.38) Event=BrowserAccess Process=explorer.exe Domain=um6p-login-verification.com User=simsjoseph Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:06:00Z] Source=PC-BLACK(10.188.70.132) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=deanmoody Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T10:45:58Z] Source=UserPC(172.21.22.74) Event=ScriptExecution Process=cmd.exe Domain=malicious.com User=angelabrandt Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:50:06Z] Source=PC-BLACK(10.214.229.170) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=cesarfoster Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:20:00Z] Source=PC-Nina(172.21.62.56) Event=EmailRead Process=cmd.exe Domain=um6p-login-verification.com User=mcphersondaniel Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:50:42Z] Source=PC-Nina(192.168.183.82) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=thompsonjason Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:38:10Z] Source=UserPC(10.117.206.95) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=hfernandez Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:17:00Z] Source=PC-jaad(172.19.51.36) Event=LDAPBind Process=powershell.exe Domain=phishmail.com User=simpsontony Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T13:34:32Z] Source=PC-jaad(192.168.186.9) Event=URLAccess Process=explorer.exe Domain=phishmail.com User=debra58 Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:39:01Z] Source=PC-BLACK(10.134.14.113) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=aguilarpamela Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:47:42Z] Source=PC-Nina(10.196.36.147) Event=PrivEsc Process=explorer.exe Domain=suspicious-api.com User=mckinneymark Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T15:57:55Z] Source=UserPC(192.168.33.152) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=jonathanmoyer Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T16:11:28Z] Source=PC-ADAM(192.168.203.201) Event=URLAccess Process=powershell.exe Domain=um6p-login-verification.com User=ronaldzamora Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T11:53:06Z] Source=UserPC(172.27.75.27) Event=DataExfiltration Process=winword.exe Domain=phishmail.com User=craigbrian Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:06:22Z] Source=PC-BLACK(192.168.132.197) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=hneal Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T11:01:46Z] Source=PC-ADAM(172.16.177.123) Event=User Deactivated Process=winword.exe Domain=um6p-login-verification.com User=john65 Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T16:01:00Z] Source=PC-Nina(192.168.61.53) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=daniel23 Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T14:17:29Z] Source=UserPC(172.24.52.179) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=john25 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T15:49:12Z] Source=UserPC(192.168.79.140) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=trevor26 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T14:18:27Z] Source=PC-BLACK(172.29.223.46) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=brownbrenda Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:26:40Z] Source=PC-fati(192.168.71.160) Event=DataExfiltration Process=winword.exe Domain=phishmail.com User=trobinson Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:45:35Z] Source=PC-jaad(172.29.188.124) Event=Outbound C2 Attempt Process=explorer.exe Domain=um6p-login-verification.com User=andrewholder Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T14:06:48Z] Source=PC-jaad(172.29.128.30) Event=DataExfiltration Process=explorer.exe Domain=um6p-login-verification.com User=parkergregory Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T10:50:31Z] Source=PC-jaad(10.200.88.143) Event=SessionHijack Process=explorer.exe Domain=phishmail.com User=stevenreid Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T12:35:48Z] Source=PC-jaad(172.29.9.106) Event=ScriptExecution Process=powershell.exe Domain=malicious.com User=ubender Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T15:13:57Z] Source=PC-ADAM(192.168.11.243) Event=SessionHijack Process=explorer.exe Domain=suspicious-api.com User=jacksonjasmine Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:11:40Z] Source=PC-Nina(10.224.55.243) Event=DataExfiltration Process=powershell.exe Domain=phishmail.com User=geraldware Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T13:55:57Z] Source=PC-fati(10.196.231.18) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=hgregory Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:57:36Z] Source=PC-jaad(10.50.165.54) Event=PrivEsc Process=explorer.exe Domain=malicious.com User=melissa66 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T15:29:22Z] Source=PC-ADAM(172.18.254.132) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=maureenmiranda Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T14:50:14Z] Source=PC-Nina(172.22.234.185) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=ngomez Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:12:30Z] Source=PC-fati(192.168.194.2) Event=User Deactivated Process=explorer.exe Domain=um6p-login-verification.com User=rosalesdeanna Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T15:31:04Z] Source=PC-BLACK(192.168.172.106) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=patriciapeters Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:05:58Z] Source=PC-jaad(192.168.244.75) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=jodivincent Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:13:00Z] Source=PC-BLACK(10.182.48.95) Event=URLAccess Process=cmd.exe Domain=malicious.com User=thomaslane Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:26:20Z] Source=Pc-Admin(172.21.208.64) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=carlasexton Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:13:20Z] Source=Pc-Admin(10.175.170.152) Event=EmailRead Process=cmd.exe Domain=um6p-login-verification.com User=ywilson Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T10:13:30Z] Source=Pc-Admin(192.168.99.43) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=acox Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T15:07:44Z] Source=Pc-Admin(10.97.168.70) Event=LDAPBind Process=cmd.exe Domain=um6p-login-verification.com User=mcclainmelissa Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T12:54:26Z] Source=PC-ADAM(172.21.254.4) Event=Outbound C2 Attempt Process=powershell.exe Domain=phishmail.com User=hernandezjessica Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:49:00Z] Source=UserPC(172.19.71.175) Event=ProcessStart Process=cmd.exe Domain=phishmail.com User=wilkersonwilliam Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T14:42:30Z] Source=UserPC(10.170.246.162) Event=BrowserAccess Process=explorer.exe Domain=malicious.com User=jsmith Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T14:02:42Z] Source=PC-ADAM(10.164.227.125) Event=User Deactivated Process=powershell.exe Domain=phishmail.com User=sdiaz Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:08:18Z] Source=PC-jaad(10.82.246.191) Event=FileCreated Process=cmd.exe Domain=phishmail.com User=tgonzalez Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T14:03:36Z] Source=PC-fati(10.109.154.17) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=donnapayne Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T16:59:20Z] Source=Pc-Admin(192.168.208.106) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=angelacannon Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T14:58:30Z] Source=PC-jaad(10.221.100.8) Event=PrivEsc Process=cmd.exe Domain=um6p-login-verification.com User=johncruz Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T11:22:45Z] Source=PC-BLACK(10.79.128.39) Event=EmailRead Process=explorer.exe Domain=malicious.com User=jramirez Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T13:51:52Z] Source=Pc-Admin(172.26.202.239) Event=SessionHijack Process=explorer.exe Domain=malicious.com User=chad94 Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T15:00:03Z] Source=PC-BLACK(10.176.2.58) Event=User Deactivated Process=explorer.exe Domain=um6p-login-verification.com User=patricia18 Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T10:29:14Z] Source=PC-fati(192.168.6.72) Event=ProcessStart Process=cmd.exe Domain=um6p-login-verification.com User=jeffrey75 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T17:03:20Z] Source=PC-jaad(10.160.211.134) Event=LDAPBind Process=cmd.exe Domain=um6p-login-verification.com User=msanders Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T13:40:00Z] Source=PC-fati(172.30.166.68) Event=Outbound C2 Attempt Process=explorer.exe Domain=phishmail.com User=tylermontgomery Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T12:32:20Z] Source=UserPC(192.168.232.148) Event=User Deactivated Process=powershell.exe Domain=suspicious-api.com User=yolanda40 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:05:24Z] Source=PC-BLACK(172.25.237.107) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=villanuevakarl Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:35:51Z] Source=Pc-Admin(172.24.239.44) Event=Outbound C2 Attempt Process=winword.exe Domain=um6p-login-verification.com User=adam41 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T16:12:00Z] Source=PC-ADAM(10.172.227.21) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=brogers Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T16:26:17Z] Source=PC-BLACK(10.2.112.11) Event=PrivEsc Process=winword.exe Domain=suspicious-api.com User=jamesdonald Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:51:00Z] Source=PC-Nina(192.168.186.214) Event=FileCreated Process=explorer.exe Domain=malicious.com User=robert81 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T13:56:38Z] Source=PC-fati(10.5.67.218) Event=ScriptExecution Process=cmd.exe Domain=malicious.com User=kathy14 Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T15:19:28Z] Source=PC-fati(172.25.199.223) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=williamgonzalez Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T10:17:30Z] Source=PC-fati(10.187.156.208) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=alexanderchambers Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:26:30Z] Source=PC-jaad(10.64.206.13) Event=EmailRead Process=winword.exe Domain=malicious.com User=xcampbell Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T13:17:01Z] Source=PC-fati(10.252.191.116) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=nathan00 Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T15:07:48Z] Source=PC-Nina(192.168.33.171) Event=EmailRead Process=explorer.exe Domain=um6p-login-verification.com User=richard37 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T10:31:59Z] Source=PC-BLACK(172.19.21.221) Event=ScriptExecution Process=explorer.exe Domain=malicious.com User=mariakeller Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T11:55:10Z] Source=UserPC(10.197.112.210) Event=ProcessStart Process=explorer.exe Domain=phishmail.com User=kristenevans Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T12:37:00Z] Source=PC-Nina(10.181.42.10) Event=DataExfiltration Process=cmd.exe Domain=phishmail.com User=wesleymoses Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:09:36Z] Source=PC-Nina(192.168.69.93) Event=EmailRead Process=powershell.exe Domain=um6p-login-verification.com User=velazquezchelsea Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T13:33:12Z] Source=PC-Nina(10.222.224.11) Event=ProcessStart Process=powershell.exe Domain=phishmail.com User=rosebryan Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:43:06Z] Source=UserPC(172.25.10.193) Event=URLAccess Process=explorer.exe Domain=um6p-login-verification.com User=parkerdalton Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T14:57:30Z] Source=PC-Nina(10.160.163.115) Event=PrivEsc Process=cmd.exe Domain=malicious.com User=ythomas Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T16:35:32Z] Source=UserPC(192.168.217.230) Event=ScriptExecution Process=winword.exe Domain=suspicious-api.com User=brandonallen Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:01:21Z] Source=PC-BLACK(10.51.66.7) Event=BrowserAccess Process=explorer.exe Domain=phishmail.com User=hughesjohn Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T13:49:10Z] Source=PC-ADAM(10.232.205.202) Event=ProcessStart Process=winword.exe Domain=malicious.com User=ljackson Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T15:13:29Z] Source=PC-ADAM(172.28.48.42) Event=SessionHijack Process=powershell.exe Domain=suspicious-api.com User=danny17 Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T15:28:00Z] Source=PC-fati(172.24.243.223) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=rickygonzalez Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:16:14Z] Source=PC-BLACK(192.168.199.107) Event=SessionHijack Process=cmd.exe Domain=um6p-login-verification.com User=gonzalezcarol Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:43:06Z] Source=PC-BLACK(192.168.28.147) Event=LDAPBind Process=powershell.exe Domain=um6p-login-verification.com User=hellis Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T16:11:45Z] Source=PC-fati(192.168.91.169) Event=EmailRead Process=powershell.exe Domain=phishmail.com User=stephaniechavez Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T13:51:40Z] Source=PC-ADAM(172.29.30.73) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=heather78 Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T16:12:55Z] Source=PC-jaad(10.2.19.211) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=kmarshall Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T15:59:24Z] Source=PC-BLACK(172.29.120.172) Event=ScriptExecution Process=powershell.exe Domain=malicious.com User=calvinnash Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T15:31:44Z] Source=PC-fati(172.27.248.97) Event=PrivEsc Process=winword.exe Domain=um6p-login-verification.com User=whitetristan Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:46:08Z] Source=PC-jaad(172.17.118.76) Event=LDAPBind Process=explorer.exe Domain=phishmail.com User=gbolton Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:49:48Z] Source=PC-Nina(10.31.0.203) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=jsanchez Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:50:50Z] Source=UserPC(172.19.34.84) Event=URLAccess Process=cmd.exe Domain=um6p-login-verification.com User=mary55 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T15:33:52Z] Source=PC-fati(172.20.30.202) Event=PrivEsc Process=winword.exe Domain=um6p-login-verification.com User=nstewart Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:01:24Z] Source=PC-fati(10.114.194.195) Event=ProcessStart Process=winword.exe Domain=phishmail.com User=alyssacarroll Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T13:55:25Z] Source=PC-BLACK(192.168.230.185) Event=PrivEsc Process=powershell.exe Domain=suspicious-api.com User=nicole41 Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:47:44Z] Source=PC-fati(172.19.13.182) Event=URLAccess Process=powershell.exe Domain=phishmail.com User=xbrown Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:24:45Z] Source=PC-ADAM(10.227.249.138) Event=ProcessStart Process=winword.exe Domain=malicious.com User=jjohnston Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:42:24Z] Source=UserPC(10.51.236.54) Event=PrivEsc Process=explorer.exe Domain=suspicious-api.com User=lauren12 Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:42:48Z] Source=PC-jaad(10.61.182.123) Event=User Deactivated Process=cmd.exe Domain=malicious.com User=mark45 Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:51:36Z] Source=PC-BLACK(10.72.124.145) Event=URLAccess Process=cmd.exe Domain=suspicious-api.com User=padilladakota Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T10:51:48Z] Source=Pc-Admin(172.24.183.243) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=jacob21 Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:27:00Z] Source=PC-jaad(10.230.245.14) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=julia88 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T17:05:18Z] Source=PC-BLACK(172.31.233.167) Event=SessionHijack Process=winword.exe Domain=malicious.com User=craigdavid Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T10:38:02Z] Source=PC-ADAM(172.23.217.119) Event=BrowserAccess Process=explorer.exe Domain=phishmail.com User=bgonzalez Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T14:13:58Z] Source=PC-fati(192.168.172.255) Event=PrivEsc Process=cmd.exe Domain=um6p-login-verification.com User=evelynharrington Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:16:48Z] Source=PC-ADAM(192.168.234.61) Event=FileCreated Process=powershell.exe Domain=phishmail.com User=patrick33 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T14:29:15Z] Source=PC-Nina(172.23.124.167) Event=ScriptExecution Process=explorer.exe Domain=phishmail.com User=lopeznicholas Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:34:14Z] Source=PC-jaad(172.20.199.215) Event=DataExfiltration Process=explorer.exe Domain=phishmail.com User=luis01 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T17:23:33Z] Source=PC-ADAM(172.23.3.109) Event=FileCreated Process=winword.exe Domain=malicious.com User=charlesross Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T14:59:32Z] Source=PC-Nina(10.243.35.118) Event=FileCreated Process=winword.exe Domain=malicious.com User=hmorgan Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T10:39:19Z] Source=PC-jaad(192.168.136.13) Event=URLAccess Process=explorer.exe Domain=phishmail.com User=yfitzgerald Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:17:00Z] Source=PC-Nina(172.26.241.143) Event=SessionHijack Process=explorer.exe Domain=phishmail.com User=barroneric Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T15:44:32Z] Source=Pc-Admin(10.168.86.218) Event=ScriptExecution Process=powershell.exe Domain=malicious.com User=qrosario Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T14:17:52Z] Source=PC-jaad(172.31.137.116) Event=ProcessStart Process=powershell.exe Domain=um6p-login-verification.com User=qmercado Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T14:03:45Z] Source=UserPC(192.168.3.140) Event=PrivEsc Process=explorer.exe Domain=malicious.com User=millertracey Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:31:34Z] Source=PC-Nina(10.224.100.147) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=jeremyking Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T17:14:10Z] Source=PC-Nina(192.168.66.181) Event=URLAccess Process=cmd.exe Domain=malicious.com User=ocole Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T15:32:36Z] Source=Pc-Admin(10.155.71.116) Event=User Deactivated Process=cmd.exe Domain=um6p-login-verification.com User=jose09 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T12:37:43Z] Source=PC-BLACK(10.211.8.139) Event=DataExfiltration Process=powershell.exe Domain=suspicious-api.com User=sruiz Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T15:33:38Z] Source=PC-fati(192.168.94.161) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=melissa17 Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:09:03Z] Source=PC-BLACK(10.88.90.232) Event=EmailRead Process=cmd.exe Domain=suspicious-api.com User=davisjessica Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:36:00Z] Source=PC-fati(172.27.25.218) Event=PrivEsc Process=powershell.exe Domain=um6p-login-verification.com User=karendawson Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:24:18Z] Source=PC-BLACK(10.6.56.235) Event=SessionHijack Process=winword.exe Domain=suspicious-api.com User=floreskevin Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T14:07:30Z] Source=PC-ADAM(192.168.188.98) Event=URLAccess Process=explorer.exe Domain=phishmail.com User=irwinmegan Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:26:02Z] Source=Pc-Admin(172.29.231.20) Event=DataExfiltration Process=cmd.exe Domain=um6p-login-verification.com User=adam51 Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T10:56:48Z] Source=PC-Nina(172.28.39.191) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=russell77 Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:24:30Z] Source=PC-fati(172.19.145.241) Event=URLAccess Process=explorer.exe Domain=um6p-login-verification.com User=thomasarellano Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T14:38:42Z] Source=PC-ADAM(172.25.226.234) Event=ScriptExecution Process=winword.exe Domain=um6p-login-verification.com User=rodriguezemily Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:24:22Z] Source=Pc-Admin(10.187.254.184) Event=DataExfiltration Process=powershell.exe Domain=suspicious-api.com User=sharon95 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:11:36Z] Source=Pc-Admin(10.168.142.165) Event=DataExfiltration Process=winword.exe Domain=phishmail.com User=williamsonbradley Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T17:23:02Z] Source=PC-fati(192.168.219.97) Event=ScriptExecution Process=powershell.exe Domain=um6p-login-verification.com User=amberwatson Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T11:12:50Z] Source=PC-fati(172.19.243.129) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=ianhunter Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T14:26:06Z] Source=UserPC(172.19.42.100) Event=ScriptExecution Process=cmd.exe Domain=malicious.com User=caseywebb Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T15:55:44Z] Source=PC-jaad(172.18.117.231) Event=LDAPBind Process=cmd.exe Domain=phishmail.com User=ramosdeborah Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T16:40:55Z] Source=PC-BLACK(192.168.221.99) Event=LDAPBind Process=powershell.exe Domain=phishmail.com User=chase58 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:13:42Z] Source=UserPC(10.82.10.15) Event=User Deactivated Process=cmd.exe Domain=suspicious-api.com User=pstanley Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T17:11:55Z] Source=PC-ADAM(192.168.12.24) Event=URLAccess Process=explorer.exe Domain=phishmail.com User=matthewturner Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:28:48Z] Source=PC-fati(10.182.138.44) Event=ScriptExecution Process=winword.exe Domain=suspicious-api.com User=janetclayton Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:28:30Z] Source=PC-jaad(10.126.59.58) Event=BrowserAccess Process=powershell.exe Domain=um6p-login-verification.com User=vramirez Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T12:14:26Z] Source=PC-Nina(10.104.71.177) Event=DataExfiltration Process=winword.exe Domain=suspicious-api.com User=markdiaz Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T14:29:34Z] Source=PC-jaad(192.168.80.127) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=derrick67 Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:00:00Z] Source=PC-BLACK(172.26.44.4) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=joannewilson Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T15:00:28Z] Source=Pc-Admin(172.30.223.179) Event=PrivEsc Process=explorer.exe Domain=suspicious-api.com User=steven86 Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T14:00:48Z] Source=UserPC(10.230.123.222) Event=SessionHijack Process=powershell.exe Domain=suspicious-api.com User=fwatson Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T14:01:12Z] Source=PC-fati(10.187.149.138) Event=LDAPBind Process=explorer.exe Domain=malicious.com User=chelseywillis Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T17:32:32Z] Source=PC-jaad(172.21.96.32) Event=FileCreated Process=cmd.exe Domain=suspicious-api.com User=wcraig Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T12:16:25Z] Source=UserPC(172.29.177.217) Event=EmailRead Process=winword.exe Domain=um6p-login-verification.com User=angela99 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T15:02:48Z] Source=PC-jaad(192.168.156.105) Event=PrivEsc Process=winword.exe Domain=suspicious-api.com User=eberry Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T10:46:17Z] Source=PC-BLACK(192.168.60.119) Event=EmailRead Process=winword.exe Domain=suspicious-api.com User=katiecarey Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T15:34:00Z] Source=Pc-Admin(172.18.153.221) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=yolandamiller Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:32:06Z] Source=PC-Nina(172.30.0.210) Event=SessionHijack Process=explorer.exe Domain=um6p-login-verification.com User=gloria80 Action=Blocked Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:19:10Z] Source=UserPC(192.168.23.152) Event=PrivEsc Process=winword.exe Domain=um6p-login-verification.com User=thompsonsandra Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T15:20:19Z] Source=PC-Nina(10.213.124.10) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=ocunningham Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T11:32:48Z] Source=PC-Nina(172.25.207.91) Event=BrowserAccess Process=cmd.exe Domain=malicious.com User=bryandean Action=Allowed Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T16:06:56Z] Source=UserPC(10.168.113.174) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=smoore Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T16:22:42Z] Source=PC-BLACK(10.1.137.146) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=breyes Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T11:33:30Z] Source=PC-Nina(172.27.157.119) Event=Outbound C2 Attempt Process=cmd.exe Domain=malicious.com User=dianajohnson Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T16:08:32Z] Source=PC-BLACK(192.168.244.220) Event=BrowserAccess Process=cmd.exe Domain=phishmail.com User=zbrooks Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T18:11:20Z] Source=PC-fati(192.168.59.33) Event=ProcessStart Process=cmd.exe Domain=phishmail.com User=danielgreer Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T17:10:48Z] Source=PC-fati(192.168.251.44) Event=User Deactivated Process=cmd.exe Domain=malicious.com User=millerrachel Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T13:52:17Z] Source=PC-fati(192.168.187.17) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=angelica26 Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:20:40Z] Source=PC-BLACK(172.16.12.177) Event=ProcessStart Process=winword.exe Domain=um6p-login-verification.com User=amorse Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T11:34:54Z] Source=PC-ADAM(10.34.250.157) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=johnsonerika Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:51:58Z] Source=UserPC(172.19.81.168) Event=PrivEsc Process=winword.exe Domain=phishmail.com User=emorrow Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T15:56:53Z] Source=PC-ADAM(172.30.77.5) Event=PrivEsc Process=winword.exe Domain=suspicious-api.com User=robertwang Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T16:28:12Z] Source=UserPC(10.41.73.44) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=unolan Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:35:50Z] Source=PC-BLACK(172.16.176.233) Event=ProcessStart Process=explorer.exe Domain=um6p-login-verification.com User=knightmatthew Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T14:10:24Z] Source=Pc-Admin(172.16.86.189) Event=LDAPBind Process=cmd.exe Domain=suspicious-api.com User=christineruiz Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:05:24Z] Source=PC-BLACK(192.168.51.203) Event=Outbound C2 Attempt Process=winword.exe Domain=suspicious-api.com User=cynthiamelton Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T10:50:08Z] Source=PC-ADAM(192.168.155.104) Event=BrowserAccess Process=explorer.exe Domain=malicious.com User=blankenshipmichael Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T12:54:11Z] Source=PC-BLACK(10.82.89.202) Event=SessionHijack Process=winword.exe Domain=phishmail.com User=cory03 Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T12:54:30Z] Source=UserPC(172.20.81.204) Event=LDAPBind Process=winword.exe Domain=phishmail.com User=phoffman Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T11:21:43Z] Source=PC-ADAM(10.116.192.125) Event=URLAccess Process=winword.exe Domain=malicious.com User=llopez Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T13:10:40Z] Source=PC-ADAM(10.217.9.120) Event=EmailRead Process=explorer.exe Domain=suspicious-api.com User=ronaldnguyen Action=Blocked Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T12:08:48Z] Source=UserPC(10.178.114.15) Event=PrivEsc Process=powershell.exe Domain=malicious.com User=tuckerhaley Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T12:55:46Z] Source=PC-Nina(172.26.214.234) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=vickieharris Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T18:07:45Z] Source=Pc-Admin(10.97.137.5) Event=DataExfiltration Process=winword.exe Domain=um6p-login-verification.com User=zcalhoun Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T18:24:00Z] Source=PC-ADAM(172.23.251.56) Event=URLAccess Process=winword.exe Domain=um6p-login-verification.com User=whiteanna Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T12:41:06Z] Source=PC-fati(172.18.13.127) Event=DataExfiltration Process=powershell.exe Domain=malicious.com User=julian36 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T11:38:52Z] Source=PC-BLACK(192.168.86.147) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=amberchen Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T18:26:00Z] Source=Pc-Admin(172.22.249.70) Event=EmailRead Process=cmd.exe Domain=malicious.com User=zmartin Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T18:26:40Z] Source=PC-BLACK(192.168.180.67) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=grace00 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T16:21:52Z] Source=PC-fati(172.31.138.174) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=taylorjamie Action=Allowed Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T18:12:18Z] Source=PC-BLACK(172.25.71.68) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=pking Action=Allowed Severity=Critical Protocol=SMB
+[SIEM] [2025-05-26T14:48:38Z] Source=PC-ADAM(172.18.33.74) Event=FileCreated Process=cmd.exe Domain=um6p-login-verification.com User=kyleklein Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T11:40:16Z] Source=PC-jaad(192.168.162.6) Event=BrowserAccess Process=cmd.exe Domain=suspicious-api.com User=megan78 Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T14:33:45Z] Source=UserPC(192.168.119.29) Event=EmailRead Process=explorer.exe Domain=phishmail.com User=elizabeth45 Action=Blocked Severity=Critical Protocol=LDAP
+[SIEM] [2025-05-26T18:30:40Z] Source=UserPC(172.28.78.208) Event=SessionHijack Process=winword.exe Domain=um6p-login-verification.com User=kimberly19 Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T15:06:09Z] Source=UserPC(192.168.98.173) Event=PrivEsc Process=cmd.exe Domain=phishmail.com User=hollowaymatthew Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T14:03:24Z] Source=UserPC(10.144.155.102) Event=FileCreated Process=powershell.exe Domain=suspicious-api.com User=hopkinsjose Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:00:31Z] Source=PC-Nina(10.228.1.189) Event=BrowserAccess Process=explorer.exe Domain=um6p-login-verification.com User=mboone Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:51:40Z] Source=PC-ADAM(10.27.6.251) Event=LDAPBind Process=powershell.exe Domain=malicious.com User=xyoung Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T17:30:36Z] Source=UserPC(192.168.37.244) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=usparks Action=Blocked Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T13:49:04Z] Source=PC-Nina(172.16.211.219) Event=User Deactivated Process=powershell.exe Domain=phishmail.com User=xruiz Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T15:56:30Z] Source=UserPC(192.168.235.143) Event=ProcessStart Process=cmd.exe Domain=suspicious-api.com User=ashley91 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T17:32:24Z] Source=PC-Nina(10.106.149.143) Event=EmailRead Process=cmd.exe Domain=malicious.com User=edwin41 Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T16:13:25Z] Source=PC-ADAM(172.16.242.204) Event=ScriptExecution Process=powershell.exe Domain=phishmail.com User=bennettchelsea Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T11:43:04Z] Source=UserPC(192.168.78.196) Event=LDAPBind Process=cmd.exe Domain=um6p-login-verification.com User=kevin25 Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:11:24Z] Source=PC-BLACK(192.168.98.149) Event=DataExfiltration Process=winword.exe Domain=um6p-login-verification.com User=ddavis Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T16:14:58Z] Source=UserPC(10.238.176.134) Event=LDAPBind Process=explorer.exe Domain=suspicious-api.com User=kimberlyhenry Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T13:19:40Z] Source=PC-fati(172.18.34.185) Event=ProcessStart Process=winword.exe Domain=phishmail.com User=skim Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T17:36:00Z] Source=UserPC(172.18.8.102) Event=ProcessStart Process=explorer.exe Domain=phishmail.com User=maryrodriguez Action=Blocked Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:44:14Z] Source=PC-fati(172.24.64.235) Event=URLAccess Process=winword.exe Domain=um6p-login-verification.com User=brandyfrye Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T14:08:46Z] Source=UserPC(10.155.25.126) Event=DataExfiltration Process=powershell.exe Domain=suspicious-api.com User=zmoran Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T16:33:36Z] Source=PC-Nina(172.27.176.133) Event=PrivEsc Process=cmd.exe Domain=um6p-login-verification.com User=kurtwashington Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T13:37:24Z] Source=PC-fati(192.168.157.4) Event=BrowserAccess Process=powershell.exe Domain=suspicious-api.com User=mitchelledgar Action=Blocked Severity=Medium Protocol=SMB
+[SIEM] [2025-05-26T17:39:00Z] Source=UserPC(192.168.172.5) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=mmclaughlin Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T18:27:54Z] Source=PC-BLACK(172.29.69.248) Event=User Deactivated Process=winword.exe Domain=malicious.com User=pauldavidson Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T17:40:12Z] Source=PC-BLACK(192.168.235.219) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=amberproctor Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T18:29:12Z] Source=PC-fati(10.136.181.132) Event=BrowserAccess Process=winword.exe Domain=phishmail.com User=linda28 Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T14:11:27Z] Source=PC-BLACK(172.29.94.108) Event=SessionHijack Process=powershell.exe Domain=malicious.com User=eharmon Action=Allowed Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T12:51:00Z] Source=PC-jaad(192.168.191.192) Event=LDAPBind Process=explorer.exe Domain=malicious.com User=zmoody Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:56:02Z] Source=PC-BLACK(192.168.41.20) Event=DataExfiltration Process=cmd.exe Domain=suspicious-api.com User=haleyrichard Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T13:24:00Z] Source=PC-fati(172.23.40.77) Event=SessionHijack Process=explorer.exe Domain=suspicious-api.com User=wyattedward Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:17:51Z] Source=PC-jaad(192.168.186.5) Event=EmailRead Process=explorer.exe Domain=malicious.com User=thomastodd Action=Blocked Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T14:45:50Z] Source=PC-BLACK(172.20.86.64) Event=ProcessStart Process=winword.exe Domain=malicious.com User=charlottefoster Action=Allowed Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T12:52:30Z] Source=PC-Nina(172.29.221.106) Event=LDAPBind Process=winword.exe Domain=um6p-login-verification.com User=kimsarah Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T13:09:04Z] Source=PC-BLACK(172.21.2.94) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=franciscojones Action=Blocked Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T11:31:41Z] Source=PC-ADAM(10.122.99.151) Event=Outbound C2 Attempt Process=winword.exe Domain=um6p-login-verification.com User=thomastina Action=Allowed Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T16:41:36Z] Source=UserPC(172.28.26.43) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=kristen17 Action=Blocked Severity=Low Protocol=HTTPS
+[SIEM] [2025-05-26T10:59:29Z] Source=PC-jaad(10.100.234.50) Event=EmailRead Process=cmd.exe Domain=malicious.com User=marissa27 Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T16:26:20Z] Source=PC-Nina(172.22.7.207) Event=URLAccess Process=powershell.exe Domain=suspicious-api.com User=joseph22 Action=Blocked Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T11:48:54Z] Source=PC-Nina(172.30.162.7) Event=FileCreated Process=powershell.exe Domain=um6p-login-verification.com User=brentbradford Action=Allowed Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T16:11:00Z] Source=PC-ADAM(192.168.236.2) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=kevinballard Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T16:11:30Z] Source=UserPC(192.168.99.150) Event=LDAPBind Process=winword.exe Domain=malicious.com User=scotthernandez Action=Allowed Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T15:55:36Z] Source=PC-Nina(172.27.35.8) Event=User Deactivated Process=powershell.exe Domain=malicious.com User=cscott Action=Blocked Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T14:34:00Z] Source=UserPC(172.30.35.31) Event=SessionHijack Process=powershell.exe Domain=suspicious-api.com User=gloversamantha Action=Allowed Severity=High Protocol=SMB
+[SIEM] [2025-05-26T18:24:28Z] Source=PC-fati(192.168.181.116) Event=DataExfiltration Process=cmd.exe Domain=malicious.com User=deborah27 Action=Blocked Severity=High Protocol=SMB
+[SIEM] [2025-05-26T12:06:45Z] Source=PC-jaad(192.168.170.76) Event=Outbound C2 Attempt Process=winword.exe Domain=um6p-login-verification.com User=hoffmanjulie Action=Allowed Severity=Low Protocol=HTTP
+[SIEM] [2025-05-26T15:57:32Z] Source=PC-fati(172.26.228.201) Event=SessionHijack Process=cmd.exe Domain=malicious.com User=jefferyriley Action=Allowed Severity=High Protocol=HTTP
+[SIEM] [2025-05-26T15:41:32Z] Source=PC-jaad(172.25.169.1) Event=Outbound C2 Attempt Process=explorer.exe Domain=um6p-login-verification.com User=michaeledwards Action=Blocked Severity=Low Protocol=LDAP
+[SIEM] [2025-05-26T15:09:00Z] Source=PC-BLACK(172.24.171.106) Event=DataExfiltration Process=powershell.exe Domain=um6p-login-verification.com User=aguilarcarl Action=Blocked Severity=High Protocol=HTTPS
+[SIEM] [2025-05-26T13:46:51Z] Source=PC-ADAM(192.168.92.252) Event=DataExfiltration Process=explorer.exe Domain=suspicious-api.com User=fhamilton Action=Allowed Severity=Critical Protocol=HTTPS
+[SIEM] [2025-05-26T12:24:32Z] Source=PC-jaad(192.168.184.188) Event=PrivEsc Process=powershell.exe Domain=phishmail.com User=charlesberry Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T17:55:48Z] Source=PC-fati(10.193.96.111) Event=BrowserAccess Process=explorer.exe Domain=suspicious-api.com User=jmiller Action=Allowed Severity=Medium Protocol=LDAP
+[SIEM] [2025-05-26T11:18:48Z] Source=PC-BLACK(192.168.116.189) Event=SessionHijack Process=explorer.exe Domain=suspicious-api.com User=emoore Action=Blocked Severity=High Protocol=LDAP
+[SIEM] [2025-05-26T14:21:25Z] Source=PC-fati(10.151.208.16) Event=PrivEsc Process=winword.exe Domain=phishmail.com User=jdavis Action=Blocked Severity=Low Protocol=SMB
+[SIEM] [2025-05-26T14:38:24Z] Source=UserPC(192.168.131.75) Event=FileCreated Process=powershell.exe Domain=malicious.com User=michael27 Action=Allowed Severity=Critical Protocol=HTTP
+[SIEM] [2025-05-26T11:52:38Z] Source=PC-Nina(172.26.173.156) Event=EmailRead Process=cmd.exe Domain=phishmail.com User=jasonharmon Action=Allowed Severity=Medium Protocol=HTTPS
+[SIEM] [2025-05-26T16:52:16Z] Source=PC-ADAM(172.21.173.153) Event=ProcessStart Process=explorer.exe Domain=suspicious-api.com User=blopez Action=Allowed Severity=Medium Protocol=HTTP
+[SIEM] [2025-05-26T13:33:00Z] Source=PC-ADAM(192.168.65.97) Event=Outbound C2 Attempt Process=explorer.exe Domain=suspicious-api.com User=james12 Action=Allowed Severity=Medium Protocol=SMB

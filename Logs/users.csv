@@ -1,0 +1,1001 @@
+timestamp,user,machine,os,action,application_or_sender,url_or_ip,file_or_path,description
+2025-05-26 08:00:00,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 08:00:48,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:01:22,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:01:40,y.ait,PC-192.168.1.105,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 08:02:05,y.ait,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 08:03:21,y.ait,PC-192.168.1.101,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 08:04:23,m.benali,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:04:49,a.hamidi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 08:05:32,y.ait,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:07:00,m.benali,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:07:42,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 08:08:57,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:09:42,m.benali,PC-192.168.1.105,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 08:10:08,n.elkhlifi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:11:24,y.ait,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:12:08,a.hamidi,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 08:12:59,m.benali,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 08:13:54,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 08:14:11,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:15:27,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 08:16:00,m.benali,PC-192.168.1.101,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 08:16:25,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:17:03,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:17:43,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 08:18:51,m.benali,PC-192.168.1.101,Windows10,open_application,Chrome.exe,,,m.benali opened Chrome.exe
+2025-05-26 08:20:06,r.kabbaj,PC-192.168.1.104,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 08:20:47,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 08:20:58,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 08:21:21,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:21:43,m.benali,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 08:22:59,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:24:20,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 08:24:52,m.benali,PC-192.168.1.102,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 08:25:16,y.ait,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:25:28,r.kabbaj,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 08:26:56,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 08:27:54,y.ait,PC-192.168.1.105,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 08:28:21,m.benali,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:28:27,n.elkhlifi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 08:28:51,r.kabbaj,PC-192.168.1.102,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 08:29:37,n.elkhlifi,PC-192.168.1.102,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 08:30:33,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:31:41,n.elkhlifi,PC-192.168.1.101,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 08:32:15,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:33:22,y.ait,PC-192.168.1.103,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 08:33:28,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 08:34:50,n.elkhlifi,PC-192.168.1.105,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 08:35:30,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 08:35:42,m.benali,PC-192.168.1.105,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 08:37:05,a.hamidi,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 08:37:48,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 08:37:59,m.benali,PC-192.168.1.102,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 08:38:20,y.ait,PC-192.168.1.101,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 08:39:16,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:40:32,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:41:04,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 08:41:23,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:41:55,n.elkhlifi,PC-192.168.1.103,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 08:42:16,r.kabbaj,PC-192.168.1.101,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 08:42:35,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:42:49,m.benali,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 08:44:16,y.ait,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 08:45:32,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 08:45:40,n.elkhlifi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 08:46:40,r.kabbaj,PC-192.168.1.103,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 08:46:52,r.kabbaj,PC-192.168.1.103,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 08:47:59,a.hamidi,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:49:25,y.ait,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 08:50:15,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 08:51:25,a.hamidi,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 08:52:29,n.elkhlifi,PC-192.168.1.103,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 08:52:39,y.ait,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 08:53:31,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 08:54:15,y.ait,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 08:55:17,m.benali,PC-192.168.1.103,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 08:55:54,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 08:56:33,a.hamidi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 08:57:33,y.ait,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 08:57:39,r.kabbaj,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 08:58:55,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 08:59:03,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 08:59:19,m.benali,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 09:00:23,m.benali,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:01:47,r.kabbaj,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 09:02:04,y.ait,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 09:02:44,m.benali,PC-192.168.1.101,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 09:03:20,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:03:31,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 09:03:55,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 09:05:09,y.ait,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:05:34,m.benali,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 09:05:53,a.hamidi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:06:50,a.hamidi,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 09:07:56,y.ait,PC-192.168.1.104,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 09:09:12,a.hamidi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 09:09:42,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 09:10:50,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 09:11:20,r.kabbaj,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 09:12:35,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 09:12:40,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 09:13:18,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:14:03,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 09:14:59,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 09:15:55,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 09:16:42,y.ait,PC-192.168.1.103,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 09:17:46,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 09:18:19,y.ait,PC-192.168.1.102,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 09:18:38,a.hamidi,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,a.hamidi opened Chrome.exe
+2025-05-26 09:19:58,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 09:20:15,m.benali,PC-192.168.1.102,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 09:20:32,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 09:21:31,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 09:22:48,m.benali,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 09:23:42,a.hamidi,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 09:24:24,m.benali,PC-192.168.1.105,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 09:25:26,n.elkhlifi,PC-192.168.1.105,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 09:26:41,m.benali,PC-192.168.1.102,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 09:27:58,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 09:29:21,n.elkhlifi,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 09:30:18,a.hamidi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 09:30:50,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 09:32:03,a.hamidi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:32:46,a.hamidi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:33:26,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:34:09,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 09:35:02,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 09:35:17,n.elkhlifi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 09:36:30,y.ait,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:37:14,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:37:56,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 09:38:11,y.ait,PC-192.168.1.102,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 09:39:37,m.benali,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 09:40:35,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 09:40:48,y.ait,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:41:57,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 09:42:13,a.hamidi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:43:22,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:44:01,y.ait,PC-192.168.1.104,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 09:44:25,m.benali,PC-192.168.1.101,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 09:45:42,n.elkhlifi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 09:46:53,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:47:28,n.elkhlifi,PC-192.168.1.104,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 09:47:39,r.kabbaj,PC-192.168.1.104,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 09:48:18,m.benali,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:48:25,m.benali,PC-192.168.1.103,Windows10,open_application,Chrome.exe,,,m.benali opened Chrome.exe
+2025-05-26 09:48:44,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 09:50:01,m.benali,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:50:43,y.ait,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 09:51:05,y.ait,PC-192.168.1.104,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 09:51:19,n.elkhlifi,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 09:52:44,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 09:54:11,m.benali,PC-192.168.1.101,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 09:54:56,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 09:55:39,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:56:54,m.benali,PC-192.168.1.101,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 09:58:02,n.elkhlifi,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 09:59:20,y.ait,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 09:59:35,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 10:00:06,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 10:00:59,r.kabbaj,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:02:08,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 10:02:46,n.elkhlifi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 10:04:08,n.elkhlifi,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:05:37,m.benali,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:06:13,a.hamidi,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,a.hamidi opened Chrome.exe
+2025-05-26 10:07:06,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 10:07:57,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 10:08:30,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 10:09:47,m.benali,PC-192.168.1.105,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 10:11:01,y.ait,PC-192.168.1.104,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 10:11:12,y.ait,PC-192.168.1.102,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 10:11:24,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 10:12:24,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 10:13:28,y.ait,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 10:14:29,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:15:18,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:16:41,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 10:18:09,a.hamidi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 10:19:00,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:19:05,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 10:19:31,a.hamidi,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:19:42,r.kabbaj,PC-192.168.1.105,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 10:20:44,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 10:21:37,n.elkhlifi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 10:22:43,y.ait,PC-192.168.1.103,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 10:22:59,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 10:23:57,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:24:47,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 10:25:45,y.ait,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:26:09,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:27:19,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 10:27:57,r.kabbaj,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 10:28:10,a.hamidi,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:29:28,n.elkhlifi,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 10:30:05,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 10:31:30,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 10:31:38,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 10:32:40,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 10:32:57,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 10:34:02,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 10:34:30,r.kabbaj,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 10:35:36,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 10:36:59,n.elkhlifi,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:37:49,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 10:38:14,n.elkhlifi,PC-192.168.1.105,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 10:38:35,a.hamidi,PC-192.168.1.101,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 10:38:45,a.hamidi,PC-192.168.1.104,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 10:39:20,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 10:39:51,y.ait,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 10:40:27,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:41:42,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 10:42:27,y.ait,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:42:59,a.hamidi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 10:44:10,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 10:44:28,n.elkhlifi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:45:58,n.elkhlifi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 10:46:59,y.ait,PC-192.168.1.101,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 10:47:27,y.ait,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:47:42,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 10:47:52,y.ait,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:49:06,n.elkhlifi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 10:49:50,n.elkhlifi,PC-192.168.1.102,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 10:51:18,a.hamidi,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 10:52:18,m.benali,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:53:12,y.ait,PC-192.168.1.102,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 10:53:38,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 10:54:37,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 10:55:37,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 10:56:31,y.ait,PC-192.168.1.102,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 10:57:06,r.kabbaj,PC-192.168.1.103,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 10:58:27,n.elkhlifi,PC-192.168.1.101,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 10:58:36,r.kabbaj,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 10:59:53,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 11:00:09,m.benali,PC-192.168.1.105,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 11:01:23,n.elkhlifi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:01:50,y.ait,PC-192.168.1.103,Windows10,open_application,Teams.exe,,,y.ait opened Teams.exe
+2025-05-26 11:02:03,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:02:18,r.kabbaj,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:03:40,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 11:04:27,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 11:05:33,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 11:05:50,y.ait,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 11:07:14,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 11:07:47,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:08:24,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 11:09:20,m.benali,PC-192.168.1.104,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 11:10:21,n.elkhlifi,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:11:51,n.elkhlifi,PC-192.168.1.103,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 11:12:52,a.hamidi,PC-192.168.1.104,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 11:13:52,y.ait,PC-192.168.1.101,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 11:14:03,r.kabbaj,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 11:14:32,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:15:29,a.hamidi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:15:40,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 11:16:35,a.hamidi,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 11:17:11,n.elkhlifi,PC-192.168.1.104,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 11:17:37,y.ait,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 11:17:54,m.benali,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:18:16,a.hamidi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:18:37,r.kabbaj,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 11:19:00,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 11:19:38,y.ait,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:21:08,a.hamidi,PC-192.168.1.103,Windows10,open_application,Chrome.exe,,,a.hamidi opened Chrome.exe
+2025-05-26 11:21:13,m.benali,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 11:22:36,y.ait,PC-192.168.1.105,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 11:23:27,y.ait,PC-192.168.1.104,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 11:24:37,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 11:24:54,m.benali,PC-192.168.1.105,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 11:26:20,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 11:26:42,a.hamidi,PC-192.168.1.105,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 11:27:13,r.kabbaj,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 11:28:30,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:29:37,y.ait,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 11:29:59,a.hamidi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:31:21,y.ait,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 11:32:32,r.kabbaj,PC-192.168.1.104,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 11:32:50,y.ait,PC-192.168.1.103,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 11:33:13,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:34:21,n.elkhlifi,PC-192.168.1.104,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 11:34:36,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 11:35:49,n.elkhlifi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:36:13,r.kabbaj,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 11:36:33,m.benali,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,m.benali opened Chrome.exe
+2025-05-26 11:36:48,n.elkhlifi,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 11:36:56,m.benali,PC-192.168.1.103,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 11:37:34,y.ait,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 11:38:24,m.benali,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,m.benali opened Outlook.exe
+2025-05-26 11:39:49,y.ait,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:40:50,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:41:56,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 11:43:25,m.benali,PC-192.168.1.101,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 11:43:53,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:45:19,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 11:46:00,r.kabbaj,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:47:29,a.hamidi,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 11:47:46,n.elkhlifi,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 11:49:14,a.hamidi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:50:15,m.benali,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 11:51:33,m.benali,PC-192.168.1.105,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 11:52:17,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 11:53:41,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 11:54:33,r.kabbaj,PC-192.168.1.104,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 11:55:36,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 11:55:45,m.benali,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 11:56:06,m.benali,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 11:56:23,m.benali,PC-192.168.1.101,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 11:57:43,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 11:58:25,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 11:59:00,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 12:00:19,m.benali,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 12:00:24,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:00:51,a.hamidi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 12:01:44,n.elkhlifi,PC-192.168.1.105,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 12:02:25,m.benali,PC-192.168.1.102,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 12:03:36,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 12:04:45,r.kabbaj,PC-192.168.1.104,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 12:05:21,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 12:05:52,r.kabbaj,PC-192.168.1.102,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 12:06:22,n.elkhlifi,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 12:07:44,a.hamidi,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,a.hamidi opened Chrome.exe
+2025-05-26 12:09:10,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 12:09:40,r.kabbaj,PC-192.168.1.102,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 12:10:59,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 12:11:10,a.hamidi,PC-192.168.1.101,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 12:11:52,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 12:12:42,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 12:13:55,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 12:14:25,m.benali,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 12:14:39,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 12:14:45,m.benali,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,m.benali opened Chrome.exe
+2025-05-26 12:15:56,n.elkhlifi,PC-192.168.1.101,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 12:17:05,y.ait,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 12:18:16,y.ait,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 12:18:47,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 12:19:06,r.kabbaj,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 12:19:30,y.ait,PC-192.168.1.104,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 12:20:15,m.benali,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,m.benali opened Outlook.exe
+2025-05-26 12:20:37,r.kabbaj,PC-192.168.1.104,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 12:21:07,a.hamidi,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 12:22:07,a.hamidi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 12:22:46,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 12:24:13,a.hamidi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 12:25:37,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:25:58,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 12:27:28,a.hamidi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:28:34,m.benali,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 12:29:24,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 12:30:32,r.kabbaj,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 12:30:37,a.hamidi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:31:32,y.ait,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 12:31:52,y.ait,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 12:32:30,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 12:32:40,r.kabbaj,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 12:33:23,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 12:33:34,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 12:34:36,y.ait,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,y.ait opened Teams.exe
+2025-05-26 12:35:35,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:35:42,a.hamidi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 12:37:09,m.benali,PC-192.168.1.102,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 12:38:28,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 12:38:54,m.benali,PC-192.168.1.105,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 12:39:51,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 12:40:24,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 12:40:57,y.ait,PC-192.168.1.105,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 12:42:11,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 12:43:35,y.ait,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 12:44:17,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:45:00,m.benali,PC-192.168.1.103,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 12:46:12,n.elkhlifi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 12:47:38,r.kabbaj,PC-192.168.1.103,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 12:48:58,a.hamidi,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 12:50:18,n.elkhlifi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 12:51:07,a.hamidi,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 12:52:11,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 12:53:39,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 12:54:28,r.kabbaj,PC-192.168.1.101,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 12:55:10,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 12:55:25,r.kabbaj,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:56:34,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 12:56:48,a.hamidi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 12:57:29,a.hamidi,PC-192.168.1.101,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 12:57:51,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 12:59:01,y.ait,PC-192.168.1.105,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 12:59:35,n.elkhlifi,PC-192.168.1.105,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:00:02,m.benali,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:01:17,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 13:01:41,a.hamidi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:01:55,y.ait,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:03:18,r.kabbaj,PC-192.168.1.104,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 13:04:06,n.elkhlifi,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 13:04:36,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:04:48,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 13:05:40,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 13:06:56,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 13:08:20,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 13:09:39,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 13:10:18,m.benali,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 13:10:26,m.benali,PC-192.168.1.104,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 13:10:48,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 13:11:06,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:12:14,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 13:12:55,r.kabbaj,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:13:11,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 13:13:20,n.elkhlifi,PC-192.168.1.105,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:14:12,a.hamidi,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,a.hamidi opened Chrome.exe
+2025-05-26 13:15:20,m.benali,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 13:16:16,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:17:41,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 13:18:31,a.hamidi,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 13:19:51,r.kabbaj,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:20:08,r.kabbaj,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:21:09,y.ait,PC-192.168.1.102,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 13:21:31,n.elkhlifi,PC-192.168.1.103,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 13:22:17,a.hamidi,PC-192.168.1.103,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 13:23:39,y.ait,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:24:33,n.elkhlifi,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:25:43,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 13:26:27,r.kabbaj,PC-192.168.1.104,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 13:27:54,r.kabbaj,PC-192.168.1.102,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 13:29:23,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 13:29:37,r.kabbaj,PC-192.168.1.101,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 13:30:28,n.elkhlifi,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 13:31:01,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 13:32:22,y.ait,PC-192.168.1.105,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 13:33:40,r.kabbaj,PC-192.168.1.101,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 13:34:38,y.ait,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:35:04,r.kabbaj,PC-192.168.1.102,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 13:36:14,y.ait,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 13:37:20,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 13:37:44,n.elkhlifi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 13:38:28,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 13:38:52,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:39:32,n.elkhlifi,PC-192.168.1.102,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 13:40:54,y.ait,PC-192.168.1.104,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 13:41:59,y.ait,PC-192.168.1.101,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 13:42:27,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 13:43:31,r.kabbaj,PC-192.168.1.103,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 13:44:57,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:45:23,a.hamidi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:46:09,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 13:46:16,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:47:15,r.kabbaj,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:48:39,m.benali,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,m.benali opened Chrome.exe
+2025-05-26 13:48:54,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 13:50:11,n.elkhlifi,PC-192.168.1.104,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:50:50,n.elkhlifi,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 13:51:42,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 13:52:16,r.kabbaj,PC-192.168.1.105,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 13:53:03,n.elkhlifi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:54:27,n.elkhlifi,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 13:54:56,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 13:56:18,n.elkhlifi,PC-192.168.1.105,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 13:56:41,m.benali,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 13:57:58,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 13:59:23,y.ait,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 14:00:20,r.kabbaj,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:00:53,y.ait,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 14:01:09,m.benali,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 14:02:06,m.benali,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:03:14,a.hamidi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 14:04:13,a.hamidi,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 14:05:27,n.elkhlifi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 14:05:43,r.kabbaj,PC-192.168.1.103,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 14:06:10,r.kabbaj,PC-192.168.1.103,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 14:07:09,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 14:08:10,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 14:09:28,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 14:09:47,m.benali,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 14:10:33,y.ait,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 14:11:31,a.hamidi,PC-192.168.1.103,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 14:12:24,y.ait,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:13:17,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 14:13:58,n.elkhlifi,PC-192.168.1.102,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 14:14:18,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 14:15:21,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 14:15:32,a.hamidi,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 14:15:48,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 14:16:46,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 14:17:20,y.ait,PC-192.168.1.104,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 14:18:47,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:19:04,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 14:19:23,y.ait,PC-192.168.1.102,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 14:20:22,n.elkhlifi,PC-192.168.1.102,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 14:20:29,n.elkhlifi,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:21:07,y.ait,PC-192.168.1.105,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 14:21:42,n.elkhlifi,PC-192.168.1.102,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 14:22:11,m.benali,PC-192.168.1.105,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 14:23:40,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 14:24:33,a.hamidi,PC-192.168.1.102,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 14:24:47,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 14:25:16,n.elkhlifi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 14:25:33,y.ait,PC-192.168.1.103,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 14:26:51,n.elkhlifi,PC-192.168.1.105,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 14:27:48,r.kabbaj,PC-192.168.1.105,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 14:28:33,m.benali,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 14:28:54,r.kabbaj,PC-192.168.1.104,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 14:29:15,y.ait,PC-192.168.1.101,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 14:29:25,n.elkhlifi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 14:29:59,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 14:30:25,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 14:31:00,y.ait,PC-192.168.1.105,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 14:32:21,n.elkhlifi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 14:33:03,n.elkhlifi,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 14:34:28,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 14:34:51,a.hamidi,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:35:12,m.benali,PC-192.168.1.105,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 14:35:29,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 14:35:59,a.hamidi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 14:36:31,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 14:37:50,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 14:38:14,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 14:39:22,r.kabbaj,PC-192.168.1.105,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 14:40:22,n.elkhlifi,PC-192.168.1.101,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 14:41:24,y.ait,PC-192.168.1.105,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 14:42:06,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 14:42:30,a.hamidi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 14:42:36,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 14:43:02,n.elkhlifi,PC-192.168.1.104,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 14:43:52,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 14:44:08,m.benali,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:44:52,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 14:45:18,r.kabbaj,PC-192.168.1.103,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 14:46:11,a.hamidi,PC-192.168.1.105,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 14:47:05,a.hamidi,PC-192.168.1.105,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 14:47:12,r.kabbaj,PC-192.168.1.102,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 14:47:34,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 14:48:46,n.elkhlifi,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 14:49:39,a.hamidi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 14:51:01,m.benali,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 14:52:06,y.ait,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 14:52:15,r.kabbaj,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 14:53:12,m.benali,PC-192.168.1.103,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 14:54:34,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 14:55:11,m.benali,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 14:55:54,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 14:55:59,m.benali,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 14:57:20,r.kabbaj,PC-192.168.1.101,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 14:58:16,n.elkhlifi,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 14:59:40,m.benali,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:00:27,n.elkhlifi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 15:01:47,n.elkhlifi,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 15:02:12,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:02:57,m.benali,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 15:04:14,r.kabbaj,PC-192.168.1.101,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 15:05:13,a.hamidi,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,a.hamidi opened Chrome.exe
+2025-05-26 15:05:55,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 15:06:27,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 15:07:48,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 15:09:02,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 15:09:19,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 15:10:33,r.kabbaj,PC-192.168.1.102,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 15:11:17,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 15:12:21,m.benali,PC-192.168.1.102,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 15:12:39,m.benali,PC-192.168.1.102,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 15:13:29,a.hamidi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:13:34,n.elkhlifi,PC-192.168.1.104,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 15:13:45,y.ait,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 15:14:36,a.hamidi,PC-192.168.1.104,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 15:16:01,n.elkhlifi,PC-192.168.1.104,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 15:16:40,y.ait,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 15:17:38,a.hamidi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 15:18:35,n.elkhlifi,PC-192.168.1.101,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 15:19:59,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 15:21:12,a.hamidi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 15:21:41,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 15:22:59,m.benali,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:23:17,m.benali,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:23:48,r.kabbaj,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 15:24:41,y.ait,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,y.ait opened Teams.exe
+2025-05-26 15:26:02,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 15:27:17,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:27:28,a.hamidi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:27:59,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 15:28:42,a.hamidi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:29:53,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 15:30:15,a.hamidi,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 15:30:44,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 15:31:39,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 15:31:51,r.kabbaj,PC-192.168.1.105,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 15:32:59,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:33:33,r.kabbaj,PC-192.168.1.105,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 15:33:55,y.ait,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:35:20,a.hamidi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 15:36:10,a.hamidi,PC-192.168.1.102,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 15:37:29,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 15:38:49,r.kabbaj,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 15:39:32,y.ait,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:39:55,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:41:10,y.ait,PC-192.168.1.102,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 15:41:40,a.hamidi,PC-192.168.1.101,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 15:43:04,a.hamidi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 15:43:22,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 15:43:41,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 15:44:03,n.elkhlifi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 15:45:03,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 15:46:01,m.benali,PC-192.168.1.102,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 15:47:00,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 15:47:30,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:48:31,m.benali,PC-192.168.1.105,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 15:49:22,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 15:50:17,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:50:54,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 15:51:51,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 15:52:43,r.kabbaj,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:54:00,r.kabbaj,PC-192.168.1.105,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 15:55:11,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 15:55:43,m.benali,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 15:56:20,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 15:56:30,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 15:57:09,m.benali,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 15:58:31,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 15:59:25,r.kabbaj,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 15:59:37,m.benali,PC-192.168.1.105,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 16:00:22,y.ait,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:01:14,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 16:01:31,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 16:02:22,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 16:03:42,n.elkhlifi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 16:04:21,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 16:05:47,m.benali,PC-192.168.1.105,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 16:06:10,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:07:38,a.hamidi,PC-192.168.1.103,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 16:08:04,m.benali,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 16:09:14,a.hamidi,PC-192.168.1.105,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 16:10:30,m.benali,PC-192.168.1.101,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 16:11:11,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 16:11:42,y.ait,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 16:13:06,n.elkhlifi,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:14:11,a.hamidi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 16:15:23,y.ait,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:16:19,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 16:17:17,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 16:17:25,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 16:18:18,y.ait,PC-192.168.1.104,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 16:18:36,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 16:20:01,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 16:20:20,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 16:21:05,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 16:21:56,y.ait,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:23:25,y.ait,PC-192.168.1.102,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 16:24:43,r.kabbaj,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 16:25:23,a.hamidi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 16:26:24,a.hamidi,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 16:26:50,r.kabbaj,PC-192.168.1.103,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 16:27:12,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 16:28:26,n.elkhlifi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:28:45,y.ait,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 16:29:46,y.ait,PC-192.168.1.102,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 16:30:57,a.hamidi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 16:31:41,n.elkhlifi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:31:46,r.kabbaj,PC-192.168.1.101,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 16:31:57,y.ait,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 16:32:33,n.elkhlifi,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:32:55,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 16:33:24,r.kabbaj,PC-192.168.1.101,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 16:34:05,y.ait,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 16:34:40,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 16:35:09,y.ait,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 16:36:36,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:36:53,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Chrome.exe,,,n.elkhlifi opened Chrome.exe
+2025-05-26 16:38:10,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 16:38:57,m.benali,PC-192.168.1.101,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 16:40:00,a.hamidi,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 16:41:23,m.benali,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 16:42:36,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 16:43:46,y.ait,PC-192.168.1.101,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 16:43:56,m.benali,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 16:44:48,a.hamidi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 16:45:02,m.benali,PC-192.168.1.105,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 16:46:03,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 16:46:24,r.kabbaj,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:47:43,m.benali,PC-192.168.1.103,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 16:48:20,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 16:49:32,n.elkhlifi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:50:26,y.ait,PC-192.168.1.104,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 16:51:16,a.hamidi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 16:51:49,y.ait,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 16:51:59,r.kabbaj,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:52:52,r.kabbaj,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:53:24,y.ait,PC-192.168.1.105,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 16:54:51,r.kabbaj,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 16:55:36,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 16:56:40,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 16:57:40,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 16:58:01,m.benali,PC-192.168.1.103,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 16:58:34,n.elkhlifi,PC-192.168.1.104,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 16:59:21,a.hamidi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:00:13,a.hamidi,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:01:16,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 17:01:42,r.kabbaj,PC-192.168.1.103,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 17:02:57,r.kabbaj,PC-192.168.1.104,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 17:03:45,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 17:04:27,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 17:04:35,y.ait,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:04:42,r.kabbaj,PC-192.168.1.103,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 17:05:50,a.hamidi,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 17:07:10,y.ait,PC-192.168.1.103,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 17:08:10,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 17:08:49,n.elkhlifi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 17:09:10,n.elkhlifi,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:10:10,y.ait,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 17:10:23,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 17:11:44,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 17:13:03,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:13:45,a.hamidi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 17:14:41,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 17:15:15,n.elkhlifi,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 17:15:50,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 17:16:00,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 17:16:37,m.benali,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:16:55,n.elkhlifi,PC-192.168.1.101,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 17:17:49,y.ait,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 17:18:03,y.ait,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:18:52,a.hamidi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:19:43,m.benali,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:19:59,a.hamidi,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 17:20:18,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 17:21:21,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 17:22:00,r.kabbaj,PC-192.168.1.102,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 17:22:54,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:23:18,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 17:24:16,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 17:25:29,r.kabbaj,PC-192.168.1.102,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 17:25:52,r.kabbaj,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:26:37,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 17:27:47,m.benali,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 17:29:05,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:29:16,n.elkhlifi,PC-192.168.1.104,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 17:30:45,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 17:31:13,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:32:10,m.benali,PC-192.168.1.105,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 17:33:25,m.benali,PC-192.168.1.101,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 17:33:58,r.kabbaj,PC-192.168.1.103,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 17:35:18,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 17:36:01,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:36:26,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 17:36:42,m.benali,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:37:04,r.kabbaj,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 17:38:14,m.benali,PC-192.168.1.105,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 17:39:17,r.kabbaj,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 17:39:42,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 17:40:03,n.elkhlifi,PC-192.168.1.104,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 17:40:11,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 17:40:24,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 17:40:56,a.hamidi,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 17:42:01,a.hamidi,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 17:42:43,r.kabbaj,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 17:43:48,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 17:44:49,m.benali,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 17:45:50,y.ait,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 17:46:45,m.benali,PC-192.168.1.105,Windows10,open_application,Chrome.exe,,,m.benali opened Chrome.exe
+2025-05-26 17:46:58,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 17:47:13,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 17:47:23,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 17:48:31,r.kabbaj,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:48:56,r.kabbaj,PC-192.168.1.104,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 17:50:06,y.ait,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 17:50:41,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 17:51:05,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 17:52:18,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 17:53:24,y.ait,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 17:53:56,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 17:55:15,a.hamidi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 17:56:05,a.hamidi,PC-192.168.1.101,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 17:56:57,a.hamidi,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:57:18,r.kabbaj,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 17:58:41,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 17:59:37,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 18:00:50,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 18:01:22,n.elkhlifi,PC-192.168.1.104,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 18:01:36,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Teams.exe,,,r.kabbaj opened Teams.exe
+2025-05-26 18:02:56,n.elkhlifi,PC-192.168.1.102,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 18:03:35,a.hamidi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 18:04:02,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 18:04:08,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 18:05:36,a.hamidi,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 18:06:43,y.ait,PC-192.168.1.103,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 18:07:42,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 18:07:52,a.hamidi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 18:08:45,n.elkhlifi,PC-192.168.1.105,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 18:09:56,r.kabbaj,PC-192.168.1.104,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 18:11:05,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 18:11:20,a.hamidi,PC-192.168.1.101,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 18:12:08,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 18:13:25,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 18:14:46,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 18:15:27,m.benali,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 18:15:40,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 18:15:45,y.ait,PC-192.168.1.103,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 18:16:13,y.ait,PC-192.168.1.102,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 18:16:34,r.kabbaj,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 18:17:05,a.hamidi,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 18:17:33,r.kabbaj,PC-192.168.1.101,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 18:18:07,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 18:19:07,a.hamidi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 18:20:07,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 18:21:07,m.benali,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 18:22:00,y.ait,PC-192.168.1.104,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 18:22:55,a.hamidi,PC-192.168.1.104,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 18:23:55,y.ait,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 18:24:24,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 18:25:33,n.elkhlifi,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 18:25:40,a.hamidi,PC-192.168.1.101,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 18:27:01,m.benali,PC-192.168.1.105,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 18:28:14,y.ait,PC-192.168.1.102,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 18:29:37,r.kabbaj,PC-192.168.1.102,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 18:30:09,m.benali,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 18:30:45,m.benali,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 18:32:11,m.benali,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 18:33:03,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 18:33:35,y.ait,PC-192.168.1.103,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 18:35:05,a.hamidi,PC-192.168.1.103,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 18:35:38,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 18:36:50,m.benali,PC-192.168.1.104,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 18:38:14,n.elkhlifi,PC-192.168.1.102,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 18:38:34,a.hamidi,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 18:38:52,m.benali,PC-192.168.1.102,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 18:40:09,m.benali,PC-192.168.1.103,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 18:40:57,r.kabbaj,PC-192.168.1.103,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 18:41:34,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 18:42:36,a.hamidi,PC-192.168.1.103,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 18:43:57,m.benali,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 18:44:50,n.elkhlifi,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 18:46:20,r.kabbaj,PC-192.168.1.105,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 18:47:14,n.elkhlifi,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 18:47:39,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 18:48:07,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 18:49:29,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 18:50:42,r.kabbaj,PC-192.168.1.102,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 18:52:03,a.hamidi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 18:52:44,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 18:53:36,a.hamidi,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 18:54:04,m.benali,PC-192.168.1.105,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 18:54:23,r.kabbaj,PC-192.168.1.101,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 18:55:53,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 18:56:06,a.hamidi,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 18:56:58,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 18:58:13,n.elkhlifi,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 18:58:43,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 19:00:02,a.hamidi,PC-192.168.1.105,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 19:01:16,m.benali,PC-192.168.1.103,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 19:02:36,y.ait,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:03:15,a.hamidi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 19:04:40,n.elkhlifi,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:05:25,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,n.elkhlifi opened Teams.exe
+2025-05-26 19:05:50,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 19:06:35,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:07:49,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 19:08:47,a.hamidi,PC-192.168.1.102,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 19:10:12,r.kabbaj,PC-192.168.1.103,Windows10,open_application,Word.exe,,,r.kabbaj opened Word.exe
+2025-05-26 19:11:06,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 19:11:50,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:13:12,y.ait,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:14:17,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 19:15:21,r.kabbaj,PC-192.168.1.101,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 19:16:01,r.kabbaj,PC-192.168.1.105,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 19:17:21,n.elkhlifi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 19:18:42,r.kabbaj,PC-192.168.1.102,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 19:19:26,n.elkhlifi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 19:19:49,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 19:20:02,r.kabbaj,PC-192.168.1.105,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 19:21:05,a.hamidi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:21:37,n.elkhlifi,PC-192.168.1.105,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 19:22:05,y.ait,PC-192.168.1.102,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 19:22:38,n.elkhlifi,PC-192.168.1.101,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 19:23:53,m.benali,PC-192.168.1.105,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 19:24:07,y.ait,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:24:38,n.elkhlifi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:25:41,n.elkhlifi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 19:25:58,m.benali,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:26:11,y.ait,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:27:27,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:27:49,n.elkhlifi,PC-192.168.1.103,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 19:29:13,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 19:29:54,m.benali,PC-192.168.1.102,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 19:30:23,m.benali,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:31:37,n.elkhlifi,PC-192.168.1.104,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 19:32:02,y.ait,PC-192.168.1.101,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 19:33:29,r.kabbaj,PC-192.168.1.103,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 19:33:41,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 19:34:19,n.elkhlifi,PC-192.168.1.103,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 19:35:19,y.ait,PC-192.168.1.102,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:35:36,r.kabbaj,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 19:36:03,a.hamidi,PC-192.168.1.104,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 19:36:14,a.hamidi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:37:36,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 19:38:10,m.benali,PC-192.168.1.105,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 19:39:11,r.kabbaj,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 19:40:39,y.ait,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:41:41,a.hamidi,PC-192.168.1.101,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:41:51,n.elkhlifi,PC-192.168.1.103,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 19:42:54,y.ait,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:44:22,r.kabbaj,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:45:25,r.kabbaj,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 19:46:25,y.ait,PC-192.168.1.101,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 19:46:34,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:47:17,y.ait,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 19:47:44,n.elkhlifi,PC-192.168.1.103,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:49:14,n.elkhlifi,PC-192.168.1.105,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 19:49:23,m.benali,PC-192.168.1.102,Windows10,open_application,Word.exe,,,m.benali opened Word.exe
+2025-05-26 19:50:08,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:50:21,y.ait,PC-192.168.1.103,Windows10,email_clicked,,,http://phish-login.com,Clicked suspicious link: http://phish-login.com
+2025-05-26 19:51:35,m.benali,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:52:02,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 19:53:22,a.hamidi,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 19:53:39,y.ait,PC-192.168.1.105,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 19:53:56,y.ait,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:54:07,m.benali,PC-192.168.1.104,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 19:55:24,n.elkhlifi,PC-192.168.1.104,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 19:56:41,m.benali,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 19:58:06,n.elkhlifi,PC-192.168.1.104,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 19:58:43,m.benali,PC-192.168.1.101,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 19:59:04,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 20:00:24,n.elkhlifi,PC-192.168.1.103,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 20:00:30,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 20:01:53,y.ait,PC-192.168.1.104,Windows10,network_connection,,,185.199.108.153,Suspicious connection to 185.199.108.153
+2025-05-26 20:02:23,n.elkhlifi,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:03:15,r.kabbaj,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:03:24,r.kabbaj,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 20:04:50,a.hamidi,PC-192.168.1.103,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 20:05:38,r.kabbaj,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 20:05:47,m.benali,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,m.benali opened Outlook.exe
+2025-05-26 20:06:56,a.hamidi,PC-192.168.1.105,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 20:08:04,r.kabbaj,PC-192.168.1.104,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 20:08:42,r.kabbaj,PC-192.168.1.104,Windows10,file_access,,,C:\Users\r.kabbaj\Documents\project.docx,Opened document
+2025-05-26 20:10:06,r.kabbaj,PC-192.168.1.103,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:11:17,n.elkhlifi,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,n.elkhlifi opened Outlook.exe
+2025-05-26 20:12:12,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 20:13:17,n.elkhlifi,PC-192.168.1.101,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 20:14:30,a.hamidi,PC-192.168.1.103,Windows10,open_application,Word.exe,,,a.hamidi opened Word.exe
+2025-05-26 20:15:33,n.elkhlifi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 20:16:46,n.elkhlifi,PC-192.168.1.101,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 20:18:15,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 20:19:33,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 20:20:53,a.hamidi,PC-192.168.1.104,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:20:58,a.hamidi,PC-192.168.1.104,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 20:21:34,r.kabbaj,PC-192.168.1.103,Windows10,network_connection,,,192.168.1.20,Suspicious connection to 192.168.1.20
+2025-05-26 20:21:46,y.ait,PC-192.168.1.104,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 20:22:10,a.hamidi,PC-192.168.1.104,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 20:23:25,n.elkhlifi,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 20:23:48,r.kabbaj,PC-192.168.1.102,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 20:24:57,r.kabbaj,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:26:07,n.elkhlifi,PC-192.168.1.102,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 20:27:02,n.elkhlifi,PC-192.168.1.104,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 20:27:24,y.ait,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 20:28:09,m.benali,PC-192.168.1.105,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 20:28:53,a.hamidi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 20:29:45,a.hamidi,PC-192.168.1.102,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 20:30:34,a.hamidi,PC-192.168.1.105,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 20:31:23,m.benali,PC-192.168.1.103,Windows10,login_success,,,,User m.benali logged in
+2025-05-26 20:31:44,a.hamidi,PC-192.168.1.102,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 20:32:41,y.ait,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 20:34:00,m.benali,PC-192.168.1.101,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 20:34:38,n.elkhlifi,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:35:44,n.elkhlifi,PC-192.168.1.101,Windows10,open_application,Word.exe,,,n.elkhlifi opened Word.exe
+2025-05-26 20:37:04,m.benali,PC-192.168.1.101,Windows10,open_application,Teams.exe,,,m.benali opened Teams.exe
+2025-05-26 20:37:38,r.kabbaj,PC-192.168.1.102,Windows10,open_application,Chrome.exe,,,r.kabbaj opened Chrome.exe
+2025-05-26 20:38:53,a.hamidi,PC-192.168.1.105,Windows10,login_success,,,,User a.hamidi logged in
+2025-05-26 20:40:01,y.ait,PC-192.168.1.102,Windows10,open_application,Word.exe,,,y.ait opened Word.exe
+2025-05-26 20:40:09,a.hamidi,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 20:40:24,y.ait,PC-192.168.1.101,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 20:41:37,n.elkhlifi,PC-192.168.1.102,Windows10,login_success,,,,User n.elkhlifi logged in
+2025-05-26 20:42:25,y.ait,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 20:42:30,a.hamidi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\a.hamidi\Documents\project.docx,Opened document
+2025-05-26 20:42:53,r.kabbaj,PC-192.168.1.103,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 20:43:48,m.benali,PC-192.168.1.105,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 20:45:07,r.kabbaj,PC-192.168.1.103,Windows10,login_success,,,,User r.kabbaj logged in
+2025-05-26 20:46:02,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 20:47:03,y.ait,PC-192.168.1.104,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 20:48:14,n.elkhlifi,PC-192.168.1.103,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 20:48:41,a.hamidi,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 20:49:16,y.ait,PC-192.168.1.101,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 20:49:56,y.ait,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,y.ait opened Outlook.exe
+2025-05-26 20:50:32,a.hamidi,PC-192.168.1.102,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 20:51:28,y.ait,PC-192.168.1.103,Windows10,login_success,,,,User y.ait logged in
+2025-05-26 20:52:05,m.benali,PC-192.168.1.103,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 20:53:02,m.benali,PC-192.168.1.105,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 20:53:46,r.kabbaj,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 20:54:30,y.ait,PC-192.168.1.101,Windows10,open_application,Chrome.exe,,,y.ait opened Chrome.exe
+2025-05-26 20:55:24,r.kabbaj,PC-192.168.1.105,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 20:56:48,a.hamidi,PC-192.168.1.103,Windows10,open_application,Teams.exe,,,a.hamidi opened Teams.exe
+2025-05-26 20:57:36,m.benali,PC-192.168.1.104,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 20:58:49,n.elkhlifi,PC-192.168.1.101,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 20:59:20,n.elkhlifi,PC-192.168.1.104,Windows10,network_connection,,,10.0.0.66,Suspicious connection to 10.0.0.66
+2025-05-26 21:00:04,y.ait,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 21:01:13,m.benali,PC-192.168.1.102,Windows10,file_access,,,C:\Users\m.benali\Documents\project.docx,Opened document
+2025-05-26 21:01:29,n.elkhlifi,PC-192.168.1.105,Windows10,file_access,,,C:\Users\n.elkhlifi\Documents\project.docx,Opened document
+2025-05-26 21:02:06,y.ait,PC-192.168.1.105,Windows10,email_clicked,,,http://malicious-site.net,Clicked suspicious link: http://malicious-site.net
+2025-05-26 21:02:30,m.benali,PC-192.168.1.105,Windows10,email_received,,it-support@um6p.ac.ma,,Email received from it-support@um6p.ac.ma
+2025-05-26 21:02:44,y.ait,PC-192.168.1.102,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 21:03:46,n.elkhlifi,PC-192.168.1.103,Windows10,file_created,,,C:\Temp\malware.exe,Suspicious file created
+2025-05-26 21:04:19,r.kabbaj,PC-192.168.1.101,Windows10,open_application,Outlook.exe,,,r.kabbaj opened Outlook.exe
+2025-05-26 21:05:07,a.hamidi,PC-192.168.1.102,Windows10,open_application,Outlook.exe,,,a.hamidi opened Outlook.exe
+2025-05-26 21:06:30,n.elkhlifi,PC-192.168.1.104,Windows10,alert_av,,,,Antivirus alert triggered
+2025-05-26 21:06:50,y.ait,PC-192.168.1.104,Windows10,file_access,,,C:\Users\y.ait\Documents\project.docx,Opened document
+2025-05-26 21:08:11,m.benali,PC-192.168.1.103,Windows10,open_application,Outlook.exe,,,m.benali opened Outlook.exe
+2025-05-26 21:09:06,m.benali,PC-192.168.1.102,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 21:09:31,m.benali,PC-192.168.1.101,Windows10,email_received,,finance@um6p.ac.ma,,Email received from finance@um6p.ac.ma
+2025-05-26 21:10:37,m.benali,PC-192.168.1.104,Windows10,email_clicked,,,http://um6p-reset-password.com,Clicked suspicious link: http://um6p-reset-password.com
+2025-05-26 21:12:04,a.hamidi,PC-192.168.1.105,Windows10,alert_av,,,,Antivirus alert triggered

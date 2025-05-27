@@ -1,0 +1,1000 @@
+2025-05-26T10:05:45 UM6P EDR Host=PC-ADAM User=adam Alert=PossibleLateralMovement Process=cmd.exe Severity=Medium
+2025-05-26T10:02:37 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:04:32 UM6P EDR Host=PC-MAX User=max FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:01:34 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:23:57 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:22:21 UM6P EDR Host=PC-MAX User=max Alert=PossibleLateralMovement Process=wmic.exe Severity=Medium
+2025-05-26T10:16:20 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:03:18 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:28:45 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=powershell.exe Severity=Low
+2025-05-26T10:22:36 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:26:52 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:04:37 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=procdump.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:12:45 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:26:11 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=explorer.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:12:28 UM6P EDR Host=PC-BLACK User=black Alert=UnusualProcessInjection Process=procdump.exe Severity=Low
+2025-05-26T10:08:56 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:16:38 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:28:42 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:18:34 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=procdump.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:16:00 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:08:33 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:20:30 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:26:27 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:22:13 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=explorer.exe Severity=Medium
+2025-05-26T10:12:50 UM6P EDR Host=PC-ADAM User=adam Alert=AnomalousFileCreation Process=explorer.exe Severity=High
+2025-05-26T10:23:25 UM6P EDR Host=PC-MAX User=max Alert=CredentialDumpingAttempt Process=powershell.exe Severity=High
+2025-05-26T10:13:17 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:16:01 UM6P EDR Host=PC-BLACK User=black Alert=UnusualLogonTime Process=mshta.exe Severity=High
+2025-05-26T10:24:05 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:03:51 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:14:47 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=net.exe Severity=Medium
+2025-05-26T10:20:30 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=mshta.exe Severity=Low
+2025-05-26T10:23:40 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:01:51 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:09:29 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:23:11 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:03:01 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:20:54 UM6P EDR Host=PC-BLACK User=black Alert=UnusualProcessInjection Process=procdump.exe Severity=Low
+2025-05-26T10:03:34 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:16:00 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:20:25 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:07:31 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:11:34 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:16:21 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:02:38 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:18:46 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:20:01 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:17:38 UM6P EDR Host=PC-MAX User=max Alert=PersistenceMechanism Process=powershell.exe Severity=Medium
+2025-05-26T10:16:04 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:28:26 UM6P EDR Host=PC-MAX User=max Alert=UnusualPrivilegeEscalation Process=procdump.exe Severity=Low
+2025-05-26T10:18:51 UM6P EDR Host=PC-BLACK User=black ProcessStarted=mshta.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:25:03 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:17:39 UM6P EDR Host=PC-BLACK User=black ProcessStarted=wmic.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:17:42 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:04:35 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:15:10 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:24:11 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:01:37 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:01:36 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:11:27 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:10:25 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:21:43 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:03:24 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:03:13 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:11:04 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:28:25 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:27:57 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:29:10 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=cmd.exe Severity=High
+2025-05-26T10:08:48 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:07:39 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualPrivilegeEscalation Process=wmic.exe Severity=High
+2025-05-26T10:21:24 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:01:11 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:08:24 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:00:16 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=procdump.exe Severity=High
+2025-05-26T10:18:45 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=wmic.exe Severity=Low
+2025-05-26T10:16:04 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:24:01 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:21:17 UM6P EDR Host=PC-ZOE User=zoe Alert=CredentialDumpingAttempt Process=procdump.exe Severity=Low
+2025-05-26T10:13:21 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:14:36 UM6P EDR Host=PC-ZOE User=zoe Alert=CredentialDumpingAttempt Process=mshta.exe Severity=Low
+2025-05-26T10:19:19 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:27:35 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:06:33 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:00:01 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:10:51 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:19:48 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:26:18 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousScriptExecution Process=cmd.exe Severity=Low
+2025-05-26T10:09:45 UM6P EDR Host=PC-NINA User=nina Alert=ExecutionOfUnsignedExecutable Process=powershell.exe Severity=Medium
+2025-05-26T10:00:02 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:05:39 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:05:56 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:20:53 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=cmd.exe Severity=Medium
+2025-05-26T10:04:40 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=powershell.exe Severity=Low
+2025-05-26T10:27:06 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:07:52 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:18:33 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:28:37 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:04:42 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=mshta.exe Severity=Low
+2025-05-26T10:27:59 UM6P EDR Host=PC-MAX User=max Alert=UnusualPrivilegeEscalation Process=net.exe Severity=Low
+2025-05-26T10:01:14 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=mshta.exe Severity=Medium
+2025-05-26T10:11:30 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:05:32 UM6P EDR Host=PC-BLACK User=black ProcessStarted=wmic.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:12:19 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:05:08 UM6P EDR Host=PC-BLACK User=black ProcessStarted=net.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:28:42 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=explorer.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:14:03 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:24:04 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:27:54 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:21:58 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:24:32 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:10:52 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:12:39 UM6P EDR Host=PC-BLACK User=black ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:29:19 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:16:39 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualLogonTime Process=explorer.exe Severity=High
+2025-05-26T10:01:35 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:22:37 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousNetworkBeaconing Process=mshta.exe Severity=High
+2025-05-26T10:25:03 UM6P EDR Host=PC-BLACK User=black ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:23:11 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:12:30 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:05:07 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:23:46 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:07:55 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:21:51 UM6P EDR Host=PC-NINA User=nina ProcessStarted=wmic.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:24:06 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:11:47 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:12:25 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:21:53 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:22:22 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:23:26 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=High
+2025-05-26T10:21:03 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:20:54 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism Process=procdump.exe Severity=High
+2025-05-26T10:13:36 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:12:10 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=mshta.exe Severity=High
+2025-05-26T10:00:03 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousScriptExecution Process=procdump.exe Severity=Medium
+2025-05-26T10:14:41 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=procdump.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:15:08 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:21:33 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:26:44 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:25:50 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualLogonTime Process=wmic.exe Severity=High
+2025-05-26T10:17:06 UM6P EDR Host=PC-BLACK User=black Alert=PossibleLateralMovement Process=explorer.exe Severity=Low
+2025-05-26T10:23:26 UM6P EDR Host=PC-ADAM User=adam Alert=SuspiciousScriptExecution Process=cmd.exe Severity=Medium
+2025-05-26T10:00:34 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:19:47 UM6P EDR Host=PC-NINA User=nina ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:26:56 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:03:50 UM6P EDR Host=PC-BLACK User=black ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:16:07 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:29:07 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:14:22 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:28:50 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:59 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:18:12 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:23:37 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:06:25 UM6P EDR Host=PC-NINA User=nina ProcessStarted=procdump.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:22:10 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:18:13 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:29:06 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:14:15 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:19:41 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=procdump.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:22:13 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:13:27 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:24:36 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:23:46 UM6P EDR Host=PC-ADAM User=adam Alert=SuspiciousScriptExecution Process=procdump.exe Severity=Low
+2025-05-26T10:03:39 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:20:46 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:16:10 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:19:25 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=Medium
+2025-05-26T10:26:52 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:22:24 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:20:24 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=mshta.exe Severity=High
+2025-05-26T10:21:30 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:09:23 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:00:14 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:27:10 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:15:15 UM6P EDR Host=PC-MAX User=max ProcessStarted=procdump.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:12:10 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:18:06 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:21:38 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousScriptExecution Process=net.exe Severity=Medium
+2025-05-26T10:09:45 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:28:27 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:10:07 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=powershell.exe Severity=Medium
+2025-05-26T10:12:28 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=cmd.exe Severity=Low
+2025-05-26T10:21:51 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:16:03 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:00:56 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:18:36 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:11:22 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:16:33 UM6P EDR Host=PC-BLACK User=black Alert=AnomalousFileCreation Process=powershell.exe Severity=High
+2025-05-26T10:27:21 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:18:11 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:26:51 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=wmic.exe Severity=High
+2025-05-26T10:21:07 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:23:24 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=powershell.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:16:25 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:26:05 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:24:22 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=mshta.exe Severity=Low
+2025-05-26T10:02:36 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:04:59 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:25:11 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:09:16 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:07:30 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:10:09 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualPrivilegeEscalation Process=cmd.exe Severity=High
+2025-05-26T10:23:24 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:09:27 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:14:05 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:03:31 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:25:32 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:09:22 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:02:59 UM6P EDR Host=PC-MAX User=max ProcessStarted=powershell.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:21:22 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:04:08 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:24:53 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:13:14 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:15:24 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:08:13 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:14:58 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:28:26 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:25:12 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:18:02 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:24:53 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:16:47 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:27:21 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:04:38 UM6P EDR Host=PC-ADAM User=adam Alert=CredentialDumpingAttempt Process=powershell.exe Severity=Medium
+2025-05-26T10:28:48 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:13:49 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:11:18 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:03:06 UM6P EDR Host=PC-MAX User=max ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:18:41 UM6P EDR Host=PC-BLACK User=black ProcessStarted=wmic.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:18:17 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:11:40 UM6P EDR Host=PC-MAX User=max Alert=CredentialDumpingAttempt Process=explorer.exe Severity=High
+2025-05-26T10:27:29 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:20:24 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:13:02 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:06:17 UM6P EDR Host=PC-NINA User=nina Alert=PossibleLateralMovement Process=mshta.exe Severity=Medium
+2025-05-26T10:22:56 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:18:01 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:24:59 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:26:45 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:17:07 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:28:21 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:22:54 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:21:08 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:21:23 UM6P EDR Host=PC-ZOE User=zoe Alert=AnomalousFileCreation Process=mshta.exe Severity=Medium
+2025-05-26T10:21:45 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:10:52 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:07:31 UM6P EDR Host=PC-NINA User=nina Alert=UnusualProcessInjection Process=wmic.exe Severity=High
+2025-05-26T10:12:34 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualPrivilegeEscalation Process=cmd.exe Severity=Medium
+2025-05-26T10:26:31 UM6P EDR Host=PC-MAX User=max Alert=AnomalousFileCreation Process=explorer.exe Severity=Medium
+2025-05-26T10:18:42 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:20:31 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:14:59 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:09:32 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:20:12 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:09:21 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=mshta.exe Severity=Low
+2025-05-26T10:10:18 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:19:31 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:25:35 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:05:09 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:23:12 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:08:57 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:06:51 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:09:44 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=cmd.exe Severity=High
+2025-05-26T10:26:00 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:23:45 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:03:19 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:06:42 UM6P EDR Host=PC-NINA User=nina ProcessStarted=net.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:02:02 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:20:12 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=net.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:13:34 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:25:29 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:20:05 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=powershell.exe Severity=High
+2025-05-26T10:00:45 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:23:02 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:00:55 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:08:03 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:10:46 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:00:53 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:27:16 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:06:41 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:10:33 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:12:59 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=explorer.exe Severity=High
+2025-05-26T10:05:54 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:08:01 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:09:13 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:21:29 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:10:32 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualProcessInjection Process=wmic.exe Severity=High
+2025-05-26T10:25:49 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:08:15 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:13:55 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:29:05 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:02:14 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualPrivilegeEscalation Process=procdump.exe Severity=Medium
+2025-05-26T10:25:58 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:01:39 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:08:27 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:18:01 UM6P EDR Host=PC-MAX User=max Alert=UnusualPrivilegeEscalation Process=cmd.exe Severity=Low
+2025-05-26T10:23:32 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:18:54 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=net.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:09:29 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:19:59 UM6P EDR Host=PC-ADAM User=adam Alert=AnomalousFileCreation Process=procdump.exe Severity=Low
+2025-05-26T10:28:18 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:20:17 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:17:26 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:22:19 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:13:49 UM6P EDR Host=PC-MAX User=max ProcessStarted=powershell.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:29:23 UM6P EDR Host=PC-NINA User=nina ProcessStarted=wmic.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:20:10 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:20:57 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:29:08 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:02:01 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:03:38 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:28:33 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:16:48 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:08:09 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:12:16 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:13:47 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=wmic.exe Severity=High
+2025-05-26T10:00:03 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:10:49 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:08:38 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:03:39 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:04:40 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=explorer.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:27:54 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:16:18 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:22:16 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:11:43 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=procdump.exe Severity=High
+2025-05-26T10:24:29 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:21:29 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:25:58 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=powershell.exe Severity=Low
+2025-05-26T10:00:14 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:12:32 UM6P EDR Host=PC-NINA User=nina Alert=CredentialDumpingAttempt Process=cmd.exe Severity=High
+2025-05-26T10:23:46 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:01:12 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:09:23 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:25:26 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:12:36 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=cmd.exe Severity=Low
+2025-05-26T10:10:56 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:08:00 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualProcessInjection Process=net.exe Severity=High
+2025-05-26T10:24:53 UM6P EDR Host=PC-NINA User=nina ProcessStarted=procdump.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:10:33 UM6P EDR Host=PC-BLACK User=black Alert=ExecutionOfUnsignedExecutable Process=mshta.exe Severity=Low
+2025-05-26T10:17:22 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:03:29 UM6P EDR Host=PC-NINA User=nina Alert=AnomalousFileCreation Process=wmic.exe Severity=Medium
+2025-05-26T10:28:05 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:12:01 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism Process=powershell.exe Severity=High
+2025-05-26T10:21:56 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:03:10 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:17:36 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:26:52 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousNetworkBeaconing Process=cmd.exe Severity=Low
+2025-05-26T10:04:59 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:23:46 UM6P EDR Host=PC-ADAM User=adam Alert=SuspiciousNetworkBeaconing Process=cmd.exe Severity=Medium
+2025-05-26T10:18:10 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:06:56 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=net.exe Severity=High
+2025-05-26T10:23:23 UM6P EDR Host=PC-BLACK User=black ProcessStarted=cmd.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:01:20 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:04:13 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:16:43 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:29:41 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:01:46 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:29:44 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:13:57 UM6P EDR Host=PC-NINA User=nina Alert=PossibleLateralMovement Process=cmd.exe Severity=Medium
+2025-05-26T10:09:20 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:12:52 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:12:41 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:23:29 UM6P EDR Host=PC-NINA User=nina ProcessStarted=cmd.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:11:39 UM6P EDR Host=PC-MAX User=max Alert=PersistenceMechanism Process=procdump.exe Severity=Medium
+2025-05-26T10:13:20 UM6P EDR Host=PC-ZOE User=zoe Alert=PersistenceMechanism Process=explorer.exe Severity=High
+2025-05-26T10:07:22 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:22:40 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:29:55 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:24:51 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:10:31 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:14:59 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:03:35 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:00:09 UM6P EDR Host=PC-MAX User=max ProcessStarted=explorer.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:05:50 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:06:27 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:14:16 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:13:09 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:20:42 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:05:49 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:18:39 UM6P EDR Host=PC-BLACK User=black Alert=ExecutionOfUnsignedExecutable Process=cmd.exe Severity=High
+2025-05-26T10:25:35 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:28:37 UM6P EDR Host=PC-MAX User=max Alert=PersistenceMechanism Process=powershell.exe Severity=High
+2025-05-26T10:24:47 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:05:53 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:21:58 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:03:15 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:22:12 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:22:00 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:16:22 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:24:19 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:12:18 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:10:17 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:29:50 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:09:31 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:28:00 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:08:27 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism Process=explorer.exe Severity=Low
+2025-05-26T10:11:12 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:28:36 UM6P EDR Host=PC-ZOE User=zoe Alert=PersistenceMechanism Process=mshta.exe Severity=Low
+2025-05-26T10:15:01 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:05:40 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:15:39 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=powershell.exe Severity=Medium
+2025-05-26T10:17:32 UM6P EDR Host=PC-MAX User=max ProcessStarted=powershell.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:12:02 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:20:37 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:09:20 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:15:59 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:29:56 UM6P EDR Host=PC-BLACK User=black Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=Medium
+2025-05-26T10:13:26 UM6P EDR Host=PC-MAX User=max FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:12:20 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousNetworkBeaconing Process=cmd.exe Severity=Medium
+2025-05-26T10:27:27 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:12:27 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:13:05 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:23:36 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=procdump.exe Severity=Medium
+2025-05-26T10:01:10 UM6P EDR Host=PC-NINA User=nina Alert=UnusualProcessInjection Process=procdump.exe Severity=High
+2025-05-26T10:26:33 UM6P EDR Host=PC-BLACK User=black ProcessStarted=mshta.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:12:09 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:05:56 UM6P EDR Host=PC-NINA User=nina ProcessStarted=cmd.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:08:34 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:04:23 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:24:20 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:07:18 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:19:27 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:29:39 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:17:44 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:16:00 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:19:04 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:26:15 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:23:02 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=wmic.exe Severity=Medium
+2025-05-26T10:05:04 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:17:58 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:14:24 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:14:12 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:22:39 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:20:04 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=procdump.exe Severity=Medium
+2025-05-26T10:28:50 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:25:19 UM6P EDR Host=PC-NINA User=nina Alert=PossibleLateralMovement Process=explorer.exe Severity=High
+2025-05-26T10:12:48 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:19:53 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:02:56 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:14:10 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:01:18 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:23:36 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:02:03 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=powershell.exe Severity=Low
+2025-05-26T10:07:54 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=procdump.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:01:33 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:22:47 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:13:25 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:14:25 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:04:47 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:26:01 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:01:44 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:02:56 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:20:47 UM6P EDR Host=PC-ZOE User=zoe Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=High
+2025-05-26T10:07:50 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:15:08 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:00:13 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:00:48 UM6P EDR Host=PC-MAX User=max ProcessStarted=procdump.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:13:14 UM6P EDR Host=PC-NINA User=nina ProcessStarted=net.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:13:48 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism Process=wmic.exe Severity=Low
+2025-05-26T10:24:00 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:28:20 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:02:33 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:26:11 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:10:56 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:11:27 UM6P EDR Host=PC-ADAM User=adam Alert=ExecutionOfUnsignedExecutable Process=powershell.exe Severity=High
+2025-05-26T10:05:39 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:20:52 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:22:17 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:03:39 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:27:37 UM6P EDR Host=PC-NINA User=nina ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:19:11 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=powershell.exe Severity=Low
+2025-05-26T10:06:47 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:10:53 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:28:40 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:07:26 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:19:28 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:24:25 UM6P EDR Host=PC-BLACK User=black ProcessStarted=mshta.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:05:03 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=net.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:10:30 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:21:39 UM6P EDR Host=PC-BLACK User=black ProcessStarted=explorer.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:19:47 UM6P EDR Host=PC-BLACK User=black Alert=AnomalousFileCreation Process=net.exe Severity=Medium
+2025-05-26T10:18:11 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:24:00 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:20:41 UM6P EDR Host=PC-NINA User=nina Alert=AnomalousFileCreation Process=net.exe Severity=High
+2025-05-26T10:04:59 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=cmd.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:21:51 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=net.exe Severity=Medium
+2025-05-26T10:05:16 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:04:39 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:01:03 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:26:33 UM6P EDR Host=PC-ADAM User=adam Alert=PossibleLateralMovement Process=net.exe Severity=Low
+2025-05-26T10:22:39 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:12:01 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:16:37 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:15:02 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualLogonTime Process=net.exe Severity=Low
+2025-05-26T10:21:15 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:06:01 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:21:05 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:09:53 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualLogonTime Process=net.exe Severity=Medium
+2025-05-26T10:20:08 UM6P EDR Host=PC-BLACK User=black Alert=ExecutionOfUnsignedExecutable Process=mshta.exe Severity=Medium
+2025-05-26T10:07:07 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:20:50 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:05:05 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:17:36 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:11:55 UM6P EDR Host=PC-MAX User=max ProcessStarted=mshta.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:03:34 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:17:18 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:16:56 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:00:52 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:29:07 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:27:43 UM6P EDR Host=PC-NINA User=nina ProcessStarted=procdump.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:13:53 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=procdump.exe Severity=Low
+2025-05-26T10:26:12 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:21:16 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:04:59 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousNetworkBeaconing Process=wmic.exe Severity=High
+2025-05-26T10:28:35 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:04:36 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:00:06 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:27:45 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:12:23 UM6P EDR Host=PC-BLACK User=black ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:28:06 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:08:17 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:17:32 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:17:34 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:12:30 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:09:53 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:24:20 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:11:54 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:19:38 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualProcessInjection Process=mshta.exe Severity=Medium
+2025-05-26T10:06:09 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:09:03 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:17:45 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:26:32 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:25:10 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:22:10 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:26:51 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:11:59 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:00:13 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism Process=mshta.exe Severity=Medium
+2025-05-26T10:19:56 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=powershell.exe Severity=Low
+2025-05-26T10:13:42 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:08:52 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:15:26 UM6P EDR Host=PC-ZOE User=zoe Alert=AnomalousFileCreation Process=mshta.exe Severity=Medium
+2025-05-26T10:06:33 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:14:10 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=procdump.exe Severity=Medium
+2025-05-26T10:08:25 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=wmic.exe Severity=High
+2025-05-26T10:27:50 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:00:49 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:22:43 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:17:37 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:28:47 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:24:53 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:24:18 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:06:10 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:28 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:19:00 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:19:00 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=explorer.exe Severity=Medium
+2025-05-26T10:26:02 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousNetworkBeaconing Process=net.exe Severity=Medium
+2025-05-26T10:05:58 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:14:17 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualPrivilegeEscalation Process=explorer.exe Severity=Low
+2025-05-26T10:14:54 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=wmic.exe Severity=Low
+2025-05-26T10:26:37 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:06:36 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:25:13 UM6P EDR Host=PC-BLACK User=black ProcessStarted=net.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:06:39 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:27:01 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:01 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=mshta.exe Severity=High
+2025-05-26T10:17:43 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:08:51 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:00:53 UM6P EDR Host=PC-ADAM User=adam Alert=PossibleLateralMovement Process=mshta.exe Severity=Medium
+2025-05-26T10:00:24 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:17:08 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:19:52 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:20:35 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:10:26 UM6P EDR Host=PC-MAX User=max Alert=UnusualProcessInjection Process=procdump.exe Severity=Medium
+2025-05-26T10:09:30 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:20:37 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:15:59 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:01:03 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:06:02 UM6P EDR Host=PC-MAX User=max ProcessStarted=powershell.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:00:49 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:06:29 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:27:56 UM6P EDR Host=PC-MAX User=max ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:29:49 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:05:25 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:23:55 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:01:07 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:17:57 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:01:38 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:16:19 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:13:26 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=powershell.exe Severity=Medium
+2025-05-26T10:10:41 UM6P EDR Host=PC-ZOE User=zoe Alert=CredentialDumpingAttempt Process=net.exe Severity=High
+2025-05-26T10:08:55 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:01:59 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:33 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=explorer.exe Severity=Medium
+2025-05-26T10:20:39 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:05:36 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:06:58 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:14:42 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:23:37 UM6P EDR Host=PC-ADAM User=adam Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=High
+2025-05-26T10:18:24 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualLogonTime Process=net.exe Severity=Medium
+2025-05-26T10:15:01 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualPrivilegeEscalation Process=wmic.exe Severity=High
+2025-05-26T10:21:49 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=net.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:29:20 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:10:27 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:25:53 UM6P EDR Host=PC-ADAM User=adam Alert=AnomalousFileCreation Process=mshta.exe Severity=High
+2025-05-26T10:25:23 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=procdump.exe Severity=Low
+2025-05-26T10:22:35 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:21:55 UM6P EDR Host=PC-NINA User=nina ProcessStarted=wmic.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:25:45 UM6P EDR Host=PC-NINA User=nina Alert=PersistenceMechanism Process=wmic.exe Severity=High
+2025-05-26T10:27:45 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:25:13 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:03:30 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=cmd.exe Severity=Low
+2025-05-26T10:07:22 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:10:34 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:20:30 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:16:56 UM6P EDR Host=PC-BLACK User=black ProcessStarted=mshta.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:12:55 UM6P EDR Host=PC-ADAM User=adam Alert=SuspiciousNetworkBeaconing Process=cmd.exe Severity=Low
+2025-05-26T10:05:57 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousScriptExecution Process=wmic.exe Severity=High
+2025-05-26T10:07:40 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=powershell.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:17:46 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:15:45 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:12:03 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:08:18 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:02:30 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=powershell.exe Severity=High
+2025-05-26T10:18:13 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:14:00 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:25:52 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:09:54 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:19:30 UM6P EDR Host=PC-NINA User=nina ProcessStarted=wmic.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:26:12 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:21:10 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:00:22 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:26:29 UM6P EDR Host=PC-NINA User=nina Alert=UnusualProcessInjection Process=wmic.exe Severity=Low
+2025-05-26T10:27:41 UM6P EDR Host=PC-MAX User=max ProcessStarted=mshta.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:09:13 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=explorer.exe Severity=Low
+2025-05-26T10:09:14 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:28:23 UM6P EDR Host=PC-ADAM User=adam Alert=AnomalousFileCreation Process=net.exe Severity=Low
+2025-05-26T10:27:17 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:28:10 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:04:19 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:07:41 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:08:06 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:02:56 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=net.exe Severity=High
+2025-05-26T10:19:05 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:25:29 UM6P EDR Host=PC-NINA User=nina ProcessStarted=wmic.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:24:36 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:23:42 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:12:47 UM6P EDR Host=PC-BLACK User=black Alert=UnusualPrivilegeEscalation Process=cmd.exe Severity=Low
+2025-05-26T10:16:20 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:19:33 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:18:00 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=High
+2025-05-26T10:19:51 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:08:11 UM6P EDR Host=PC-BLACK User=black Alert=UnusualPrivilegeEscalation Process=cmd.exe Severity=Medium
+2025-05-26T10:23:09 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:15:05 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:01:59 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:12:01 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:16:31 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:19:09 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:12:30 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:15:09 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:15:26 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:23:04 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:01:58 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:21:10 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:09:36 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:21:08 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:00:26 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:01:39 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:12:24 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:19:30 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:01:01 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:14:36 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:09:15 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:10:18 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:03:01 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:29:28 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:21:51 UM6P EDR Host=PC-MAX User=max ProcessStarted=net.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:01:56 UM6P EDR Host=PC-BLACK User=black ProcessStarted=cmd.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:09:40 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=procdump.exe Severity=Medium
+2025-05-26T10:19:05 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:25:11 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:24:17 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:10:19 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:29:25 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:03:12 UM6P EDR Host=PC-NINA User=nina ProcessStarted=procdump.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:02:38 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:22:41 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:09:24 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:01:06 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:26:04 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:10:38 UM6P EDR Host=PC-ZOE User=zoe Alert=CredentialDumpingAttempt Process=mshta.exe Severity=Low
+2025-05-26T10:08:20 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:25:44 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:25:39 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:05:58 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:20:50 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:17:07 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:01:00 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:09 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:08:23 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:26:52 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:26:22 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:07:54 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:29:42 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:20:22 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=cmd.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:26:16 UM6P EDR Host=PC-BLACK User=black Alert=CredentialDumpingAttempt Process=cmd.exe Severity=High
+2025-05-26T10:14:42 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:01:43 UM6P EDR Host=PC-NINA User=nina Alert=UnusualProcessInjection Process=wmic.exe Severity=Low
+2025-05-26T10:03:09 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=net.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:06:49 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:19:19 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:09:11 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=net.exe Severity=High
+2025-05-26T10:11:37 UM6P EDR Host=PC-BLACK User=black Alert=UnusualProcessInjection Process=net.exe Severity=Medium
+2025-05-26T10:06:01 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=powershell.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:29:55 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:22:17 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousScriptExecution Process=procdump.exe Severity=High
+2025-05-26T10:25:58 UM6P EDR Host=PC-MAX User=max FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:05:46 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:28:30 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:15:08 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:22:44 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:04:23 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:10:19 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=wmic.exe Severity=Low
+2025-05-26T10:21:17 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:18:36 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:28:44 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:16:13 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:21:40 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:05:58 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:22:39 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:03:03 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:08:29 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=net.exe Severity=Medium
+2025-05-26T10:07:02 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:29:30 UM6P EDR Host=PC-BLACK User=black Alert=ExecutionOfUnsignedExecutable Process=explorer.exe Severity=Low
+2025-05-26T10:13:15 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:23:13 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:15:47 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:24:04 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:21:55 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousNetworkBeaconing Process=explorer.exe Severity=Low
+2025-05-26T10:12:35 UM6P EDR Host=PC-BLACK User=black ProcessStarted=explorer.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:00:56 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:00:24 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:28:11 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:27:31 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:28:47 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=cmd.exe Severity=Medium
+2025-05-26T10:17:54 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:19:55 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:09:30 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:16:48 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=net.exe Severity=Low
+2025-05-26T10:19:42 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:01:58 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:26:57 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualLogonTime Process=procdump.exe Severity=Medium
+2025-05-26T10:15:47 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:28:58 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:24:20 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:17:46 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:26:01 UM6P EDR Host=PC-NINA User=nina ProcessStarted=procdump.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:22:13 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=net.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:02:26 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:06:28 UM6P EDR Host=PC-ZOE User=zoe Alert=ExecutionOfUnsignedExecutable Process=powershell.exe Severity=High
+2025-05-26T10:23:56 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=net.exe Severity=High
+2025-05-26T10:11:44 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:13:44 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:26:21 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:17:19 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualLogonTime Process=cmd.exe Severity=Medium
+2025-05-26T10:21:58 UM6P EDR Host=PC-MAX User=max ProcessStarted=net.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:18:59 UM6P EDR Host=PC-MAX User=max FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:14:23 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:02:46 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:15:28 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:04:53 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:02:37 UM6P EDR Host=PC-NINA User=nina Alert=PersistenceMechanism Process=cmd.exe Severity=Low
+2025-05-26T10:14:16 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:20:06 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:21:05 UM6P EDR Host=PC-BLACK User=black ProcessStarted=mshta.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:05:33 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:07:31 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:19:36 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=powershell.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:14:40 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:27:54 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:25:46 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:01:36 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:11:41 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:18:31 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:05:39 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:13:15 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:15:48 UM6P EDR Host=PC-MAX User=max Alert=UnusualProcessInjection Process=cmd.exe Severity=Medium
+2025-05-26T10:17:26 UM6P EDR Host=PC-MAX User=max ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:19:37 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=explorer.exe Severity=High
+2025-05-26T10:21:24 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:24:57 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:16:11 UM6P EDR Host=PC-MAX User=max ProcessStarted=cmd.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:11:04 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:01:24 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:23:30 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:14:20 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:23:04 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=wmic.exe Severity=High
+2025-05-26T10:29:24 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:27:25 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:28:46 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:08:17 UM6P EDR Host=PC-NINA User=nina Alert=UnusualProcessInjection Process=net.exe Severity=Low
+2025-05-26T10:01:07 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=mshta.exe Severity=High
+2025-05-26T10:26:50 UM6P EDR Host=PC-NINA User=nina ProcessStarted=procdump.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:13:28 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:16:11 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:14:38 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:06:34 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:12:24 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:13:26 UM6P EDR Host=PC-ZOE User=zoe Alert=PersistenceMechanism Process=mshta.exe Severity=Low
+2025-05-26T10:29:24 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:29:27 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:26:28 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=cmd.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:14:17 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:20:19 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:12:41 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:13:11 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:11:00 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:28:54 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:06:13 UM6P EDR Host=PC-BLACK User=black Alert=AnomalousFileCreation Process=net.exe Severity=Low
+2025-05-26T10:08:29 UM6P EDR Host=PC-BLACK User=black ProcessStarted=cmd.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:01:46 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:23:46 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:24:49 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:00:49 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:16:51 UM6P EDR Host=PC-ZOE User=zoe Alert=PossibleLateralMovement Process=net.exe Severity=Low
+2025-05-26T10:16:10 UM6P EDR Host=PC-BLACK User=black ProcessStarted=cmd.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:26:57 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualLogonTime Process=net.exe Severity=Medium
+2025-05-26T10:19:17 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:00:16 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:15:28 UM6P EDR Host=PC-ZOE User=zoe Alert=AnomalousFileCreation Process=explorer.exe Severity=Medium
+2025-05-26T10:19:07 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:02:09 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:20:52 UM6P EDR Host=PC-MAX User=max FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:07:59 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:16:07 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:07:51 UM6P EDR Host=PC-BLACK User=black ProcessStarted=net.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:00:51 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:17:21 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:29:17 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualLogonTime Process=mshta.exe Severity=Medium
+2025-05-26T10:07:25 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:04:34 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:38 UM6P EDR Host=PC-NINA User=nina Alert=PossibleLateralMovement Process=mshta.exe Severity=High
+2025-05-26T10:19:54 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:22:42 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:19:19 UM6P EDR Host=PC-BLACK User=black Alert=AnomalousFileCreation Process=cmd.exe Severity=Medium
+2025-05-26T10:03:20 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:19:07 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Process=procdump.exe Severity=High
+2025-05-26T10:15:36 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:14:46 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=cmd.exe Severity=Low
+2025-05-26T10:14:09 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:26:23 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:10:23 UM6P EDR Host=PC-MAX User=max FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:18:28 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:23:01 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:12:22 UM6P EDR Host=PC-ADAM User=adam Alert=PersistenceMechanism Process=net.exe Severity=Medium
+2025-05-26T10:15:25 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:19:47 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:28:29 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:23:42 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:00:29 UM6P EDR Host=PC-ZOE User=zoe Alert=ExecutionOfUnsignedExecutable Process=cmd.exe Severity=Low
+2025-05-26T10:15:47 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:04:55 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:26:30 UM6P EDR Host=PC-NINA User=nina ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:02:01 UM6P EDR Host=PC-BLACK User=black ProcessStarted=explorer.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:01:34 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:20:19 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:09:56 UM6P EDR Host=PC-MAX User=max Alert=AnomalousFileCreation Process=procdump.exe Severity=High
+2025-05-26T10:14:49 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:07:19 UM6P EDR Host=PC-BLACK User=black Alert=UnusualPrivilegeEscalation Process=wmic.exe Severity=Medium
+2025-05-26T10:02:04 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:14:14 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=powershell.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:02:44 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:02:58 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:13:14 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:27:49 UM6P EDR Host=PC-NINA User=nina ProcessStarted=wmic.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:05:54 UM6P EDR Host=PC-MAX User=max ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:27:33 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:17:14 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:08:47 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:09:39 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:15:07 UM6P EDR Host=PC-MAX User=max ProcessStarted=wmic.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:01:52 UM6P EDR Host=PC-BLACK User=black ProcessStarted=explorer.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:24:28 UM6P EDR Host=PC-BLACK User=black Alert=AnomalousFileCreation Process=wmic.exe Severity=Medium
+2025-05-26T10:20:12 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:03:10 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:16:21 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=cmd.exe ParentProcess=wmic.exe Status=Success
+2025-05-26T10:00:13 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T10:14:40 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe ParentProcess=mshta.exe Status=Success
+2025-05-26T10:12:05 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:02:25 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:25:11 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:00:10 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:19:53 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:07:36 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Documents\confidential.docx Suspicious=No
+2025-05-26T10:23:27 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:27:06 UM6P EDR Host=PC-NINA User=nina Alert=AnomalousFileCreation Process=procdump.exe Severity=Low
+2025-05-26T10:03:16 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualPrivilegeEscalation Process=wmic.exe Severity=Medium
+2025-05-26T10:15:48 UM6P EDR Host=PC-NINA User=nina ProcessStarted=mshta.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:11:50 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:12:28 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:23:27 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:09:16 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:14 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:22:00 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=mshta.exe Severity=High
+2025-05-26T10:27:23 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:02:59 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:07:32 UM6P EDR Host=PC-BLACK User=black Alert=UnusualProcessInjection Process=explorer.exe Severity=Low
+2025-05-26T10:15:42 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:09:29 UM6P EDR Host=PC-MAX User=max NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:07:21 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:10:11 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:04:34 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:15:49 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:19:05 UM6P EDR Host=PC-ZOE User=zoe Alert=UnusualProcessInjection Process=procdump.exe Severity=Low
+2025-05-26T10:12:30 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:06:48 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousNetworkBeaconing Process=net.exe Severity=Low
+2025-05-26T10:04:39 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:21:53 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:23:16 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:07:20 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Users\nina\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:11:32 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:10:48 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=wmic.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:13:56 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:10:32 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:08:11 UM6P EDR Host=PC-MAX User=max NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:18:06 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:00:04 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:01:20 UM6P EDR Host=PC-ADAM User=adam Alert=SuspiciousScriptExecution Process=mshta.exe Severity=Medium
+2025-05-26T10:17:01 UM6P EDR Host=PC-MAX User=max ProcessStarted=mshta.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:29:47 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T10:02:01 UM6P EDR Host=PC-MAX User=max FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:06:20 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:05:47 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:13:15 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:23:22 UM6P EDR Host=PC-NINA User=nina ProcessStarted=powershell.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:27:48 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=mshta.exe Severity=High
+2025-05-26T10:20:40 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:25:55 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousScriptExecution Process=powershell.exe Severity=Low
+2025-05-26T10:29:04 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:14:10 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:00:57 UM6P EDR Host=PC-MAX User=max Alert=UnusualPrivilegeEscalation Process=explorer.exe Severity=High
+2025-05-26T10:18:42 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousNetworkBeaconing Process=cmd.exe Severity=High
+2025-05-26T10:01:44 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Downloads\unknown.exe Suspicious=No
+2025-05-26T10:06:20 UM6P EDR Host=PC-MAX User=max Alert=SuspiciousNetworkBeaconing Process=mshta.exe Severity=Low
+2025-05-26T10:08:46 UM6P EDR Host=PC-NINA User=nina FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:09:42 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:01:57 UM6P EDR Host=PC-NINA User=nina ProcessStarted=cmd.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:12:17 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:28:39 UM6P EDR Host=PC-MAX User=max Alert=UnusualPrivilegeEscalation Process=mshta.exe Severity=High
+2025-05-26T10:22:56 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism Process=explorer.exe Severity=Low
+2025-05-26T10:06:34 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:03:40 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T10:06:21 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:22:20 UM6P EDR Host=PC-MAX User=max ProcessStarted=explorer.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:22:10 UM6P EDR Host=PC-NINA User=nina Alert=AnomalousFileCreation Process=net.exe Severity=Medium
+2025-05-26T10:00:57 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Temp\script.ps1 Suspicious=No
+2025-05-26T10:15:04 UM6P EDR Host=PC-MAX User=max Alert=PossibleLateralMovement Process=net.exe Severity=Low
+2025-05-26T10:12:18 UM6P EDR Host=PC-NINA User=nina Alert=UnusualLogonTime Process=powershell.exe Severity=Medium
+2025-05-26T10:24:04 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Blocked
+2025-05-26T10:09:14 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Users\zoe\Documents\confidential.docx Suspicious=No
+2025-05-26T10:11:02 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:09:02 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:04:30 UM6P EDR Host=PC-MAX User=max Alert=PossibleLateralMovement Process=wmic.exe Severity=Low
+2025-05-26T10:25:16 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:08:21 UM6P EDR Host=PC-MAX User=max ProcessStarted=net.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:22:53 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:07:30 UM6P EDR Host=PC-ZOE User=zoe NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:18:26 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=mshta.exe Severity=Medium
+2025-05-26T10:18:32 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:06:12 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Allowed
+2025-05-26T10:16:27 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Blocked
+2025-05-26T10:13:25 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:04:09 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousScriptExecution Process=explorer.exe Severity=Low
+2025-05-26T10:07:09 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:01:49 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousScriptExecution Process=powershell.exe Severity=High
+2025-05-26T10:14:30 UM6P EDR Host=PC-ZOE User=zoe FileModified=C:\Users\zoe\Documents\confidential.docx Suspicious=Yes
+2025-05-26T10:02:46 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\Documents\confidential.docx Suspicious=No
+2025-05-26T10:15:43 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\Downloads\unknown.exe Suspicious=Yes
+2025-05-26T10:24:05 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Users\black\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:06:30 UM6P EDR Host=PC-ZOE User=zoe FileCreated=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:23:36 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=powershell.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:27:38 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\Temp\exploit.dll Suspicious=Yes
+2025-05-26T10:24:06 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Windows\Temp\exploit.dll Suspicious=No
+2025-05-26T10:01:18 UM6P EDR Host=PC-NINA User=nina FileModified=C:\Users\nina\Documents\confidential.docx Suspicious=No
+2025-05-26T10:13:28 UM6P EDR Host=PC-MAX User=max Alert=ExecutionOfUnsignedExecutable Process=wmic.exe Severity=Medium
+2025-05-26T10:10:23 UM6P EDR Host=PC-MAX User=max FileCreated=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:16:42 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Temp\script.ps1 Suspicious=Yes
+2025-05-26T10:00:19 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=explorer.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T10:09:34 UM6P EDR Host=PC-MAX User=max ProcessStarted=net.exe ParentProcess=procdump.exe Status=Success
+2025-05-26T10:23:25 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=procdump.exe ParentProcess=powershell.exe Status=Success
+2025-05-26T10:07:14 UM6P EDR Host=PC-NINA User=nina Alert=UnusualProcessInjection Process=powershell.exe Severity=Low
+2025-05-26T10:16:36 UM6P EDR Host=PC-ZOE User=zoe ProcessStarted=mshta.exe ParentProcess=net.exe Status=Success
+2025-05-26T10:11:50 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=No
+2025-05-26T10:26:23 UM6P EDR Host=PC-NINA User=nina NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Blocked
+2025-05-26T10:22:38 UM6P EDR Host=PC-NINA User=nina NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T10:03:06 UM6P EDR Host=PC-BLACK User=black ProcessStarted=explorer.exe ParentProcess=cmd.exe Status=Success
+2025-05-26T10:21:45 UM6P EDR Host=PC-MAX User=max Alert=UnusualLogonTime Process=cmd.exe Severity=Low
+2025-05-26T10:14:01 UM6P EDR Host=PC-MAX User=max FileModified=C:\Users\max\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T10:29:54 UM6P EDR Host=PC-ZOE User=zoe Alert=ExecutionOfUnsignedExecutable Process=mshta.exe Severity=Low
+2025-05-26T10:18:16 UM6P EDR Host=PC-NINA User=nina Alert=SuspiciousScriptExecution Process=wmic.exe Severity=High
+2025-05-26T10:27:59 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\Documents\confidential.docx Suspicious=No
+2025-05-26T10:26:05 UM6P EDR Host=PC-ZOE User=zoe Alert=SuspiciousScriptExecution Process=mshta.exe Severity=High
