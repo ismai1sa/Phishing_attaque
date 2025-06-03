@@ -1,0 +1,501 @@
+Timestamp,User,Host,Status,Severity,Reason,Protocol,Process,ParentProcess,FileAccessed,Alert
+2025-05-26 09:00:00,saif.alqahtani,PC-Sawsan,Allowed,Medium,LoginFailure,SMB,cmd.exe,services.exe,C:\Users\saif\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 09:00:10,khaled.nasser,PC-Noor,Blocked,High,UserRequest,SMB,cmd.exe,services.exe,C:\Users\khaled\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-26 09:01:16,tariq.mansour,PC-Lina,Allowed,Critical,LoginFailure,SMB,explorer.exe,explorer.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Malware Detected
+2025-05-26 09:05:55,hafsa.mansur,PC-Salma,Allowed,Low,UserRequest,HTTP,explorer.exe,cmd.exe,C:\Windows\System32\cmd.exe,Unauthorized Access Attempt
+2025-05-26 09:07:23,fatima.alami,PC-Samar,Allowed,Medium,AccessDenied,DNS,explorer.exe,services.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-26 09:09:43,hibah.yusuf,PC-Firas,Success,Medium,UserRequest,HTTP,chrome.exe,services.exe,C:\Users\hibah\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-26 09:12:18,rashid.nour,PC-Amina,Blocked,Low,LoginFailure,SMB,explorer.exe,services.exe,C:\Users\rashid\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Suspicious PowerShell Activity
+2025-05-26 09:16:33,lina.abdulaziz,PC-Lamia,Allowed,Critical,MaliciousBehavior,HTTP,powershell.exe,winlogon.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Suspicious PowerShell Activity
+2025-05-26 09:17:26,siham.faraj,PC-Asmaa,Allowed,Medium,LoginFailure,FTP,explorer.exe,cmd.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Unauthorized Access Attempt
+2025-05-26 09:21:37,zahra.mahdi,PC-Jihad,Success,Critical,AccessDenied,SMB,powershell.exe,winlogon.exe,C:\Users\zahra\Downloads\setup.exe,Unauthorized Access Attempt
+2025-05-26 09:24:28,tarek.bahaa,PC-Asmaa,Blocked,Critical,MaliciousBehavior,FTP,chrome.exe,winlogon.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 09:27:48,zaina.karim,PC-Wael,Blocked,High,Created,HTTP,explorer.exe,services.exe,C:\Users\zaina\.ssh\known_hosts,Suspicious PowerShell Activity
+2025-05-26 09:31:05,adil.azzam,PC-Adil,Blocked,Medium,LoginFailure,SMB,powershell.exe,services.exe,C:\Users\adil\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 09:36:02,hala.sharif,PC-Adil,Blocked,Low,MaliciousBehavior,FTP,cmd.exe,winlogon.exe,C:\Users\hala\Music\song.mp3,Unauthorized Access Attempt
+2025-05-26 09:39:38,samira.karim,PC-Zubair,Failed,Low,LoginFailure,HTTPS,powershell.exe,winlogon.exe,C:\Users\samira\AppData\Local\Temp\msword.exe,Suspicious PowerShell Activity
+2025-05-26 09:44:37,kareem.zidan,PC-Khalifa,Failed,Low,AccessDenied,SMB,cmd.exe,winlogon.exe,C:\Users\kareem\Music\song.mp3,Unauthorized Access Attempt
+2025-05-26 09:47:20,laila.mohsen,PC-Nader,Success,Low,Created,DNS,powershell.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Unauthorized Access Attempt
+2025-05-26 09:47:41,rashid.nour,PC-Hazem,Blocked,Low,Created,FTP,chrome.exe,cmd.exe,C:\Users\rashid\AppData\Local\Temp\tmp1234.tmp,Unauthorized Access Attempt
+2025-05-26 09:50:47,tamer.karim,PC-Dina,Allowed,Critical,MaliciousBehavior,FTP,powershell.exe,winlogon.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Malware Detected
+2025-05-26 09:50:50,yasmin.abdulrahman,PC-Karim,Success,Medium,Created,SMB,cmd.exe,cmd.exe,C:\Users\yasmin\Downloads\invoice.pdf,Suspicious PowerShell Activity
+2025-05-26 09:51:10,dina.farouk,PC-Zohair,Success,Low,AccessDenied,DNS,explorer.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-26 09:52:15,bilal.mansour,PC-Ali,Success,High,AccessDenied,DNS,chrome.exe,explorer.exe,C:\Users\Public\Documents\financial_report.xlsx,Suspicious PowerShell Activity
+2025-05-26 09:54:23,adil.azzam,PC-Wajih,Success,Medium,MaliciousBehavior,DNS,cmd.exe,services.exe,C:\Windows\System32\drivers\etc\hosts,Malware Detected
+2025-05-26 09:58:43,lina.hadi,PC-Samar,Failed,Critical,LoginFailure,HTTPS,cmd.exe,explorer.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Malware Detected
+2025-05-26 10:03:15,jihad.abed,PC-Tarik,Success,High,AccessDenied,HTTP,cmd.exe,winlogon.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 10:05:07,najat.omar,PC-Reem,Success,Critical,UserRequest,HTTPS,cmd.exe,winlogon.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-26 10:10:07,lamia.bader,PC-Basim,Success,Critical,AccessDenied,DNS,explorer.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Malware Detected
+2025-05-26 10:12:26,yasin.abdelrahman,PC-Samah,Blocked,Critical,MaliciousBehavior,DNS,powershell.exe,services.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 10:15:23,rasha.younis,PC-Yara,Success,Low,MaliciousBehavior,HTTPS,chrome.exe,cmd.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Suspicious PowerShell Activity
+2025-05-26 10:18:04,muna.bakr,PC-Raed,Success,Low,LoginFailure,FTP,explorer.exe,winlogon.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Suspicious PowerShell Activity
+2025-05-26 10:19:21,omar.fahad,PC-Mohsen,Success,Medium,MaliciousBehavior,HTTPS,chrome.exe,cmd.exe,C:\Windows\System32\drivers\ndis.sys,Suspicious PowerShell Activity
+2025-05-26 10:23:07,fatima.alami,PC-Kamilah,Success,High,UserRequest,SMB,chrome.exe,services.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 10:27:30,lina.hadi,PC-Rina,Allowed,Low,UserRequest,HTTPS,chrome.exe,services.exe,C:\Users\lina\Videos\video.mp4,Unauthorized Access Attempt
+2025-05-26 10:29:43,kareem.zidan,PC-Jafar,Blocked,Low,UserRequest,DNS,chrome.exe,services.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Unauthorized Access Attempt
+2025-05-26 10:33:57,omar.fahad,PC-Khaled,Blocked,Low,LoginFailure,FTP,cmd.exe,cmd.exe,C:\Users\omar\Desktop\payload.exe,Malware Detected
+2025-05-26 10:34:16,abdulrahman.karim,PC-Kareem,Allowed,Medium,LoginFailure,HTTP,cmd.exe,services.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-26 10:37:19,alaa.salem,PC-Manal,Blocked,Critical,LoginFailure,DNS,explorer.exe,winlogon.exe,C:\Windows\System32\cmd.exe,Unauthorized Access Attempt
+2025-05-26 10:41:41,sara.abdelkarim,PC-Nour,Blocked,Low,MaliciousBehavior,DNS,chrome.exe,cmd.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Suspicious PowerShell Activity
+2025-05-26 10:44:47,yasin.abdelrahman,PC-Jamila,Allowed,Low,LoginFailure,FTP,explorer.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-26 10:46:49,salim.hadi,PC-Hafsa,Allowed,High,AccessDenied,SMB,explorer.exe,cmd.exe,C:\Users\salim\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 10:47:23,dania.kassem,PC-Rina,Success,High,LoginFailure,HTTPS,cmd.exe,explorer.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 10:48:53,fatma.ismail,PC-Manar,Allowed,High,LoginFailure,FTP,chrome.exe,explorer.exe,C:\Users\fatma\AppData\Local\Temp\msword.exe,Malware Detected
+2025-05-26 10:49:17,yasmin.abdulrahman,PC-Farah,Failed,Low,Created,HTTPS,powershell.exe,services.exe,C:\Users\yasmin\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-26 10:54:14,habib.mahfouz,PC-Mahmoud,Allowed,Medium,LoginFailure,DNS,cmd.exe,explorer.exe,C:\Windows\System32\calc.exe,Malware Detected
+2025-05-26 10:57:57,wajih.alhassan,PC-Thamer,Blocked,Critical,AccessDenied,HTTPS,explorer.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 10:59:21,rima.bashir,PC-Asmaa,Failed,High,Created,HTTP,cmd.exe,winlogon.exe,C:\Users\rima\Documents\resume.docx,Unauthorized Access Attempt
+2025-05-26 10:59:27,khaled.rafat,PC-Zayd,Allowed,Low,Created,DNS,chrome.exe,cmd.exe,C:\Windows\Tasks\evil_task.job,Unauthorized Access Attempt
+2025-05-26 11:00:07,zohair.salim,PC-Zainab,Blocked,Low,UserRequest,DNS,chrome.exe,winlogon.exe,C:\Users\zohair\Music\song.mp3,Malware Detected
+2025-05-26 11:03:59,hassan.amir,PC-Muna,Allowed,High,MaliciousBehavior,DNS,chrome.exe,explorer.exe,C:\Users\hassan\.ssh\id_rsa,Malware Detected
+2025-05-26 11:05:01,wael.abdulrahim,PC-Wajih,Success,High,AccessDenied,FTP,explorer.exe,cmd.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-26 11:05:59,wahid.farhan,PC-Adil,Success,Critical,UserRequest,HTTP,cmd.exe,cmd.exe,C:\Windows\Tasks\evil_task.job,Malware Detected
+2025-05-26 11:10:47,rina.sharif,PC-Tariq,Blocked,Medium,AccessDenied,HTTP,powershell.exe,explorer.exe,C:\Users\rina\AppData\Roaming\malicious.dll,Unauthorized Access Attempt
+2025-05-26 11:13:01,nader.alsalem,PC-Yasir,Failed,High,UserRequest,FTP,chrome.exe,cmd.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-26 11:13:48,fahd.saadi,PC-Zohair,Success,Critical,MaliciousBehavior,FTP,powershell.exe,explorer.exe,C:\Users\fahd\.ssh\id_rsa,Malware Detected
+2025-05-26 11:17:54,kareem.zidan,PC-Abdulrahman,Allowed,Critical,UserRequest,FTP,powershell.exe,explorer.exe,C:\Users\kareem\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 11:18:17,dania.kassem,PC-Mohanna,Blocked,Medium,Created,DNS,cmd.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 11:23:11,nawal.ibrahim,PC-Salim,Allowed,Low,LoginFailure,FTP,explorer.exe,explorer.exe,C:\Users\nawal\AppData\Local\Temp\msword.exe,Unauthorized Access Attempt
+2025-05-26 11:24:03,jafar.mohamed,PC-Farouk,Blocked,Medium,MaliciousBehavior,DNS,explorer.exe,cmd.exe,C:\Users\jafar\AppData\Local\Temp\update.vbs,Malware Detected
+2025-05-26 11:25:34,basim.zahran,PC-Karim,Blocked,Medium,UserRequest,HTTPS,chrome.exe,explorer.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-26 11:27:12,nader.alsalem,PC-Muhannad,Failed,High,Created,SMB,cmd.exe,cmd.exe,C:\Users\nader\AppData\Local\Temp\tmp1234.tmp,Suspicious PowerShell Activity
+2025-05-26 11:29:22,muna.rashid,PC-Nisreen,Blocked,High,LoginFailure,DNS,cmd.exe,cmd.exe,C:\Users\muna\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-26 11:33:18,layla.abdullah,PC-Farouk,Failed,High,MaliciousBehavior,SMB,chrome.exe,cmd.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-26 11:34:54,noor.jalal,PC-Nader,Allowed,Critical,MaliciousBehavior,FTP,cmd.exe,cmd.exe,C:\Windows\System32\calc.exe,Malware Detected
+2025-05-26 11:35:22,salwa.hamdi,PC-Firas,Allowed,Medium,Created,HTTPS,chrome.exe,winlogon.exe,C:\Users\salwa\Music\song.mp3,Unauthorized Access Attempt
+2025-05-26 11:37:20,lina.hadi,PC-Amina,Success,High,LoginFailure,HTTPS,powershell.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Unauthorized Access Attempt
+2025-05-26 11:41:11,najat.omar,PC-Samira,Success,Medium,LoginFailure,HTTPS,chrome.exe,services.exe,C:\Users\najat\.ssh\id_rsa,Malware Detected
+2025-05-26 11:42:52,rashid.nour,PC-Yasmin,Allowed,Critical,UserRequest,HTTPS,powershell.exe,services.exe,C:\Users\rashid\Downloads\invoice.pdf,Suspicious PowerShell Activity
+2025-05-26 11:43:47,amin.ghanim,PC-Jumana,Blocked,High,Created,DNS,explorer.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-26 11:47:02,yasmin.abdulrahman,PC-Mariyam,Blocked,High,UserRequest,SMB,explorer.exe,cmd.exe,C:\Users\yasmin\AppData\Roaming\malicious.dll,Suspicious PowerShell Activity
+2025-05-26 11:49:41,mohanna.hadi,PC-Bilal,Allowed,High,UserRequest,HTTPS,cmd.exe,explorer.exe,C:\Windows\System32\calc.exe,Unauthorized Access Attempt
+2025-05-26 11:51:09,jumana.ghazi,PC-Firas,Failed,Low,LoginFailure,HTTPS,chrome.exe,explorer.exe,C:\Users\jumana\AppData\Local\Temp\update.vbs,Unauthorized Access Attempt
+2025-05-26 11:51:37,dania.kassem,PC-Hamza,Success,Low,LoginFailure,DNS,chrome.exe,explorer.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 11:53:48,jihad.abed,PC-Najwa,Blocked,Low,AccessDenied,SMB,powershell.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 11:55:24,wahid.farhan,PC-Nadia,Allowed,Critical,UserRequest,DNS,explorer.exe,services.exe,C:\Users\wahid\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-26 11:57:58,omar.hakim,PC-Rana,Allowed,High,UserRequest,HTTPS,cmd.exe,explorer.exe,C:\Users\omar\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-26 11:59:12,maysa.abdelrahman,PC-Raed,Blocked,Critical,AccessDenied,HTTP,cmd.exe,explorer.exe,C:\Users\maysa\AppData\Local\Temp\cmd.bat,Malware Detected
+2025-05-26 11:59:35,sara.abdelkarim,PC-Nadia,Failed,High,AccessDenied,DNS,chrome.exe,explorer.exe,C:\Users\sara\Videos\video.mp4,Malware Detected
+2025-05-26 12:02:22,kareem.jamal,PC-Samir,Allowed,High,LoginFailure,HTTP,cmd.exe,explorer.exe,C:\Users\kareem\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-26 12:05:37,nisreen.jamal,PC-Jihad,Allowed,Medium,UserRequest,FTP,explorer.exe,services.exe,C:\Users\nisreen\AppData\Local\Temp\update.vbs,Unauthorized Access Attempt
+2025-05-26 12:08:39,basim.zahran,PC-Basil,Success,High,AccessDenied,DNS,explorer.exe,services.exe,C:\Users\basim\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 12:10:35,salma.hamdan,PC-Yasir,Failed,Low,UserRequest,HTTP,powershell.exe,explorer.exe,C:\Users\salma\Documents\resume.docx,Malware Detected
+2025-05-26 12:13:55,samir.shaheen,PC-Yasin,Allowed,Critical,UserRequest,HTTP,powershell.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-26 12:15:12,bilal.abdelaziz,PC-Reem,Success,High,Created,HTTPS,powershell.exe,winlogon.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 12:17:54,sara.farid,PC-Yasir,Blocked,Critical,Created,FTP,chrome.exe,winlogon.exe,C:\Windows\System32\cmd.exe,Suspicious PowerShell Activity
+2025-05-26 12:21:48,omar.fahad,PC-Fatima,Success,Medium,Created,SMB,cmd.exe,cmd.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 12:25:12,yasir.abdullah,PC-Samira,Allowed,High,UserRequest,SMB,explorer.exe,cmd.exe,C:\Users\yasir\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Malware Detected
+2025-05-26 12:29:24,dania.kassem,PC-Zayd,Blocked,Medium,MaliciousBehavior,HTTPS,cmd.exe,cmd.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Suspicious PowerShell Activity
+2025-05-26 12:29:34,ibrahim.hamed,PC-Fatima,Allowed,Medium,MaliciousBehavior,DNS,powershell.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 12:30:56,zahra.mahdi,PC-Mahmoud,Allowed,High,MaliciousBehavior,DNS,powershell.exe,cmd.exe,C:\Users\zahra\AppData\Local\Temp\tmp1234.tmp,Unauthorized Access Attempt
+2025-05-26 12:34:39,khalifa.mahmoud,PC-Kalil,Blocked,High,MaliciousBehavior,HTTPS,chrome.exe,cmd.exe,C:\Users\khalifa\.ssh\known_hosts,Malware Detected
+2025-05-26 12:36:39,ahmed.alsayed,PC-Jafar,Blocked,Critical,Created,HTTPS,powershell.exe,explorer.exe,C:\Users\ahmed\AppData\Local\Temp\update.vbs,Suspicious PowerShell Activity
+2025-05-26 12:38:19,khalifa.mahmoud,PC-Reem,Failed,Low,AccessDenied,HTTP,explorer.exe,cmd.exe,C:\Users\khalifa\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 12:40:40,farah.dawoud,PC-Zayd,Blocked,Medium,AccessDenied,SMB,explorer.exe,cmd.exe,C:\Users\farah\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Malware Detected
+2025-05-26 12:43:40,ibrahim.hamed,PC-Laila,Allowed,Critical,Created,SMB,powershell.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-26 12:45:32,joud.nasser,PC-Joud,Blocked,High,UserRequest,HTTPS,cmd.exe,explorer.exe,C:\Users\joud\AppData\Local\Temp\tmp1234.tmp,Suspicious PowerShell Activity
+2025-05-26 12:50:27,kareem.zidan,PC-Fatima,Allowed,Low,Created,HTTPS,explorer.exe,explorer.exe,C:\Users\kareem\Pictures\family.jpg,Malware Detected
+2025-05-26 12:51:26,hafsa.mansur,PC-Samar,Success,High,UserRequest,HTTP,chrome.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-26 12:55:27,basil.salama,PC-Fatima,Failed,High,UserRequest,HTTP,chrome.exe,cmd.exe,C:\Users\basil\Desktop\payload.exe,Unauthorized Access Attempt
+2025-05-26 12:58:47,muna.rashid,PC-Hala,Success,Critical,LoginFailure,HTTP,chrome.exe,explorer.exe,C:\Users\muna\Music\song.mp3,Malware Detected
+2025-05-26 13:03:28,muhannad.almasri,PC-Rami,Blocked,Low,LoginFailure,HTTP,powershell.exe,services.exe,C:\Users\muhannad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Unauthorized Access Attempt
+2025-05-26 13:03:46,samah.abdelfattah,PC-Nader,Failed,Critical,Created,HTTP,cmd.exe,services.exe,C:\Users\samah\.ssh\id_rsa,Unauthorized Access Attempt
+2025-05-26 13:08:33,tarik.makki,PC-Omar,Success,High,AccessDenied,HTTPS,explorer.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-26 13:10:39,kareem.jamal,PC-Youssef,Success,Medium,Created,SMB,chrome.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 13:15:05,samira.karim,PC-Youssef,Failed,Critical,UserRequest,HTTP,chrome.exe,winlogon.exe,C:\Users\samira\.ssh\known_hosts,Unauthorized Access Attempt
+2025-05-26 13:15:45,laila.mohsen,PC-Noura,Success,High,UserRequest,HTTP,powershell.exe,cmd.exe,C:\Users\laila\Videos\video.mp4,Malware Detected
+2025-05-26 13:19:33,hibah.yusuf,PC-Zohair,Failed,High,MaliciousBehavior,SMB,powershell.exe,explorer.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Malware Detected
+2025-05-26 13:20:02,mariyam.farid,PC-Wael,Success,High,AccessDenied,HTTPS,chrome.exe,services.exe,C:\Users\mariyam\Videos\video.mp4,Unauthorized Access Attempt
+2025-05-26 13:20:38,jafar.mohamed,PC-Saif,Allowed,Medium,LoginFailure,FTP,chrome.exe,explorer.exe,C:\Users\jafar\AppData\Local\Temp\cmd.bat,Suspicious PowerShell Activity
+2025-05-26 13:25:07,hibah.yusuf,PC-Raed,Success,Critical,AccessDenied,HTTPS,cmd.exe,services.exe,C:\Users\hibah\.ssh\id_rsa,Unauthorized Access Attempt
+2025-05-26 13:28:07,nadia.abdel,PC-Yasin,Success,Low,UserRequest,DNS,chrome.exe,winlogon.exe,C:\Users\nadia\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 13:28:53,yara.khaled,PC-Rana,Allowed,High,MaliciousBehavior,HTTPS,cmd.exe,cmd.exe,C:\Users\yara\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-26 13:30:34,yasin.abdelrahman,PC-Nidaa,Failed,Low,LoginFailure,FTP,cmd.exe,cmd.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Suspicious PowerShell Activity
+2025-05-26 13:33:05,tarik.makki,PC-Hibah,Blocked,Critical,Created,DNS,powershell.exe,winlogon.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Malware Detected
+2025-05-26 13:34:07,hamza.zaki,PC-Samar,Failed,Low,LoginFailure,HTTPS,cmd.exe,winlogon.exe,C:\Users\hamza\AppData\Local\Temp\cmd.bat,Suspicious PowerShell Activity
+2025-05-26 13:34:08,nader.alsalem,PC-Sami,Allowed,Medium,AccessDenied,HTTP,chrome.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-26 13:34:32,jamal.alfaraj,PC-Laila,Blocked,Medium,UserRequest,DNS,cmd.exe,winlogon.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-26 13:35:42,reem.jabari,PC-Yasin,Success,Medium,Created,HTTP,cmd.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 13:36:44,fahim.aljaber,PC-Samir,Success,Low,Created,SMB,chrome.exe,cmd.exe,C:\Users\fahim\Pictures\family.jpg,Malware Detected
+2025-05-26 13:37:03,kareem.zidan,PC-Younes,Failed,High,AccessDenied,SMB,cmd.exe,winlogon.exe,C:\Users\kareem\Downloads\setup.exe,Malware Detected
+2025-05-26 13:37:33,khaled.nasser,PC-Manal,Allowed,Low,LoginFailure,HTTPS,explorer.exe,winlogon.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 13:39:00,ahmed.alhaj,PC-Abdulrahman,Success,Low,LoginFailure,HTTP,chrome.exe,cmd.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-26 13:43:20,farouk.karim,PC-Kamilah,Allowed,Medium,UserRequest,HTTP,cmd.exe,cmd.exe,C:\Windows\System32\calc.exe,Unauthorized Access Attempt
+2025-05-26 13:48:08,firas.abbas,PC-Samir,Success,Medium,Created,HTTPS,powershell.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-26 13:52:06,noura.salem,PC-Maysa,Allowed,High,MaliciousBehavior,HTTPS,explorer.exe,services.exe,C:\Users\noura\AppData\Local\Temp\update.vbs,Suspicious PowerShell Activity
+2025-05-26 13:55:22,mohsen.najjar,PC-Zohair,Failed,Medium,UserRequest,SMB,powershell.exe,explorer.exe,C:\Windows\Temp\exploit.docm,Unauthorized Access Attempt
+2025-05-26 13:58:30,samar.ridha,PC-Tamer,Failed,High,UserRequest,HTTPS,cmd.exe,cmd.exe,C:\Windows\System32\cmd.exe,Unauthorized Access Attempt
+2025-05-26 14:03:03,wajih.alhassan,PC-Hassan,Failed,High,MaliciousBehavior,HTTPS,cmd.exe,winlogon.exe,C:\Users\wajih\Downloads\setup.exe,Suspicious PowerShell Activity
+2025-05-26 14:05:47,firas.mohamed,PC-Yasmeen,Blocked,Medium,MaliciousBehavior,HTTP,powershell.exe,services.exe,C:\Users\firas\AppData\Roaming\malicious.dll,Malware Detected
+2025-05-26 14:08:50,nader.shams,PC-Nabil,Failed,Low,AccessDenied,HTTPS,explorer.exe,winlogon.exe,C:\Users\nader\Documents\resume.docx,Malware Detected
+2025-05-26 14:11:35,raihan.abdul,PC-Nader,Failed,Low,Created,DNS,chrome.exe,winlogon.exe,C:\Users\raihan\AppData\Local\Temp\cmd.bat,Malware Detected
+2025-05-26 14:14:06,amina.talal,PC-Layla,Success,Critical,Created,DNS,powershell.exe,explorer.exe,C:\Users\amina\Downloads\invoice.pdf,Suspicious PowerShell Activity
+2025-05-26 14:17:31,joud.nasser,PC-Reem,Blocked,Critical,LoginFailure,SMB,powershell.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Suspicious PowerShell Activity
+2025-05-26 14:21:43,raed.khaled,PC-Muhannad,Allowed,Critical,AccessDenied,HTTP,powershell.exe,explorer.exe,C:\Users\raed\AppData\Local\Temp\update.vbs,Unauthorized Access Attempt
+2025-05-26 14:23:05,ibraheem.shaar,PC-Nidaa,Blocked,Critical,AccessDenied,HTTPS,chrome.exe,cmd.exe,C:\Users\ibraheem\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Unauthorized Access Attempt
+2025-05-26 14:23:33,khaled.rafat,PC-Lamia,Allowed,High,LoginFailure,HTTPS,chrome.exe,explorer.exe,C:\Users\khaled\Downloads\invoice.pdf,Malware Detected
+2025-05-26 14:26:52,amina.talal,PC-Maysa,Allowed,Low,Created,FTP,powershell.exe,cmd.exe,C:\Users\amina\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-26 14:29:20,mustafa.alraqi,PC-Mohsen,Failed,Medium,UserRequest,SMB,explorer.exe,explorer.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-26 14:30:19,fatma.ismail,PC-Reem,Blocked,Low,UserRequest,FTP,powershell.exe,explorer.exe,C:\Users\fatma\AppData\Local\Temp\tmp1234.tmp,Suspicious PowerShell Activity
+2025-05-26 14:33:23,joud.nasser,PC-Alaa,Allowed,Medium,UserRequest,FTP,powershell.exe,explorer.exe,C:\Users\joud\Downloads\setup.exe,Malware Detected
+2025-05-26 14:36:23,farah.dawoud,PC-Alaa,Blocked,Critical,UserRequest,HTTP,chrome.exe,winlogon.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 14:37:32,rina.sharif,PC-Muhannad,Failed,Medium,MaliciousBehavior,HTTPS,explorer.exe,winlogon.exe,C:\Users\rina\AppData\Roaming\malicious.dll,Unauthorized Access Attempt
+2025-05-26 14:37:41,saif.alqahtani,PC-Samir,Blocked,Critical,AccessDenied,FTP,cmd.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 14:38:55,lina.hadi,PC-Hala,Allowed,Critical,AccessDenied,FTP,explorer.exe,explorer.exe,C:\Users\lina\AppData\Local\Temp\msword.exe,Suspicious PowerShell Activity
+2025-05-26 14:43:07,hibah.yusuf,PC-Dina,Failed,Medium,AccessDenied,FTP,cmd.exe,winlogon.exe,C:\Users\hibah\AppData\Roaming\malicious.dll,Suspicious PowerShell Activity
+2025-05-26 14:43:33,ali.mostafa,PC-Fatima,Blocked,Low,Created,FTP,chrome.exe,winlogon.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-26 14:44:23,saif.alqahtani,PC-Youssef,Success,Low,UserRequest,HTTPS,powershell.exe,winlogon.exe,C:\Users\saif\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-26 14:45:25,samah.abdelfattah,PC-Hada,Success,High,MaliciousBehavior,SMB,chrome.exe,services.exe,C:\Users\samah\Pictures\family.jpg,Unauthorized Access Attempt
+2025-05-26 14:50:08,mona.abdul,PC-Basim,Failed,Medium,LoginFailure,HTTPS,chrome.exe,cmd.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Suspicious PowerShell Activity
+2025-05-26 14:54:55,muna.rashid,PC-Jamal,Success,Low,UserRequest,SMB,powershell.exe,services.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Malware Detected
+2025-05-26 14:59:05,salwa.hamdi,PC-Salim,Blocked,High,AccessDenied,HTTPS,powershell.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-26 15:03:50,yasin.abdelrahman,PC-Ahmed,Blocked,High,MaliciousBehavior,DNS,explorer.exe,explorer.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 15:06:34,lina.hadi,PC-Ahmed,Success,Critical,LoginFailure,SMB,explorer.exe,winlogon.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 15:11:24,najat.omar,PC-Rina,Success,High,AccessDenied,FTP,powershell.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-26 15:13:13,samar.ridha,PC-Thamer,Allowed,High,LoginFailure,DNS,cmd.exe,explorer.exe,C:\Users\samar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-26 15:17:32,rina.sharif,PC-Mohsen,Allowed,Critical,MaliciousBehavior,HTTP,explorer.exe,winlogon.exe,C:\Users\rina\.ssh\known_hosts,Suspicious PowerShell Activity
+2025-05-26 15:19:12,mohanna.hadi,PC-Hamza,Failed,Medium,UserRequest,SMB,powershell.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-26 15:20:03,alaa.salem,PC-Rima,Blocked,Critical,UserRequest,FTP,powershell.exe,services.exe,C:\Users\alaa\.ssh\known_hosts,Malware Detected
+2025-05-26 15:22:19,zubair.abdulqadir,PC-Salwa,Blocked,Critical,LoginFailure,SMB,powershell.exe,winlogon.exe,C:\Users\zubair\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Malware Detected
+2025-05-26 15:23:27,omar.hakim,PC-Zain,Allowed,High,LoginFailure,DNS,explorer.exe,cmd.exe,C:\Users\Public\Documents\financial_report.xlsx,Malware Detected
+2025-05-26 15:25:16,dina.rashid,PC-Noura,Allowed,Critical,UserRequest,HTTP,chrome.exe,cmd.exe,C:\Users\dina\Desktop\payload.exe,Unauthorized Access Attempt
+2025-05-26 15:28:53,salwa.hamdi,PC-Yasin,Blocked,Low,MaliciousBehavior,HTTPS,explorer.exe,services.exe,C:\Users\salwa\Downloads\invoice.pdf,Suspicious PowerShell Activity
+2025-05-26 15:33:03,nidaa.farouk,PC-Hala,Blocked,Critical,MaliciousBehavior,HTTP,powershell.exe,services.exe,C:\Users\nidaa\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Unauthorized Access Attempt
+2025-05-26 15:34:37,farid.shaheen,PC-Yasmin,Blocked,Low,MaliciousBehavior,HTTPS,chrome.exe,explorer.exe,C:\Users\farid\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Unauthorized Access Attempt
+2025-05-26 15:35:46,reem.ali,PC-Mariyam,Blocked,Medium,AccessDenied,SMB,powershell.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Malware Detected
+2025-05-26 15:37:04,farouk.karim,PC-Muhannad,Success,Critical,AccessDenied,DNS,chrome.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-26 15:40:48,khalifa.mahmoud,PC-Bilal,Allowed,High,UserRequest,DNS,chrome.exe,winlogon.exe,C:\Users\khalifa\AppData\Local\Temp\tmp1234.tmp,Malware Detected
+2025-05-26 15:42:01,tamer.karim,PC-Nadia,Allowed,Critical,UserRequest,DNS,powershell.exe,cmd.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-26 15:44:51,zainab.karim,PC-Shimaa,Failed,Critical,UserRequest,DNS,explorer.exe,cmd.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 15:49:45,muna.rashid,PC-Yasmin,Success,Medium,Created,FTP,chrome.exe,explorer.exe,C:\Users\muna\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-26 15:51:33,samir.shaheen,PC-Laila,Failed,Low,LoginFailure,DNS,powershell.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-26 15:55:59,bilal.jaber,PC-Nader,Failed,Medium,UserRequest,SMB,powershell.exe,explorer.exe,C:\Users\bilal\AppData\Roaming\malicious.dll,Unauthorized Access Attempt
+2025-05-26 15:57:38,yasmin.abdulrahman,PC-Fadi,Blocked,Low,AccessDenied,HTTPS,chrome.exe,cmd.exe,C:\Users\yasmin\AppData\Local\Temp\msword.exe,Suspicious PowerShell Activity
+2025-05-26 15:59:31,ali.mostafa,PC-Hada,Failed,Critical,Created,DNS,powershell.exe,services.exe,C:\Users\ali\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 16:00:29,raed.saleh,PC-Hazem,Blocked,High,AccessDenied,DNS,explorer.exe,cmd.exe,C:\Users\raed\AppData\Local\Temp\cmd.bat,Malware Detected
+2025-05-26 16:05:14,nabil.ayoub,PC-Yasin,Allowed,Low,MaliciousBehavior,FTP,cmd.exe,winlogon.exe,C:\Users\nabil\Music\song.mp3,Malware Detected
+2025-05-26 16:10:13,yasmin.abdulrahman,PC-Tamer,Allowed,Low,AccessDenied,DNS,chrome.exe,cmd.exe,C:\Users\Public\Documents\financial_report.xlsx,Unauthorized Access Attempt
+2025-05-26 16:13:46,laila.mohsen,PC-Nawal,Success,Low,Created,FTP,chrome.exe,winlogon.exe,C:\Users\laila\AppData\Local\Temp\msword.exe,Suspicious PowerShell Activity
+2025-05-26 16:14:28,nadia.abdel,PC-Rania,Blocked,Low,LoginFailure,DNS,cmd.exe,cmd.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Malware Detected
+2025-05-26 16:16:02,reem.ali,PC-Samira,Failed,High,AccessDenied,SMB,explorer.exe,services.exe,C:\Windows\System32\rundll32.exe,Unauthorized Access Attempt
+2025-05-26 16:16:49,bilal.abdelaziz,PC-Mona,Allowed,Low,Created,FTP,cmd.exe,services.exe,C:\Users\bilal\AppData\Local\Temp\msword.exe,Suspicious PowerShell Activity
+2025-05-26 16:21:28,shimaa.hassan,PC-Younes,Failed,High,AccessDenied,FTP,cmd.exe,winlogon.exe,C:\Windows\Tasks\evil_task.job,Suspicious PowerShell Activity
+2025-05-26 16:24:09,ibraheem.shaar,PC-Omar,Success,Low,Created,SMB,powershell.exe,explorer.exe,C:\Users\ibraheem\AppData\Roaming\malicious.dll,Suspicious PowerShell Activity
+2025-05-26 16:26:39,ahmed.alhaj,PC-Bilal,Success,Low,Created,SMB,explorer.exe,services.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-26 16:30:24,wael.abdulrahim,PC-Reem,Success,Critical,AccessDenied,HTTP,powershell.exe,winlogon.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Suspicious PowerShell Activity
+2025-05-26 16:34:06,kamilah.mohamed,PC-Jumana,Allowed,Low,MaliciousBehavior,HTTPS,cmd.exe,explorer.exe,C:\Windows\System32\cmd.exe,Unauthorized Access Attempt
+2025-05-26 16:35:15,amina.talal,PC-Layla,Success,Medium,UserRequest,SMB,chrome.exe,winlogon.exe,C:\Users\amina\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 16:37:04,mohamed.hassan,PC-Samar,Blocked,High,LoginFailure,HTTPS,chrome.exe,cmd.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 16:37:24,zahra.mahdi,PC-Laila,Blocked,Critical,UserRequest,DNS,cmd.exe,services.exe,C:\Users\zahra\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Unauthorized Access Attempt
+2025-05-26 16:39:34,mohamed.sharif,PC-Fadi,Blocked,Low,AccessDenied,DNS,cmd.exe,cmd.exe,C:\Users\mohamed\.ssh\known_hosts,Suspicious PowerShell Activity
+2025-05-26 16:40:37,jihad.abed,PC-Hibah,Success,High,UserRequest,HTTPS,cmd.exe,cmd.exe,C:\Users\Public\Documents\financial_report.xlsx,Unauthorized Access Attempt
+2025-05-26 16:45:25,ali.mostafa,PC-Jafar,Failed,Critical,MaliciousBehavior,FTP,cmd.exe,explorer.exe,C:\Users\ali\Documents\resume.docx,Malware Detected
+2025-05-26 16:46:27,raed.khaled,PC-Hamza,Allowed,Medium,AccessDenied,HTTP,powershell.exe,winlogon.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 16:49:27,salma.hamdan,PC-Wajih,Blocked,High,UserRequest,FTP,chrome.exe,winlogon.exe,C:\Users\salma\Documents\resume.docx,Malware Detected
+2025-05-26 16:54:08,khalil.abdullah,PC-Hamza,Blocked,Critical,MaliciousBehavior,DNS,explorer.exe,cmd.exe,C:\Users\khalil\Music\song.mp3,Malware Detected
+2025-05-26 16:55:04,zubair.abdulqadir,PC-Khaled,Success,Critical,Created,FTP,powershell.exe,cmd.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Malware Detected
+2025-05-26 16:57:28,hada.mohamed,PC-Rami,Blocked,Low,UserRequest,HTTPS,chrome.exe,services.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-26 17:00:26,fahim.aljaber,PC-Abdulrahman,Success,Critical,Created,SMB,cmd.exe,explorer.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Suspicious PowerShell Activity
+2025-05-26 17:04:12,habib.mahfouz,PC-Shimaa,Allowed,Medium,UserRequest,DNS,chrome.exe,cmd.exe,C:\Users\habib\.ssh\known_hosts,Unauthorized Access Attempt
+2025-05-26 17:05:42,dalia.karim,PC-Salwa,Success,High,UserRequest,HTTP,cmd.exe,cmd.exe,C:\Users\dalia\Music\song.mp3,Malware Detected
+2025-05-26 17:06:39,zaki.bahaa,PC-Farid,Blocked,High,LoginFailure,FTP,cmd.exe,cmd.exe,C:\Users\zaki\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Unauthorized Access Attempt
+2025-05-26 17:10:26,farah.dawoud,PC-Thamer,Blocked,Low,AccessDenied,DNS,chrome.exe,winlogon.exe,C:\Users\farah\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-26 17:10:53,dina.farouk,PC-Yasin,Blocked,High,MaliciousBehavior,HTTPS,powershell.exe,explorer.exe,C:\Users\Public\Documents\financial_report.xlsx,Malware Detected
+2025-05-26 17:13:02,kalil.hakim,PC-Abdulrahman,Blocked,Low,UserRequest,HTTP,powershell.exe,cmd.exe,C:\Users\kalil\Downloads\setup.exe,Malware Detected
+2025-05-26 17:13:48,alaa.salem,PC-Dina,Success,High,LoginFailure,DNS,powershell.exe,cmd.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-26 17:15:11,nabil.ayoub,PC-Kareem,Failed,Medium,UserRequest,HTTP,chrome.exe,services.exe,C:\Users\nabil\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-26 17:19:31,bilal.abdelaziz,PC-Youssef,Success,High,UserRequest,HTTPS,cmd.exe,winlogon.exe,C:\Users\bilal\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-26 17:22:45,tamer.karim,PC-Nour,Failed,Critical,UserRequest,SMB,explorer.exe,winlogon.exe,C:\Users\tamer\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Suspicious PowerShell Activity
+2025-05-26 17:22:48,dina.rashid,PC-Samir,Failed,High,LoginFailure,HTTP,chrome.exe,cmd.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 17:23:24,jamal.alfaraj,PC-Layla,Blocked,Medium,AccessDenied,HTTP,chrome.exe,services.exe,C:\Users\jamal\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Suspicious PowerShell Activity
+2025-05-26 17:24:54,manar.halabi,PC-Zain,Failed,Critical,AccessDenied,FTP,powershell.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Malware Detected
+2025-05-26 17:25:20,ahmed.nafih,PC-Rana,Allowed,Critical,MaliciousBehavior,DNS,powershell.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-26 17:27:39,saif.alqahtani,PC-Mariyam,Blocked,Medium,MaliciousBehavior,FTP,explorer.exe,explorer.exe,C:\Users\saif\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 17:29:32,samir.alhassan,PC-Nidaa,Success,Medium,UserRequest,DNS,cmd.exe,winlogon.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-26 17:32:05,dalia.karim,PC-Raed,Allowed,High,AccessDenied,DNS,explorer.exe,cmd.exe,C:\Users\dalia\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Malware Detected
+2025-05-26 17:34:17,ahmed.alhaj,PC-Fadi,Blocked,High,AccessDenied,HTTPS,chrome.exe,explorer.exe,C:\Users\ahmed\Music\song.mp3,Malware Detected
+2025-05-26 17:38:07,tarik.makki,PC-Ali,Failed,Critical,MaliciousBehavior,DNS,powershell.exe,winlogon.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-26 17:40:32,jihad.abed,PC-Salwa,Success,Low,AccessDenied,HTTPS,chrome.exe,services.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-26 17:44:50,zaki.bahaa,PC-Fadi,Allowed,Medium,LoginFailure,SMB,chrome.exe,services.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Suspicious PowerShell Activity
+2025-05-26 17:45:32,omar.salem,PC-Joud,Blocked,Critical,LoginFailure,FTP,chrome.exe,winlogon.exe,C:\Users\omar\Music\song.mp3,Unauthorized Access Attempt
+2025-05-26 17:47:17,hazem.younis,PC-Mahmoud,Blocked,Critical,AccessDenied,SMB,powershell.exe,cmd.exe,C:\Users\hazem\AppData\Roaming\malicious.dll,Malware Detected
+2025-05-26 17:47:29,sawsan.mansour,PC-Shatha,Failed,Low,UserRequest,HTTPS,explorer.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Suspicious PowerShell Activity
+2025-05-26 17:48:01,ahmed.alhaj,PC-Muna,Failed,Low,LoginFailure,DNS,cmd.exe,explorer.exe,C:\Users\ahmed\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-26 17:50:28,khalifa.mahmoud,PC-Thamer,Blocked,High,Created,HTTP,explorer.exe,cmd.exe,C:\Windows\System32\calc.exe,Malware Detected
+2025-05-26 17:50:40,zahra.mahdi,PC-Saif,Allowed,Medium,AccessDenied,DNS,chrome.exe,services.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-26 17:52:05,manar.halabi,PC-Khalifa,Failed,Low,MaliciousBehavior,SMB,powershell.exe,winlogon.exe,C:\Windows\System32\drivers\etc\hosts,Malware Detected
+2025-05-26 17:54:53,rashid.nour,PC-Ali,Failed,High,Created,HTTPS,explorer.exe,services.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-26 17:59:49,thamer.najjar,PC-Jamila,Success,Critical,LoginFailure,HTTPS,chrome.exe,winlogon.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 18:00:50,zainab.karim,PC-Raihan,Failed,Medium,MaliciousBehavior,HTTP,powershell.exe,cmd.exe,C:\Users\zainab\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-26 18:01:44,kalil.hakim,PC-Kareem,Allowed,Critical,AccessDenied,HTTPS,powershell.exe,explorer.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 18:04:39,firas.mohamed,PC-Jamal,Success,Medium,LoginFailure,FTP,powershell.exe,explorer.exe,C:\Users\firas\Downloads\setup.exe,Unauthorized Access Attempt
+2025-05-26 18:04:51,khaled.nasser,PC-Kamilah,Allowed,High,LoginFailure,HTTPS,powershell.exe,services.exe,C:\Users\khaled\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Unauthorized Access Attempt
+2025-05-26 18:06:11,rima.bashir,PC-Noor,Blocked,Low,LoginFailure,FTP,cmd.exe,services.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 18:09:28,abdulrahman.karim,PC-Najat,Allowed,High,UserRequest,SMB,powershell.exe,winlogon.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 18:14:21,raed.khaled,PC-Firas,Success,Medium,MaliciousBehavior,HTTP,powershell.exe,winlogon.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-26 18:16:43,hassan.amir,PC-Maysa,Allowed,High,AccessDenied,DNS,cmd.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 18:17:12,shatha.abdallah,PC-Zainab,Blocked,Medium,LoginFailure,SMB,cmd.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-26 18:17:19,hazem.younis,PC-Khalifa,Blocked,Critical,AccessDenied,SMB,cmd.exe,services.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Suspicious PowerShell Activity
+2025-05-26 18:22:08,khaled.nasser,PC-Zahra,Success,Critical,Created,SMB,powershell.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-26 18:26:29,thamer.najjar,PC-Omar,Blocked,Medium,Created,HTTPS,explorer.exe,cmd.exe,C:\Users\thamer\Downloads\invoice.pdf,Malware Detected
+2025-05-26 18:30:40,jumana.ghazi,PC-Mustafa,Failed,Low,UserRequest,SMB,cmd.exe,cmd.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-26 18:32:24,dina.rashid,PC-Samar,Success,High,AccessDenied,SMB,powershell.exe,cmd.exe,C:\Users\dina\AppData\Roaming\malicious.dll,Suspicious PowerShell Activity
+2025-05-26 18:32:32,alaa.salem,PC-Maya,Failed,High,UserRequest,HTTP,powershell.exe,explorer.exe,C:\Windows\System32\calc.exe,Unauthorized Access Attempt
+2025-05-26 18:33:25,marwan.alhaj,PC-Nabil,Failed,Critical,LoginFailure,FTP,cmd.exe,services.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-26 18:35:58,mohsen.najjar,PC-Dalia,Blocked,Low,AccessDenied,FTP,chrome.exe,explorer.exe,C:\Users\mohsen\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 18:40:04,joud.nasser,PC-Sabir,Failed,High,UserRequest,HTTPS,chrome.exe,cmd.exe,C:\Windows\System32\notepad.exe,Unauthorized Access Attempt
+2025-05-26 18:44:45,nidaa.farouk,PC-Jihad,Success,High,MaliciousBehavior,HTTPS,explorer.exe,explorer.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Suspicious PowerShell Activity
+2025-05-26 18:48:30,manal.rashid,PC-Shatha,Failed,Critical,UserRequest,DNS,powershell.exe,winlogon.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 18:49:01,saif.alqahtani,PC-Rina,Success,High,UserRequest,SMB,explorer.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-26 18:53:59,mohsen.najjar,PC-Shatha,Success,High,LoginFailure,DNS,chrome.exe,cmd.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 18:54:07,amina.talal,PC-Mohanna,Blocked,Low,UserRequest,HTTPS,explorer.exe,services.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-26 18:57:17,farid.shaheen,PC-Jumana,Allowed,Low,UserRequest,SMB,powershell.exe,winlogon.exe,C:\Users\farid\AppData\Local\Temp\tmp1234.tmp,Malware Detected
+2025-05-26 19:01:43,nader.alsalem,PC-Sami,Failed,High,AccessDenied,FTP,powershell.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Unauthorized Access Attempt
+2025-05-26 19:04:25,mohamed.hassan,PC-Dalia,Allowed,Medium,MaliciousBehavior,DNS,powershell.exe,cmd.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-26 19:06:21,rania.faraj,PC-Firas,Success,Low,MaliciousBehavior,HTTP,explorer.exe,cmd.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-26 19:10:46,samir.alhassan,PC-Farid,Success,Critical,Created,HTTPS,chrome.exe,services.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-26 19:12:08,nour.elmasri,PC-Khaled,Success,High,Created,HTTPS,powershell.exe,explorer.exe,C:\Users\nour\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 19:12:33,nidaa.farouk,PC-Raihan,Success,Medium,MaliciousBehavior,SMB,explorer.exe,winlogon.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Malware Detected
+2025-05-26 19:16:30,reem.taleb,PC-Rania,Blocked,High,LoginFailure,HTTPS,cmd.exe,cmd.exe,C:\Users\reem\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-26 19:17:11,mariyam.farid,PC-Nader,Success,Low,LoginFailure,FTP,chrome.exe,explorer.exe,C:\Users\mariyam\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-26 19:21:06,ibrahim.hamed,PC-Jihad,Blocked,High,AccessDenied,SMB,chrome.exe,services.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 19:21:55,mahmoud.najjar,PC-Raed,Allowed,Low,Created,FTP,cmd.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Suspicious PowerShell Activity
+2025-05-26 19:24:47,joud.nasser,PC-Jafar,Success,Critical,MaliciousBehavior,DNS,chrome.exe,services.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Malware Detected
+2025-05-26 19:26:40,nour.elmasri,PC-Zahra,Success,Low,Created,FTP,explorer.exe,explorer.exe,C:\Users\nour\Pictures\family.jpg,Unauthorized Access Attempt
+2025-05-26 19:31:02,jamila.kamal,PC-Layla,Blocked,Medium,AccessDenied,HTTPS,explorer.exe,explorer.exe,C:\Users\jamila\Videos\video.mp4,Unauthorized Access Attempt
+2025-05-26 19:35:53,nisreen.jamal,PC-Omar,Success,Low,AccessDenied,DNS,cmd.exe,winlogon.exe,C:\Users\nisreen\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-26 19:39:48,basim.zahran,PC-Hazem,Success,Medium,UserRequest,HTTP,cmd.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-26 19:39:56,maysa.abdelrahman,PC-Joud,Success,High,AccessDenied,FTP,explorer.exe,winlogon.exe,C:\Windows\System32\drivers\etc\hosts,Malware Detected
+2025-05-26 19:42:33,bilal.mansour,PC-Firas,Failed,Critical,LoginFailure,HTTP,cmd.exe,winlogon.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-26 19:43:24,sara.farid,PC-Nisreen,Failed,Medium,Created,HTTP,cmd.exe,services.exe,C:\Users\sara\AppData\Local\Temp\cmd.bat,Unauthorized Access Attempt
+2025-05-26 19:45:23,manar.halabi,PC-Farid,Success,Medium,Created,HTTP,powershell.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-26 19:45:46,joud.nasser,PC-Samir,Allowed,High,MaliciousBehavior,HTTPS,cmd.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-26 19:46:32,dania.kassem,PC-Ali,Blocked,Medium,AccessDenied,DNS,powershell.exe,explorer.exe,C:\Users\dania\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Unauthorized Access Attempt
+2025-05-26 19:50:08,lamia.bader,PC-Nadia,Blocked,High,UserRequest,HTTPS,cmd.exe,explorer.exe,C:\Users\lamia\.ssh\known_hosts,Malware Detected
+2025-05-26 19:52:41,mohanna.hadi,PC-Yasin,Success,High,Created,HTTPS,powershell.exe,cmd.exe,C:\Users\mohanna\.ssh\known_hosts,Suspicious PowerShell Activity
+2025-05-26 19:55:05,samir.shaheen,PC-Nawal,Failed,Low,UserRequest,HTTPS,powershell.exe,explorer.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 19:57:55,laila.mohsen,PC-Dalia,Blocked,Low,Created,FTP,explorer.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-26 20:01:48,rasha.younis,PC-Zainab,Blocked,Critical,AccessDenied,FTP,powershell.exe,explorer.exe,C:\Users\rasha\Documents\resume.docx,Suspicious PowerShell Activity
+2025-05-26 20:05:44,ghassan.sharif,PC-Nour,Allowed,High,UserRequest,DNS,chrome.exe,winlogon.exe,C:\Users\ghassan\.ssh\id_rsa,Malware Detected
+2025-05-26 20:08:24,ahmed.bakr,PC-Raihan,Allowed,Medium,AccessDenied,DNS,powershell.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-26 20:12:03,joud.nasser,PC-Khaled,Success,High,UserRequest,DNS,cmd.exe,winlogon.exe,C:\Users\joud\Videos\video.mp4,Unauthorized Access Attempt
+2025-05-26 20:15:25,nader.shams,PC-Mohamed,Blocked,High,MaliciousBehavior,DNS,cmd.exe,services.exe,C:\Windows\System32\calc.exe,Malware Detected
+2025-05-26 20:19:39,omar.salem,PC-Youssef,Blocked,Medium,AccessDenied,HTTP,explorer.exe,cmd.exe,C:\Users\omar\AppData\Local\Temp\msword.exe,Malware Detected
+2025-05-26 20:23:33,farah.dawoud,PC-Salwa,Allowed,Low,UserRequest,HTTPS,cmd.exe,services.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-26 20:27:43,raihan.abdul,PC-Muhannad,Allowed,High,UserRequest,HTTPS,explorer.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 20:29:15,hafsa.mansur,PC-Lina,Failed,Medium,UserRequest,FTP,powershell.exe,cmd.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Suspicious PowerShell Activity
+2025-05-26 20:30:28,nader.alsalem,PC-Omar,Allowed,Critical,MaliciousBehavior,HTTP,cmd.exe,winlogon.exe,C:\Users\nader\AppData\Local\Temp\cmd.bat,Malware Detected
+2025-05-26 20:30:29,yasir.khalaf,PC-Mohsen,Blocked,Medium,AccessDenied,HTTPS,explorer.exe,explorer.exe,C:\Users\yasir\.ssh\id_rsa,Unauthorized Access Attempt
+2025-05-26 20:30:57,najat.omar,PC-Nadia,Allowed,Low,UserRequest,FTP,cmd.exe,winlogon.exe,C:\Users\najat\Downloads\setup.exe,Unauthorized Access Attempt
+2025-05-26 20:33:01,mona.abdul,PC-Nader,Success,High,MaliciousBehavior,HTTP,explorer.exe,cmd.exe,C:\Users\mona\Downloads\setup.exe,Suspicious PowerShell Activity
+2025-05-26 20:34:27,yara.khaled,PC-Raihan,Allowed,Critical,Created,FTP,cmd.exe,cmd.exe,C:\Windows\System32\drivers\ndis.sys,Suspicious PowerShell Activity
+2025-05-26 20:36:02,sami.jaber,PC-Nabil,Failed,Medium,LoginFailure,SMB,cmd.exe,winlogon.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-26 20:37:03,khalifa.mahmoud,PC-Noura,Allowed,Low,AccessDenied,HTTP,explorer.exe,explorer.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 20:40:21,adil.azzam,PC-Yasir,Success,Low,AccessDenied,SMB,chrome.exe,winlogon.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Unauthorized Access Attempt
+2025-05-26 20:43:13,raed.khaled,PC-Ahmed,Allowed,High,LoginFailure,HTTP,powershell.exe,winlogon.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Suspicious PowerShell Activity
+2025-05-26 20:44:06,rina.sharif,PC-Asmaa,Success,Low,UserRequest,FTP,explorer.exe,explorer.exe,C:\Windows\System32\drivers\ndis.sys,Unauthorized Access Attempt
+2025-05-26 20:46:31,ahmed.bakr,PC-Samir,Blocked,Medium,MaliciousBehavior,HTTP,explorer.exe,winlogon.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 20:47:50,najat.omar,PC-Rana,Allowed,Critical,MaliciousBehavior,DNS,chrome.exe,explorer.exe,C:\Users\najat\Pictures\family.jpg,Malware Detected
+2025-05-26 20:49:49,nabil.ayoub,PC-Zohair,Failed,Medium,AccessDenied,SMB,explorer.exe,services.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Suspicious PowerShell Activity
+2025-05-26 20:52:23,mahmoud.najjar,PC-Noura,Failed,Medium,LoginFailure,FTP,powershell.exe,cmd.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Malware Detected
+2025-05-26 20:53:56,samira.karim,PC-Basil,Success,Medium,MaliciousBehavior,HTTPS,powershell.exe,cmd.exe,C:\Users\samira\Videos\video.mp4,Malware Detected
+2025-05-26 20:55:30,khaled.nasser,PC-Lina,Success,Critical,Created,SMB,explorer.exe,services.exe,C:\Users\khaled\AppData\Local\Temp\cmd.bat,Malware Detected
+2025-05-26 20:59:45,muna.rashid,PC-Tamer,Success,Low,UserRequest,DNS,powershell.exe,services.exe,C:\Users\muna\AppData\Local\Temp\tmp1234.tmp,Malware Detected
+2025-05-26 21:01:19,jamila.kamal,PC-Zohair,Failed,Critical,LoginFailure,SMB,explorer.exe,winlogon.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-26 21:03:25,amin.ghanim,PC-Samira,Failed,High,UserRequest,HTTPS,powershell.exe,services.exe,C:\Windows\System32\calc.exe,Unauthorized Access Attempt
+2025-05-26 21:07:10,hamza.karim,PC-Farid,Success,Critical,AccessDenied,HTTPS,powershell.exe,services.exe,C:\Users\hamza\AppData\Local\Temp\cmd.bat,Suspicious PowerShell Activity
+2025-05-26 21:08:11,nour.elmasri,PC-Reem,Failed,Low,LoginFailure,DNS,powershell.exe,explorer.exe,C:\Users\nour\AppData\Roaming\malicious.dll,Unauthorized Access Attempt
+2025-05-26 21:11:00,tarek.bahaa,PC-Ahmed,Allowed,High,Created,HTTPS,powershell.exe,winlogon.exe,C:\Users\tarek\Music\song.mp3,Suspicious PowerShell Activity
+2025-05-26 21:11:15,rana.azzam,PC-Sara,Blocked,Critical,LoginFailure,DNS,explorer.exe,services.exe,C:\Users\rana\AppData\Local\Temp\cmd.bat,Suspicious PowerShell Activity
+2025-05-26 21:14:39,nashit.alhadi,PC-Yasmeen,Allowed,High,LoginFailure,DNS,powershell.exe,services.exe,C:\Windows\System32\notepad.exe,Unauthorized Access Attempt
+2025-05-26 21:17:07,shaden.naqib,PC-Jafar,Failed,High,AccessDenied,HTTP,powershell.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Unauthorized Access Attempt
+2025-05-26 21:19:48,rana.azzam,PC-Hibah,Allowed,Critical,AccessDenied,DNS,powershell.exe,cmd.exe,C:\Users\rana\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Malware Detected
+2025-05-26 21:20:58,hamza.zaki,PC-Hassan,Failed,Medium,Created,SMB,cmd.exe,explorer.exe,C:\Users\hamza\Videos\video.mp4,Malware Detected
+2025-05-26 21:23:59,khaled.nasser,PC-Nader,Failed,Low,MaliciousBehavior,HTTPS,cmd.exe,explorer.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-26 21:27:47,saif.alqahtani,PC-Rima,Blocked,High,MaliciousBehavior,FTP,explorer.exe,winlogon.exe,C:\Windows\System32\cmd.exe,Suspicious PowerShell Activity
+2025-05-26 21:32:46,khalil.abdullah,PC-Jumana,Failed,Medium,AccessDenied,HTTPS,cmd.exe,cmd.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-26 21:33:05,mohanna.hadi,PC-Adil,Allowed,Low,LoginFailure,FTP,powershell.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-26 21:35:27,rami.salim,PC-Rasha,Failed,High,LoginFailure,FTP,explorer.exe,winlogon.exe,C:\Users\rami\Desktop\payload.exe,Unauthorized Access Attempt
+2025-05-26 21:37:30,najat.omar,PC-Hala,Success,Critical,AccessDenied,DNS,explorer.exe,services.exe,C:\Windows\System32\calc.exe,Malware Detected
+2025-05-26 21:39:40,karim.faraj,PC-Ibrahim,Blocked,Critical,LoginFailure,HTTP,powershell.exe,explorer.exe,C:\Windows\System32\drivers\etc\hosts,Suspicious PowerShell Activity
+2025-05-26 21:43:38,amina.talal,PC-Nisreen,Success,Critical,UserRequest,HTTPS,powershell.exe,winlogon.exe,C:\Users\Public\Documents\financial_report.xlsx,Suspicious PowerShell Activity
+2025-05-26 21:46:31,mahmoud.najjar,PC-Wael,Allowed,High,AccessDenied,HTTPS,chrome.exe,winlogon.exe,C:\Users\mahmoud\AppData\Roaming\malicious.dll,Unauthorized Access Attempt
+2025-05-26 21:49:20,sami.jaber,PC-Mustafa,Success,Medium,AccessDenied,FTP,cmd.exe,services.exe,C:\Windows\System32\drivers\etc\hosts,Suspicious PowerShell Activity
+2025-05-26 21:53:53,mustafa.alraqi,PC-Manar,Failed,Low,UserRequest,FTP,explorer.exe,cmd.exe,C:\Users\mustafa\Desktop\payload.exe,Malware Detected
+2025-05-26 21:55:22,khalil.abdullah,PC-Zaki,Success,High,LoginFailure,DNS,explorer.exe,explorer.exe,C:\Users\khalil\.ssh\id_rsa,Unauthorized Access Attempt
+2025-05-26 21:56:05,mohamed.hassan,PC-Maya,Failed,Medium,LoginFailure,DNS,explorer.exe,services.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 21:59:11,ibraheem.shaar,PC-Najat,Allowed,Low,AccessDenied,FTP,chrome.exe,winlogon.exe,C:\Users\ibraheem\Downloads\setup.exe,Malware Detected
+2025-05-26 22:00:24,laila.mohsen,PC-Bilal,Allowed,Medium,UserRequest,HTTPS,explorer.exe,winlogon.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Suspicious PowerShell Activity
+2025-05-26 22:04:25,nawal.ibrahim,PC-Wahid,Allowed,Low,Created,FTP,cmd.exe,cmd.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Malware Detected
+2025-05-26 22:06:22,fahim.aljaber,PC-Asmaa,Blocked,Critical,Created,HTTPS,chrome.exe,winlogon.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-26 22:08:58,laila.mohsen,PC-Samar,Allowed,Low,LoginFailure,DNS,powershell.exe,explorer.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Unauthorized Access Attempt
+2025-05-26 22:12:40,jafar.mohamed,PC-Zaina,Allowed,High,MaliciousBehavior,SMB,chrome.exe,cmd.exe,C:\Users\jafar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Unauthorized Access Attempt
+2025-05-26 22:14:39,bilal.mansour,PC-Bilal,Success,Low,Created,SMB,powershell.exe,explorer.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-26 22:19:04,lina.abdulaziz,PC-Mustafa,Allowed,High,LoginFailure,HTTP,chrome.exe,explorer.exe,C:\Users\lina\AppData\Local\Temp\update.vbs,Unauthorized Access Attempt
+2025-05-26 22:24:03,basim.zahran,PC-Samah,Allowed,Low,MaliciousBehavior,SMB,explorer.exe,winlogon.exe,C:\Users\basim\Music\song.mp3,Malware Detected
+2025-05-26 22:28:27,ahmed.bakr,PC-Noura,Failed,Low,Created,HTTP,powershell.exe,winlogon.exe,C:\Users\ahmed\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-26 22:32:59,zaki.bahaa,PC-Hamza,Success,High,Created,DNS,explorer.exe,cmd.exe,C:\Users\zaki\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-26 22:33:14,nidaa.farouk,PC-Khaled,Failed,Low,MaliciousBehavior,SMB,powershell.exe,explorer.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 22:35:43,bilal.mansour,PC-Sabir,Success,High,UserRequest,SMB,chrome.exe,services.exe,C:\Users\bilal\AppData\Local\Temp\update.vbs,Suspicious PowerShell Activity
+2025-05-26 22:39:26,muna.bakr,PC-Najat,Allowed,Low,LoginFailure,FTP,explorer.exe,cmd.exe,C:\Users\muna\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-26 22:43:41,hala.karim,PC-Noura,Allowed,Medium,Created,SMB,explorer.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Malware Detected
+2025-05-26 22:46:50,mariyam.farid,PC-Khaled,Failed,Medium,Created,HTTP,cmd.exe,winlogon.exe,C:\Users\mariyam\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-26 22:48:58,omar.salem,PC-Basim,Blocked,Low,AccessDenied,FTP,powershell.exe,services.exe,C:\Users\omar\Desktop\payload.exe,Malware Detected
+2025-05-26 22:51:43,basil.salama,PC-Muhannad,Allowed,Medium,UserRequest,HTTP,explorer.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-26 22:52:21,dina.rashid,PC-Maya,Failed,High,UserRequest,FTP,cmd.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 22:52:32,sara.abdelkarim,PC-Khaled,Blocked,Low,UserRequest,HTTPS,powershell.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-26 22:55:53,fahd.saadi,PC-Saif,Failed,High,Created,HTTPS,chrome.exe,winlogon.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-26 22:56:16,lamia.bader,PC-Karim,Blocked,Low,LoginFailure,HTTP,explorer.exe,winlogon.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-26 22:57:01,joud.nasser,PC-Layla,Failed,High,AccessDenied,FTP,cmd.exe,winlogon.exe,C:\Users\joud\Desktop\payload.exe,Unauthorized Access Attempt
+2025-05-26 22:58:05,mohsen.najjar,PC-Shimaa,Blocked,Medium,MaliciousBehavior,FTP,explorer.exe,cmd.exe,C:\Windows\System32\drivers\ndis.sys,Suspicious PowerShell Activity
+2025-05-26 23:02:51,hibah.yusuf,PC-Hamza,Success,High,MaliciousBehavior,FTP,cmd.exe,services.exe,C:\Users\hibah\AppData\Local\Temp\cmd.bat,Unauthorized Access Attempt
+2025-05-26 23:04:43,ibraheem.shaar,PC-Dania,Failed,Low,MaliciousBehavior,DNS,explorer.exe,cmd.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-26 23:07:48,yasir.abdullah,PC-Muna,Allowed,Low,MaliciousBehavior,HTTPS,powershell.exe,explorer.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 23:11:07,maysa.abdelrahman,PC-Muhannad,Failed,Critical,AccessDenied,HTTP,chrome.exe,services.exe,C:\Users\maysa\Downloads\invoice.pdf,Malware Detected
+2025-05-26 23:13:07,mahmoud.najjar,PC-Salwa,Success,Critical,Created,HTTPS,powershell.exe,cmd.exe,C:\Windows\System32\cmd.exe,Malware Detected
+2025-05-26 23:14:21,yasin.abdelrahman,PC-Samah,Failed,Critical,MaliciousBehavior,DNS,explorer.exe,winlogon.exe,C:\Users\yasin\Documents\resume.docx,Unauthorized Access Attempt
+2025-05-26 23:17:04,ibraheem.shaar,PC-Ibraheem,Blocked,High,Created,HTTP,powershell.exe,cmd.exe,C:\Users\ibraheem\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Suspicious PowerShell Activity
+2025-05-26 23:20:28,alaa.salem,PC-Tarek,Failed,Medium,LoginFailure,HTTPS,powershell.exe,services.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-26 23:24:10,karim.faraj,PC-Laila,Failed,Low,LoginFailure,HTTP,explorer.exe,explorer.exe,C:\Users\karim\Downloads\setup.exe,Malware Detected
+2025-05-26 23:25:59,samira.karim,PC-Hassan,Blocked,Low,MaliciousBehavior,DNS,chrome.exe,winlogon.exe,C:\Users\samira\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Malware Detected
+2025-05-26 23:29:14,hada.mohamed,PC-Samira,Failed,High,UserRequest,HTTPS,chrome.exe,services.exe,C:\Users\hada\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Suspicious PowerShell Activity
+2025-05-26 23:32:58,muna.rashid,PC-Joud,Blocked,Critical,MaliciousBehavior,DNS,chrome.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-26 23:37:41,mohamed.sharif,PC-Lamia,Allowed,Medium,UserRequest,FTP,chrome.exe,cmd.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-26 23:40:53,adil.azzam,PC-Adil,Failed,Critical,LoginFailure,HTTPS,cmd.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Suspicious PowerShell Activity
+2025-05-26 23:44:39,zaina.karim,PC-Omar,Blocked,Low,UserRequest,FTP,powershell.exe,explorer.exe,C:\Users\zaina\AppData\Local\Temp\tmp1234.tmp,Malware Detected
+2025-05-26 23:48:28,ahmed.alhaj,PC-Khalifa,Success,High,Created,SMB,chrome.exe,explorer.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Malware Detected
+2025-05-26 23:51:42,nisreen.jamal,PC-Yasir,Allowed,Low,LoginFailure,HTTP,cmd.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-26 23:56:36,khaled.nasser,PC-Nawal,Success,Critical,AccessDenied,HTTP,explorer.exe,services.exe,C:\Users\khaled\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Malware Detected
+2025-05-27 00:01:36,reem.ali,PC-Yasir,Allowed,Critical,UserRequest,FTP,cmd.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Malware Detected
+2025-05-27 00:05:27,saif.alqahtani,PC-Jamal,Success,Critical,AccessDenied,DNS,explorer.exe,explorer.exe,C:\Users\saif\Downloads\invoice.pdf,Malware Detected
+2025-05-27 00:09:38,asmaa.rahman,PC-Khalil,Success,High,Created,SMB,cmd.exe,services.exe,C:\Users\asmaa\.ssh\known_hosts,Unauthorized Access Attempt
+2025-05-27 00:12:26,samah.abdelfattah,PC-Noor,Blocked,High,UserRequest,HTTPS,cmd.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Malware Detected
+2025-05-27 00:14:17,lina.hadi,PC-Zain,Blocked,Critical,Created,FTP,powershell.exe,services.exe,C:\Users\lina\AppData\Local\Temp\tmp1234.tmp,Malware Detected
+2025-05-27 00:14:41,firas.mohamed,PC-Joud,Allowed,Low,LoginFailure,DNS,cmd.exe,services.exe,C:\Windows\System32\calc.exe,Unauthorized Access Attempt
+2025-05-27 00:18:04,reem.jabari,PC-Muhannad,Success,Critical,MaliciousBehavior,SMB,cmd.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-27 00:21:50,firas.mohamed,PC-Kareem,Failed,Critical,LoginFailure,SMB,explorer.exe,services.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-27 00:22:53,hamza.karim,PC-Sara,Allowed,High,AccessDenied,DNS,powershell.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Suspicious PowerShell Activity
+2025-05-27 00:24:18,kareem.zidan,PC-Zubair,Failed,Low,Created,FTP,powershell.exe,winlogon.exe,C:\Users\kareem\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-27 00:27:21,zaki.bahaa,PC-Sawsan,Success,Medium,MaliciousBehavior,SMB,chrome.exe,services.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-27 00:28:54,manal.rashid,PC-Noura,Failed,Critical,UserRequest,FTP,cmd.exe,cmd.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-27 00:33:27,yasmin.abdulrahman,PC-Nabil,Blocked,High,LoginFailure,SMB,powershell.exe,winlogon.exe,C:\Users\yasmin\.ssh\known_hosts,Unauthorized Access Attempt
+2025-05-27 00:35:23,shatha.abdallah,PC-Samir,Failed,Low,Created,FTP,powershell.exe,winlogon.exe,C:\Windows\System32\rundll32.exe,Unauthorized Access Attempt
+2025-05-27 00:35:45,muna.bakr,PC-Thamer,Failed,Critical,MaliciousBehavior,DNS,chrome.exe,cmd.exe,C:\Users\muna\AppData\Local\Temp\msword.exe,Suspicious PowerShell Activity
+2025-05-27 00:36:15,wael.abdulrahim,PC-Ghassan,Blocked,Medium,Created,HTTP,powershell.exe,cmd.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-27 00:36:47,mustafa.alraqi,PC-Joud,Failed,High,Created,HTTP,cmd.exe,explorer.exe,C:\Users\mustafa\Desktop\payload.exe,Unauthorized Access Attempt
+2025-05-27 00:40:38,hibah.yusuf,PC-Tarek,Allowed,High,LoginFailure,DNS,powershell.exe,services.exe,C:\Users\hibah\Videos\video.mp4,Suspicious PowerShell Activity
+2025-05-27 00:45:09,reem.jabari,PC-Rania,Failed,Low,MaliciousBehavior,HTTPS,cmd.exe,services.exe,C:\Users\reem\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-27 00:45:56,fatima.alami,PC-Tarek,Failed,Low,MaliciousBehavior,FTP,cmd.exe,services.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-27 00:48:13,tarek.bahaa,PC-Dina,Allowed,Critical,Created,FTP,chrome.exe,winlogon.exe,C:\Users\tarek\AppData\Local\Temp\tmp1234.tmp,Unauthorized Access Attempt
+2025-05-27 00:50:17,zubair.abdulqadir,PC-Dina,Blocked,Low,MaliciousBehavior,SMB,cmd.exe,services.exe,C:\Users\zubair\Pictures\family.jpg,Suspicious PowerShell Activity
+2025-05-27 00:52:17,hibah.yusuf,PC-Nawal,Blocked,High,Created,HTTPS,cmd.exe,winlogon.exe,C:\Windows\Tasks\evil_task.job,Malware Detected
+2025-05-27 00:56:17,basil.salama,PC-Amin,Blocked,Critical,AccessDenied,DNS,explorer.exe,winlogon.exe,C:\Users\basil\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Malware Detected
+2025-05-27 00:57:23,laila.badran,PC-Hamza,Success,Medium,UserRequest,SMB,cmd.exe,winlogon.exe,C:\Users\laila\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Unauthorized Access Attempt
+2025-05-27 00:58:40,yara.khaled,PC-Najwa,Failed,Medium,AccessDenied,HTTPS,cmd.exe,services.exe,C:\Users\yara\AppData\Local\Temp\cmd.bat,Unauthorized Access Attempt
+2025-05-27 01:03:00,rashid.nour,PC-Zain,Blocked,Medium,MaliciousBehavior,SMB,cmd.exe,explorer.exe,C:\Users\rashid\AppData\Local\Google\Chrome\User Data\Default\Extensions\suspicious_extension\background.js,Malware Detected
+2025-05-27 01:03:53,nawal.ibrahim,PC-Youssef,Failed,Critical,LoginFailure,SMB,powershell.exe,winlogon.exe,C:\Users\nawal\AppData\Local\Temp\msword.exe,Unauthorized Access Attempt
+2025-05-27 01:07:17,mohamed.sharif,PC-Maysa,Blocked,High,Created,DNS,explorer.exe,cmd.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-27 01:10:14,adil.najjar,PC-Fahd,Allowed,High,Created,HTTP,powershell.exe,cmd.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-27 01:12:34,mustafa.alraqi,PC-Raihan,Failed,Medium,LoginFailure,FTP,explorer.exe,winlogon.exe,C:\Users\Public\Documents\financial_report.xlsx,Malware Detected
+2025-05-27 01:13:41,mohanna.hadi,PC-Raihan,Failed,High,Created,HTTPS,explorer.exe,explorer.exe,C:\Users\mohanna\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Suspicious PowerShell Activity
+2025-05-27 01:16:34,zubair.abdulqadir,PC-Firas,Failed,High,LoginFailure,HTTPS,explorer.exe,explorer.exe,C:\Users\zubair\.ssh\id_rsa,Unauthorized Access Attempt
+2025-05-27 01:19:35,wajih.alhassan,PC-Nour,Failed,High,AccessDenied,HTTP,chrome.exe,services.exe,C:\Users\wajih\AppData\Local\Temp\cmd.bat,Unauthorized Access Attempt
+2025-05-27 01:23:13,nabil.ayoub,PC-Sawsan,Failed,Medium,AccessDenied,HTTP,cmd.exe,services.exe,C:\Users\nabil\AppData\Local\Temp\update.vbs,Malware Detected
+2025-05-27 01:25:02,raed.saleh,PC-Raihan,Blocked,High,AccessDenied,HTTPS,explorer.exe,services.exe,C:\Users\raed\AppData\Local\Temp\msword.exe,Unauthorized Access Attempt
+2025-05-27 01:25:59,adil.najjar,PC-Ibraheem,Allowed,Medium,Created,HTTP,chrome.exe,winlogon.exe,C:\Users\adil\Downloads\setup.exe,Unauthorized Access Attempt
+2025-05-27 01:30:22,dalia.karim,PC-Rashid,Failed,Medium,UserRequest,SMB,cmd.exe,winlogon.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Suspicious PowerShell Activity
+2025-05-27 01:30:43,mohamed.sharif,PC-Omar,Success,Medium,AccessDenied,HTTPS,powershell.exe,explorer.exe,C:\Users\Public\Documents\financial_report.xlsx,Malware Detected
+2025-05-27 01:32:03,dania.kassem,PC-Noura,Success,Critical,Created,DNS,cmd.exe,services.exe,C:\Windows\System32\notepad.exe,Suspicious PowerShell Activity
+2025-05-27 01:35:51,zaki.bahaa,PC-Raihan,Blocked,Critical,UserRequest,SMB,cmd.exe,services.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-27 01:39:13,basim.zahran,PC-Yasir,Allowed,High,LoginFailure,SMB,chrome.exe,explorer.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-27 01:40:58,lamia.bader,PC-Mohsen,Failed,Medium,AccessDenied,HTTPS,explorer.exe,services.exe,C:\Users\lamia\AppData\Local\Temp\tmp1234.tmp,Suspicious PowerShell Activity
+2025-05-27 01:44:19,aya.zahra,PC-Mohamed,Allowed,Low,UserRequest,DNS,cmd.exe,explorer.exe,C:\Windows\System32\cmd.exe,Malware Detected
+2025-05-27 01:46:31,ahmed.alhaj,PC-Nadia,Blocked,Low,UserRequest,HTTPS,powershell.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Suspicious PowerShell Activity
+2025-05-27 01:48:53,mona.abdul,PC-Yara,Success,Medium,MaliciousBehavior,HTTP,cmd.exe,services.exe,C:\Users\mona\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Unauthorized Access Attempt
+2025-05-27 01:49:57,amin.ghanim,PC-Khaled,Success,Medium,LoginFailure,FTP,powershell.exe,explorer.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-27 01:53:02,asmaa.rahman,PC-Zaki,Allowed,High,AccessDenied,DNS,powershell.exe,services.exe,C:\Users\asmaa\Desktop\payload.exe,Malware Detected
+2025-05-27 01:53:50,zahra.mahdi,PC-Mariyam,Allowed,Low,AccessDenied,SMB,explorer.exe,services.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-27 01:54:42,hamza.karim,PC-Nidaa,Allowed,Low,UserRequest,HTTPS,explorer.exe,winlogon.exe,C:\Users\hamza\Downloads\setup.exe,Suspicious PowerShell Activity
+2025-05-27 01:55:47,mahmoud.najjar,PC-Jihad,Success,Low,Created,SMB,explorer.exe,services.exe,C:\Users\mahmoud\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-27 01:58:20,sara.farid,PC-Basim,Allowed,Low,AccessDenied,HTTPS,powershell.exe,explorer.exe,C:\Users\sara\Desktop\payload.exe,Malware Detected
+2025-05-27 02:01:53,mohanna.hadi,PC-Ali,Failed,Critical,MaliciousBehavior,SMB,explorer.exe,services.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-27 02:03:49,rima.bashir,PC-Khaled,Allowed,High,LoginFailure,HTTPS,explorer.exe,explorer.exe,C:\Windows\System32\drivers\ndis.sys,Suspicious PowerShell Activity
+2025-05-27 02:06:29,jamila.kamal,PC-Noura,Blocked,Critical,MaliciousBehavior,DNS,explorer.exe,cmd.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Suspicious PowerShell Activity
+2025-05-27 02:07:15,samira.karim,PC-Bilal,Failed,Medium,UserRequest,FTP,explorer.exe,services.exe,C:\Windows\Tasks\evil_task.job,Malware Detected
+2025-05-27 02:09:01,wael.abdulrahim,PC-Noura,Failed,Medium,MaliciousBehavior,HTTP,chrome.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-27 02:10:00,fahd.saadi,PC-Hazem,Allowed,Low,MaliciousBehavior,HTTPS,explorer.exe,winlogon.exe,C:\Users\fahd\AppData\Local\Temp\update.vbs,Unauthorized Access Attempt
+2025-05-27 02:14:59,kareem.zidan,PC-Joud,Success,High,Created,DNS,explorer.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Unauthorized Access Attempt
+2025-05-27 02:19:59,mohamed.hassan,PC-Dina,Blocked,Medium,AccessDenied,FTP,explorer.exe,winlogon.exe,C:\Windows\Temp\exploit.docm,Malware Detected
+2025-05-27 02:21:53,rina.sharif,PC-Rima,Failed,Medium,LoginFailure,HTTPS,cmd.exe,explorer.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Unauthorized Access Attempt
+2025-05-27 02:21:56,salim.hadi,PC-Mohamed,Allowed,Low,Created,DNS,chrome.exe,explorer.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-27 02:26:45,manal.rashid,PC-Maya,Blocked,Critical,UserRequest,SMB,cmd.exe,explorer.exe,C:\Windows\System32\cmd.exe,Suspicious PowerShell Activity
+2025-05-27 02:29:01,mohsen.najjar,PC-Bilal,Blocked,Medium,MaliciousBehavior,SMB,cmd.exe,explorer.exe,C:\Users\mohsen\Downloads\invoice.pdf,Malware Detected
+2025-05-27 02:29:53,saif.alqahtani,PC-Zainab,Success,High,MaliciousBehavior,HTTP,explorer.exe,cmd.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-27 02:30:15,kareem.jamal,PC-Habib,Blocked,Critical,UserRequest,HTTP,cmd.exe,explorer.exe,C:\Users\Public\Documents\financial_report.xlsx,Malware Detected
+2025-05-27 02:30:47,wajih.alhassan,PC-Noura,Blocked,Critical,Created,FTP,cmd.exe,services.exe,C:\Windows\System32\calc.exe,Suspicious PowerShell Activity
+2025-05-27 02:34:29,fatima.alami,PC-Amin,Success,Critical,LoginFailure,DNS,explorer.exe,explorer.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Malware Detected
+2025-05-27 02:36:14,yasmin.abdulrahman,PC-Sara,Success,Medium,MaliciousBehavior,DNS,chrome.exe,winlogon.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-27 02:36:30,khaled.nasser,PC-Zaina,Failed,Low,Created,SMB,powershell.exe,explorer.exe,C:\Users\khaled\AppData\Local\Temp\msword.exe,Unauthorized Access Attempt
+2025-05-27 02:38:19,khalil.abdullah,PC-Hamza,Success,Critical,LoginFailure,DNS,chrome.exe,services.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Malware Detected
+2025-05-27 02:40:26,basil.salama,PC-Manar,Blocked,Medium,MaliciousBehavior,SMB,powershell.exe,explorer.exe,C:\Windows\System32\drivers\ndis.sys,Malware Detected
+2025-05-27 02:44:38,rasha.younis,PC-Rania,Allowed,Critical,LoginFailure,DNS,explorer.exe,cmd.exe,C:\Users\rasha\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-27 02:46:22,rasha.younis,PC-Amin,Allowed,Medium,AccessDenied,SMB,explorer.exe,cmd.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Malware Detected
+2025-05-27 02:47:46,najat.omar,PC-Dania,Failed,Medium,UserRequest,FTP,chrome.exe,services.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-27 02:51:23,sawsan.mansour,PC-Lina,Blocked,Critical,LoginFailure,HTTP,cmd.exe,cmd.exe,C:\Windows\Temp\exploit.docm,Suspicious PowerShell Activity
+2025-05-27 02:54:51,yasin.abdelrahman,PC-Bilal,Blocked,Medium,AccessDenied,SMB,cmd.exe,cmd.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-27 02:56:46,manal.rashid,PC-Habib,Blocked,Medium,LoginFailure,DNS,powershell.exe,winlogon.exe,C:\Users\manal\Music\song.mp3,Malware Detected
+2025-05-27 02:58:05,thamer.najjar,PC-Omar,Allowed,High,Created,DNS,cmd.exe,explorer.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-27 03:02:48,amina.talal,PC-Hada,Success,Critical,AccessDenied,HTTPS,powershell.exe,services.exe,C:\Users\amina\.ssh\id_rsa,Suspicious PowerShell Activity
+2025-05-27 03:07:18,rima.bashir,PC-Jamila,Failed,High,Created,DNS,powershell.exe,services.exe,C:\Users\rima\AppData\Local\Microsoft\Windows\INetCache\IE\malicious.html,Suspicious PowerShell Activity
+2025-05-27 03:08:57,dina.farouk,PC-Wajih,Failed,Medium,AccessDenied,HTTP,chrome.exe,cmd.exe,C:\Users\Public\Documents\financial_report.xlsx,Malware Detected
+2025-05-27 03:09:50,noura.abdul,PC-Jafar,Failed,Low,Created,DNS,explorer.exe,services.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Malware Detected
+2025-05-27 03:11:18,khaled.nasser,PC-Ghassan,Blocked,High,UserRequest,HTTPS,explorer.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-27 03:16:04,noura.abdul,PC-Bilal,Success,Low,AccessDenied,HTTPS,chrome.exe,services.exe,C:\Windows\System32\notepad.exe,Malware Detected
+2025-05-27 03:18:06,manar.halabi,PC-Omar,Failed,Low,LoginFailure,HTTPS,explorer.exe,services.exe,C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe,Unauthorized Access Attempt
+2025-05-27 03:20:29,zain.ghazal,PC-Shatha,Blocked,Medium,AccessDenied,FTP,cmd.exe,services.exe,C:\Users\zain\AppData\Local\Temp\update.vbs,Suspicious PowerShell Activity
+2025-05-27 03:21:08,samah.abdelfattah,PC-Rania,Blocked,Critical,AccessDenied,SMB,explorer.exe,cmd.exe,C:\Users\samah\AppData\Local\Temp\update.vbs,Malware Detected
+2025-05-27 03:26:07,hazem.younis,PC-Nawal,Success,Low,UserRequest,HTTP,powershell.exe,winlogon.exe,C:\Windows\Tasks\evil_task.job,Malware Detected
+2025-05-27 03:26:13,samira.karim,PC-Nader,Success,Medium,MaliciousBehavior,HTTPS,powershell.exe,winlogon.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Unauthorized Access Attempt
+2025-05-27 03:31:05,sami.jaber,PC-Raihan,Allowed,Critical,MaliciousBehavior,HTTP,cmd.exe,services.exe,C:\Windows\System32\calc.exe,Unauthorized Access Attempt
+2025-05-27 03:31:47,joud.nasser,PC-Dania,Blocked,Medium,Created,SMB,cmd.exe,services.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-27 03:31:54,saif.alqahtani,PC-Jamila,Success,High,Created,SMB,powershell.exe,winlogon.exe,C:\Users\saif\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-27 03:36:06,noura.salem,PC-Nidaa,Failed,Low,LoginFailure,HTTPS,chrome.exe,explorer.exe,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\script.js,Malware Detected
+2025-05-27 03:39:14,jihad.abed,PC-Amin,Success,Critical,AccessDenied,HTTPS,explorer.exe,cmd.exe,C:\Users\jihad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-27 03:43:54,yasir.abdullah,PC-Mohamed,Success,Medium,AccessDenied,HTTP,chrome.exe,explorer.exe,C:\Windows\System32\rundll32.exe,Unauthorized Access Attempt
+2025-05-27 03:46:04,samir.shaheen,PC-Hala,Success,Critical,Created,FTP,explorer.exe,winlogon.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-27 03:50:05,asmaa.rahman,PC-Samah,Allowed,Critical,LoginFailure,DNS,explorer.exe,explorer.exe,C:\Users\asmaa\Downloads\setup.exe,Malware Detected
+2025-05-27 03:51:44,rima.bashir,PC-Hafsa,Success,Critical,UserRequest,FTP,chrome.exe,winlogon.exe,C:\Users\rima\AppData\Roaming\malicious.dll,Unauthorized Access Attempt
+2025-05-27 03:51:55,reem.jabari,PC-Yasmeen,Success,Medium,AccessDenied,SMB,explorer.exe,services.exe,C:\Users\reem\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-27 03:53:22,ahmed.bakr,PC-Joud,Success,Medium,UserRequest,DNS,cmd.exe,explorer.exe,C:\Users\ahmed\Documents\resume.docx,Malware Detected
+2025-05-27 03:55:52,muna.bakr,PC-Youssef,Failed,Critical,UserRequest,HTTP,explorer.exe,cmd.exe,C:\Users\muna\Music\song.mp3,Unauthorized Access Attempt
+2025-05-27 03:58:46,lina.abdulaziz,PC-Omar,Success,High,AccessDenied,SMB,explorer.exe,services.exe,C:\Users\lina\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Malware Detected
+2025-05-27 04:02:07,basil.salama,PC-Ali,Success,Critical,LoginFailure,HTTPS,cmd.exe,explorer.exe,C:\Users\basil\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-27 04:07:06,amin.ghanim,PC-Amin,Failed,Low,LoginFailure,HTTPS,powershell.exe,explorer.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-27 04:10:45,kareem.jamal,PC-Dalia,Failed,Medium,UserRequest,FTP,powershell.exe,cmd.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Suspicious PowerShell Activity
+2025-05-27 04:11:04,salwa.hamdi,PC-Zain,Success,Critical,LoginFailure,HTTP,cmd.exe,explorer.exe,C:\Program Files\Mozilla Firefox\firefox.exe,Suspicious PowerShell Activity
+2025-05-27 04:15:41,jamila.kamal,PC-Hazem,Blocked,Medium,LoginFailure,HTTP,explorer.exe,cmd.exe,C:\Users\jamila\Downloads\invoice.pdf,Unauthorized Access Attempt
+2025-05-27 04:19:57,ibrahim.hamed,PC-Hassan,Allowed,Low,Created,DNS,chrome.exe,winlogon.exe,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,Suspicious PowerShell Activity
+2025-05-27 04:20:34,nidaa.farouk,PC-Noura,Allowed,Critical,UserRequest,DNS,explorer.exe,winlogon.exe,C:\Program Files\WinRAR\WinRAR.exe,Unauthorized Access Attempt
+2025-05-27 04:21:14,yasmeen.salim,PC-Layla,Success,Critical,Created,FTP,explorer.exe,services.exe,C:\Users\yasmeen\.ssh\known_hosts,Malware Detected
+2025-05-27 04:25:49,samar.ridha,PC-Shimaa,Blocked,Critical,UserRequest,FTP,cmd.exe,winlogon.exe,C:\Users\samar\Downloads\invoice.pdf,Suspicious PowerShell Activity
+2025-05-27 04:29:56,hala.karim,PC-Younes,Blocked,Low,LoginFailure,HTTPS,explorer.exe,explorer.exe,C:\Users\hala\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.vbs,Suspicious PowerShell Activity
+2025-05-27 04:31:03,reem.ali,PC-Khaled,Success,Critical,UserRequest,SMB,explorer.exe,services.exe,C:\Users\reem\Downloads\invoice.pdf,Malware Detected
+2025-05-27 04:31:22,salim.hadi,PC-Reem,Failed,Low,AccessDenied,HTTP,chrome.exe,explorer.exe,C:\Users\salim\Desktop\payload.exe,Unauthorized Access Attempt
+2025-05-27 04:35:01,kamilah.mohamed,PC-Zainab,Failed,Medium,LoginFailure,HTTPS,powershell.exe,explorer.exe,C:\Users\kamilah\Music\song.mp3,Unauthorized Access Attempt
+2025-05-27 04:37:38,firas.abbas,PC-Wajih,Allowed,Critical,AccessDenied,FTP,powershell.exe,services.exe,C:\Windows\System32\drivers\etc\hosts,Malware Detected
+2025-05-27 04:38:24,adil.azzam,PC-Dina,Failed,Medium,UserRequest,FTP,explorer.exe,winlogon.exe,C:\Users\adil\Documents\resume.docx,Suspicious PowerShell Activity
+2025-05-27 04:40:07,hafsa.mansur,PC-Hamza,Success,Low,LoginFailure,SMB,cmd.exe,explorer.exe,C:\Users\hafsa\.ssh\known_hosts,Suspicious PowerShell Activity
+2025-05-27 04:44:19,yara.khaled,PC-Mona,Failed,Critical,MaliciousBehavior,SMB,powershell.exe,cmd.exe,C:\Users\Public\Documents\financial_report.xlsx,Suspicious PowerShell Activity
+2025-05-27 04:47:14,siham.faraj,PC-Fadi,Failed,Medium,AccessDenied,DNS,powershell.exe,explorer.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,Unauthorized Access Attempt
+2025-05-27 04:50:39,fatima.alami,PC-Joud,Blocked,Critical,AccessDenied,HTTPS,explorer.exe,services.exe,C:\Users\fatima\Desktop\payload.exe,Suspicious PowerShell Activity
+2025-05-27 04:51:35,ali.mostafa,PC-Asmaa,Failed,Critical,UserRequest,HTTP,powershell.exe,cmd.exe,C:\Program Files\WinRAR\WinRAR.exe,Malware Detected
+2025-05-27 04:54:07,habib.mahfouz,PC-Ibrahim,Success,Medium,Created,DNS,chrome.exe,explorer.exe,C:\Users\habib\AppData\Local\Temp\tmp1234.tmp,Malware Detected
+2025-05-27 04:55:43,dalia.karim,PC-Ahmed,Blocked,Low,UserRequest,SMB,powershell.exe,explorer.exe,C:\Windows\System32\drivers\etc\hosts,Unauthorized Access Attempt
+2025-05-27 04:56:05,yasir.abdullah,PC-Hamza,Failed,Critical,LoginFailure,HTTP,explorer.exe,winlogon.exe,C:\Users\yasir\AppData\Local\Temp\msword.exe,Unauthorized Access Attempt
+2025-05-27 04:59:39,zaki.bahaa,PC-Younes,Blocked,Critical,Created,DNS,explorer.exe,winlogon.exe,C:\Windows\System32\drivers\etc\hosts,Malware Detected
+2025-05-27 05:02:29,aya.zahra,PC-Tariq,Blocked,Critical,LoginFailure,SMB,chrome.exe,cmd.exe,C:\Users\aya\Downloads\setup.exe,Malware Detected
+2025-05-27 05:03:06,dania.kassem,PC-Nisreen,Success,High,LoginFailure,HTTP,powershell.exe,cmd.exe,C:\Windows\System32\cmd.exe,Suspicious PowerShell Activity
+2025-05-27 05:07:46,mohamed.sharif,PC-Kareem,Success,Medium,Created,FTP,explorer.exe,services.exe,C:\Users\mohamed\AppData\Local\Temp\update.vbs,Unauthorized Access Attempt
+2025-05-27 05:09:50,zayd.abdelrahim,PC-Dalia,Allowed,Low,AccessDenied,HTTP,explorer.exe,services.exe,C:\Users\zayd\.ssh\known_hosts,Suspicious PowerShell Activity
+2025-05-27 05:11:02,wael.abdulrahim,PC-Tarik,Failed,Medium,LoginFailure,FTP,explorer.exe,explorer.exe,C:\Users\wael\AppData\Local\Temp\msword.exe,Malware Detected
+2025-05-27 05:13:25,nisreen.jamal,PC-Kareem,Allowed,Critical,LoginFailure,FTP,powershell.exe,cmd.exe,C:\Users\nisreen\Music\song.mp3,Suspicious PowerShell Activity

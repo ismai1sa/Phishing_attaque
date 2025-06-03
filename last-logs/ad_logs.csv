@@ -1,0 +1,501 @@
+timestamp,EventID,User,IP,Workstation,Privilege,Object,AccessMask,Target,Description
+2025-05-26 09:00:00,4702,samira.karim,192.168.10.10,UM6P-FIN05,,"CN=Backup_Servers,DC=um6p,DC=local",0x23,HelpDesk,User removed from security group
+2025-05-26 09:00:54,4725,hafsa.mansur,172.25.26.27,UM6P-DEV02,SeChangeNotifyPrivilege,"CN=Finance_Reports,DC=um6p,DC=local",0xdb,,Remote logon - File server
+2025-05-26 09:03:51,4647,hamza.karim,192.168.9.9,UM6P-DESK03,,,,,VPN connection established
+2025-05-26 09:05:48,4733,farouk.karim,10.5.6.7,UM6P-FIN02,,,,HelpDesk,Configuration file modified
+2025-05-26 09:07:54,4729,manar.halabi,192.168.254.254,UM6P-ADMIN04,SeEnableDelegationPrivilege,,,,Network share accessed
+2025-05-26 09:10:13,4726,bilal.jaber,192.168.60.61,UM6P-ADMIN04,,,,,User logged off
+2025-05-26 09:14:06,4904,adil.azzam,10.15.16.17,UM6P-GUEST03,,,,,Two-factor authentication disabled
+2025-05-26 09:17:41,5024,ibraheem.shaar,192.168.100.1,UM6P-CLT04,SeTimeZonePrivilege,"CN=Tmp_Admin,DC=um6p,DC=local",0xb5,,Software installed successfully
+2025-05-26 09:20:08,4946,nader.shams,172.18.0.3,UM6P-DESK03,,,,,Authentication ticket renewed
+2025-05-26 09:20:22,4697,salim.hadi,192.168.34.56,UM6P-MGMT03,SeSystemProfilePrivilege,,,,User session disconnected
+2025-05-26 09:23:23,4723,nour.elmasri,192.168.55.55,UM6P-OPS02,,,,,Backup completed successfully
+2025-05-26 09:23:37,4688,lina.hadi,10.4.5.6,UM6P-WKS05,SeDelegateSessionUserImpersonatePrivilege,"CN=Guest_Accounts,DC=um6p,DC=local",0x3b,,Backup failed
+2025-05-26 09:25:49,4735,salim.hadi,192.168.88.99,UM6P-ADM01,,,,,Logon success - suspicious account
+2025-05-26 09:30:34,4902,reem.taleb,10.10.11.12,UM6P-OPS04,SeBackupPrivilege,"CN=VPN_Access,DC=um6p,DC=local",0x4e,,User account disabled
+2025-05-26 09:34:17,4703,rana.azzam,192.168.5.5,UM6P-HR03,,"CN=Finance_Reports,DC=um6p,DC=local",0x76,,Unusual network activity detected
+2025-05-26 09:36:08,5140,nader.alsalem,10.3.4.5,UM6P-LAB01,,,,,Data export completed successfully
+2025-05-26 09:40:43,4634,mona.abdul,10.255.255.255,UM6P-LAB03,,,,,Disk space running low
+2025-05-26 09:43:40,4947,ahmed.alsayed,10.0.0.123,UM6P-SRV03,,,,,Audit log cleared
+2025-05-26 09:47:05,4904,rami.salim,192.168.5.5,UM6P-MKT04,,,,,Backup completed successfully
+2025-05-26 09:50:54,4662,wahid.farhan,172.21.22.23,UM6P-SRV04,,,,,User added to security-enabled local group
+2025-05-26 09:54:26,4697,nabil.ayoub,172.23.24.25,UM6P-SALES05,,,,,Service stopped unexpectedly
+2025-05-26 09:58:16,4816,tamer.karim,192.168.14.14,UM6P-SALES02,,,,disabled_account1,Unusual network activity detected
+2025-05-26 10:01:23,4697,shimaa.hassan,10.0.0.99,UM6P-LABTEST04,,,,,User account enabled
+2025-05-26 10:06:03,4730,noura.salem,192.168.50.50,UM6P-IT01,SeBackupPrivilege,,,HelpDesk,Disk space running low
+2025-05-26 10:10:02,4767,aya.zahra,10.5.6.7,UM6P-CLT05,,"CN=Users,DC=um6p,DC=local",0xd6,,Group policy updated successfully
+2025-05-26 10:14:08,4720,younes.abdullah,10.7.8.9,UM6P-CONF03,,,,,Account locked out due to too many failed logons
+2025-05-26 10:16:44,4647,ibrahim.hamed,10.9.10.11,UM6P-GUEST01,,"CN=VPN_Access,DC=um6p,DC=local",0x71,,System rebooted
+2025-05-26 10:17:14,4934,ahmed.nafih,10.2.3.4,UM6P-OPS04,,,,,Configuration file modified
+2025-05-26 10:19:56,4904,rania.faraj,172.22.33.44,UM6P-FIN03,,,,,Remote logon - File server
+2025-05-26 10:23:43,4767,kamilah.mohamed,10.255.255.255,UM6P-MKT04,,,,,User logged off
+2025-05-26 10:28:31,4912,yasir.abdullah,10.1.2.3,UM6P-SALES03,,,,tmp_admin,Group membership updated
+2025-05-26 10:32:52,4912,asmaa.rahman,10.12.13.14,UM6P-ADMIN01,,,,,Configuration file modified
+2025-05-26 10:37:03,4725,khalil.abdullah,172.17.18.19,UM6P-FIN03,,,,,Two-factor authentication disabled
+2025-05-26 10:38:21,4912,salwa.hamdi,172.27.28.29,UM6P-SALES05,,,,HelpDesk,User logged off
+2025-05-26 10:41:38,4932,dalia.karim,172.19.20.21,UM6P-LABTEST01,,,,,Account password expired
+2025-05-26 10:45:42,4660,jamal.alfaraj,172.19.20.21,UM6P-IT05,,,,Domain Admins,Service stopped unexpectedly
+2025-05-26 10:48:09,4740,jamila.kamal,192.168.123.123,UM6P-SRV02,,"CN=Old_Users,DC=um6p,DC=local",0xc1,Domain Admins,Special privileges assigned
+2025-05-26 10:48:13,5024,fahd.saadi,192.168.0.101,UM6P-IT05,,,,Domain Admins,Configuration file modified
+2025-05-26 10:52:39,4946,nour.elmasri,10.10.10.10,UM6P-ADMIN01,,,,,Account locked out due to too many failed logons
+2025-05-26 10:56:34,4934,maya.hussein,10.7.8.9,UM6P-LAB02,SeBackupPrivilege,,,,Remote logon - File server
+2025-05-26 11:01:11,4733,manar.halabi,192.168.123.123,UM6P-ADM02,,,,Domain Admins,Two-factor authentication enabled
+2025-05-26 11:04:24,4816,fatma.ismail,192.168.123.123,UM6P-ENG01,,,,,Network share accessed
+2025-05-26 11:08:23,4732,habib.mahfouz,172.17.18.19,UM6P-OPS05,,,,Domain Admins,User logged off
+2025-05-26 11:11:47,4658,mohamed.sharif,172.23.24.25,UM6P-OPS05,,,,,Unusual network activity detected
+2025-05-26 11:16:39,4690,amina.talal,10.11.12.13,UM6P-DESK05,SeLoadDriverPrivilege,,,,Normal logon - Admin workstation
+2025-05-26 11:17:30,4726,mahmoud.najjar,192.168.3.3,UM6P-SEC01,,"CN=Finance_Group,DC=um6p,DC=local",0xf2,,User account disabled
+2025-05-26 11:20:03,4697,alaa.salem,10.14.15.16,UM6P-WKS02,,"CN=Shared_Folder,DC=um6p,DC=local",0x23,,System time changed
+2025-05-26 11:22:26,4647,habib.mahfouz,192.168.66.66,UM6P-LABTEST04,,,,disabled_account1,Network share accessed
+2025-05-26 11:26:51,4816,hamza.karim,10.0.2.15,UM6P-ADM04,SeUndockPrivilege,,,,User account disabled
+2025-05-26 11:28:44,4730,jihad.abed,192.168.17.18,UM6P-MKT02,,,,disabled_account1,Service started successfully
+2025-05-26 11:29:02,4732,shaden.naqib,192.168.200.1,UM6P-MKT04,,,,,System time changed
+2025-05-26 11:29:43,4771,zohair.salim,172.16.16.16,UM6P-IT02,SeCreatePermanentPrivilege,,,,Group policy updated successfully
+2025-05-26 11:30:07,4781,farid.shaheen,10.10.10.20,UM6P-ENG03,,,,,New user account created
+2025-05-26 11:30:49,4672,hala.karim,172.21.22.23,UM6P-HR03,,,,HelpDesk,Software installed successfully
+2025-05-26 11:35:20,5142,muna.rashid,10.6.7.8,UM6P-SALES01,,"OU=VPN_Users,DC=um6p,DC=local",0x57,tmp_admin,Group policy updated successfully
+2025-05-26 11:38:04,4726,zohair.salim,192.168.45.67,UM6P-HR04,SeTrustedCredManAccessPrivilege,"CN=Finance_Reports,DC=um6p,DC=local",0xfc,,User session disconnected
+2025-05-26 11:42:50,4801,samira.karim,172.19.20.21,UM6P-ADMIN05,,"CN=LDAP://CN=Schema,CN=Configuration,DC=um6p,DC=local",0x9d,,Attempt to read AD schema
+2025-05-26 11:46:05,4946,manar.halabi,10.12.13.14,UM6P-SALES05,,"CN=VPN_Access,DC=um6p,DC=local",0x19,,Normal logon - Admin workstation
+2025-05-26 11:48:39,4672,jafar.mohamed,10.10.0.1,UM6P-LABTEST04,,,,,User password reset by administrator
+2025-05-26 11:49:27,4689,lamia.bader,10.0.0.9,UM6P-DESK03,SeCreateGlobalPrivilege,"CN=LDAP://CN=Schema,CN=Configuration,DC=um6p,DC=local",0xff,HelpDesk,Software removed successfully
+2025-05-26 11:50:08,4902,sawsan.mansour,10.7.8.9,UM6P-DEV01,,,,,Software installed successfully
+2025-05-26 11:52:00,4624,fatima.alami,10.1.2.3,UM6P-ADMIN03,,,,,Logon success - suspicious account
+2025-05-26 11:52:47,4688,noura.abdul,172.16.10.10,UM6P-LAB05,,,,tmp_admin,Failed logon attempt from unusual client
+2025-05-26 11:57:22,4902,nadia.abdel,192.168.50.50,UM6P-FIN05,,,,,Firewall rule added
+2025-05-26 11:57:48,4816,kamilah.mohamed,10.10.11.12,UM6P-LABTEST03,,,,tmp_admin,Security group modified
+2025-05-26 11:58:05,4722,ghassan.sharif,192.168.50.50,UM6P-LAB05,,,,,Service started successfully
+2025-05-26 12:00:24,4776,laila.badran,172.16.40.50,UM6P-MGMT01,SeChangeNotifyPrivilege,,,,Enumeration of admin group
+2025-05-26 12:01:22,4689,farah.dawoud,192.168.50.50,UM6P-DEV02,SeRestorePrivilege,,,HelpDesk,Data export completed successfully
+2025-05-26 12:04:46,5142,zohair.salim,172.22.33.44,UM6P-LAB02,,,,disabled_account1,VPN connection established
+2025-05-26 12:09:04,4697,rania.faraj,172.19.20.21,UM6P-ENG01,,,,,Special privileges assigned
+2025-05-26 12:09:24,4767,hala.karim,10.0.0.99,UM6P-HR03,,,,IT_Admins,Service stopped unexpectedly
+2025-05-26 12:09:36,4634,tariq.mansour,172.28.29.30,UM6P-ENG05,,,,,Firewall rule removed
+2025-05-26 12:11:18,4697,samar.ridha,10.4.5.6,UM6P-IT05,,,,,VPN connection terminated
+2025-05-26 12:15:12,4776,ahmed.bakr,172.31.255.255,UM6P-SEC01,SeImpersonatePrivilege,"CN=Network_Devices,DC=um6p,DC=local",0xa6,tmp_admin,Backup failed
+2025-05-26 12:16:43,4934,basim.zahran,172.29.30.31,UM6P-DESK05,,,,,Disk space running low
+2025-05-26 12:20:57,4728,hafsa.mansur,192.168.50.50,UM6P-ADMIN02,,,,,Backup failed
+2025-05-26 12:21:14,5140,samira.karim,10.14.15.16,UM6P-IT03,,,,,Successful logon - Interactive
+2025-05-26 12:22:23,4735,noor.jalal,192.168.150.150,UM6P-LABTEST05,,"CN=Service_Accounts,DC=um6p,DC=local",0x44,,Certificate issued
+2025-05-26 12:25:17,4663,bilal.mansour,10.10.0.1,UM6P-LABTEST04,,,,,User removed from security group
+2025-05-26 12:26:50,4724,mustafa.alraqi,172.16.16.16,UM6P-ADMIN05,,"CN=Security_Logs,DC=um6p,DC=local",0xd9,,User logged off
+2025-05-26 12:30:27,4660,kamilah.mohamed,192.168.3.3,UM6P-DESK04,,,,,Group policy updated successfully
+2025-05-26 12:33:20,4663,salma.hamdan,172.16.16.16,UM6P-SALES03,SeSystemIntegrityPrivilege,,,,Successful logon - Interactive
+2025-05-26 12:36:28,4703,jamal.alfaraj,192.168.34.56,UM6P-HR04,,,,,Failed logon from nearby host
+2025-05-26 12:39:48,4733,reem.taleb,10.15.16.17,UM6P-SEC05,SeTimeZonePrivilege,,,Domain Admins,Configuration file modified
+2025-05-26 12:43:21,4948,hamza.zaki,192.168.200.1,UM6P-WKS01,,,,,Network share accessed
+2025-05-26 12:46:36,4964,mustafa.alraqi,10.0.0.7,UM6P-SRV05,,"CN=Tmp_Admin,DC=um6p,DC=local",0xc3,,Failed logon from nearby host
+2025-05-26 12:46:43,4800,mohanna.hadi,192.168.14.14,UM6P-IT01,SeRelabelPrivilege,,,,Authentication ticket renewed
+2025-05-26 12:49:55,5140,wael.abdulrahim,10.0.0.123,UM6P-GUEST03,,"OU=Servers,DC=um6p,DC=local",0xa3,,Privilege escalation attempt detected
+2025-05-26 12:52:37,4690,marwan.alhaj,172.18.0.3,UM6P-CONF02,,,,,User added to security-enabled local group
+2025-05-26 12:57:03,4656,hamza.zaki,172.19.20.21,UM6P-ENG02,,,,,Successful logon - Interactive
+2025-05-26 12:59:18,4662,dalia.abdulaziz,172.29.30.31,UM6P-OPS02,SeBackupPrivilege,,,HelpDesk,Malware detected and quarantined
+2025-05-26 13:01:00,5140,zubair.abdulqadir,10.0.10.11,UM6P-SRV04,,"CN=Network_Devices,DC=um6p,DC=local",0xef,,User added to security-enabled local group
+2025-05-26 13:02:14,4946,maya.hussein,192.168.32.32,UM6P-OPS02,,,,Domain Admins,Account locked out due to too many failed logons
+2025-05-26 13:03:20,4733,manar.halabi,172.27.28.29,UM6P-GUEST02,SeSystemIntegrityPrivilege,,,IT_Admins,Certificate issued
+2025-05-26 13:03:57,4771,raed.khaled,192.168.1.22,UM6P-GUEST03,,,,,Account logged in from multiple locations
+2025-05-26 13:08:40,4660,basim.zahran,10.12.13.14,UM6P-GUEST05,,,,,Failed logon attempt using service account
+2025-05-26 13:12:29,5376,samah.fahmi,192.168.50.50,UM6P-ENG05,,,,HelpDesk,Failed logon from nearby host
+2025-05-26 13:15:21,4904,shatha.abdallah,10.10.10.10,UM6P-OPS03,,,,Domain Admins,Data import failed
+2025-05-26 13:15:47,4800,rami.salim,10.0.1.254,UM6P-CLT02,SeSecurityPrivilege,"CN=App_Users,DC=um6p,DC=local",0x45,tmp_admin,Successful logon - Interactive
+2025-05-26 13:19:48,4726,jumana.ghazi,10.10.0.1,UM6P-ADM02,,,,,File system permissions changed
+2025-05-26 13:22:32,4720,nader.shams,10.0.0.7,UM6P-FIN01,,,,,Software installed successfully
+2025-05-26 13:26:26,5145,salwa.hamdi,192.168.13.14,UM6P-ENG04,SeRestorePrivilege,,,disabled_account1,Successful logon - Interactive
+2025-05-26 13:27:22,4728,hala.karim,172.17.18.19,UM6P-DEV01,,,,,Account logged in from multiple locations
+2025-05-26 13:31:22,4904,aya.zahra,10.0.0.15,UM6P-FIN05,,,,,User account disabled
+2025-05-26 13:34:52,4728,mohamed.sharif,10.11.12.13,UM6P-ADMIN04,SeSystemEnvironmentPrivilege,,,disabled_account1,Attempt to read AD schema
+2025-05-26 13:38:56,5024,muna.bakr,172.26.27.28,UM6P-ENG04,,,,disabled_account1,Account locked out due to too many failed logons
+2025-05-26 13:40:21,4934,ali.mostafa,10.5.6.7,UM6P-SEC05,,,,,Password changed for user
+2025-05-26 13:43:03,4734,salma.hamdan,10.14.15.16,UM6P-SRV03,,,,,Failed logon attempt using service account
+2025-05-26 13:44:28,5142,zayd.abdelrahim,10.10.11.12,UM6P-ENG04,,,,,Failed logon attempt from unusual client
+2025-05-26 13:45:33,4723,zain.ghazal,172.16.10.10,UM6P-IT05,,,,Domain Admins,Network share accessed
+2025-05-26 13:49:23,4737,firas.mohamed,10.0.0.9,UM6P-SRV04,SeChangeNotifyPrivilege,,,,New user account created
+2025-05-26 13:50:32,4798,firas.abbas,172.16.16.16,UM6P-WKS05,,,,HelpDesk,Account locked out due to too many failed logons
+2025-05-26 13:51:39,4690,dina.rashid,10.10.0.1,UM6P-ADMIN05,,,,IT_Admins,Remote logon - File server
+2025-05-26 13:55:03,4656,amin.ghanim,192.168.200.1,UM6P-LAB01,,"CN=Guest_Accounts,DC=um6p,DC=local",0x97,,Password changed for user
+2025-05-26 13:59:33,4781,ahmed.alsayed,172.28.29.30,UM6P-SALES05,,,,disabled_account1,Failed logon attempt from unusual client
+2025-05-26 14:01:39,4672,ahmed.bakr,10.0.0.99,UM6P-WKS02,,,,,Unauthorized access attempt blocked
+2025-05-26 14:02:25,4767,nader.shams,192.168.1.101,UM6P-MKT03,,,,IT_Admins,Account logged in from multiple locations
+2025-05-26 14:05:43,4933,reem.ali,192.168.2.2,UM6P-OPS01,,,,,Service stopped unexpectedly
+2025-05-26 14:06:51,4697,nadia.abdel,172.23.24.25,UM6P-GUEST03,SeTakeOwnershipPrivilege,,,,User added to security-enabled local group
+2025-05-26 14:08:19,4658,najat.omar,192.168.9.9,UM6P-ADMIN01,,"CN=App_Users,DC=um6p,DC=local",0xfc,,Service started successfully
+2025-05-26 14:10:40,4934,ahmed.bakr,192.168.55.55,UM6P-DEV04,,,,,User account enabled
+2025-05-26 14:12:24,4737,wajih.alhassan,172.29.30.31,UM6P-LAB05,SeCreatePagefilePrivilege,,,Domain Admins,Unusual network activity detected
+2025-05-26 14:13:11,4781,marwan.alhaj,192.168.5.5,UM6P-ADMIN02,,,,,Security group modified
+2025-05-26 14:15:48,4625,hibah.yusuf,172.16.17.18,UM6P-SRV05,SeCreatePagefilePrivilege,,,,Data export completed successfully
+2025-05-26 14:19:21,4688,sabir.jarrah,10.0.0.15,UM6P-DESK03,SeCreateTokenPrivilege,,,,Failed logon attempt using service account
+2025-05-26 14:21:10,4799,hada.mohamed,10.0.1.254,UM6P-MGMT05,,,,,Failed logon from nearby host
+2025-05-26 14:23:30,4647,jamal.alfaraj,192.168.77.77,UM6P-MGMT04,,,,,Enumeration of admin group
+2025-05-26 14:26:47,4662,dania.kassem,192.168.60.61,UM6P-SRV01,,,,,Data import failed
+2025-05-26 14:28:11,4730,firas.abbas,10.14.15.16,UM6P-IT05,,,,,VPN connection established
+2025-05-26 14:29:16,4625,abdulrahman.karim,192.168.14.14,UM6P-ENG02,,"CN=IT_Admins,DC=um6p,DC=local",0xd8,HelpDesk,Special privileges assigned
+2025-05-26 14:33:12,5376,basim.zahran,10.0.0.99,UM6P-IT04,SeIncreaseBasePriorityPrivilege,,,,Certificate issued
+2025-05-26 14:34:00,4728,omar.salem,172.29.30.31,UM6P-CONF05,SeSystemIntegrityPrivilege,"CN=Temporary_Users,DC=um6p,DC=local",0xce,,Certificate issued
+2025-05-26 14:35:01,4700,farouk.karim,10.0.0.123,UM6P-ENG05,,,,Domain Admins,Special privileges assigned
+2025-05-26 14:35:27,4800,layla.abdullah,10.0.0.15,UM6P-CLT02,,"CN=Domain Admins,DC=um6p,DC=local",0xde,,Normal logon - Admin workstation
+2025-05-26 14:36:29,4703,younes.abdullah,192.168.55.55,UM6P-IT03,,,,,Logon success - suspicious account
+2025-05-26 14:40:49,4703,dina.rashid,192.168.5.5,UM6P-IT01,,,,IT_Admins,File system permissions changed
+2025-05-26 14:42:58,4663,habib.mahfouz,192.168.254.254,UM6P-MKT03,SeCreateGlobalPrivilege,,,IT_Admins,Account logged in from multiple locations
+2025-05-26 14:46:58,4798,sara.farid,10.0.1.254,UM6P-GUEST01,SeEnableDelegationPrivilege,"OU=VPN_Users,DC=um6p,DC=local",0x98,,User session disconnected
+2025-05-26 14:50:52,4690,samah.abdelfattah,172.22.33.44,UM6P-DESK05,SeDebugPrivilege,,,,Disk space running low
+2025-05-26 14:51:56,4947,hamza.karim,192.168.9.9,UM6P-SRV05,,,,,User session disconnected
+2025-05-26 14:52:24,5376,hala.karim,192.168.1.22,UM6P-LABTEST03,,,,tmp_admin,Certificate revoked
+2025-05-26 14:53:12,4625,lamia.bader,10.3.4.5,UM6P-SEC05,,"CN=File_Servers,DC=um6p,DC=local",0x92,,Account logged in from multiple locations
+2025-05-26 14:57:21,4689,noura.salem,192.168.34.56,UM6P-ENG02,,"OU=VPN_Users,DC=um6p,DC=local",0xee,,Enumeration of admin group
+2025-05-26 15:02:16,4776,rashid.nour,192.168.55.55,UM6P-HR05,,,,,User added to security-enabled local group
+2025-05-26 15:02:46,4771,nashit.alhadi,192.168.11.11,UM6P-SRV04,,,,,Logon success - suspicious account
+2025-05-26 15:03:15,4658,ghassan.sharif,10.0.0.7,UM6P-LABTEST05,,"OU=VPN_Users,DC=um6p,DC=local",0xee,Domain Admins,Certificate issued
+2025-05-26 15:03:36,4634,hassan.amir,10.6.7.8,UM6P-MKT01,,,,,Two-factor authentication disabled
+2025-05-26 15:04:24,4701,sara.farid,10.5.6.7,UM6P-SEC03,SeSystemtimePrivilege,,,disabled_account1,Failed logon from nearby host
+2025-05-26 15:06:59,4670,zain.ghazal,192.168.50.50,UM6P-MGMT03,,,,,Data import failed
+2025-05-26 15:11:46,4948,samir.shaheen,10.0.0.7,UM6P-MKT04,,,,HelpDesk,Group membership updated
+2025-05-26 15:13:46,4933,wael.abdulrahim,172.21.22.23,UM6P-LABTEST01,,,,,Certificate issued
+2025-05-26 15:18:45,4634,layla.abdullah,10.0.0.15,UM6P-ADMIN02,,,,IT_Admins,Failed logon attempt from unusual client
+2025-05-26 15:20:42,5024,hazem.younis,192.168.2.2,UM6P-DEV01,SeManageVolumePrivilege,"CN=Temporary_Users,DC=um6p,DC=local",0x97,disabled_account1,Data import failed
+2025-05-26 15:25:13,4701,fadi.kassem,192.168.13.14,UM6P-OPS04,SeTakeOwnershipPrivilege,,,,VPN connection terminated
+2025-05-26 15:29:14,4728,hassan.amir,172.23.24.25,UM6P-MGMT05,,,,,Firewall rule added
+2025-05-26 15:33:29,4948,farah.dawoud,10.1.2.3,UM6P-ADM03,SeRestorePrivilege,"CN=Default Domain Policy,CN=Policies,CN=System,DC=um6p,DC=local",0xfc,,Certificate revoked
+2025-05-26 15:36:53,4740,basil.salama,172.16.5.4,UM6P-CLT03,,"OU=VPN_Users,DC=um6p,DC=local",0xc0,,Group membership updated
+2025-05-26 15:37:44,4624,omar.hakim,192.168.9.9,UM6P-MKT03,,"CN=App_Users,DC=um6p,DC=local",0x59,,System time changed
+2025-05-26 15:42:05,4656,jihad.abed,192.168.44.44,UM6P-SALES05,,"CN=Network_Devices,DC=um6p,DC=local",0x100,,Authentication ticket renewed
+2025-05-26 15:44:37,5142,habib.mahfouz,10.14.15.16,UM6P-LABTEST02,,,,,User password reset by administrator
+2025-05-26 15:47:07,4725,salwa.hamdi,172.23.24.25,UM6P-LABTEST03,,,,,Attempt to read AD schema
+2025-05-26 15:48:39,4723,noura.salem,10.5.6.7,UM6P-GUEST01,,,,,Firewall rule added
+2025-05-26 15:53:28,4690,siham.faraj,172.22.23.24,UM6P-OPS05,SeSecurityPrivilege,,,,Failed logon from nearby host
+2025-05-26 15:58:13,4771,nisreen.jamal,192.168.3.3,UM6P-GUEST05,,,,,System time changed
+2025-05-26 15:59:44,4726,rana.azzam,192.168.3.3,UM6P-ENG04,,"CN=Temporary_Users,DC=um6p,DC=local",0x59,HelpDesk,User session disconnected
+2025-05-26 16:01:40,4947,rana.azzam,192.168.0.101,UM6P-LAB04,,,,,Enumeration of admin group
+2025-05-26 16:04:35,4933,laila.mohsen,172.23.24.25,UM6P-ENG02,,,,,Account password expired
+2025-05-26 16:04:51,4934,yasir.abdullah,10.11.12.13,UM6P-CONF05,,"CN=Admin_Workstations,DC=um6p,DC=local",0xfc,,Special privileges assigned
+2025-05-26 16:05:58,4932,samah.abdelfattah,172.21.22.23,UM6P-OPS03,,"CN=Disabled_Accounts,DC=um6p,DC=local",0x14,HelpDesk,User removed from security group
+2025-05-26 16:09:10,4719,fahim.aljaber,10.1.2.3,UM6P-DESK04,,,,IT_Admins,VPN connection established
+2025-05-26 16:09:19,4902,sara.farid,172.30.31.32,UM6P-MGMT02,SeTakeOwnershipPrivilege,,,,Firewall rule removed
+2025-05-26 16:09:29,4904,dina.farouk,172.16.17.18,UM6P-ADM04,SeAssignPrimaryTokenPrivilege,"CN=IT_Admins,DC=um6p,DC=local",0xcd,,System time changed
+2025-05-26 16:09:33,4800,najat.omar,10.0.0.99,UM6P-FIN01,,,,,Network share accessed
+2025-05-26 16:14:17,4734,habib.mahfouz,172.16.17.18,UM6P-FIN01,,,,disabled_account1,Audit log cleared
+2025-05-26 16:18:17,4912,dalia.abdulaziz,192.168.88.99,UM6P-DEV01,,"CN=Backup_Users,DC=um6p,DC=local",0x6f,,Service started successfully
+2025-05-26 16:21:18,4934,nisreen.jamal,10.5.6.7,UM6P-SEC03,SeLoadDriverPrivilege,,,,User account enabled
+2025-05-26 16:24:19,4690,layla.abdullah,192.168.88.88,UM6P-DESK01,,"CN=File_Servers,DC=um6p,DC=local",0x31,,Network interface disabled
+2025-05-26 16:27:15,4733,noura.abdul,172.22.23.24,UM6P-LAB03,,,,,Attempt to read AD schema
+2025-05-26 16:28:51,4933,basil.salama,10.0.10.11,UM6P-LAB04,,,,,System time changed
+2025-05-26 16:32:02,4634,fahim.aljaber,10.0.0.99,UM6P-LABTEST04,SeDebugPrivilege,"OU=Servers,DC=um6p,DC=local",0x83,,VPN connection established
+2025-05-26 16:35:58,4672,rima.bashir,10.7.8.9,UM6P-DESK04,,"CN=File_Servers,DC=um6p,DC=local",0xbe,,VPN connection terminated
+2025-05-26 16:39:32,4734,nisreen.jamal,172.19.20.21,UM6P-HR03,,,,,Disk space running low
+2025-05-26 16:43:09,4933,thamer.najjar,172.16.5.4,UM6P-WKS03,,,,,Two-factor authentication disabled
+2025-05-26 16:48:03,4799,yasmin.abdulrahman,10.9.10.11,UM6P-CONF01,,,,,VPN connection terminated
+2025-05-26 16:50:15,4932,siham.faraj,10.0.10.11,UM6P-ENG01,,"CN=Contractors,DC=um6p,DC=local",0xdc,IT_Admins,Unauthorized access attempt blocked
+2025-05-26 16:54:08,4656,manar.halabi,192.168.2.2,UM6P-CLT05,,,,,Authentication ticket renewed
+2025-05-26 16:56:37,4647,lina.hadi,10.9.10.11,UM6P-SALES02,,,,,Security group modified
+2025-05-26 16:57:34,4726,kareem.zidan,172.22.33.44,UM6P-MKT04,,,,,Service stopped unexpectedly
+2025-05-26 16:58:02,4624,kareem.jamal,192.168.13.14,UM6P-SRV01,SeIncreaseQuotaPrivilege,,,,Data export completed successfully
+2025-05-26 17:01:35,4948,ahmed.alsayed,192.168.1.22,UM6P-SALES03,,,,,User logged off
+2025-05-26 17:04:37,4798,hibah.yusuf,172.28.29.30,UM6P-HR02,SeSecurityPrivilege,,,,Normal logon - Admin workstation
+2025-05-26 17:05:05,4729,samira.karim,172.16.40.50,UM6P-GUEST03,,,,,Firewall rule removed
+2025-05-26 17:06:16,4771,ibrahim.hamed,192.168.50.50,UM6P-LABTEST05,,,,,VPN connection established
+2025-05-26 17:06:52,4690,omar.salem,172.16.10.10,UM6P-LABTEST02,SeIncreaseBasePriorityPrivilege,"CN=Admin_Workstations,DC=um6p,DC=local",0x86,,Backup completed successfully
+2025-05-26 17:11:49,4624,nadia.abdel,10.10.11.12,UM6P-GUEST03,,,,,Network share accessed
+2025-05-26 17:15:10,4934,lina.abdulaziz,172.16.100.100,UM6P-SRV05,,,,HelpDesk,Logon success - suspicious account
+2025-05-26 17:18:35,5142,wajih.alhassan,10.1.1.1,UM6P-OPS02,,,,,Unauthorized access attempt blocked
+2025-05-26 17:19:24,4798,mohamed.hassan,172.17.18.19,UM6P-MKT04,,,,,Audit log cleared
+2025-05-26 17:19:53,4730,reem.taleb,192.168.11.11,UM6P-WKS03,,,,,Configuration file modified
+2025-05-26 17:21:44,4727,najat.omar,10.11.12.13,UM6P-GUEST04,,,,disabled_account1,Security policy updated
+2025-05-26 17:22:52,4723,sabir.jarrah,172.19.20.21,UM6P-ADM03,,"CN=Disabled_Accounts,DC=um6p,DC=local",0x90,Domain Admins,Software installed successfully
+2025-05-26 17:26:15,5024,samah.abdelfattah,10.0.10.11,UM6P-SALES01,SeSystemtimePrivilege,,,,Group membership updated
+2025-05-26 17:27:50,4735,ahmed.bakr,172.30.40.50,UM6P-FIN02,SeCreateTokenPrivilege,"OU=Workstations,DC=um6p,DC=local",0x100,Domain Admins,Failed logon attempt using service account
+2025-05-26 17:31:02,4737,yasmeen.salim,192.168.10.10,UM6P-ENG03,,,,,Data import failed
+2025-05-26 17:33:05,4701,kareem.jamal,172.31.255.255,UM6P-SEC01,,,,,Software installed successfully
+2025-05-26 17:37:42,4904,samira.karim,192.168.12.34,UM6P-ADM03,,,,,Successful logon - Interactive
+2025-05-26 17:41:34,4703,noor.jalal,10.11.12.13,UM6P-ADM05,,,,,Certificate revoked
+2025-05-26 17:46:34,4670,tarek.bahaa,10.1.1.1,UM6P-MKT05,,,,,Failed logon attempt using service account
+2025-05-26 17:47:56,4904,thamer.najjar,192.168.13.14,UM6P-IT04,,"CN=Temporary_Users,DC=um6p,DC=local",0x72,,Privilege escalation attempt detected
+2025-05-26 17:50:41,4776,muna.rashid,10.10.10.20,UM6P-LAB02,,,,,User account disabled
+2025-05-26 17:54:20,4634,fadi.kassem,172.16.254.1,UM6P-CONF04,,,,tmp_admin,Service stopped unexpectedly
+2025-05-26 17:56:57,5145,abdulrahman.karim,10.11.12.13,UM6P-ADMIN02,SeIncreaseQuotaPrivilege,"CN=File_Servers,DC=um6p,DC=local",0x4c,,Software installed successfully
+2025-05-26 17:59:37,4625,rami.salim,192.168.50.50,UM6P-SALES01,SeDelegateSessionUserImpersonatePrivilege,,,,Failed logon attempt from unusual client
+2025-05-26 18:02:19,4771,wael.abdulrahim,10.1.1.1,UM6P-ADMIN01,,,,,Audit log cleared
+2025-05-26 18:06:01,4702,yasmeen.salim,192.168.9.9,UM6P-HR03,,"CN=HelpDesk,DC=um6p,DC=local",0xdb,,Failed logon attempt from unusual client
+2025-05-26 18:09:58,4648,raed.khaled,172.25.26.27,UM6P-LAB02,SeCreatePermanentPrivilege,,,,Successful logon - Interactive
+2025-05-26 18:13:48,4781,nisreen.jamal,172.21.22.23,UM6P-DESK01,,"CN=Guest_Accounts,DC=um6p,DC=local",0xee,,Two-factor authentication enabled
+2025-05-26 18:15:37,4701,rana.azzam,10.0.0.8,UM6P-GUEST02,,,,,VPN connection terminated
+2025-05-26 18:20:24,4798,zaki.bahaa,10.0.0.99,UM6P-HR04,SeChangeNotifyPrivilege,,,,Firewall rule added
+2025-05-26 18:21:25,5376,samira.karim,10.0.0.15,UM6P-OPS03,,,,,Backup failed
+2025-05-26 18:24:09,4934,salim.hadi,10.0.10.11,UM6P-SEC04,,"CN=Disabled_Accounts,DC=um6p,DC=local",0x31,,Service stopped unexpectedly
+2025-05-26 18:28:57,4697,mahmoud.najjar,192.168.55.55,UM6P-CONF02,,,,,Network interface disabled
+2025-05-26 18:29:59,4660,amin.ghanim,192.168.254.254,UM6P-LABTEST03,,,,,Group membership updated
+2025-05-26 18:31:01,4647,hala.sharif,10.6.7.8,UM6P-HR05,,,,,Failed logon attempt from unusual client
+2025-05-26 18:35:36,4634,firas.abbas,192.168.99.99,UM6P-OPS02,,,,,Backup failed
+2025-05-26 18:37:33,4697,zain.ghazal,10.1.1.1,UM6P-IT05,,,,,Failed logon attempt using service account
+2025-05-26 18:39:03,4734,yasir.khalaf,192.168.14.14,UM6P-SRV04,SeIncreaseQuotaPrivilege,,,,Normal logon - Admin workstation
+2025-05-26 18:41:22,4660,dina.farouk,192.168.2.2,UM6P-FIN04,,,,,Failed logon attempt using service account
+2025-05-26 18:45:54,4663,shaden.naqib,172.19.20.21,UM6P-MKT04,SeTrustedCredManAccessPrivilege,"CN=Tmp_Admin,DC=um6p,DC=local",0xfa,,Backup failed
+2025-05-26 18:50:20,4701,dania.kassem,10.0.0.8,UM6P-SRV02,,,,,User session disconnected
+2025-05-26 18:52:45,4733,omar.hakim,192.168.200.1,UM6P-HR04,,,,,User removed from security group
+2025-05-26 18:55:57,4776,shatha.abdallah,172.31.255.255,UM6P-ENG01,SeUndockPrivilege,,,,Unauthorized access attempt blocked
+2025-05-26 18:59:12,4658,muna.bakr,10.0.0.8,UM6P-ADMIN05,,,,,Successful logon - Interactive
+2025-05-26 19:03:01,4688,marwan.alhaj,10.14.15.16,UM6P-CONF01,,,,,Group membership updated
+2025-05-26 19:06:37,4670,jumana.ghazi,192.168.1.22,UM6P-LAB01,,"CN=Tmp_Admin,DC=um6p,DC=local",0x8f,IT_Admins,System rebooted
+2025-05-26 19:10:29,4689,najwa.bassem,10.0.0.7,UM6P-DESK01,,,,,Two-factor authentication enabled
+2025-05-26 19:13:45,4689,habib.mahfouz,172.16.17.18,UM6P-HR01,,,,HelpDesk,Security policy updated
+2025-05-26 19:18:14,4902,najwa.bassem,192.168.200.1,UM6P-IT04,SeRestorePrivilege,,,disabled_account1,System time changed
+2025-05-26 19:22:30,4731,nader.alsalem,10.0.0.123,UM6P-CLT04,,,,,Logon success - suspicious account
+2025-05-26 19:23:33,4781,yasin.abdelrahman,192.168.10.10,UM6P-MKT03,,,,,VPN connection terminated
+2025-05-26 19:26:42,4733,mariyam.farid,192.168.44.44,UM6P-OPS03,,"CN=LDAP://CN=Schema,CN=Configuration,DC=um6p,DC=local",0xfc,Domain Admins,Failed logon from nearby host
+2025-05-26 19:30:07,4730,kamilah.mohamed,10.10.11.12,UM6P-LAB04,,,,,VPN connection established
+2025-05-26 19:30:56,4933,raed.khaled,10.0.1.254,UM6P-MKT01,,,,,System rebooted
+2025-05-26 19:35:33,4948,reem.jabari,172.23.24.25,UM6P-ENG02,SeTimeZonePrivilege,,,,Data export completed successfully
+2025-05-26 19:36:43,4933,ali.mostafa,172.19.20.21,UM6P-WKS01,,"CN=Users,DC=um6p,DC=local",0xfa,tmp_admin,Enumeration of admin group
+2025-05-26 19:38:36,4724,sara.farid,172.30.40.50,UM6P-IT03,,"CN=LDAP://CN=Schema,CN=Configuration,DC=um6p,DC=local",0x4a,,Failed logon attempt from unusual client
+2025-05-26 19:38:46,4726,zaina.karim,192.168.3.3,UM6P-ADMIN01,SeSecurityPrivilege,,,,New user account created
+2025-05-26 19:43:02,5142,farid.shaheen,192.168.34.56,UM6P-DESK02,SeUndockPrivilege,,,,Logon success - suspicious account
+2025-05-26 19:47:06,4730,hassan.amir,10.0.0.99,UM6P-SEC04,,,,,Security policy updated
+2025-05-26 19:47:47,4722,bilal.jaber,10.10.10.10,UM6P-CLT02,,"CN=Old_Users,DC=um6p,DC=local",0xc4,,User logged off
+2025-05-26 19:48:39,4799,basil.salama,192.168.32.32,UM6P-SRV05,,,,tmp_admin,Security policy updated
+2025-05-26 19:53:00,4722,samah.abdelfattah,192.168.0.101,UM6P-LABTEST04,,,,Domain Admins,Attempt to read AD schema
+2025-05-26 19:57:13,4734,farouk.karim,10.0.0.15,UM6P-IT03,,,,,Security policy updated
+2025-05-26 19:58:51,4737,khaled.nasser,192.168.60.61,UM6P-ADMIN01,,"CN=Contractors,DC=um6p,DC=local",0x83,Domain Admins,Malware detected and quarantined
+2025-05-26 19:59:08,4902,dalia.abdulaziz,10.0.0.99,UM6P-MGMT01,SeTrustedCredManAccessPrivilege,,,,Malware detected and quarantined
+2025-05-26 20:02:43,4656,adil.najjar,172.16.10.10,UM6P-LABTEST04,SeBackupPrivilege,,,,Malware detected and quarantined
+2025-05-26 20:03:45,4634,lina.abdulaziz,192.168.88.88,UM6P-FIN02,,,,,Failed logon from nearby host
+2025-05-26 20:04:15,4670,tarek.bahaa,192.168.55.55,UM6P-FIN05,,,,,Software installed successfully
+2025-05-26 20:05:08,5142,ibraheem.shaar,192.168.1.22,UM6P-IT03,,,,tmp_admin,Backup completed successfully
+2025-05-26 20:09:58,4660,omar.salem,10.0.0.50,UM6P-DESK03,,"CN=Sales,DC=um6p,DC=local",0xc7,,Unauthorized access attempt blocked
+2025-05-26 20:12:37,4948,tariq.mansour,10.5.6.7,UM6P-FIN05,,,,tmp_admin,User password reset by administrator
+2025-05-26 20:13:06,4798,nader.shams,172.31.255.255,UM6P-OPS01,,,,,VPN connection terminated
+2025-05-26 20:14:43,4781,fahd.saadi,172.23.24.25,UM6P-SALES03,,,,disabled_account1,Failed logon from nearby host
+2025-05-26 20:17:46,4771,shatha.abdallah,172.23.24.25,UM6P-DESK04,,,,,Group membership updated
+2025-05-26 20:19:51,5376,aya.zahra,10.10.10.10,UM6P-ENG05,,,,Domain Admins,Account logged in from multiple locations
+2025-05-26 20:22:20,4624,shatha.abdallah,10.0.0.15,UM6P-DESK04,,"CN=Guest_Accounts,DC=um6p,DC=local",0xe4,,Attempt to read AD schema
+2025-05-26 20:25:04,4689,omar.hakim,172.30.31.32,UM6P-DESK01,,,,disabled_account1,Logon success - suspicious account
+2025-05-26 20:29:28,5376,noura.salem,192.168.5.5,UM6P-SALES04,,,,,Account logged in from multiple locations
+2025-05-26 20:30:31,4634,shimaa.hassan,172.21.22.23,UM6P-DESK01,,"CN=Shared_Folder,DC=um6p,DC=local",0x59,,Two-factor authentication disabled
+2025-05-26 20:34:24,5376,najat.omar,172.29.30.31,UM6P-SEC01,SeSystemProfilePrivilege,,,disabled_account1,User logged off
+2025-05-26 20:36:01,4767,tariq.mansour,172.24.25.26,UM6P-ADMIN02,,,,,User removed from security group
+2025-05-26 20:36:27,4781,kamilah.mohamed,172.30.40.50,UM6P-CONF05,,,,,Two-factor authentication enabled
+2025-05-26 20:37:59,4723,jumana.ghazi,192.168.3.3,UM6P-DESK01,,,,,Software installed successfully
+2025-05-26 20:39:38,4728,mahmoud.najjar,10.0.2.15,UM6P-CLT04,,,,,Firewall rule removed
+2025-05-26 20:41:11,4948,yasmin.abdulrahman,172.25.6.7,UM6P-OPS03,,,,Domain Admins,Group membership updated
+2025-05-26 20:41:58,4688,jafar.mohamed,10.0.10.11,UM6P-MGMT01,,,,HelpDesk,User account disabled
+2025-05-26 20:43:11,4771,mohamed.sharif,10.11.12.13,UM6P-SRV04,,,,,Two-factor authentication enabled
+2025-05-26 20:43:53,4800,samar.ridha,172.24.25.26,UM6P-DESK04,,,,,Disk space running low
+2025-05-26 20:44:52,4771,samar.ridha,192.168.0.101,UM6P-MKT02,SeCreateGlobalPrivilege,"OU=Servers,DC=um6p,DC=local",0xec,,VPN connection terminated
+2025-05-26 20:45:16,4724,khalifa.mahmoud,192.168.200.1,UM6P-MGMT03,,,,,Disk space running low
+2025-05-26 20:47:03,5140,lina.abdulaziz,192.168.66.66,UM6P-IT01,,,,,Software removed successfully
+2025-05-26 20:47:19,4658,saif.alqahtani,192.168.44.44,UM6P-SALES01,SeUndockPrivilege,,,,Failed logon attempt from unusual client
+2025-05-26 20:48:11,4634,younes.abdullah,172.16.17.18,UM6P-SRV04,SeChangeNotifyPrivilege,,,,Failed logon attempt from unusual client
+2025-05-26 20:50:53,4725,samir.shaheen,192.168.0.101,UM6P-LAB03,SeDelegateSessionUserImpersonatePrivilege,,,disabled_account1,Account locked out due to too many failed logons
+2025-05-26 20:52:16,4624,lamia.bader,10.1.2.3,UM6P-CLT01,,,,Domain Admins,Software removed successfully
+2025-05-26 20:55:33,4733,maya.hussein,192.168.9.9,UM6P-DEV05,SeChangeNotifyPrivilege,,,,Software removed successfully
+2025-05-26 20:58:00,4799,laila.mohsen,192.168.11.11,UM6P-SALES05,SeIncreaseQuotaPrivilege,,,HelpDesk,Backup failed
+2025-05-26 20:58:07,4700,samira.karim,192.168.88.88,UM6P-SALES03,SeTakeOwnershipPrivilege,,,,User removed from security group
+2025-05-26 21:00:04,4902,hamza.karim,172.26.27.28,UM6P-SALES01,,,,HelpDesk,Data import failed
+2025-05-26 21:02:33,4660,raed.saleh,192.168.3.3,UM6P-SALES01,,,,,System time changed
+2025-05-26 21:06:45,4670,khalil.abdullah,10.6.7.8,UM6P-MKT03,,,,HelpDesk,Firewall rule added
+2025-05-26 21:11:37,4956,amin.ghanim,172.27.28.29,UM6P-LABTEST02,,,,,Authentication ticket renewed
+2025-05-26 21:15:46,4689,kareem.zidan,172.16.16.16,UM6P-CLT05,,,,,Firewall rule added
+2025-05-26 21:19:29,4947,jumana.ghazi,192.168.66.66,UM6P-ADM05,,"CN=Default Domain Policy,CN=Policies,CN=System,DC=um6p,DC=local",0x97,tmp_admin,Unusual network activity detected
+2025-05-26 21:23:50,4737,yasin.abdelrahman,192.168.3.3,UM6P-IT02,SeSystemtimePrivilege,"CN=HelpDesk,DC=um6p,DC=local",0x14,,Software installed successfully
+2025-05-26 21:28:21,4729,yasir.abdullah,192.168.14.14,UM6P-WKS04,,,,tmp_admin,Disk space running low
+2025-05-26 21:31:40,4647,karim.faraj,10.0.0.123,UM6P-DESK03,,,,,Disk space running low
+2025-05-26 21:36:29,4701,yasmeen.salim,172.16.17.18,UM6P-ENG02,,"CN=Research,DC=um6p,DC=local",0xc8,HelpDesk,Data export completed successfully
+2025-05-26 21:36:31,4725,yasmin.abdulrahman,172.22.23.24,UM6P-LABTEST02,,,,,Enumeration of admin group
+2025-05-26 21:38:18,4648,jamila.kamal,192.168.1.200,UM6P-CONF01,,,,,Audit log cleared
+2025-05-26 21:39:22,4771,tamer.karim,172.16.17.18,UM6P-SRV03,,,,tmp_admin,User removed from security group
+2025-05-26 21:44:21,4776,hamza.zaki,172.16.17.18,UM6P-SEC02,,,,,Data import failed
+2025-05-26 21:45:52,4902,kalil.hakim,192.168.11.11,UM6P-MGMT02,,,,,Group policy updated successfully
+2025-05-26 21:48:16,4801,rina.sharif,172.30.40.50,UM6P-SALES02,,,,,Service started successfully
+2025-05-26 21:50:43,4964,maysa.abdelrahman,10.6.7.8,UM6P-ADM03,,,,HelpDesk,Failed logon from nearby host
+2025-05-26 21:54:53,4730,sara.abdelkarim,172.16.100.100,UM6P-ADMIN03,,,,,Audit log cleared
+2025-05-26 21:57:34,4672,layla.abdullah,192.168.1.22,UM6P-IT05,,,,disabled_account1,Enumeration of admin group
+2025-05-26 21:57:54,4730,yasmeen.salim,192.168.1.200,UM6P-ADM05,,,,,Group membership updated
+2025-05-26 21:58:54,4724,farah.dawoud,192.168.50.50,UM6P-FIN03,,,,,Firewall rule added
+2025-05-26 21:59:02,4933,samir.alhassan,192.168.123.123,UM6P-SALES02,,,,HelpDesk,Configuration file modified
+2025-05-26 22:03:14,4933,samar.ridha,192.168.32.32,UM6P-OPS04,SeCreateGlobalPrivilege,"CN=VPN_Access,DC=um6p,DC=local",0xff,disabled_account1,Account logged in from multiple locations
+2025-05-26 22:05:12,4740,jamila.kamal,192.168.11.11,UM6P-LAB01,,"CN=LDAP://CN=Schema,CN=Configuration,DC=um6p,DC=local",0x28,HelpDesk,Password changed for user
+2025-05-26 22:05:30,4688,jumana.ghazi,10.0.10.11,UM6P-SRV03,,,,,Authentication ticket renewed
+2025-05-26 22:08:30,4933,hassan.amir,10.11.12.13,UM6P-IT01,,"CN=Backup_Users,DC=um6p,DC=local",0x81,,Firewall rule removed
+2025-05-26 22:10:48,4663,fahd.saadi,172.29.30.31,UM6P-CONF04,,"CN=VPN_Access,DC=um6p,DC=local",0x42,,Software removed successfully
+2025-05-26 22:14:20,4702,laila.badran,172.16.40.50,UM6P-ADMIN01,SeChangeNotifyPrivilege,"CN=Security_Logs,DC=um6p,DC=local",0x53,,Network interface disabled
+2025-05-26 22:15:34,4662,sami.jaber,172.23.24.25,UM6P-ADMIN02,SeSystemtimePrivilege,"CN=LDAP://CN=Schema,CN=Configuration,DC=um6p,DC=local",0xb1,,Network interface enabled
+2025-05-26 22:17:35,4948,firas.mohamed,10.0.10.11,UM6P-MKT02,,,,Domain Admins,Two-factor authentication enabled
+2025-05-26 22:22:01,4734,dania.kassem,172.24.25.26,UM6P-CLT01,,,,,Unusual network activity detected
+2025-05-26 22:22:39,4656,salwa.hamdi,192.168.11.11,UM6P-SEC01,SeSystemIntegrityPrivilege,"CN=Finance_Reports,DC=um6p,DC=local",0x7f,,Enumeration of admin group
+2025-05-26 22:25:00,4771,noura.abdul,192.168.10.10,UM6P-LABTEST04,,,,,Network share accessed
+2025-05-26 22:26:54,4719,youssef.khalil,10.0.10.11,UM6P-MKT01,,,,,Network interface disabled
+2025-05-26 22:28:15,4801,najat.omar,10.7.8.9,UM6P-HR03,,,,,Enumeration of admin group
+2025-05-26 22:29:30,4733,dina.rashid,192.168.77.77,UM6P-ENG04,,,,,Malware detected and quarantined
+2025-05-26 22:29:37,4648,yara.khaled,192.168.12.34,UM6P-CONF05,,,,,Enumeration of admin group
+2025-05-26 22:33:06,4733,rashid.nour,172.29.30.31,UM6P-GUEST04,SeAssignPrimaryTokenPrivilege,,,,Service started successfully
+2025-05-26 22:36:48,4727,wael.abdulrahim,10.0.1.254,UM6P-ENG05,,,,,User account enabled
+2025-05-26 22:40:53,4725,yasir.abdullah,192.168.10.10,UM6P-OPS03,,,,,Group membership updated
+2025-05-26 22:44:14,4771,reem.jabari,192.168.0.101,UM6P-DEV02,,,,,Account locked out due to too many failed logons
+2025-05-26 22:44:28,4724,amin.ghanim,192.168.1.101,UM6P-OPS05,,,,,Group membership updated
+2025-05-26 22:46:49,4912,raihan.abdul,192.168.5.5,UM6P-SRV02,SeEnableDelegationPrivilege,,,disabled_account1,Password changed for user
+2025-05-26 22:47:55,4800,nader.shams,10.1.2.3,UM6P-IT03,,,,,New user account created
+2025-05-26 22:50:55,4733,firas.mohamed,172.22.33.44,UM6P-WKS04,,,,,Data import failed
+2025-05-26 22:52:36,4700,amina.talal,192.168.50.50,UM6P-SEC03,,,,,Firewall rule removed
+2025-05-26 22:56:25,4737,zaina.karim,192.168.1.22,UM6P-WKS05,,,,,Account logged in from multiple locations
+2025-05-26 22:58:05,4663,manal.rashid,172.19.20.21,UM6P-DEV01,,,,HelpDesk,Service stopped unexpectedly
+2025-05-26 22:58:59,4948,asmaa.rahman,172.25.6.7,UM6P-SALES02,,,,,Remote logon - File server
+2025-05-26 23:01:26,4624,reem.taleb,192.168.13.14,UM6P-WKS04,SeSystemEnvironmentPrivilege,,,HelpDesk,Two-factor authentication disabled
+2025-05-26 23:03:44,4624,tariq.mansour,10.15.16.17,UM6P-DESK01,,,,,User account enabled
+2025-05-26 23:05:55,4662,dalia.karim,192.168.34.56,UM6P-OPS04,,,,,System time changed
+2025-05-26 23:09:41,4663,mahmoud.najjar,172.30.40.50,UM6P-CONF02,,,,,Account locked out due to too many failed logons
+2025-05-26 23:13:47,4720,habib.mahfouz,192.168.88.99,UM6P-HR04,,,,disabled_account1,System time changed
+2025-05-26 23:17:21,4798,zohair.salim,10.11.12.13,UM6P-CONF04,,,,,Normal logon - Admin workstation
+2025-05-26 23:20:55,4723,noura.abdul,172.16.17.18,UM6P-FIN05,,,,IT_Admins,VPN connection terminated
+2025-05-26 23:24:18,4947,ahmed.alhaj,192.168.1.200,UM6P-GUEST01,,,,,System rebooted
+2025-05-26 23:29:15,4946,mahmoud.najjar,10.0.0.9,UM6P-CLT02,,"CN=Service_Accounts,DC=um6p,DC=local",0xe7,,Failed logon from nearby host
+2025-05-26 23:33:37,4798,aya.zahra,10.5.6.7,UM6P-ADMIN03,,,,,Disk space running low
+2025-05-26 23:33:51,4697,farouk.karim,10.0.0.50,UM6P-CONF03,,,,,Service stopped unexpectedly
+2025-05-26 23:36:39,4731,omar.hakim,10.1.2.3,UM6P-ENG05,,,,,User logged off
+2025-05-26 23:39:21,4727,farouk.karim,192.168.9.9,UM6P-DEV04,,,,HelpDesk,Account locked out due to too many failed logons
+2025-05-26 23:43:02,4904,aya.zahra,192.168.77.88,UM6P-OPS03,,,,,Failed logon attempt using service account
+2025-05-26 23:47:04,4634,maysa.abdelrahman,10.11.12.13,UM6P-LAB02,,,,,File system permissions changed
+2025-05-26 23:48:57,4727,mahmoud.najjar,192.168.77.77,UM6P-OPS03,SeTrustedCredManAccessPrivilege,,,IT_Admins,Unauthorized access attempt blocked
+2025-05-26 23:52:26,4735,samah.fahmi,192.168.17.18,UM6P-OPS04,,,,,Password changed for user
+2025-05-26 23:55:57,5145,tarik.makki,10.8.9.10,UM6P-DEV04,,,,,Remote logon - File server
+2025-05-27 00:00:18,5024,jihad.abed,172.16.17.18,UM6P-GUEST03,SeSystemEnvironmentPrivilege,"OU=Printers,DC=um6p,DC=local",0xba,disabled_account1,Password changed for user
+2025-05-27 00:01:18,4660,hamza.karim,172.16.10.10,UM6P-MKT02,,"CN=Sales,DC=um6p,DC=local",0x6c,,Service started successfully
+2025-05-27 00:01:21,4719,thamer.najjar,172.20.14.2,UM6P-SRV05,,"CN=Sales,DC=um6p,DC=local",0xe3,,Unauthorized access attempt blocked
+2025-05-27 00:03:35,4689,karim.faraj,192.168.10.10,UM6P-DEV02,,,,tmp_admin,Security group modified
+2025-05-27 00:04:33,4672,shatha.abdallah,10.0.0.123,UM6P-CONF05,,,,,Account locked out due to too many failed logons
+2025-05-27 00:08:54,5145,zain.ghazal,10.5.6.7,UM6P-WKS03,,,,,Network interface disabled
+2025-05-27 00:09:17,4722,mohamed.sharif,172.22.23.24,UM6P-CONF05,SeAuditPrivilege,"CN=Contractors,DC=um6p,DC=local",0xcf,,Account password expired
+2025-05-27 00:14:04,4730,joud.nasser,192.168.254.254,UM6P-CONF02,,"CN=VPN_Access,DC=um6p,DC=local",0x58,IT_Admins,Software installed successfully
+2025-05-27 00:14:43,4801,dalia.abdulaziz,172.28.29.30,UM6P-OPS04,,,,,VPN connection established
+2025-05-27 00:15:41,4734,hafsa.mansur,172.24.25.26,UM6P-DESK02,,,,disabled_account1,Service started successfully
+2025-05-27 00:19:06,4732,muna.rashid,172.26.27.28,UM6P-OPS02,,,,tmp_admin,Audit log cleared
+2025-05-27 00:22:58,4737,rania.faraj,192.168.1.200,UM6P-GUEST04,,,,,Group policy updated successfully
+2025-05-27 00:25:53,5377,shimaa.hassan,172.23.24.25,UM6P-MGMT01,,,,,Logon success - suspicious account
+2025-05-27 00:30:30,4729,fahd.saadi,10.15.16.17,UM6P-ADMIN02,SeChangeNotifyPrivilege,,,,Unusual network activity detected
+2025-05-27 00:31:28,4737,samah.abdelfattah,10.11.12.13,UM6P-SRV04,,,,,Attempt to read AD schema
+2025-05-27 00:35:08,4902,zubair.abdulqadir,172.29.30.31,UM6P-SRV03,SeBackupPrivilege,,,tmp_admin,Group membership updated
+2025-05-27 00:37:41,4776,zubair.abdulqadir,172.25.26.27,UM6P-SRV02,,,,Domain Admins,Attempt to read AD schema
+2025-05-27 00:37:42,4816,kamilah.mohamed,192.168.99.99,UM6P-OPS04,,,,,Security group modified
+2025-05-27 00:39:46,4697,salim.hadi,172.16.10.10,UM6P-LABTEST04,,,,,Unauthorized access attempt blocked
+2025-05-27 00:41:30,4663,najwa.bassem,10.1.1.1,UM6P-SALES04,,,,,User removed from security group
+2025-05-27 00:44:49,4647,omar.salem,192.168.1.101,UM6P-LABTEST01,,,,,Group membership updated
+2025-05-27 00:49:28,4690,ibrahim.hamed,172.30.31.32,UM6P-DESK02,,"CN=IT_Admins,DC=um6p,DC=local",0x34,,Network interface enabled
+2025-05-27 00:50:54,4735,mohamed.hassan,10.10.20.30,UM6P-FIN05,,,,Domain Admins,Group policy updated successfully
+2025-05-27 00:51:21,4800,khalifa.mahmoud,192.168.88.99,UM6P-ENG01,,,,,Normal logon - Admin workstation
+2025-05-27 00:54:36,5142,khalifa.mahmoud,192.168.88.99,UM6P-OPS03,,"CN=Service_Accounts,DC=um6p,DC=local",0xc1,,Network interface enabled
+2025-05-27 00:56:22,4727,nisreen.jamal,172.21.22.23,UM6P-IT03,,"CN=Finance_Reports,DC=um6p,DC=local",0x84,Domain Admins,Firewall rule added
+2025-05-27 01:01:17,4933,manal.rashid,172.30.40.50,UM6P-LABTEST04,,,,,Security policy updated
+2025-05-27 01:01:25,4733,zayd.abdelrahim,192.168.3.3,UM6P-DEV04,,"CN=Marketing,DC=um6p,DC=local",0x83,,Failed logon from nearby host
+2025-05-27 01:03:05,4731,kalil.hakim,172.28.29.30,UM6P-MKT02,SeChangeNotifyPrivilege,,,,Certificate revoked
+2025-05-27 01:06:02,4688,alaa.salem,192.168.254.254,UM6P-IT04,,,,IT_Admins,Failed logon attempt from unusual client
+2025-05-27 01:07:59,4776,rania.faraj,172.16.5.4,UM6P-LABTEST04,,,,Domain Admins,Network interface disabled
+2025-05-27 01:09:25,4689,hala.karim,192.168.55.55,UM6P-HR05,,,,HelpDesk,Authentication ticket renewed
+2025-05-27 01:13:02,4726,nabil.ayoub,172.17.18.19,UM6P-CONF01,,,,,System time changed
+2025-05-27 01:14:08,5140,mohamed.sharif,192.168.0.101,UM6P-OPS04,,,,,Group policy updated successfully
+2025-05-27 01:15:45,4730,tariq.mansour,10.11.12.13,UM6P-DESK01,,,,,Account logged in from multiple locations
+2025-05-27 01:17:27,5377,ali.mostafa,172.29.30.31,UM6P-CONF03,,,,,User password reset by administrator
+2025-05-27 01:20:08,4660,sawsan.mansour,172.25.26.27,UM6P-WKS03,SeAuditPrivilege,,,tmp_admin,Service stopped unexpectedly
+2025-05-27 01:22:07,4948,mahmoud.najjar,10.4.5.6,UM6P-IT02,,,,Domain Admins,File system permissions changed
+2025-05-27 01:24:45,4732,nisreen.jamal,10.11.12.13,UM6P-LAB03,,,,,Privilege escalation attempt detected
+2025-05-27 01:29:21,4702,khalifa.mahmoud,172.22.33.44,UM6P-ADMIN05,,,,,Software removed successfully
+2025-05-27 01:34:06,4726,amina.talal,192.168.0.101,UM6P-DESK05,,,,HelpDesk,Audit log cleared
+2025-05-27 01:37:02,4932,najat.omar,10.0.0.99,UM6P-MGMT01,,,,Domain Admins,Data export completed successfully
+2025-05-27 01:39:33,4658,farah.dawoud,172.16.10.10,UM6P-CONF03,SeIncreaseBasePriorityPrivilege,,,HelpDesk,System time changed
+2025-05-27 01:42:19,4934,nabil.ayoub,192.168.66.66,UM6P-HR01,,,,,Privilege escalation attempt detected
+2025-05-27 01:42:34,4697,muna.bakr,192.168.17.18,UM6P-SEC03,,,,,Software installed successfully
+2025-05-27 01:43:41,4662,nader.alsalem,10.0.10.11,UM6P-LAB03,,,,Domain Admins,Enumeration of admin group
+2025-05-27 01:46:52,4660,zohair.salim,172.16.254.1,UM6P-ENG03,,,,,User password reset by administrator
+2025-05-27 01:50:28,4740,yara.khaled,192.168.44.44,UM6P-DESK01,,,,,User password reset by administrator
+2025-05-27 01:55:04,4660,samar.ridha,172.16.17.18,UM6P-HR03,,,,IT_Admins,User removed from security group
+2025-05-27 01:57:13,4933,hamza.zaki,10.10.11.12,UM6P-LAB04,,,,,Data export completed successfully
+2025-05-27 01:58:08,4800,maya.hussein,10.10.20.30,UM6P-DEV01,,,,tmp_admin,Account logged in from multiple locations
+2025-05-27 01:58:48,4723,nidaa.farouk,10.2.3.4,UM6P-SEC05,SeManageVolumePrivilege,"CN=Domain Admins,DC=um6p,DC=local",0xc7,,Remote logon - File server
+2025-05-27 02:03:38,4776,samira.karim,10.10.20.30,UM6P-SRV04,,,,,Security policy updated
+2025-05-27 02:05:52,5024,hamza.zaki,172.25.26.27,UM6P-DEV05,,"CN=Domain Admins,DC=um6p,DC=local",0x97,,User logged off
+2025-05-27 02:08:50,5377,reem.jabari,192.168.254.254,UM6P-OPS05,,,,disabled_account1,VPN connection established
+2025-05-27 02:11:19,4720,joud.nasser,172.22.33.44,UM6P-GUEST04,,,,,Firewall rule removed
+2025-05-27 02:12:55,4730,salma.hamdan,192.168.5.5,UM6P-HR05,,,,HelpDesk,Two-factor authentication disabled
+2025-05-27 02:12:57,4934,hala.karim,10.0.1.254,UM6P-DESK02,,,,,Configuration file modified
+2025-05-27 02:17:08,4735,lina.abdulaziz,192.168.66.66,UM6P-WKS02,,,,tmp_admin,Two-factor authentication enabled
+2025-05-27 02:18:22,4726,hassan.amir,10.3.4.5,UM6P-FIN03,,,,,Network interface enabled
+2025-05-27 02:22:18,5142,hafsa.mansur,192.168.1.200,UM6P-WKS05,,,,,Certificate issued
+2025-05-27 02:22:40,4724,hala.karim,192.168.77.88,UM6P-SALES05,SeCreateTokenPrivilege,,,,Service started successfully
+2025-05-27 02:27:10,4729,raed.saleh,10.11.12.13,UM6P-SEC01,,,,,User logged off
+2025-05-27 02:28:33,4656,zohair.salim,192.168.77.77,UM6P-GUEST01,SeTakeOwnershipPrivilege,,,,Unusual network activity detected
+2025-05-27 02:28:56,4798,sabir.jarrah,172.16.16.16,UM6P-DESK02,,"OU=Workstations,DC=um6p,DC=local",0xf8,Domain Admins,Authentication ticket renewed
+2025-05-27 02:29:42,4956,zubair.abdulqadir,172.16.17.18,UM6P-SEC05,,,,,User removed from security group
+2025-05-27 02:31:19,4934,zainab.karim,172.27.28.29,UM6P-DESK01,SeLockMemoryPrivilege,,,disabled_account1,Unauthorized access attempt blocked
+2025-05-27 02:32:04,4781,jafar.mohamed,172.31.255.255,UM6P-CLT02,SeEnableDelegationPrivilege,,,,Two-factor authentication disabled
+2025-05-27 02:33:48,4625,samah.fahmi,192.168.45.67,UM6P-HR05,,,,,User logged off
+2025-05-27 02:38:38,4800,hada.mohamed,172.28.29.30,UM6P-LAB05,,,,,Account password expired
+2025-05-27 02:38:54,4689,kareem.zidan,172.16.40.50,UM6P-DEV05,,,,,Audit log cleared
+2025-05-27 02:41:25,4729,shimaa.hassan,192.168.17.18,UM6P-ADMIN03,SeCreatePagefilePrivilege,,,,Attempt to read AD schema
+2025-05-27 02:45:18,4731,fadi.kassem,10.4.5.6,UM6P-MGMT04,SeImpersonatePrivilege,,,,Disk space running low
+2025-05-27 02:47:03,4689,hada.mohamed,10.6.7.8,UM6P-SALES02,,,,,Audit log cleared
+2025-05-27 02:51:35,4720,hassan.amir,192.168.14.14,UM6P-IT02,,,,,Security group modified
+2025-05-27 02:52:14,4728,farid.shaheen,10.1.2.3,UM6P-WKS01,,"CN=Finance_Reports,DC=um6p,DC=local",0x60,Domain Admins,System time changed
+2025-05-27 02:56:10,5376,dalia.karim,172.22.23.24,UM6P-WKS02,,,,,Failed logon from nearby host
+2025-05-27 02:57:30,4737,yasin.abdelrahman,172.16.100.100,UM6P-WKS04,,,,,Enumeration of admin group
+2025-05-27 02:59:49,4737,nawal.ibrahim,172.26.27.28,UM6P-LAB03,,"CN=Domain Admins,DC=um6p,DC=local",0xae,Domain Admins,Network interface disabled
+2025-05-27 03:02:16,4737,mohamed.sharif,10.0.0.15,UM6P-HR03,,,,,Remote logon - File server
+2025-05-27 03:03:03,4690,tamer.karim,192.168.150.150,UM6P-OPS01,,,,,Data import failed
+2025-05-27 03:05:32,4934,laila.mohsen,10.4.5.6,UM6P-SRV02,,,,tmp_admin,Enumeration of admin group
+2025-05-27 03:05:38,4771,nashit.alhadi,192.168.13.14,UM6P-CLT03,,,,,Data import failed
+2025-05-27 03:05:53,4946,rima.bashir,10.9.10.11,UM6P-IT04,,,,,Network interface disabled
+2025-05-27 03:08:00,4647,rana.azzam,172.24.25.26,UM6P-SRV01,,,,IT_Admins,File system permissions changed
+2025-05-27 03:08:26,4670,rima.bashir,172.29.30.31,UM6P-MKT02,,,,,Unauthorized access attempt blocked
+2025-05-27 03:10:59,4720,ahmed.bakr,172.16.16.16,UM6P-DESK04,,,,,Software removed successfully
+2025-05-27 03:12:06,4912,amin.ghanim,172.19.20.21,UM6P-OPS03,SeTrustedCredManAccessPrivilege,"CN=Security_Logs,DC=um6p,DC=local",0xf0,IT_Admins,Failed logon attempt using service account
+2025-05-27 03:14:41,4719,tarek.bahaa,10.255.255.255,UM6P-SRV01,SeManageVolumePrivilege,,,,Enumeration of admin group
+2025-05-27 03:17:29,4672,hassan.amir,192.168.77.88,UM6P-LABTEST01,,,,disabled_account1,Logon success - suspicious account
+2025-05-27 03:19:31,4662,nadia.abdel,10.0.2.15,UM6P-CLT03,,"CN=Guest_Accounts,DC=um6p,DC=local",0x6f,,User added to security-enabled local group
+2025-05-27 03:23:03,4800,ibraheem.shaar,192.168.32.32,UM6P-CLT03,,,,tmp_admin,User account disabled
+2025-05-27 03:25:48,4702,basil.salama,192.168.50.50,UM6P-ADMIN01,SeDelegateSessionUserImpersonatePrivilege,"OU=Printers,DC=um6p,DC=local",0xec,,User password reset by administrator
+2025-05-27 03:26:13,4663,dina.farouk,192.168.2.2,UM6P-GUEST01,,"OU=Workstations,DC=um6p,DC=local",0x5f,,File system permissions changed
+2025-05-27 03:27:02,4934,mohamed.hassan,10.0.0.15,UM6P-SEC03,,,,HelpDesk,Group policy updated successfully
+2025-05-27 03:30:55,4933,jihad.abed,192.168.10.10,UM6P-DESK01,,"CN=App_Users,DC=um6p,DC=local",0x96,,Special privileges assigned
+2025-05-27 03:34:00,4948,mohamed.hassan,192.168.254.254,UM6P-GUEST01,,,,,VPN connection terminated
+2025-05-27 03:34:10,4948,reem.jabari,10.11.12.13,UM6P-FIN04,,,,,Service stopped unexpectedly
+2025-05-27 03:35:45,4904,zahra.mahdi,10.0.0.50,UM6P-MKT05,,,,,Successful logon - Interactive
+2025-05-27 03:39:01,4732,reem.taleb,172.16.100.100,UM6P-CLT02,,,,HelpDesk,VPN connection established
+2025-05-27 03:41:31,4816,kareem.jamal,172.31.255.255,UM6P-LABTEST01,,,,tmp_admin,Attempt to read AD schema
+2025-05-27 03:45:46,4724,rami.salim,172.16.10.10,UM6P-ADM01,,,,,Audit log cleared
+2025-05-27 03:49:59,4737,mariyam.farid,172.25.6.7,UM6P-CONF04,,,,disabled_account1,Group policy updated successfully
+2025-05-27 03:52:58,4725,tamer.karim,172.16.16.16,UM6P-CLT03,,,,,Certificate issued
+2025-05-27 03:53:23,4767,laila.badran,172.25.26.27,UM6P-MGMT02,,"OU=VPN_Users,DC=um6p,DC=local",0xe1,IT_Admins,User account enabled
+2025-05-27 03:56:54,4740,layla.abdullah,192.168.3.3,UM6P-GUEST05,,,,,Remote logon - File server
+2025-05-27 03:57:50,4720,nadia.abdel,10.255.255.255,UM6P-SEC05,,,,,Software installed successfully
+2025-05-27 04:02:30,4729,noura.salem,172.31.255.255,UM6P-OPS05,,,,,Data export completed successfully
+2025-05-27 04:07:06,4702,najwa.bassem,10.0.0.50,UM6P-ADM03,,,,IT_Admins,Attempt to read AD schema
+2025-05-27 04:11:22,4658,bilal.jaber,172.30.40.50,UM6P-ADM04,,,,disabled_account1,Software installed successfully
+2025-05-27 04:15:27,4737,karim.faraj,10.14.15.16,UM6P-WKS05,,,,,Group membership updated
+2025-05-27 04:16:21,4735,hafsa.mansur,172.20.14.2,UM6P-CONF05,,,,HelpDesk,Failed logon attempt using service account
+2025-05-27 04:19:10,4800,yasin.abdelrahman,10.10.10.10,UM6P-CONF02,,,,,Failed logon attempt from unusual client
+2025-05-27 04:23:34,4728,nidaa.farouk,10.11.12.13,UM6P-SEC03,,,,HelpDesk,System time changed
+2025-05-27 04:27:36,4656,salma.hamdan,10.0.0.9,UM6P-DESK04,,,,,Group policy updated successfully
+2025-05-27 04:28:22,4703,samah.abdelfattah,10.1.1.1,UM6P-ADMIN02,,,,,User account disabled
+2025-05-27 04:33:02,4948,wajih.alhassan,172.21.22.23,UM6P-GUEST01,,,,,VPN connection established
+2025-05-27 04:36:28,4730,tarik.makki,192.168.2.2,UM6P-SRV05,,"CN=File_Servers,DC=um6p,DC=local",0xbc,,Certificate revoked
+2025-05-27 04:39:27,4697,mona.abdul,10.3.4.5,UM6P-ADMIN05,,,,IT_Admins,Network share accessed
+2025-05-27 04:41:49,5376,amina.talal,192.168.10.10,UM6P-DESK04,,,,,Two-factor authentication enabled
+2025-05-27 04:44:58,4728,hafsa.mansur,192.168.55.55,UM6P-HR01,SeAssignPrimaryTokenPrivilege,"CN=Guest_Accounts,DC=um6p,DC=local",0xe3,,Failed logon from nearby host
+2025-05-27 04:45:59,4734,mona.abdul,172.20.14.2,UM6P-FIN01,,,,,New user account created
+2025-05-27 04:46:23,4670,samah.fahmi,192.168.66.66,UM6P-DEV01,,,,,Network interface enabled
+2025-05-27 04:49:55,4816,ahmed.nafih,172.16.100.100,UM6P-ADMIN03,,"CN=Guest_Accounts,DC=um6p,DC=local",0xaf,HelpDesk,Backup failed
+2025-05-27 04:54:04,4776,ahmed.alhaj,10.1.2.3,UM6P-MGMT02,,,,,Attempt to read AD schema
+2025-05-27 04:55:39,4946,mahmoud.najjar,172.29.30.31,UM6P-OPS05,,,,,Network share accessed
+2025-05-27 04:58:48,4798,shatha.abdallah,192.168.5.5,UM6P-LABTEST04,,"CN=Users,DC=um6p,DC=local",0x7b,HelpDesk,Data export completed successfully
+2025-05-27 05:03:09,4726,khaled.nasser,10.3.4.5,UM6P-LAB05,,,,,User account enabled
+2025-05-27 05:05:39,5145,mustafa.alraqi,192.168.10.10,UM6P-MKT02,,,,tmp_admin,Failed logon attempt using service account
+2025-05-27 05:07:04,4932,farid.shaheen,172.19.20.21,UM6P-SRV03,,,,disabled_account1,Network interface disabled
+2025-05-27 05:10:20,4801,yasir.khalaf,172.16.100.100,UM6P-CLT04,SeDelegateSessionUserImpersonatePrivilege,,,,Two-factor authentication disabled
+2025-05-27 05:11:06,4658,yasmeen.salim,10.14.15.16,UM6P-SEC03,,,,,Failed logon attempt from unusual client
+2025-05-27 05:14:04,4700,mariyam.farid,172.27.28.29,UM6P-SALES04,,"CN=Sales,DC=um6p,DC=local",0x38,,Security policy updated
+2025-05-27 05:14:24,4771,noura.salem,192.168.77.88,UM6P-LABTEST04,SeShutdownPrivilege,,,,Service started successfully
+2025-05-27 05:17:54,4956,jihad.abed,10.10.11.12,UM6P-DESK04,,,,,Group membership updated
+2025-05-27 05:19:35,4634,mohamed.sharif,192.168.1.22,UM6P-GUEST02,,,,,User logged off
+2025-05-27 05:24:08,4672,bilal.abdelaziz,172.16.10.10,UM6P-ADMIN03,,,,,User session disconnected
+2025-05-27 05:24:23,4648,jafar.mohamed,192.168.11.11,UM6P-FIN05,,,,,Two-factor authentication enabled
+2025-05-27 05:24:28,4647,alaa.salem,172.22.33.44,UM6P-SRV02,,,,tmp_admin,Group policy updated successfully
+2025-05-27 05:28:46,4725,alaa.salem,172.28.29.30,UM6P-GUEST02,,,,,Network interface enabled
+2025-05-27 05:31:47,4734,asmaa.rahman,192.168.5.5,UM6P-SRV05,,,,IT_Admins,Authentication ticket renewed
+2025-05-27 05:34:14,4947,muna.rashid,192.168.66.66,UM6P-DEV05,SeCreatePermanentPrivilege,"CN=Backup_Users,DC=um6p,DC=local",0x91,,User logged off
+2025-05-27 05:36:25,4688,nashit.alhadi,172.29.30.31,UM6P-GUEST04,,,,,Normal logon - Admin workstation
+2025-05-27 05:40:08,4732,ahmed.alhaj,192.168.13.14,UM6P-LAB02,,,,,Backup failed
+2025-05-27 05:41:01,4688,ibraheem.shaar,192.168.34.56,UM6P-ADM03,,,,,Two-factor authentication disabled

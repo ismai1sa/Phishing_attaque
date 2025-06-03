@@ -1,0 +1,301 @@
+timestamp,hostname,location,facility,severity,code,message
+May 26 09:00:00,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.104 added
+May 26 09:00:57,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.126 on FastEthernet0/0 changed state to FULL
+May 26 09:01:41,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.101 on Vlan10 went down
+May 26 09:02:09,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.114 to MAC 00:1A:2B:3C:4D:17 on FastEthernet0/1
+May 26 09:02:20,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.111 on GigabitEthernet0/0
+May 26 09:02:34,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.111 removed
+May 26 09:02:39,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.106 via 10.0.0.1, dropping packet"
+May 26 09:03:19,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 09:04:28,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/0, changed state to up"
+May 26 09:05:59,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.125 removed
+May 26 09:07:59,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.121 on GigabitEthernet0/2 went down
+May 26 09:09:42,Router1,UM6P,SYS,5,RELOAD,Reload requested by netadmin
+May 26 09:10:24,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/0, changed state to up"
+May 26 09:11:35,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.100 added
+May 26 09:13:13,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.118 added
+May 26 09:14:38,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to down"
+May 26 09:16:28,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 09:16:35,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.126 on FastEthernet0/1 went down
+May 26 09:18:02,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.112 on FastEthernet0/1
+May 26 09:19:54,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/1, changed state to down"
+May 26 09:20:19,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan10, changed state to down"
+May 26 09:21:00,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/2, changed state to down"
+May 26 09:22:28,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.124 added
+May 26 09:22:47,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.129/12670 dst 192.168.10.116/22212 by access-group 101
+May 26 09:23:24,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan10, changed state to down"
+May 26 09:24:16,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.111 on GigabitEthernet0/0 went down
+May 26 09:24:55,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.123/7517 dst 192.168.10.129/13942 by access-group 102
+May 26 09:25:46,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.109/58957 dst 192.168.10.106/61276 by access-group 102
+May 26 09:26:12,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 09:26:23,Router1,UM6P,SYS,5,RELOAD,Reload requested by backup
+May 26 09:26:37,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/0, changed state to down"
+May 26 09:28:09,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.101/40586 dst 192.168.10.101/24657 by access-group 101
+May 26 09:29:26,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.115/33469 dst 192.168.10.104/53749 by access-group 105
+May 26 09:30:47,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan10, changed state to down"
+May 26 09:31:07,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.104 to MAC 00:1A:2B:3C:4D:27 on GigabitEthernet0/0
+May 26 09:33:01,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.111 via 10.0.0.1, dropping packet"
+May 26 09:34:32,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.107/52990 dst 192.168.10.111/51091 by access-group 105
+May 26 09:36:22,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.112/13638 dst 192.168.10.110/31897 by access-group 100
+May 26 09:36:44,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.108/56712 dst 192.168.10.101/33693 by access-group 100
+May 26 09:38:41,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/0, changed state to up"
+May 26 09:40:05,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/0, changed state to down"
+May 26 09:41:29,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 09:43:27,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.118/25104 dst 192.168.10.106/10125 by access-group 105
+May 26 09:44:09,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.128 via 10.0.0.1, dropping packet"
+May 26 09:44:15,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.116 via 192.168.10.1, dropping packet"
+May 26 09:45:21,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/3, changed state to down"
+May 26 09:46:04,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.125 on GigabitEthernet0/1
+May 26 09:46:41,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/1, changed state to up"
+May 26 09:47:14,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.123 on GigabitEthernet0/2 changed state to FULL
+May 26 09:48:29,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/0, changed state to up"
+May 26 09:50:29,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 09:51:25,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.129 to MAC 00:1A:2B:3C:4D:1F on Vlan1
+May 26 09:52:46,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.105 on GigabitEthernet0/3
+May 26 09:53:15,Router1,UM6P,SYS,5,RELOAD,Reload requested by ops
+May 26 09:53:37,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.101 removed
+May 26 09:54:01,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Loopback0, changed state to down"
+May 26 09:55:08,Router1,UM6P,SYS,6,LOGIN,Console login successful for ops
+May 26 09:55:29,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.129 on FastEthernet0/1
+May 26 09:55:56,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/2, changed state to down"
+May 26 09:57:43,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/0, changed state to up"
+May 26 09:59:03,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/0, changed state to up"
+May 26 10:00:48,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.113 via 10.0.0.1, dropping packet"
+May 26 10:01:36,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.116 via 198.51.100.1, dropping packet"
+May 26 10:02:04,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.127 on GigabitEthernet0/1 went down
+May 26 10:02:13,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan1, changed state to down"
+May 26 10:03:44,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to up"
+May 26 10:03:53,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.129 on FastEthernet0/0 went down
+May 26 10:05:37,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Loopback0, changed state to down"
+May 26 10:05:55,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 10:06:24,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.127 on Vlan1 went down
+May 26 10:07:52,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.122 on FastEthernet0/0
+May 26 10:09:47,Router1,UM6P,SYS,5,RELOAD,Reload requested by ops
+May 26 10:10:54,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.106 on Vlan10 changed state to FULL
+May 26 10:11:55,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/2, changed state to up"
+May 26 10:12:11,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.102 removed
+May 26 10:13:55,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.114 via 10.0.0.1, dropping packet"
+May 26 10:14:38,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.101 on Loopback0 is up
+May 26 10:16:20,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.101 added
+May 26 10:17:19,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.129 on Vlan10
+May 26 10:18:07,Router1,UM6P,SYS,6,LOGIN,Console login successful for ops
+May 26 10:18:16,Router1,UM6P,SYS,6,LOGIN,Console login successful for backup
+May 26 10:19:55,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.109 on Vlan1
+May 26 10:21:21,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.100 removed
+May 26 10:22:04,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 10:22:06,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.119/59155 dst 192.168.10.118/61470 by access-group 104
+May 26 10:24:06,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.109 on FastEthernet0/0
+May 26 10:24:32,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/0, changed state to up"
+May 26 10:26:15,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.111 on Vlan10
+May 26 10:26:30,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.128 on Vlan10 changed state to FULL
+May 26 10:28:09,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.129 via 10.0.0.1, dropping packet"
+May 26 10:29:33,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 10:29:53,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan10, changed state to down"
+May 26 10:31:52,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.117 on Vlan1
+May 26 10:32:33,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to down"
+May 26 10:33:56,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.124 on GigabitEthernet0/3
+May 26 10:34:28,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.129 added
+May 26 10:35:18,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/3, changed state to up"
+May 26 10:35:22,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 10:36:21,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.117 removed
+May 26 10:38:01,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/2, changed state to up"
+May 26 10:38:54,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.120/2595 dst 192.168.10.118/57150 by access-group 103
+May 26 10:39:47,Router1,UM6P,SYS,6,LOGIN,Console login successful for secadmin
+May 26 10:41:17,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.118 on GigabitEthernet0/2
+May 26 10:41:56,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/3, changed state to down"
+May 26 10:42:25,Router1,UM6P,LINK,3,UPDOWN,"Interface Loopback0, changed state to down"
+May 26 10:43:27,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.115/57072 dst 192.168.10.109/11925 by access-group 105
+May 26 10:45:16,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.105/54946 dst 192.168.10.107/43096 by access-group 103
+May 26 10:45:41,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.129 on FastEthernet0/0 is up
+May 26 10:46:26,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.118 on GigabitEthernet0/2 went down
+May 26 10:48:04,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to down"
+May 26 10:49:25,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.102/47444 dst 192.168.10.105/60794 by access-group 102
+May 26 10:49:58,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.117 on Vlan1
+May 26 10:50:38,Router1,UM6P,SYS,6,LOGIN,Console login successful for netadmin
+May 26 10:52:23,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.128 on Loopback0 went down
+May 26 10:53:54,Router1,UM6P,SYS,6,LOGIN,Console login successful for secadmin
+May 26 10:54:55,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to up"
+May 26 10:55:52,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.122 removed
+May 26 10:56:45,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.105/55003 dst 192.168.10.109/7067 by access-group 104
+May 26 10:58:21,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/1, changed state to down"
+May 26 10:58:44,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.126/40187 dst 192.168.10.113/58983 by access-group 100
+May 26 11:00:41,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 11:01:58,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.101 to MAC 00:1A:2B:3C:4D:2C on Vlan1
+May 26 11:02:54,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to up"
+May 26 11:03:34,Router1,UM6P,LINK,3,UPDOWN,"Interface Loopback0, changed state to up"
+May 26 11:04:48,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.128 on GigabitEthernet0/1 went down
+May 26 11:05:31,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.117 removed
+May 26 11:07:21,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.118 on GigabitEthernet0/1
+May 26 11:09:03,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.102 on GigabitEthernet0/0
+May 26 11:11:02,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.114/6542 dst 192.168.10.105/8970 by access-group 102
+May 26 11:12:02,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.108 on GigabitEthernet0/2 changed state to FULL
+May 26 11:12:12,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.128 via 10.0.0.1, dropping packet"
+May 26 11:12:52,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.119 on FastEthernet0/0 is up
+May 26 11:13:36,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.129 on Loopback0
+May 26 11:14:30,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/1, changed state to down"
+May 26 11:15:35,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/2, changed state to down"
+May 26 11:16:27,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.111 on Vlan10
+May 26 11:18:07,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 11:19:18,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.113 to MAC 00:1A:2B:3C:4D:10 on GigabitEthernet0/3
+May 26 11:19:25,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.110 on GigabitEthernet0/1
+May 26 11:19:57,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.119 on FastEthernet0/0 is up
+May 26 11:21:09,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.106 added
+May 26 11:22:36,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.111 on FastEthernet0/0 is up
+May 26 11:23:43,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.111 on GigabitEthernet0/1 changed state to FULL
+May 26 11:25:39,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.119 on FastEthernet0/1 went down
+May 26 11:25:48,Router1,UM6P,SYS,5,RELOAD,Reload requested by secadmin
+May 26 11:27:45,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.120 on GigabitEthernet0/2 went down
+May 26 11:27:59,Router1,UM6P,SYS,5,RELOAD,Reload requested by secadmin
+May 26 11:29:16,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.106/27364 dst 192.168.10.123/4443 by access-group 105
+May 26 11:29:46,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to down"
+May 26 11:30:45,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/2, changed state to down"
+May 26 11:31:47,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.120 on GigabitEthernet0/0 went down
+May 26 11:32:18,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.119 on FastEthernet0/1 is up
+May 26 11:32:52,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 11:33:42,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/0, changed state to down"
+May 26 11:34:21,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.116 on Vlan1 is up
+May 26 11:36:09,Router1,UM6P,SYS,6,LOGIN,Console login successful for ops
+May 26 11:37:42,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.102 to MAC 00:1A:2B:3C:4D:1C on FastEthernet0/1
+May 26 11:38:38,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.100/59217 dst 192.168.10.111/34623 by access-group 102
+May 26 11:39:53,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/3, changed state to up"
+May 26 11:40:28,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.126/28702 dst 192.168.10.127/56639 by access-group 100
+May 26 11:41:29,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/0, changed state to up"
+May 26 11:42:04,Router1,UM6P,SYS,5,RELOAD,Reload requested by netadmin
+May 26 11:43:37,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.115 on FastEthernet0/0 changed state to FULL
+May 26 11:43:53,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.100 on Loopback0
+May 26 11:44:52,Router1,UM6P,SYS,5,RELOAD,Reload requested by backup
+May 26 11:45:46,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.116 to MAC 00:1A:2B:3C:4D:2F on FastEthernet0/1
+May 26 11:46:11,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.113 on FastEthernet0/0
+May 26 11:47:41,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.103 added
+May 26 11:49:26,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to up"
+May 26 11:49:52,Router1,UM6P,SYS,6,LOGIN,Console login successful for backup
+May 26 11:50:55,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.105 on GigabitEthernet0/0
+May 26 11:51:27,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.120 on GigabitEthernet0/1 changed state to FULL
+May 26 11:53:06,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.113 on Vlan10
+May 26 11:54:18,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/2, changed state to down"
+May 26 11:56:09,Router1,UM6P,SYS,6,LOGIN,Console login successful for root
+May 26 11:57:47,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.106 on FastEthernet0/1 went down
+May 26 11:58:23,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.100 added
+May 26 11:58:40,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.119/54333 dst 192.168.10.129/58942 by access-group 101
+May 26 11:59:14,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.109 on GigabitEthernet0/2 went down
+May 26 11:59:27,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 11:59:44,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.107/14553 dst 192.168.10.111/59143 by access-group 100
+May 26 12:00:51,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/3, changed state to down"
+May 26 12:01:41,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.122 removed
+May 26 12:02:54,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.100/41790 dst 192.168.10.128/30636 by access-group 103
+May 26 12:03:05,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.124/20720 dst 192.168.10.114/56591 by access-group 102
+May 26 12:04:01,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.123 on FastEthernet0/1
+May 26 12:05:36,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/0, changed state to up"
+May 26 12:06:57,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.118 on Vlan10 went down
+May 26 12:08:41,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.122 on Loopback0 went down
+May 26 12:08:55,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.117 removed
+May 26 12:10:35,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/0, changed state to down"
+May 26 12:12:23,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.128 removed
+May 26 12:12:54,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.108 on FastEthernet0/0 changed state to FULL
+May 26 12:13:08,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.115/60918 dst 192.168.10.106/25334 by access-group 102
+May 26 12:13:11,Router1,UM6P,SYS,5,RELOAD,Reload requested by admin
+May 26 12:14:05,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 12:15:20,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.123 on Vlan10
+May 26 12:15:58,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan1, changed state to down"
+May 26 12:17:50,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.102/35881 dst 192.168.10.123/26453 by access-group 100
+May 26 12:18:59,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.118/61717 dst 192.168.10.111/13305 by access-group 103
+May 26 12:20:20,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to up"
+May 26 12:21:28,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan1, changed state to down"
+May 26 12:22:00,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/3, changed state to up"
+May 26 12:23:44,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/1, changed state to down"
+May 26 12:25:16,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.113 added
+May 26 12:26:59,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/0, changed state to down"
+May 26 12:28:02,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.102 on FastEthernet0/1 changed state to FULL
+May 26 12:29:21,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.119 added
+May 26 12:30:19,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.115 added
+May 26 12:31:16,Router1,UM6P,SYS,6,LOGIN,Console login successful for root
+May 26 12:33:03,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 12:33:34,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.104/9313 dst 192.168.10.128/24564 by access-group 102
+May 26 12:33:52,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to down"
+May 26 12:34:03,Router1,UM6P,SYS,6,LOGIN,Console login successful for root
+May 26 12:35:54,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.106 to MAC 00:1A:2B:3C:4D:1C on GigabitEthernet0/1
+May 26 12:37:49,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.102 to MAC 00:1A:2B:3C:4D:14 on GigabitEthernet0/3
+May 26 12:38:30,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 12:39:50,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.114 on Vlan10
+May 26 12:40:25,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.118/25907 dst 192.168.10.112/53124 by access-group 104
+May 26 12:41:24,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.121 to MAC 00:1A:2B:3C:4D:1C on FastEthernet0/0
+May 26 12:41:52,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.100/35923 dst 192.168.10.129/36387 by access-group 103
+May 26 12:42:36,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.110 removed
+May 26 12:44:13,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 12:44:34,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.106 to MAC 00:1A:2B:3C:4D:19 on FastEthernet0/0
+May 26 12:46:32,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/0, changed state to up"
+May 26 12:48:13,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan10, changed state to down"
+May 26 12:49:26,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.128 on GigabitEthernet0/3 changed state to FULL
+May 26 12:51:14,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/1, changed state to up"
+May 26 12:52:20,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.114/61397 dst 192.168.10.120/547 by access-group 100
+May 26 12:52:54,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.101 removed
+May 26 12:53:17,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 12:55:13,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.119 on FastEthernet0/0 changed state to FULL
+May 26 12:57:08,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.116 removed
+May 26 12:58:58,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.105 on GigabitEthernet0/0 changed state to FULL
+May 26 13:00:06,Router1,UM6P,SYS,5,RELOAD,Reload requested by root
+May 26 13:01:29,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.129 on Vlan10
+May 26 13:03:16,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to down"
+May 26 13:03:38,Router1,UM6P,SYS,5,RELOAD,Reload requested by ops
+May 26 13:04:46,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.129 on Vlan10 changed state to FULL
+May 26 13:06:44,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.101 removed
+May 26 13:07:51,Router1,UM6P,SYS,6,LOGIN,Console login successful for root
+May 26 13:08:17,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete
+May 26 13:08:44,Router1,UM6P,SYS,5,STARTUP,System booted successfully
+May 26 13:09:58,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.129 on Vlan10
+May 26 13:10:26,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.106 via 198.51.100.1, dropping packet"
+May 26 13:11:18,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to up"
+May 26 13:12:56,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.112/38029 dst 192.168.10.101/49208 by access-group 103
+May 26 13:12:59,Router1,UM6P,SYS,6,LOGIN,Console login successful for secadmin
+May 26 13:14:54,Router1,UM6P,SYS,6,LOGIN,Console login successful for secadmin
+May 26 13:16:53,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.110 added
+May 26 13:17:57,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.116 to MAC 00:1A:2B:3C:4D:25 on GigabitEthernet0/2
+May 26 13:17:59,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.115/1246 dst 192.168.10.125/46066 by access-group 104
+May 26 13:19:15,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/1, changed state to up"
+May 26 13:19:55,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.111/44135 dst 192.168.10.111/15732 by access-group 102
+May 26 13:20:23,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.119 to MAC 00:1A:2B:3C:4D:21 on Vlan1
+May 26 13:20:46,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.121 on Vlan10 changed state to FULL
+May 26 13:21:59,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/0, changed state to down"
+May 26 13:23:55,Router1,UM6P,LINK,3,UPDOWN,"Interface Vlan10, changed state to down"
+May 26 13:24:40,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/1, changed state to down"
+May 26 13:25:08,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/1, changed state to down"
+May 26 13:25:44,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.126 on Vlan10 changed state to FULL
+May 26 13:27:00,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.113 on Loopback0 changed state to FULL
+May 26 13:27:11,Router1,UM6P,DHCPD,4,EXPIRE,Lease expired for IP 192.168.10.126 on GigabitEthernet0/3
+May 26 13:28:46,Router1,UM6P,SYS,6,LOGIN,Console login successful for admin
+May 26 13:29:53,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.120 on GigabitEthernet0/2 is up
+May 26 13:31:37,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface Vlan10, changed state to down"
+May 26 13:32:56,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/0, changed state to down"
+May 26 13:34:44,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.122 on Loopback0 is up
+May 26 13:35:01,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.107/25032 dst 192.168.10.112/41768 by access-group 104
+May 26 13:35:38,Router1,UM6P,ROUTING,4,RT_FAIL,"Routing failed to reach 192.168.10.119 via 192.168.10.1, dropping packet"
+May 26 13:36:06,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.116 on GigabitEthernet0/3 changed state to FULL
+May 26 13:38:06,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.120 on Vlan10 is up
+May 26 13:38:55,Router1,UM6P,OSPF,5,ADJCHG,Neighbor 192.168.10.102 on GigabitEthernet0/3 changed state to FULL
+May 26 13:40:09,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.114 removed
+May 26 13:41:32,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.124/25300 dst 192.168.10.107/32209 by access-group 105
+May 26 13:42:23,Router1,UM6P,SYS,5,RELOAD,Reload requested by netadmin
+May 26 13:44:16,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/0, changed state to up"
+May 26 13:45:18,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.104/59374 dst 192.168.10.104/22460 by access-group 104
+May 26 13:45:28,Router1,UM6P,ROUTING,5,ADJCHANGE,IP routing adjacency with 192.168.10.109 on Loopback0 is up
+May 26 13:46:02,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.103 added
+May 26 13:47:47,Router1,UM6P,ACL,6,LOGGING,Denied UDP src 192.168.10.118/49162 dst 192.168.10.101/54940 by access-group 100
+May 26 13:49:20,Router1,UM6P,LINK,3,UPDOWN,"Interface FastEthernet0/0, changed state to down"
+May 26 13:50:22,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.123/40692 dst 192.168.10.108/43716 by access-group 105
+May 26 13:50:49,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface FastEthernet0/0, changed state to up"
+May 26 13:51:49,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.104/15490 dst 192.168.10.118/32280 by access-group 104
+May 26 13:53:32,Router1,UM6P,SYS,5,RELOAD,Reload requested by ops
+May 26 13:53:41,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/0, changed state to up"
+May 26 13:55:17,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.123 on FastEthernet0/1
+May 26 13:56:44,Router1,UM6P,DHCPD,6,ADDRESS_ASSIGN,Assigned IP 192.168.10.129 to MAC 00:1A:2B:3C:4D:26 on Vlan1
+May 26 13:58:08,Router1,UM6P,ACL,6,LOGGING,Permitted TCP src 192.168.10.116/35190 dst 192.168.10.129/15566 by access-group 100
+May 26 14:00:01,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/3, changed state to down"
+May 26 14:00:31,Router1,UM6P,LINEPROTO,5,UPDOWN,"Line protocol on Interface GigabitEthernet0/2, changed state to down"
+May 26 14:01:14,Router1,UM6P,OSPF,5,NEIGHBOR_CHANGE,Neighbor 192.168.10.120 on Loopback0 went down
+May 26 14:02:47,Router1,UM6P,ACL,6,LOGGING,Denied TCP src 192.168.10.122/35032 dst 192.168.10.119/45854 by access-group 103
+May 26 14:04:47,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.119 added
+May 26 14:05:37,Router1,UM6P,DHCPD,6,RENEW,Lease renewed for IP 192.168.10.128 on Vlan1
+May 26 14:07:16,Router1,UM6P,ROUTING,5,UPDATE,Route to 192.168.10.0/24 via 192.168.10.117 added
+May 26 14:08:38,Router1,UM6P,ROUTING,5,UPDATE,Route to 10.0.0.0/24 via 192.168.10.106 added
+May 26 14:09:45,Router1,UM6P,LINK,3,UPDOWN,"Interface GigabitEthernet0/1, changed state to up"
+May 26 14:10:26,Router1,UM6P,SYS,5,RELOAD_COMPLETE,Reload complete

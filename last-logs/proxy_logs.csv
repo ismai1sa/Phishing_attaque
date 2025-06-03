@@ -1,0 +1,501 @@
+timestamp,type,user,method,url,ip,description
+2025-05-26 09:03:47,PROXY,user.omar,POST,http://backdoor.um6p.fake/path,IP:10.10.12.101,Requête vers domaine anonyme
+2025-05-26 09:04:33,PROXY,user.malek.r,POST,http://spoofed-mail.com/open,IP:10.10.12.100,Connexion vers URL inconnue
+2025-05-26 09:05:13,PROXY,user.meriem,POST,http://portal.um6p.ma/grades,IP:10.10.12.5,Connexion autorisée\, surveillance active
+2025-05-26 09:06:19,PROXY,user.meriem,POST,http://temp-mail.org/inbox,IP:10.10.12.5,Page accédée via lien mail
+2025-05-26 09:07:36,PROXY,user.nour.e,POST,https://downloadcenter.um6p.ma/tools,IP:10.10.12.96,Blocage automatique activé
+2025-05-26 09:08:58,PROXY,user.rania,POST,http://backdoor.um6p.fake/path,IP:10.10.12.2,Page classée comme site de crypto-mining
+2025-05-26 09:09:33,PROXY,user.khalida,GET,http://10.10.14.22:8081/admin/config,IP:10.10.12.99,Connexion à un serveur inconnu
+2025-05-26 09:10:43,PROXY,user.ghita,POST,https://vpn-access.um6p.ma/token,IP:10.10.12.52,Demande de ressource interne depuis IP externe
+2025-05-26 09:11:30,PROXY,user.fouad,GET,http://suspicious-mirror.com/download.exe,IP:10.10.12.65,Analyse antivirus déclenchée
+2025-05-26 09:12:57,PROXY,user.abdelmajid,POST,http://gitlab.um6p.ma/projectX/commit,IP:10.10.12.93,Connexion sans User-Agent détectée
+2025-05-26 09:13:58,PROXY,user.abdelhak,GET,http://cdn.um6p.ma/js/app.js,IP:10.10.12.86,Requête POST vers site non autorisé
+2025-05-26 09:14:06,PROXY,user.chaimae,GET,http://10.0.1.45/api/info,IP:10.10.12.57,Domaine non blacklisté - accès autorisé
+2025-05-26 09:15:20,PROXY,user.karima,GET,https://vpn-access.um6p.ma/token,IP:10.10.12.73,Échec authentification AD
+2025-05-26 09:16:40,PROXY,user.oumaima,GET,http://drive-by-download.org/index.html,IP:10.10.12.19,Bloqué par firewall
+2025-05-26 09:17:39,PROXY,user.aziz,POST,http://unknown-site.com,IP:10.10.12.53,Protocole non sécurisé utilisé
+2025-05-26 09:18:23,PROXY,user.brahim,POST,http://internal-portal.um6p.ma/announcements,IP:10.10.12.84,Réplication d’attaque précédemment identifiée
+2025-05-26 09:19:39,PROXY,user.rania,GET,https://assets.um6p.ma/js/core.min.js,IP:10.10.12.2,Tentative de phishing détectée
+2025-05-26 09:20:17,PROXY,user.aziz,GET,http://hackerbox.tor,IP:10.10.12.53,Connexion autorisée par règle spéciale FW
+2025-05-26 09:21:35,PROXY,user.rania,GET,http://192.168.100.5/api/v1/token,IP:10.10.12.2,Tentative de connexion brute force
+2025-05-26 09:22:09,PROXY,user.hind,GET,https://docs.um6p.ma/security/guide.pdf,IP:10.10.12.67,Tentative de transfert de données sensibles
+2025-05-26 09:23:56,PROXY,user.nour,GET,https://vpn.um6p.ma/portal,IP:10.10.12.29,Requête POST vers site non autorisé
+2025-05-26 09:24:21,PROXY,user.malek,GET,http://fw-log.um6p.ma/download,IP:10.10.12.17,Tentative de phishing détectée
+2025-05-26 09:25:29,PROXY,user.nour,POST,http://malicious-domain.ru/steal.php,IP:10.10.12.29,Tentative de contournement du proxy
+2025-05-26 09:26:39,PROXY,user.rachid.k,GET,http://cdn.um6p.ma/js/app.js,IP:10.10.12.92,Tentative de transfert de données sensibles
+2025-05-26 09:27:49,PROXY,user.ghita,POST,http://auth.um6p.ma/2fa,IP:10.10.12.52,Blocage automatique activé
+2025-05-26 09:28:30,PROXY,user.aya,POST,http://10.0.0.1:8080/admin,IP:10.10.12.27,Protocole anormal utilisé pour POST
+2025-05-26 09:29:11,PROXY,user.khalid,GET,http://phish-zone.com/intranet,IP:10.10.12.26,Requête GET excessive
+2025-05-26 09:30:25,PROXY,user.nour,POST,https://docs.um6p.ma/security/guide.pdf,IP:10.10.12.29,Authentification échouée\, mot de passe invalide
+2025-05-26 09:31:20,PROXY,user.abdelmajid,GET,http://lab.um6p.ma/experiments,IP:10.10.12.93,Connexion vers URL inconnue
+2025-05-26 09:32:18,PROXY,user.soufiane.b,POST,http://temp-mail.org/inbox,IP:10.10.12.88,Connexion multiple en courte durée
+2025-05-26 09:33:02,PROXY,user.karim,POST,http://downloads.um6p.ma/drivers/gpu.exe,IP:10.10.12.6,Signature de malware détectée
+2025-05-26 09:34:17,PROXY,user.khalil,GET,http://blacklist-checker.net/um6p,IP:10.10.12.95,Tentative de phishing détectée
+2025-05-26 09:35:36,PROXY,user.mohamed,POST,http://exfiltration.tor/data.zip,IP:10.10.12.15,Exfiltration de données possible
+2025-05-26 09:36:51,PROXY,user.abdelhak,POST,http://malware-download.com/file.exe,IP:10.10.12.86,Connexion vers URL inconnue
+2025-05-26 09:37:53,PROXY,user.rania.m,POST,http://social-engineering.org/um6p_login,IP:10.10.12.68,Connexion autorisée par règle spéciale FW
+2025-05-26 09:38:45,PROXY,user.soumaya,GET,http://external-storage.com/download/manual.pdf,IP:10.10.12.82,Réplication d’attaque précédemment identifiée
+2025-05-26 09:39:51,PROXY,user.rachid,POST,https://webmail.um6p.ma/login,IP:10.10.12.20,Requête HTTP avec header modifié
+2025-05-26 09:40:51,PROXY,user.ismail,POST,http://temp-mail.org/inbox,IP:10.10.12.56,Changement d'adresse IP détecté
+2025-05-26 09:41:57,PROXY,user.mounir,GET,https://secure.um6p.ma/bank/payroll,IP:10.10.12.80,Tentative d'accès externe non autorisé
+2025-05-26 09:42:06,PROXY,user.samir.b,POST,http://ext-malicious.net/redir,IP:10.10.12.77,Connexion via VPN interne
+2025-05-26 09:43:38,PROXY,user.farid,GET,http://gitlab.um6p.ma/projectX/commit,IP:10.10.12.43,Connexion vers URL inconnue
+2025-05-26 09:44:49,PROXY,user.ismail,GET,http://updates.um6p.ma/windows/patch1,IP:10.10.12.56,Contenu malveillant détecté par antivirus
+2025-05-26 09:45:58,PROXY,user.malek.t,POST,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.91,Protocole non sécurisé utilisé
+2025-05-26 09:46:45,PROXY,user.khalid,POST,http://um6p.edu.ma/docs/rules,IP:10.10.12.26,Page classée comme site de crypto-mining
+2025-05-26 09:47:04,PROXY,user.ayman.e,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.62,Tentative de contournement du proxy
+2025-05-26 09:48:13,PROXY,user.malek.r,GET,https://cloud.um6p.ma/storage/folder1,IP:10.10.12.100,Authentification échouée\, mot de passe invalide
+2025-05-26 09:49:06,PROXY,user.rania,GET,http://iot.um6p.ma/devices/status,IP:10.10.12.2,Succès authentification AD
+2025-05-26 09:50:07,PROXY,user.soufiane.b,GET,http://auth.um6p.ma/2fa,IP:10.10.12.88,Connexion validée via double authentification
+2025-05-26 09:51:44,PROXY,user.salma,GET,https://secure.um6p.ma/bank/payroll,IP:10.10.12.7,Réplication d’attaque précédemment identifiée
+2025-05-26 09:52:00,PROXY,user.abdelmajid,POST,http://ext-malicious.net/redir,IP:10.10.12.93,Connexion vers URL inconnue
+2025-05-26 09:53:55,PROXY,user.imane,GET,https://um6p.ma/resources/css/style.css,IP:10.10.12.81,Téléchargement de script bloqué
+2025-05-26 09:54:19,PROXY,user.sara,GET,http://wiki.um6p.ma/howto/firewall,IP:10.10.12.18,Tentative d'accès au panneau d'administration
+2025-05-26 09:55:38,PROXY,user.ghita,POST,http://data-internal.um6p.ma/secure/,IP:10.10.12.52,Tentative d'accès au panneau d'administration
+2025-05-26 09:56:12,PROXY,user.lamia,POST,http://external-storage.com/download/manual.pdf,IP:10.10.12.31,URL contenant chaîne suspecte
+2025-05-26 09:57:35,PROXY,user.amal,POST,http://dl.um6p.ma/iso/latest,IP:10.10.12.12,Fichier téléchargé analysé\, pas de menace
+2025-05-26 09:58:18,PROXY,user.ayman.e,POST,http://admanager.um6p.ma/permissions,IP:10.10.12.62,Connexion réseau interrompue
+2025-05-26 09:59:24,PROXY,user.mohamed,POST,http://malware-download.com/file.exe,IP:10.10.12.15,Téléchargement de script bloqué
+2025-05-26 10:00:34,PROXY,user.rachid,GET,http://10.10.12.45/login.html,IP:10.10.12.20,URL contenue dans courriel suspect
+2025-05-26 10:01:40,PROXY,user.brahim,GET,http://10.10.12.45/login.html,IP:10.10.12.84,Navigateur en mode incognito détecté
+2025-05-26 10:02:23,PROXY,user.bilal,GET,http://cdn.um6p.ma/js/app.js,IP:10.10.12.74,Connexion autorisée par règle spéciale FW
+2025-05-26 10:03:55,PROXY,user.najlae,POST,https://redirect.um6p.ma/page,IP:10.10.12.59,Tentative de spoofing réseau
+2025-05-26 10:04:14,PROXY,user.jawad,POST,http://external-storage.com/download/manual.pdf,IP:10.10.12.28,Requête POST vers site non autorisé
+2025-05-26 10:05:25,PROXY,user.ghita,GET,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.52,Téléversement interdit détecté
+2025-05-26 10:06:19,PROXY,user.houda.k,POST,https://student.um6p.ma/submit,IP:10.10.12.94,Navigateur en mode incognito détecté
+2025-05-26 10:07:16,PROXY,user.ayman.e,POST,https://cloud.um6p.ma/storage/folder1,IP:10.10.12.62,Réplication d’attaque précédemment identifiée
+2025-05-26 10:08:42,PROXY,user.riad,GET,http://unknown-site.com,IP:10.10.12.97,Session suspecte identifiée
+2025-05-26 10:09:34,PROXY,user.soufiane.b,GET,http://dropbox.fake-um6p.com/share,IP:10.10.12.88,Bloqué par firewall
+2025-05-26 10:10:51,PROXY,user.ibtissam,POST,http://malicious-scripts.net/mal.js,IP:10.10.12.54,Accès légitime
+2025-05-26 10:11:52,PROXY,user.malek,GET,https://profile.um6p.ma/edit,IP:10.10.12.17,URL encode suspect détecté
+2025-05-26 10:12:49,PROXY,user.zineb,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.41,Authentification échouée\, mot de passe invalide
+2025-05-26 10:13:38,PROXY,user.lamia,GET,http://10.10.12.45/login.html,IP:10.10.12.31,Tentative de contournement du proxy
+2025-05-26 10:14:02,PROXY,user.aya,GET,http://fake-um6p-login.org/confirm,IP:10.10.12.27,Authentification échouée\, mot de passe invalide
+2025-05-26 10:15:54,PROXY,user.malek.b,GET,http://192.168.100.5/api/v1/token,IP:10.10.12.44,Analyse antivirus déclenchée
+2025-05-26 10:16:43,PROXY,user.aya,POST,http://ad.um6p.ma/sync,IP:10.10.12.27,Téléchargement de fichier malveillant bloqué
+2025-05-26 10:17:59,PROXY,user.aziz,GET,http://gitlab.um6p.ma/projectX/commit,IP:10.10.12.53,Requête redondante sur même endpoint
+2025-05-26 10:18:00,PROXY,user.aya,GET,http://git.um6p.ma/commit/hash,IP:10.10.12.27,Requête HTTP avec header modifié
+2025-05-26 10:19:06,PROXY,user.abdellah,GET,https://meeting.um6p.ma/conference?id=9321,IP:10.10.12.69,Tentative de spoofing réseau
+2025-05-26 10:20:27,PROXY,user.samir,GET,https://student.um6p.ma/courses,IP:10.10.12.61,Connexion manuelle confirmée
+2025-05-26 10:21:33,PROXY,user.riad,GET,http://ceo-fake.company.org,IP:10.10.12.97,Scan de port détecté
+2025-05-26 10:22:41,PROXY,user.meriem,GET,http://admanager.um6p.ma/permissions,IP:10.10.12.5,Requête vers domaine anonyme
+2025-05-26 10:23:32,PROXY,user.karim,GET,http://ceo-fake.company.org,IP:10.10.12.6,Tentative de bypass sécurité AD
+2025-05-26 10:24:34,PROXY,user.samir,GET,http://um6p.backup.local/restore,IP:10.10.12.61,Requête vers domaine anonyme
+2025-05-26 10:25:20,PROXY,user.zahra,POST,https://downloadcenter.um6p.ma/tools,IP:10.10.12.75,Exfiltration de données possible
+2025-05-26 10:26:10,PROXY,user.ayman,POST,http://drive.um6p.ma/private/,IP:10.10.12.37,Connexion vers URL inconnue
+2025-05-26 10:27:50,PROXY,user.hamza,POST,http://phishing-expert.net/verify,IP:10.10.12.30,Protocole non sécurisé utilisé
+2025-05-26 10:28:23,PROXY,user.meryem,POST,http://smtp.um6p.ma/outbound,IP:10.10.12.89,Scan de port détecté
+2025-05-26 10:29:36,PROXY,user.nabil,POST,https://webmail.um6p.ma/login,IP:10.10.12.45,Requête HTTP bloquée
+2025-05-26 10:30:03,PROXY,user.ayman,GET,http://ext-malicious.net/redir,IP:10.10.12.37,Contenu malveillant détecté par antivirus
+2025-05-26 10:31:46,PROXY,user.ayman.e,GET,http://ceo-fake.company.org,IP:10.10.12.62,Connexion autorisée par règle spéciale FW
+2025-05-26 10:32:47,PROXY,user.hajar,GET,http://helpdesk.um6p.ma/reset-password,IP:10.10.12.40,Échec accès\, utilisateur inconnu
+2025-05-26 10:33:56,PROXY,user.nassim,POST,http://user.um6p.ma/settings,IP:10.10.12.4,Utilisateur bloqué par politique réseau
+2025-05-26 10:34:55,PROXY,user.imane,POST,http://10.10.10.10:9000/devops,IP:10.10.12.81,Accès légitime
+2025-05-26 10:35:33,PROXY,user.hanae,POST,http://test.internal.lan/dashboard,IP:10.10.12.87,Utilisateur bloqué par politique réseau
+2025-05-26 10:36:02,PROXY,user.hind,GET,https://api.um6p.ma/data/submit,IP:10.10.12.67,Requête vers domaine anonyme
+2025-05-26 10:37:26,PROXY,user.hind,GET,http://10.10.14.22:8081/admin/config,IP:10.10.12.67,Scan de port détecté
+2025-05-26 10:38:20,PROXY,user.ayman,POST,http://dropbox.fake-um6p.com/share,IP:10.10.12.37,Réplication d’attaque précédemment identifiée
+2025-05-26 10:39:57,PROXY,user.soufiane.b,POST,http://finance.um6p.ma/reports/q2,IP:10.10.12.88,Connexion suspecte détectée
+2025-05-26 10:40:14,PROXY,user.lina,POST,http://intranet.um6p.ma/home,IP:10.10.12.48,Connexion depuis IP Tor
+2025-05-26 10:41:34,PROXY,user.hanae,GET,http://um6p.ma/it/helpdesk,IP:10.10.12.87,Requête HTTP avec header modifié
+2025-05-26 10:42:18,PROXY,user.karima,GET,http://portal.um6p.ma/grades,IP:10.10.12.73,Téléchargement de script bloqué
+2025-05-26 10:43:17,PROXY,user.nour.e,POST,http://10.10.0.22/printers/config,IP:10.10.12.96,Tentative de connexion brute force
+2025-05-26 10:44:16,PROXY,user.malek,GET,http://um6p.edu.ma/docs/rules,IP:10.10.12.17,Authentification échouée\, mot de passe invalide
+2025-05-26 10:45:42,PROXY,user.hamza,GET,http://10.10.0.22/printers/config,IP:10.10.12.30,Connexion à un serveur inconnu
+2025-05-26 10:46:29,PROXY,user.adil,GET,http://internal-api.um6p.ma/v1,IP:10.10.12.32,Protocole anormal utilisé pour POST
+2025-05-26 10:47:50,PROXY,user.ismail,GET,http://10.10.12.45/login.html,IP:10.10.12.56,Lien suspect partagé via messagerie interne
+2025-05-26 10:48:02,PROXY,user.adil,GET,https://vpn-access.um6p.ma/token,IP:10.10.12.32,Tentative de contournement du proxy
+2025-05-26 10:49:27,PROXY,user.yassine,POST,http://social-engineering.org/um6p_login,IP:10.10.12.8,Réponse 403 reçue
+2025-05-26 10:50:39,PROXY,user.hind,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.67,Téléchargement de script bloqué
+2025-05-26 10:51:28,PROXY,user.farid,POST,http://phishing-site.com/login,IP:10.10.12.43,Nom de domaine reconnu comme malveillant
+2025-05-26 10:52:42,PROXY,user.zineb.k,POST,http://10.10.12.99/cgi-bin/test.cgi,IP:10.10.12.79,Upload de données détecté
+2025-05-26 10:53:14,PROXY,user.oumnia,POST,http://10.0.1.45/api/info,IP:10.10.12.63,Lien contenu dans email suspect
+2025-05-26 10:54:26,PROXY,user.souad,POST,http://cdn.um6p.ma/js/app.js,IP:10.10.12.14,Succès authentification AD
+2025-05-26 10:55:59,PROXY,user.nassim,GET,http://um6p-docs-support.com/login,IP:10.10.12.4,Signaux de compromission détectés
+2025-05-26 10:56:46,PROXY,user.rachid.k,GET,http://compromised-site.ru,IP:10.10.12.92,Lien suspect partagé via messagerie interne
+2025-05-26 10:57:03,PROXY,user.amine,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.13,Accès légitime
+2025-05-26 10:58:08,PROXY,user.amine,GET,http://phishing-site.com/login,IP:10.10.12.13,Utilisation de proxy public détectée
+2025-05-26 10:59:38,PROXY,user.soufiane,GET,http://um6p.lan/security/patch,IP:10.10.12.58,Trafic redirigé vers honeypot
+2025-05-26 11:00:24,PROXY,user.rachid.k,GET,http://data-internal.um6p.ma/secure/,IP:10.10.12.92,Connexion simultanée depuis plusieurs pays
+2025-05-26 11:01:13,PROXY,user.farid,GET,https://vpn-access.um6p.ma/token,IP:10.10.12.43,Connexion réseau interrompue
+2025-05-26 11:02:48,PROXY,user.najlae,GET,http://hackerbox.tor,IP:10.10.12.59,Accès détecté en dehors des heures ouvrables
+2025-05-26 11:03:49,PROXY,user.zineb.k,POST,http://10.10.0.22/printers/config,IP:10.10.12.79,Requête sortante bloquée
+2025-05-26 11:04:03,PROXY,user.abdel,GET,http://social-engineering.org/um6p_login,IP:10.10.12.34,Connexion depuis IP Tor
+2025-05-26 11:05:42,PROXY,user.khalil,POST,http://temp-mail.org/inbox,IP:10.10.12.95,Exfiltration de données possible
+2025-05-26 11:06:35,PROXY,user.ayoub,GET,http://fw-log.um6p.ma/download,IP:10.10.12.1,Tentative de bypass sécurité AD
+2025-05-26 11:07:15,PROXY,user.chaimae,GET,http://192.168.100.5/api/v1/token,IP:10.10.12.57,Domaine non blacklisté - accès autorisé
+2025-05-26 11:08:48,PROXY,user.ahmed,GET,http://ad.um6p.ma/sync,IP:10.10.12.76,Connexion depuis IP Tor
+2025-05-26 11:09:18,PROXY,user.ikram,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.3,Bloqué\, domaine inconnu
+2025-05-26 11:10:20,PROXY,user.zineb.k,GET,http://exfiltration.tor/data.zip,IP:10.10.12.79,Contenu malveillant détecté par antivirus
+2025-05-26 11:11:31,PROXY,user.malek.b,GET,http://git.um6p.ma/commit/hash,IP:10.10.12.44,Connexion réseau interrompue
+2025-05-26 11:12:21,PROXY,user.nourredine,GET,http://wiki.um6p.ma/howto/firewall,IP:10.10.12.36,Session suspecte identifiée
+2025-05-26 11:13:46,PROXY,user.yassine,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.8,URL encode suspect détecté
+2025-05-26 11:14:54,PROXY,user.saad,GET,http://phishing-expert.net/verify,IP:10.10.12.11,Changement d'adresse IP détecté
+2025-05-26 11:15:55,PROXY,user.nassim,GET,https://assets.um6p.ma/js/core.min.js,IP:10.10.12.4,Connexion validée via double authentification
+2025-05-26 11:16:26,PROXY,user.bilal,POST,http://vpn.um6p.ma/logout,IP:10.10.12.74,Requête GET excessive
+2025-05-26 11:17:41,PROXY,user.soufiane.b,POST,https://student.um6p.ma/submit,IP:10.10.12.88,Demande de ressource interne depuis IP externe
+2025-05-26 11:18:39,PROXY,user.mounir,GET,http://ransomserver.tor/payload,IP:10.10.12.80,Trafic redirigé vers honeypot
+2025-05-26 11:19:46,PROXY,user.abdelmajid,GET,http://um6p.ma/it/helpdesk,IP:10.10.12.93,Requête redondante sur même endpoint
+2025-05-26 11:20:34,PROXY,user.khadija,POST,http://um6p-docs-support.com/login,IP:10.10.12.33,Page classée comme site de crypto-mining
+2025-05-26 11:21:02,PROXY,user.amal,GET,http://malware-download.com/file.exe,IP:10.10.12.12,Échec authentification AD
+2025-05-26 11:22:30,PROXY,user.nawal,POST,http://fake-ad-login.com/portal,IP:10.10.12.22,Upload de données détecté
+2025-05-26 11:23:45,PROXY,user.karima,POST,http://unknown-site.com,IP:10.10.12.73,Accès refusé - domaine blacklisté
+2025-05-26 11:24:11,PROXY,user.jawad,POST,https://vpn.um6p.ma/portal,IP:10.10.12.28,Requête HTTP avec header modifié
+2025-05-26 11:25:40,PROXY,user.riad,GET,http://finance.um6p.ma/reports/q2,IP:10.10.12.97,Changement d'adresse IP détecté
+2025-05-26 11:26:15,PROXY,user.hicham,GET,http://10.0.0.1:8080/admin,IP:10.10.12.9,Accès refusé - domaine blacklisté
+2025-05-26 11:27:47,PROXY,user.soumaya,POST,http://um6p-docs-support.com/login,IP:10.10.12.82,Page classée comme site de crypto-mining
+2025-05-26 11:28:41,PROXY,user.abdel,GET,https://cloud.um6p.ma/storage/folder1,IP:10.10.12.34,Connexion réseau interrompue
+2025-05-26 11:29:26,PROXY,user.ahmed,GET,http://db-admin.um6p.ma/phpmyadmin,IP:10.10.12.76,Navigateur non reconnu
+2025-05-26 11:30:09,PROXY,user.chaimae,POST,http://192.168.100.5/api/v1/token,IP:10.10.12.57,Accès refusé - domaine blacklisté
+2025-05-26 11:31:44,PROXY,user.latifa,GET,https://github.com/um6p/internship2025,IP:10.10.12.85,Bloqué par firewall
+2025-05-26 11:32:09,PROXY,user.fatima,POST,http://server01.um6p.ma:443/dashboard,IP:10.10.12.10,Signature de malware détectée
+2025-05-26 11:33:09,PROXY,user.oumaima,GET,https://webmail.um6p.ma/login,IP:10.10.12.19,Lien contenu dans email suspect
+2025-05-26 11:34:21,PROXY,user.malek.t,POST,http://fw-log.um6p.ma/download,IP:10.10.12.91,Navigation anormale détectée
+2025-05-26 11:35:38,PROXY,user.ahlam.b,POST,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.90,Tentative d'accès au panneau d'administration
+2025-05-26 11:36:06,PROXY,user.majda,POST,https://profile.um6p.ma/edit,IP:10.10.12.78,Navigation anormale détectée
+2025-05-26 11:37:51,PROXY,user.ahlam,GET,http://portal.um6p.ma/grades,IP:10.10.12.39,Demande de ressource interne depuis IP externe
+2025-05-26 11:38:06,PROXY,user.ayman,GET,https://monitoring.um6p.ma/grafana,IP:10.10.12.37,Bloqué\, domaine inconnu
+2025-05-26 11:39:02,PROXY,user.rachida,GET,http://smtp.um6p.ma/outbound,IP:10.10.12.55,Réponse 403 reçue
+2025-05-26 11:40:52,PROXY,user.aya,POST,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.27,Page classée comme site de crypto-mining
+2025-05-26 11:41:55,PROXY,user.hicham,POST,https://vpn.um6p.ma/portal,IP:10.10.12.9,URL classée dans catégorie interdite
+2025-05-26 11:42:56,PROXY,user.aminata,GET,http://10.0.1.45/api/info,IP:10.10.12.71,Navigateur en mode incognito détecté
+2025-05-26 11:43:08,PROXY,user.rachid,POST,http://login.um6p.ma/login.php,IP:10.10.12.20,Connexion à un serveur inconnu
+2025-05-26 11:44:16,PROXY,user.farid,GET,http://spoofed-mail.com/open,IP:10.10.12.43,Connexion autorisée par règle spéciale FW
+2025-05-26 11:45:22,PROXY,user.soufiane.b,GET,http://user.um6p.ma/settings,IP:10.10.12.88,Nom de domaine reconnu comme malveillant
+2025-05-26 11:46:34,PROXY,user.khalil,GET,http://10.10.12.45/update,IP:10.10.12.95,Tentative d'accès externe non autorisé
+2025-05-26 11:47:57,PROXY,user.malek,GET,http://data.leak.org/um6p.db,IP:10.10.12.17,Exécution de script JS inconnu
+2025-05-26 11:48:03,PROXY,user.zakaria,GET,http://helpdesk.um6p.ma/reset-password,IP:10.10.12.23,Connexion rapide et répétée au même endpoint
+2025-05-26 11:49:20,PROXY,user.ghita,POST,http://backdoor.um6p.fake/path,IP:10.10.12.52,Connexion réseau interrompue
+2025-05-26 11:50:17,PROXY,user.samir,GET,http://phish-links.net/credentials,IP:10.10.12.61,Lien accédé plusieurs fois en quelques secondes
+2025-05-26 11:51:31,PROXY,user.amal,POST,https://webex.um6p.ma/room123,IP:10.10.12.12,Trafic normal
+2025-05-26 11:52:41,PROXY,user.oumaima,POST,https://secure.um6p.ma/bank/payroll,IP:10.10.12.19,Tentative de transfert de données sensibles
+2025-05-26 11:53:07,PROXY,user.ahlam.b,GET,http://intranet.um6p.ma/home,IP:10.10.12.90,Tentative de transfert de données sensibles
+2025-05-26 11:54:22,PROXY,user.zineb.k,POST,http://backdoor.um6p.fake/path,IP:10.10.12.79,Utilisation de port non standard détectée
+2025-05-26 11:55:42,PROXY,user.nassim,GET,http://smtp.um6p.ma/outbound,IP:10.10.12.4,Trafic de type bot détecté
+2025-05-26 11:56:25,PROXY,user.aya,POST,http://fw-log.um6p.ma/download,IP:10.10.12.27,Téléchargement de script bloqué
+2025-05-26 11:57:07,PROXY,user.soumaya,GET,http://um6p.lan/security/patch,IP:10.10.12.82,Téléchargement de script bloqué
+2025-05-26 11:58:16,PROXY,user.lina,GET,http://updates.um6p.ma/windows/patch1,IP:10.10.12.48,Connexion vers API externe non reconnue
+2025-05-26 11:59:19,PROXY,user.khalid,GET,http://proxy.um6p.ma/logs,IP:10.10.12.26,URL contenue dans courriel suspect
+2025-05-26 12:00:23,PROXY,user.najat,POST,http://notepad.download.com/plugin.exe,IP:10.10.12.83,Exfiltration de données possible
+2025-05-26 12:01:33,PROXY,user.rania.m,POST,http://intranet.um6p.ma/home,IP:10.10.12.68,Accès détecté en dehors des heures ouvrables
+2025-05-26 12:02:23,PROXY,user.rachid.k,GET,http://phishing-expert.net/verify,IP:10.10.12.92,Tentative de spoofing réseau
+2025-05-26 12:03:04,PROXY,user.ikram.n,POST,http://data.leak.org/um6p.db,IP:10.10.12.98,Trafic inhabituel détecté
+2025-05-26 12:04:03,PROXY,user.aminata,POST,http://updates.um6p.ma/windows/patch1,IP:10.10.12.71,Téléchargement autorisé depuis dépôt officiel
+2025-05-26 12:05:53,PROXY,user.ayman.e,GET,http://server01.um6p.ma:443/dashboard,IP:10.10.12.62,Tentative de bypass sécurité AD
+2025-05-26 12:06:06,PROXY,user.najlae,POST,https://docs.um6p.ma/security/guide.pdf,IP:10.10.12.59,Lien contenu dans email suspect
+2025-05-26 12:07:45,PROXY,user.salma,POST,http://um6p.lan/security/patch,IP:10.10.12.7,Signature de phishing connue détectée
+2025-05-26 12:08:33,PROXY,user.amal,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.12,Tentative d'accès externe non autorisé
+2025-05-26 12:09:20,PROXY,user.yasmine,GET,http://10.10.14.22:8081/admin/config,IP:10.10.12.64,Proxy chain détecté
+2025-05-26 12:10:50,PROXY,user.houda.k,POST,https://redirect.um6p.ma/page,IP:10.10.12.94,Requête HTTP avec header modifié
+2025-05-26 12:11:04,PROXY,user.mounir,GET,http://vpn-service.um6p.ma/login,IP:10.10.12.80,Connexion sans User-Agent détectée
+2025-05-26 12:12:14,PROXY,user.ikram.n,GET,http://gitlab.um6p.ma/projectX/commit,IP:10.10.12.98,Nom de domaine reconnu comme malveillant
+2025-05-26 12:13:34,PROXY,user.khadija,POST,http://phish-zone.com/intranet,IP:10.10.12.33,Lien accédé plusieurs fois en quelques secondes
+2025-05-26 12:14:24,PROXY,user.abir,GET,https://docs.um6p.ma/security/guide.pdf,IP:10.10.12.49,Connexion vers API externe non reconnue
+2025-05-26 12:15:11,PROXY,user.latifa,POST,http://phishing-expert.net/verify,IP:10.10.12.85,Connexion bloquée - comportement anormal
+2025-05-26 12:16:29,PROXY,user.jawad,POST,https://downloadcenter.um6p.ma/tools,IP:10.10.12.28,Utilisateur désactivé a tenté de se connecter
+2025-05-26 12:17:17,PROXY,user.rachid.k,GET,http://data-internal.um6p.ma/secure/,IP:10.10.12.92,Navigateur en mode incognito détecté
+2025-05-26 12:18:55,PROXY,user.rachida,POST,http://um6p.edu.ma/docs/rules,IP:10.10.12.55,Connexion bloquée - comportement anormal
+2025-05-26 12:19:01,PROXY,user.najat,POST,https://webmail.um6p.ma/login,IP:10.10.12.83,Tentative de spoofing réseau
+2025-05-26 12:20:07,PROXY,user.jawad,GET,http://fw-log.um6p.ma/download,IP:10.10.12.28,Requête redondante sur même endpoint
+2025-05-26 12:21:02,PROXY,user.fouad,GET,http://lab.um6p.ma/experiments,IP:10.10.12.65,Utilisation de port non standard détectée
+2025-05-26 12:22:38,PROXY,user.malek,GET,http://10.10.12.45/login.html,IP:10.10.12.17,Connexion autorisée par règle spéciale FW
+2025-05-26 12:23:26,PROXY,user.aminata,POST,http://internal.dev.um6p.ma/debug,IP:10.10.12.71,Tentative de contournement du proxy
+2025-05-26 12:24:50,PROXY,user.mounir,POST,http://fake-ad-login.com/portal,IP:10.10.12.80,Connexion à un serveur inconnu
+2025-05-26 12:25:10,PROXY,user.rania,POST,http://finance.um6p.ma/reports/q2,IP:10.10.12.2,Accès détecté en dehors des heures ouvrables
+2025-05-26 12:26:31,PROXY,user.saad,POST,https://library.um6p.ma/journals/latest,IP:10.10.12.11,Navigateur en mode incognito détecté
+2025-05-26 12:27:20,PROXY,user.houda.k,POST,http://10.0.0.1:8080/admin,IP:10.10.12.94,Domaine non blacklisté - accès autorisé
+2025-05-26 12:28:33,PROXY,user.hind,GET,http://internal.dev.um6p.ma/debug,IP:10.10.12.67,Changement d'adresse IP détecté
+2025-05-26 12:29:23,PROXY,user.majda,GET,http://internal-portal.um6p.ma/announcements,IP:10.10.12.78,Connexion sécurisée
+2025-05-26 12:30:31,PROXY,user.brahim,GET,http://data.leak.org/um6p.db,IP:10.10.12.84,URL contenue dans courriel suspect
+2025-05-26 12:31:29,PROXY,user.ikbel,GET,http://external-storage.com/download/manual.pdf,IP:10.10.12.38,Blocage automatique activé
+2025-05-26 12:32:42,PROXY,user.abdelhak,POST,http://login.um6p.ma/login.php,IP:10.10.12.86,Exécution de script JS inconnu
+2025-05-26 12:33:44,PROXY,user.ghita,GET,http://admin.um6p.ma/tools/logs,IP:10.10.12.52,Échec authentification AD
+2025-05-26 12:34:45,PROXY,user.samir,POST,http://backdoor.um6p.fake/path,IP:10.10.12.61,Requête sortante bloquée
+2025-05-26 12:35:28,PROXY,user.yassine,POST,http://db-admin.um6p.ma/phpmyadmin,IP:10.10.12.8,Accès autorisé - utilisateur validé
+2025-05-26 12:36:56,PROXY,user.hanae,GET,http://fake-um6p-login.org/confirm,IP:10.10.12.87,Trafic de type bot détecté
+2025-05-26 12:37:18,PROXY,user.lamia,POST,http://admanager.um6p.ma/permissions,IP:10.10.12.31,Échec de vérification d'identité
+2025-05-26 12:38:31,PROXY,user.houda,GET,https://vpn-access.um6p.ma/token,IP:10.10.12.24,URL contenue dans courriel suspect
+2025-05-26 12:39:54,PROXY,user.ikram.n,POST,https://api.um6p.ma/data/submit,IP:10.10.12.98,Contenu malveillant détecté par antivirus
+2025-05-26 12:40:03,PROXY,user.abdelhak,GET,http://10.10.12.45/login.html,IP:10.10.12.86,Proxy chain détecté
+2025-05-26 12:41:12,PROXY,user.abdelhak,POST,http://git.um6p.ma/commit/hash,IP:10.10.12.86,Lien contenu dans email suspect
+2025-05-26 12:42:32,PROXY,user.ines,GET,http://10.0.0.1:8080/admin,IP:10.10.12.16,Tentative de connexion brute force
+2025-05-26 12:43:56,PROXY,user.ikbel,GET,http://ext-malicious.net/redir,IP:10.10.12.38,Connexion simultanée depuis plusieurs pays
+2025-05-26 12:44:31,PROXY,user.abdellah,GET,https://hr.um6p.ma/leave/request,IP:10.10.12.69,Connexion rapide et répétée au même endpoint
+2025-05-26 12:45:57,PROXY,user.abir,GET,http://temp-mail.org/inbox,IP:10.10.12.49,Proxy chain détecté
+2025-05-26 12:46:40,PROXY,user.fouad,POST,http://10.10.12.45/login.html,IP:10.10.12.65,Utilisateur désactivé a tenté de se connecter
+2025-05-26 12:47:19,PROXY,user.majda,POST,http://unusual-traffic.com/redirect,IP:10.10.12.78,Bloqué\, domaine inconnu
+2025-05-26 12:48:50,PROXY,user.mohamed,POST,http://exfiltration.tor/data.zip,IP:10.10.12.15,Trafic de type bot détecté
+2025-05-26 12:49:53,PROXY,user.chaimae,GET,https://meeting.um6p.ma/conference?id=9321,IP:10.10.12.57,Connexion suspecte détectée
+2025-05-26 12:50:39,PROXY,user.ikbel,GET,http://lab.um6p.ma/experiments,IP:10.10.12.38,Connexion sécurisée
+2025-05-26 12:51:46,PROXY,user.saad,POST,http://phish-zone.com/intranet,IP:10.10.12.11,Domaine non blacklisté - accès autorisé
+2025-05-26 12:52:33,PROXY,user.ayman.e,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.62,Requête HTTP bloquée
+2025-05-26 12:53:16,PROXY,user.nour.e,GET,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.96,Suspicion d'activité automatisée
+2025-05-26 12:54:46,PROXY,user.mohamed,GET,http://10.10.14.22:8081/admin/config,IP:10.10.12.15,Connexion sécurisée
+2025-05-26 12:55:22,PROXY,user.aminata,GET,http://phishing-site.com/login,IP:10.10.12.71,Lien accédé plusieurs fois en quelques secondes
+2025-05-26 12:56:16,PROXY,user.najlae,GET,http://portal.um6p.ma/grades,IP:10.10.12.59,Signature de malware détectée
+2025-05-26 12:57:07,PROXY,user.mohamed,GET,http://exfiltration.tor/data.zip,IP:10.10.12.15,Tentative de bypass sécurité AD
+2025-05-26 12:58:47,PROXY,user.amine,GET,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.13,Flux interrompu par politique FW
+2025-05-26 12:59:41,PROXY,user.rachid.k,GET,http://lab.um6p.ma/experiments,IP:10.10.12.92,Requête vers domaine anonyme
+2025-05-26 13:00:37,PROXY,user.chaimae,POST,http://spoofed-mail.com/open,IP:10.10.12.57,Accès autorisé - utilisateur validé
+2025-05-26 13:01:23,PROXY,user.zineb.k,POST,http://um6p-ma-reporting.internal.net,IP:10.10.12.79,Navigation anormale détectée
+2025-05-26 13:02:04,PROXY,user.amal,POST,http://temp-mail.org/inbox,IP:10.10.12.12,Requête redondante sur même endpoint
+2025-05-26 13:03:55,PROXY,user.nourredine,POST,http://drive.um6p.ma/private/,IP:10.10.12.36,Tentative de connexion brute force
+2025-05-26 13:04:10,PROXY,user.amal,GET,http://malicious-scripts.net/mal.js,IP:10.10.12.12,Connexion validée via double authentification
+2025-05-26 13:05:13,PROXY,user.malek.t,POST,http://malicious-scripts.net/mal.js,IP:10.10.12.91,Accès administratif réussi
+2025-05-26 13:06:37,PROXY,user.amal,POST,http://um6p.edu.ma/docs/rules,IP:10.10.12.12,Analyse antivirus déclenchée
+2025-05-26 13:07:13,PROXY,user.soufiane.b,POST,https://api.um6p.ma/data/submit,IP:10.10.12.88,Blocage automatique activé
+2025-05-26 13:08:45,PROXY,user.hamza,GET,http://db-admin.um6p.ma/phpmyadmin,IP:10.10.12.30,Fichier exécutable détecté
+2025-05-26 13:09:09,PROXY,user.latifa,POST,http://10.0.0.1:8080/admin,IP:10.10.12.85,Trafic normal
+2025-05-26 13:10:44,PROXY,user.zineb,GET,http://internal-api.um6p.ma/v1,IP:10.10.12.41,Protocole non sécurisé utilisé
+2025-05-26 13:11:48,PROXY,user.ghita,GET,https://student.um6p.ma/courses,IP:10.10.12.52,Tentative de bypass sécurité AD
+2025-05-26 13:12:18,PROXY,user.rania,GET,http://test.internal.lan/dashboard,IP:10.10.12.2,Fichier téléchargé analysé\, pas de menace
+2025-05-26 13:13:49,PROXY,user.omar,GET,https://downloadcenter.um6p.ma/tools,IP:10.10.12.101,Connexion simultanée depuis plusieurs pays
+2025-05-26 13:14:59,PROXY,user.soufiane.b,GET,http://ext-malicious.net/redir,IP:10.10.12.88,Signature de malware détectée
+2025-05-26 13:15:58,PROXY,user.hind,POST,http://legacy-portal.um6p.ma,IP:10.10.12.67,Proxy chain détecté
+2025-05-26 13:16:05,PROXY,user.rachid,POST,http://ad.um6p.ma/sync,IP:10.10.12.20,Connexion à une base de données non sécurisée
+2025-05-26 13:17:10,PROXY,user.ines,GET,http://intranet.um6p.ma/home,IP:10.10.12.16,Tentative de connexion brute force
+2025-05-26 13:18:14,PROXY,user.zineb,GET,https://um6p.ma/resources/css/style.css,IP:10.10.12.41,Protocole non sécurisé utilisé
+2025-05-26 13:19:14,PROXY,user.latifa,GET,http://malicious-scripts.net/mal.js,IP:10.10.12.85,Contenu malveillant détecté par antivirus
+2025-05-26 13:20:50,PROXY,user.ines,GET,http://db-admin.um6p.ma/phpmyadmin,IP:10.10.12.16,Accès détecté en dehors des heures ouvrables
+2025-05-26 13:21:34,PROXY,user.amal,POST,http://ransomserver.tor/payload,IP:10.10.12.12,Accès refusé - domaine blacklisté
+2025-05-26 13:22:17,PROXY,user.yasmine,POST,http://ad.um6p.ma/sync,IP:10.10.12.64,Accès autorisé - utilisateur validé
+2025-05-26 13:23:08,PROXY,user.ridouane,GET,http://fake-ad-login.com/portal,IP:10.10.12.60,Connexion réseau interrompue
+2025-05-26 13:24:31,PROXY,user.abdelhak,GET,http://updates.um6p.ma/windows/patch1,IP:10.10.12.86,Protocole anormal utilisé pour POST
+2025-05-26 13:25:48,PROXY,user.hamza,GET,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.30,Navigation vers site de partage interdit
+2025-05-26 13:26:24,PROXY,user.lina,POST,http://exfiltration.tor/data.zip,IP:10.10.12.48,Connexion sans User-Agent détectée
+2025-05-26 13:27:14,PROXY,user.meriem.k,POST,https://api.um6p.ma/data/submit,IP:10.10.12.50,Exfiltration de données possible
+2025-05-26 13:28:39,PROXY,user.yasmine,POST,http://phishing-expert.net/verify,IP:10.10.12.64,Requête HTTP avec header modifié
+2025-05-26 13:29:01,PROXY,user.oumaima,GET,http://10.10.12.45/login.html,IP:10.10.12.19,Signature de phishing connue détectée
+2025-05-26 13:30:30,PROXY,user.soufiane,GET,http://updates.um6p.ma/windows/patch1,IP:10.10.12.58,Tentative d'accès externe non autorisé
+2025-05-26 13:31:43,PROXY,user.abir,GET,http://proxy.um6p.ma/logs,IP:10.10.12.49,Connexion bloquée - comportement anormal
+2025-05-26 13:32:13,PROXY,user.nour,GET,http://wiki.um6p.ma/howto/firewall,IP:10.10.12.29,Signature de malware détectée
+2025-05-26 13:33:26,PROXY,user.latifa,POST,https://vpn.um6p.ma/portal,IP:10.10.12.85,Utilisateur bloqué par politique réseau
+2025-05-26 13:34:23,PROXY,user.mounir,POST,http://suspicious-mirror.com/download.exe,IP:10.10.12.80,Accès légitime
+2025-05-26 13:35:14,PROXY,user.rania,POST,http://ceo-fake.company.org,IP:10.10.12.2,Requête sortante bloquée
+2025-05-26 13:36:52,PROXY,user.salma,GET,https://docs.um6p.ma/security/guide.pdf,IP:10.10.12.7,Accès refusé - domaine blacklisté
+2025-05-26 13:37:58,PROXY,user.nabil,POST,https://secure.um6p.ma/bank/payroll,IP:10.10.12.45,Protocole non sécurisé utilisé
+2025-05-26 13:38:23,PROXY,user.nour,POST,http://malware-download.com/file.exe,IP:10.10.12.29,Signaux de compromission détectés
+2025-05-26 13:39:54,PROXY,user.najat,POST,http://dl.um6p.ma/iso/latest,IP:10.10.12.83,Accès autorisé - utilisateur validé
+2025-05-26 13:40:15,PROXY,user.soumaya,GET,http://user.um6p.ma/settings,IP:10.10.12.82,Accès administratif réussi
+2025-05-26 13:41:15,PROXY,user.reda,POST,http://iot.um6p.ma/devices/status,IP:10.10.12.42,Succès authentification AD
+2025-05-26 13:42:43,PROXY,user.abdelhak,POST,https://secure.um6p.ma/bank/payroll,IP:10.10.12.86,Accès administratif réussi
+2025-05-26 13:43:18,PROXY,user.fouad,GET,http://192.168.100.5/api/v1/token,IP:10.10.12.65,Tentative de phishing détectée
+2025-05-26 13:44:49,PROXY,user.rachid.k,POST,http://vpn-service.um6p.ma/login,IP:10.10.12.92,Lien suspect partagé via messagerie interne
+2025-05-26 13:45:49,PROXY,user.ahmed,GET,https://github.com/um6p/internship2025,IP:10.10.12.76,Lien suspect partagé via messagerie interne
+2025-05-26 13:46:10,PROXY,user.karima,GET,https://hr.um6p.ma/leave/request,IP:10.10.12.73,Accès refusé - domaine blacklisté
+2025-05-26 13:47:28,PROXY,user.malek.t,POST,https://webmail.um6p.ma/login,IP:10.10.12.91,Requête HTTP avec header modifié
+2025-05-26 13:48:51,PROXY,user.adil,GET,http://temp-mail.org/inbox,IP:10.10.12.32,Page accédée via lien mail
+2025-05-26 13:49:38,PROXY,user.ikram,POST,http://internal-portal.um6p.ma/announcements,IP:10.10.12.3,Tentative de contournement du proxy
+2025-05-26 13:50:02,PROXY,user.karim,POST,https://api.um6p.ma/data/submit,IP:10.10.12.6,Tentative de phishing détectée
+2025-05-26 13:51:39,PROXY,user.nawal,POST,https://cloud.um6p.ma/storage/folder1,IP:10.10.12.22,Connexion sécurisée
+2025-05-26 13:52:22,PROXY,user.lina,GET,http://hackerbox.tor,IP:10.10.12.48,Connexion depuis IP Tor
+2025-05-26 13:53:14,PROXY,user.ahlam,GET,https://training.um6p.ma/videos/lecture1,IP:10.10.12.39,Requête GET excessive
+2025-05-26 13:54:40,PROXY,user.abdelmajid,POST,http://lab.um6p.ma/experiments,IP:10.10.12.93,Signaux de compromission détectés
+2025-05-26 13:55:13,PROXY,user.rania.b,GET,http://cache.um6p.ma/images/logo.png,IP:10.10.12.35,Contenu malveillant détecté par antivirus
+2025-05-26 13:56:52,PROXY,user.zakaria,GET,https://meeting.um6p.ma/conference?id=9321,IP:10.10.12.23,Lien suspect partagé via messagerie interne
+2025-05-26 13:57:35,PROXY,user.oumaima.m,POST,https://webex.um6p.ma/room123,IP:10.10.12.66,Connexion sécurisée
+2025-05-26 13:58:36,PROXY,user.aya,POST,http://fakevpn.um6p.net/connect,IP:10.10.12.27,Connexion réseau interrompue
+2025-05-26 13:59:41,PROXY,user.nourredine,GET,http://server01.um6p.ma:443/dashboard,IP:10.10.12.36,Réplication d’attaque précédemment identifiée
+2025-05-26 14:00:44,PROXY,user.younes,POST,http://internal-api.um6p.ma/v1,IP:10.10.12.51,Analyse antivirus déclenchée
+2025-05-26 14:01:38,PROXY,user.abdel,POST,http://legacy-portal.um6p.ma,IP:10.10.12.34,Utilisateur désactivé a tenté de se connecter
+2025-05-26 14:02:20,PROXY,user.hind,POST,https://webmail.um6p.ma/login,IP:10.10.12.67,Requête vers domaine anonyme
+2025-05-26 14:03:10,PROXY,user.aminata,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.71,Connexion depuis IP Tor
+2025-05-26 14:04:30,PROXY,user.younes,GET,http://10.10.14.22:8081/admin/config,IP:10.10.12.51,Session expirée - nouvelle tentative détectée
+2025-05-26 14:05:43,PROXY,user.brahim,POST,http://compromised-site.ru,IP:10.10.12.84,Connexion autorisée par règle spéciale FW
+2025-05-26 14:06:57,PROXY,user.ibtissam,POST,http://192.168.100.5/api/v1/token,IP:10.10.12.54,Suspicion d'activité automatisée
+2025-05-26 14:07:26,PROXY,user.abdelmajid,POST,http://auth.um6p.ma/2fa,IP:10.10.12.93,Connexion validée via double authentification
+2025-05-26 14:08:11,PROXY,user.khadija,POST,http://drive.um6p.ma/private/,IP:10.10.12.33,Changement d'adresse IP détecté
+2025-05-26 14:09:52,PROXY,user.zakaria,POST,http://um6p.edu.ma/docs/rules,IP:10.10.12.23,Échec de vérification d'identité
+2025-05-26 14:10:41,PROXY,user.ikram.n,GET,http://intranet.um6p.ma/home,IP:10.10.12.98,Requête suspecte vers CDN externe
+2025-05-26 14:11:00,PROXY,user.aya,GET,http://test.internal.lan/dashboard,IP:10.10.12.27,Connexion bloquée - comportement anormal
+2025-05-26 14:12:34,PROXY,user.najat,POST,https://secure-login.um6p.ma/verify,IP:10.10.12.83,Proxy chain détecté
+2025-05-26 14:13:17,PROXY,user.zakaria,GET,http://internal.dev.um6p.ma/debug,IP:10.10.12.23,Accès administratif réussi
+2025-05-26 14:14:07,PROXY,user.ghita,GET,http://gitlab.um6p.ma/projectX/commit,IP:10.10.12.52,Échec de vérification d'identité
+2025-05-26 14:15:13,PROXY,user.oumaima,POST,http://um6p.backup.local/restore,IP:10.10.12.19,Connexion autorisée\, surveillance active
+2025-05-26 14:16:57,PROXY,user.houda.k,POST,http://intranet.um6p.ma/home,IP:10.10.12.94,Requête sortante bloquée
+2025-05-26 14:17:25,PROXY,user.chaimae,POST,http://drive.um6p.ma/private/,IP:10.10.12.57,Tentative de spoofing réseau
+2025-05-26 14:18:49,PROXY,user.khadija,POST,http://10.0.1.45/api/info,IP:10.10.12.33,Utilisation de port non standard détectée
+2025-05-26 14:19:19,PROXY,user.rania.m,GET,http://internal.dev.um6p.ma/debug,IP:10.10.12.68,Requête redondante sur même endpoint
+2025-05-26 14:20:16,PROXY,user.bouchra,GET,http://um6p-docs-support.com/login,IP:10.10.12.70,Connexion autorisée\, surveillance active
+2025-05-26 14:21:22,PROXY,user.jamal,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.72,URL incluse dans liste grise
+2025-05-26 14:22:25,PROXY,user.ayman,POST,http://mail.um6p.ma/webmail,IP:10.10.12.37,Connexion vers URL inconnue
+2025-05-26 14:23:28,PROXY,user.malek.b,GET,http://external-storage.com/download/manual.pdf,IP:10.10.12.44,Fichier téléchargé analysé\, pas de menace
+2025-05-26 14:24:54,PROXY,user.aya,GET,https://hr.um6p.ma/leave/request,IP:10.10.12.27,Connexion bloquée - comportement anormal
+2025-05-26 14:25:24,PROXY,user.meriem,GET,http://dropbox.fake-um6p.com/share,IP:10.10.12.5,Succès authentification AD
+2025-05-26 14:26:48,PROXY,user.farah,POST,https://redirect.um6p.ma/page,IP:10.10.12.46,Succès authentification AD
+2025-05-26 14:27:41,PROXY,user.hanae,POST,https://secure-login.um6p.ma/verify,IP:10.10.12.87,Connexion sans User-Agent détectée
+2025-05-26 14:28:08,PROXY,user.khalid,GET,http://db-admin.um6p.ma/phpmyadmin,IP:10.10.12.26,Accès légitime
+2025-05-26 14:29:44,PROXY,user.lamia,GET,http://external-storage.com/download/manual.pdf,IP:10.10.12.31,Connexion via VPN interne
+2025-05-26 14:30:55,PROXY,user.ikbel,GET,https://webex.um6p.ma/room123,IP:10.10.12.38,Activité suspecte sur poste utilisateur
+2025-05-26 14:31:36,PROXY,user.abir,GET,http://backdoor.um6p.fake/path,IP:10.10.12.49,Tentative de connexion brute force
+2025-05-26 14:32:41,PROXY,user.lamia,GET,http://test.internal.lan/dashboard,IP:10.10.12.31,Requête sortante bloquée
+2025-05-26 14:33:17,PROXY,user.khalida,GET,http://phish-zone.com/intranet,IP:10.10.12.99,Suspicion d'activité automatisée
+2025-05-26 14:34:19,PROXY,user.omar,POST,http://git.um6p.ma/commit/hash,IP:10.10.12.101,Connexion via VPN interne
+2025-05-26 14:35:33,PROXY,user.omar,POST,https://docs.um6p.ma/security/guide.pdf,IP:10.10.12.101,Accès détecté en dehors des heures ouvrables
+2025-05-26 14:36:12,PROXY,user.samir,GET,http://smtp.um6p.ma/outbound,IP:10.10.12.61,Téléchargement autorisé depuis dépôt officiel
+2025-05-26 14:37:39,PROXY,user.meryem,GET,http://unusual-traffic.com/redirect,IP:10.10.12.89,Accès autorisé - utilisateur validé
+2025-05-26 14:38:28,PROXY,user.rachid.k,GET,http://um6p.edu.ma/docs/rules,IP:10.10.12.92,Échec accès\, utilisateur inconnu
+2025-05-26 14:39:21,PROXY,user.khalid,GET,https://downloadcenter.um6p.ma/tools,IP:10.10.12.26,Navigateur en mode incognito détecté
+2025-05-26 14:40:34,PROXY,user.omar,GET,http://ad.um6p.ma/sync,IP:10.10.12.101,Utilisateur bloqué par politique réseau
+2025-05-26 14:41:30,PROXY,user.hind,POST,http://10.10.12.45/login.html,IP:10.10.12.67,Session suspecte identifiée
+2025-05-26 14:42:21,PROXY,user.houda,GET,http://10.10.12.45/login.html,IP:10.10.12.24,Connexion à un serveur inconnu
+2025-05-26 14:43:15,PROXY,user.ismail,POST,http://legacy-portal.um6p.ma,IP:10.10.12.56,Session expirée - nouvelle tentative détectée
+2025-05-26 14:44:12,PROXY,user.zakaria,POST,http://phish-zone.com/intranet,IP:10.10.12.23,Lien suspect partagé via messagerie interne
+2025-05-26 14:45:06,PROXY,user.ayman.e,POST,https://downloadcenter.um6p.ma/tools,IP:10.10.12.62,Réplication d’attaque précédemment identifiée
+2025-05-26 14:46:09,PROXY,user.nour.e,POST,https://downloadcenter.um6p.ma/tools,IP:10.10.12.96,Session expirée - nouvelle tentative détectée
+2025-05-26 14:47:14,PROXY,user.hanae,GET,http://intranet.um6p.ma/home,IP:10.10.12.87,Scan de port détecté
+2025-05-26 14:48:10,PROXY,user.houda.k,POST,http://malware-download.com/file.exe,IP:10.10.12.94,Domaine non blacklisté - accès autorisé
+2025-05-26 14:49:35,PROXY,user.rachid,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.20,Tentative d'accès externe non autorisé
+2025-05-26 14:50:14,PROXY,user.amine,GET,https://api.um6p.ma/data/submit,IP:10.10.12.13,Fichier téléchargé analysé\, pas de menace
+2025-05-26 14:51:06,PROXY,user.khadija,POST,http://unusual-traffic.com/redirect,IP:10.10.12.33,Signature de malware détectée
+2025-05-26 14:52:45,PROXY,user.houda,POST,http://finance.um6p.ma/reports/q2,IP:10.10.12.24,Lien accédé plusieurs fois en quelques secondes
+2025-05-26 14:53:20,PROXY,user.riad,POST,http://hackerbox.tor,IP:10.10.12.97,Analyse antivirus déclenchée
+2025-05-26 14:54:34,PROXY,user.reda,POST,http://finance.um6p.ma/reports/q2,IP:10.10.12.42,Téléchargement de fichier malveillant bloqué
+2025-05-26 14:55:28,PROXY,user.malek.b,POST,http://legacy-portal.um6p.ma,IP:10.10.12.44,Réplication d’attaque précédemment identifiée
+2025-05-26 14:56:29,PROXY,user.oumnia,GET,http://10.0.1.45/api/info,IP:10.10.12.63,Tentative d'accès externe non autorisé
+2025-05-26 14:57:46,PROXY,user.jamal,GET,http://unusual-traffic.com/redirect,IP:10.10.12.72,Exfiltration de données possible
+2025-05-26 14:58:56,PROXY,user.abdel,GET,http://malware-download.com/file.exe,IP:10.10.12.34,Exécution de script JS inconnu
+2025-05-26 14:59:01,PROXY,user.malek,POST,http://server01.um6p.ma:443/dashboard,IP:10.10.12.17,Suspicion d'activité automatisée
+2025-05-26 15:00:56,PROXY,user.yassine,GET,http://10.10.12.99/cgi-bin/test.cgi,IP:10.10.12.8,Connexion à un serveur inconnu
+2025-05-26 15:01:57,PROXY,user.imane,POST,http://fakevpn.um6p.net/connect,IP:10.10.12.81,Protocole anormal utilisé pour POST
+2025-05-26 15:02:23,PROXY,user.latifa,POST,http://ceo-fake.company.org,IP:10.10.12.85,Activité suspecte sur poste utilisateur
+2025-05-26 15:03:26,PROXY,user.nour.e,GET,https://downloadcenter.um6p.ma/tools,IP:10.10.12.96,Requête suspecte vers CDN externe
+2025-05-26 15:04:43,PROXY,user.karima,POST,http://helpdesk.um6p.ma/reset-password,IP:10.10.12.73,Tentative de contournement du proxy
+2025-05-26 15:05:36,PROXY,user.jawad,GET,http://vpn.um6p.ma/logout,IP:10.10.12.28,Trafic de type bot détecté
+2025-05-26 15:06:44,PROXY,user.aminata,GET,http://malicious-scripts.net/mal.js,IP:10.10.12.71,Requête HTTP avec header modifié
+2025-05-26 15:07:45,PROXY,user.majda,POST,http://portal.um6p.ma/grades,IP:10.10.12.78,Navigation vers site de partage interdit
+2025-05-26 15:08:21,PROXY,user.bouchra,GET,https://student.um6p.ma/submit,IP:10.10.12.70,Proxy chain détecté
+2025-05-26 15:09:54,PROXY,user.ines,POST,http://finance.um6p.ma/reports/q2,IP:10.10.12.16,Requête HTTP bloquée
+2025-05-26 15:10:08,PROXY,user.yassine,GET,http://um6p.ma/it/helpdesk,IP:10.10.12.8,Requête HTTP avec header modifié
+2025-05-26 15:11:35,PROXY,user.hamza,GET,http://internal.dev.um6p.ma/debug,IP:10.10.12.30,Connexion manuelle confirmée
+2025-05-26 15:12:38,PROXY,user.malek.b,GET,http://temp-mail.org/inbox,IP:10.10.12.44,Accès autorisé - utilisateur validé
+2025-05-26 15:13:18,PROXY,user.khalida,POST,http://admanager.um6p.ma/permissions,IP:10.10.12.99,Signaux de compromission détectés
+2025-05-26 15:14:21,PROXY,user.aminata,POST,http://finance.um6p.ma/reports/q2,IP:10.10.12.71,Lien accédé plusieurs fois en quelques secondes
+2025-05-26 15:15:33,PROXY,user.fouad,GET,http://downloads.um6p.ma/drivers/gpu.exe,IP:10.10.12.65,Connexion vers URL inconnue
+2025-05-26 15:16:28,PROXY,user.oumnia,POST,http://spoofed-mail.com/open,IP:10.10.12.63,Connexion vers URL inconnue
+2025-05-26 15:17:44,PROXY,user.bouchra,GET,http://user.um6p.ma/settings,IP:10.10.12.70,Connexion sans User-Agent détectée
+2025-05-26 15:18:54,PROXY,user.oumnia,POST,http://cache.um6p.ma/images/logo.png,IP:10.10.12.63,Tentative de spoofing réseau
+2025-05-26 15:19:15,PROXY,user.hajar,GET,http://um6p-docs-support.com/login,IP:10.10.12.40,Upload de données détecté
+2025-05-26 15:20:03,PROXY,user.souad,POST,http://notepad.download.com/plugin.exe,IP:10.10.12.14,Activité suspecte sur poste utilisateur
+2025-05-26 15:21:51,PROXY,user.zineb,POST,http://phishing-expert.net/verify,IP:10.10.12.41,Signature de malware détectée
+2025-05-26 15:22:58,PROXY,user.soumaya,POST,http://temp-mail.org/inbox,IP:10.10.12.82,Utilisateur bloqué par politique réseau
+2025-05-26 15:23:26,PROXY,user.younes,GET,https://downloadcenter.um6p.ma/tools,IP:10.10.12.51,Authentification échouée\, mot de passe invalide
+2025-05-26 15:24:08,PROXY,user.soufiane.b,GET,https://api.um6p.ma/data/submit,IP:10.10.12.88,Connexion manuelle confirmée
+2025-05-26 15:25:03,PROXY,user.ayman,GET,http://temp-mail.org/inbox,IP:10.10.12.37,Utilisateur bloqué par politique réseau
+2025-05-26 15:26:45,PROXY,user.hind,POST,http://ext-malicious.net/redir,IP:10.10.12.67,Upload de données détecté
+2025-05-26 15:27:02,PROXY,user.nassim,POST,http://backdoor.um6p.fake/path,IP:10.10.12.4,Trafic inhabituel détecté
+2025-05-26 15:28:51,PROXY,user.ahlam.b,POST,http://internal.dev.um6p.ma/debug,IP:10.10.12.90,Connexion réseau interrompue
+2025-05-26 15:29:31,PROXY,user.tarik,GET,http://cache.um6p.ma/images/logo.png,IP:10.10.12.25,Navigateur non reconnu
+2025-05-26 15:30:55,PROXY,user.oumaima.m,POST,http://downloads.um6p.ma/drivers/gpu.exe,IP:10.10.12.66,Bloqué par firewall
+2025-05-26 15:31:36,PROXY,user.khalid,POST,http://internal-api.um6p.ma/v1,IP:10.10.12.26,Bloqué par firewall
+2025-05-26 15:32:12,PROXY,user.hicham,POST,http://phishing-site.com/login,IP:10.10.12.9,Fichier téléchargé analysé\, pas de menace
+2025-05-26 15:33:16,PROXY,user.ridouane,GET,http://vpn-service.um6p.ma/login,IP:10.10.12.60,Échec de vérification d'identité
+2025-05-26 15:34:33,PROXY,user.aya,POST,http://lab.um6p.ma/experiments,IP:10.10.12.27,Suspicion d'activité automatisée
+2025-05-26 15:35:47,PROXY,user.hajar,POST,https://secure-login.um6p.ma/verify,IP:10.10.12.40,Connexion VPN rejetée
+2025-05-26 15:36:58,PROXY,user.khalid,POST,http://legacy-portal.um6p.ma,IP:10.10.12.26,Page accédée via lien mail
+2025-05-26 15:37:14,PROXY,user.fouad,GET,http://drive-by-download.org/index.html,IP:10.10.12.65,Navigation vers site de partage interdit
+2025-05-26 15:38:03,PROXY,user.ayman,POST,http://hackerbox.tor,IP:10.10.12.37,Succès authentification AD
+2025-05-26 15:39:40,PROXY,user.ahmed,GET,https://webex.um6p.ma/room123,IP:10.10.12.76,Domaine récemment enregistré
+2025-05-26 15:40:19,PROXY,user.tarik,GET,https://training.um6p.ma/videos/lecture1,IP:10.10.12.25,Téléchargement de fichier malveillant bloqué
+2025-05-26 15:41:34,PROXY,user.yasmine,POST,http://um6p.lan/security/patch,IP:10.10.12.64,Échec de vérification d'identité
+2025-05-26 15:42:39,PROXY,user.tarik,GET,http://lab.um6p.ma/experiments,IP:10.10.12.25,Bloqué\, domaine inconnu
+2025-05-26 15:43:59,PROXY,user.soufiane,GET,http://db-admin.um6p.ma/phpmyadmin,IP:10.10.12.58,Signature de malware détectée
+2025-05-26 15:44:44,PROXY,user.latifa,GET,http://drive-by-download.org/index.html,IP:10.10.12.85,Suspicion d'activité automatisée
+2025-05-26 15:45:46,PROXY,user.ibtissam,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.54,Connexion à un serveur inconnu
+2025-05-26 15:46:50,PROXY,user.ismail,POST,http://ext-malicious.net/redir,IP:10.10.12.56,Requête redondante sur même endpoint
+2025-05-26 15:47:17,PROXY,user.souad,POST,http://helpdesk.um6p.ma/reset-password,IP:10.10.12.14,Connexion sans User-Agent détectée
+2025-05-26 15:48:21,PROXY,user.mounir,POST,https://training.um6p.ma/videos/lecture1,IP:10.10.12.80,Bloqué\, domaine inconnu
+2025-05-26 15:49:17,PROXY,user.ibtissam,GET,http://user.um6p.ma/settings,IP:10.10.12.54,Requête redondante sur même endpoint
+2025-05-26 15:50:18,PROXY,user.fouad,POST,https://cloud.um6p.ma/storage/folder1,IP:10.10.12.65,Connexion sans User-Agent détectée
+2025-05-26 15:51:57,PROXY,user.farah,GET,http://hackerbox.tor,IP:10.10.12.46,Tentative de transfert de données sensibles
+2025-05-26 15:52:45,PROXY,user.najat,GET,http://fw-log.um6p.ma/download,IP:10.10.12.83,Tentative de bypass sécurité AD
+2025-05-26 15:53:29,PROXY,user.aya,POST,http://um6p-docs-support.com/login,IP:10.10.12.27,Session expirée - nouvelle tentative détectée
+2025-05-26 15:54:04,PROXY,user.mohamed,GET,http://cdn.um6p.ma/js/app.js,IP:10.10.12.15,Navigateur en mode incognito détecté
+2025-05-26 15:55:50,PROXY,user.riad,POST,http://ext-malicious.net/redir,IP:10.10.12.97,Analyse antivirus déclenchée
+2025-05-26 15:56:14,PROXY,user.soufiane.b,POST,http://fake-um6p-login.org/confirm,IP:10.10.12.88,Connexion autorisée\, surveillance active
+2025-05-26 15:57:45,PROXY,user.zahra,GET,http://backdoor.um6p.fake/path,IP:10.10.12.75,Lien suspect partagé via messagerie interne
+2025-05-26 15:58:22,PROXY,user.rania.m,POST,http://phishing-site.com/login,IP:10.10.12.68,Exfiltration de données possible
+2025-05-26 15:59:34,PROXY,user.riad,POST,http://vpn.um6p.ma/logout,IP:10.10.12.97,Réplication d’attaque précédemment identifiée
+2025-05-26 16:00:34,PROXY,user.brahim,GET,http://vpn.um6p.ma/logout,IP:10.10.12.84,Connexion à une base de données non sécurisée
+2025-05-26 16:01:17,PROXY,user.nourredine,GET,http://10.0.1.45/api/info,IP:10.10.12.36,Authentification échouée\, mot de passe invalide
+2025-05-26 16:02:23,PROXY,user.oumaima.m,GET,http://vpn.um6p.ma/logout,IP:10.10.12.66,Tentative d'accès externe non autorisé
+2025-05-26 16:03:45,PROXY,user.younes,POST,http://dl.um6p.ma/iso/latest,IP:10.10.12.51,Navigation vers site de partage interdit
+2025-05-26 16:04:35,PROXY,user.fouad,POST,http://malware-download.com/file.exe,IP:10.10.12.65,URL incluse dans liste grise
+2025-05-26 16:05:51,PROXY,user.soufiane,GET,http://10.10.10.10:9000/devops,IP:10.10.12.58,Connexion réseau interrompue
+2025-05-26 16:06:43,PROXY,user.sara,GET,http://fake-ad-login.com/portal,IP:10.10.12.18,Connexion depuis IP Tor
+2025-05-26 16:07:50,PROXY,user.abdellah,POST,http://10.10.12.45/login.html,IP:10.10.12.69,Page classée comme site de crypto-mining
+2025-05-26 16:08:44,PROXY,user.aminata,POST,https://student.um6p.ma/courses,IP:10.10.12.71,Demande de ressource interne depuis IP externe
+2025-05-26 16:09:14,PROXY,user.meriem,GET,https://library.um6p.ma/journals/latest,IP:10.10.12.5,Contenu malveillant détecté par antivirus
+2025-05-26 16:10:49,PROXY,user.yasmine,POST,http://ceo-fake.company.org,IP:10.10.12.64,Lien contenu dans email suspect
+2025-05-26 16:11:25,PROXY,user.majda,GET,https://cloud.um6p.ma/storage/folder1,IP:10.10.12.78,Échec accès\, utilisateur inconnu
+2025-05-26 16:12:37,PROXY,user.soufiane,GET,http://dropbox.fake-um6p.com/share,IP:10.10.12.58,Navigation anormale détectée
+2025-05-26 16:13:29,PROXY,user.ismail,GET,http://unknown-site.com,IP:10.10.12.56,Requête HTTP avec header modifié
+2025-05-26 16:14:09,PROXY,user.rachid,POST,http://fw-log.um6p.ma/download,IP:10.10.12.20,Accès détecté en dehors des heures ouvrables
+2025-05-26 16:15:37,PROXY,user.oumaima,POST,http://ad.um6p.ma/sync,IP:10.10.12.19,Bloqué par firewall
+2025-05-26 16:16:22,PROXY,user.karima,POST,http://admin.um6p.ma/tools/logs,IP:10.10.12.73,Analyse antivirus déclenchée
+2025-05-26 16:17:05,PROXY,user.adil,POST,http://fw-log.um6p.ma/download,IP:10.10.12.32,Protocole anormal utilisé pour POST
+2025-05-26 16:18:21,PROXY,user.abdelmajid,POST,http://fake-ad-login.com/portal,IP:10.10.12.93,Navigation vers site de partage interdit
+2025-05-26 16:19:42,PROXY,user.rania.b,GET,http://admin.um6p.ma/tools/logs,IP:10.10.12.35,Blocage automatique activé
+2025-05-26 16:20:44,PROXY,user.malek.b,POST,http://portal.um6p.ma/grades,IP:10.10.12.44,Succès authentification AD
+2025-05-26 16:21:24,PROXY,user.reda,POST,http://ext-malicious.net/redir,IP:10.10.12.42,Tentative d'accès externe non autorisé
+2025-05-26 16:22:55,PROXY,user.sara,GET,http://notepad.download.com/plugin.exe,IP:10.10.12.18,Requête HTTP avec header modifié
+2025-05-26 16:23:06,PROXY,user.abdelmajid,GET,http://downloads.um6p.ma/drivers/gpu.exe,IP:10.10.12.93,Connexion sécurisée
+2025-05-26 16:24:50,PROXY,user.meriem,POST,http://internal-portal.um6p.ma/announcements,IP:10.10.12.5,Protocole non sécurisé utilisé
+2025-05-26 16:25:19,PROXY,user.ikram.n,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.98,Navigation anormale détectée
+2025-05-26 16:26:46,PROXY,user.farah,GET,http://dl.um6p.ma/iso/latest,IP:10.10.12.46,Changement d'adresse IP détecté
+2025-05-26 16:27:51,PROXY,user.nassim,POST,http://unknown-site.com,IP:10.10.12.4,Connexion vers URL inconnue
+2025-05-26 16:28:47,PROXY,user.rania.m,GET,http://internal-api.um6p.ma/v1,IP:10.10.12.68,Scan de port détecté
+2025-05-26 16:29:04,PROXY,user.abdelmajid,GET,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.93,Signaux de compromission détectés
+2025-05-26 16:30:09,PROXY,user.oumaima,POST,http://server01.um6p.ma:443/dashboard,IP:10.10.12.19,Connexion vers API externe non reconnue
+2025-05-26 16:31:55,PROXY,user.ikram.n,POST,http://drive-by-download.org/index.html,IP:10.10.12.98,Activité suspecte sur poste utilisateur
+2025-05-26 16:32:41,PROXY,user.adil,GET,http://temp-mail.org/inbox,IP:10.10.12.32,Accès légitime
+2025-05-26 16:33:10,PROXY,user.hamza,POST,http://phish-links.net/credentials,IP:10.10.12.30,Connexion simultanée depuis plusieurs pays
+2025-05-26 16:34:48,PROXY,user.zineb.k,POST,http://um6p.edu.ma/docs/rules,IP:10.10.12.79,Connexion simultanée depuis plusieurs pays
+2025-05-26 16:35:59,PROXY,user.zahra,POST,http://exfiltration.tor/data.zip,IP:10.10.12.75,Navigateur en mode incognito détecté
+2025-05-26 16:36:48,PROXY,user.omar,POST,http://proxy.um6p.ma/logs,IP:10.10.12.101,Requête GET excessive
+2025-05-26 16:37:10,PROXY,user.khadija,GET,http://iot.um6p.ma/devices/status,IP:10.10.12.33,Upload de données détecté
+2025-05-26 16:38:34,PROXY,user.ayman,GET,https://api.um6p.ma/data/submit,IP:10.10.12.37,Succès authentification AD
+2025-05-26 16:39:29,PROXY,user.soufiane.b,GET,http://malware-download.com/file.exe,IP:10.10.12.88,Échec accès\, utilisateur inconnu
+2025-05-26 16:40:16,PROXY,user.soufiane,GET,https://secure.um6p.ma/bank/payroll,IP:10.10.12.58,Requête HTTP non conforme
+2025-05-26 16:41:47,PROXY,user.hicham,GET,http://10.10.12.99/cgi-bin/test.cgi,IP:10.10.12.9,Requête POST vers site non autorisé
+2025-05-26 16:42:41,PROXY,user.soufiane,GET,http://compromised-site.ru,IP:10.10.12.58,Lien contenu dans email suspect
+2025-05-26 16:43:49,PROXY,user.ines,POST,http://um6p-docs-support.com/login,IP:10.10.12.16,Requête redondante sur même endpoint
+2025-05-26 16:44:18,PROXY,user.brahim,GET,http://login.um6p.ma/login.php,IP:10.10.12.84,Domaine inconnu détecté
+2025-05-26 16:45:53,PROXY,user.sara,GET,http://social-engineering.org/um6p_login,IP:10.10.12.18,Navigateur non reconnu
+2025-05-26 16:46:52,PROXY,user.lamia,GET,http://mail.um6p.ma/webmail,IP:10.10.12.31,Tentative de connexion brute force
+2025-05-26 16:47:36,PROXY,user.taha,GET,http://social-engineering.org/um6p_login,IP:10.10.12.47,URL contenant chaîne suspecte
+2025-05-26 16:48:24,PROXY,user.ikbel,POST,http://internal.dev.um6p.ma/debug,IP:10.10.12.38,Signaux de compromission détectés
+2025-05-26 16:49:27,PROXY,user.rachid.k,POST,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.92,Proxy chain détecté
+2025-05-26 16:50:18,PROXY,user.majda,GET,http://downloads.um6p.ma/drivers/gpu.exe,IP:10.10.12.78,Domaine récemment enregistré
+2025-05-26 16:51:07,PROXY,user.rania.m,POST,http://10.10.12.45/login.html,IP:10.10.12.68,Protocole anormal utilisé pour POST
+2025-05-26 16:52:52,PROXY,user.sara,GET,https://api.um6p.ma/data/submit,IP:10.10.12.18,Réponse 403 reçue
+2025-05-26 16:53:33,PROXY,user.abdelhak,GET,https://api-gateway.um6p.ma/v2/access,IP:10.10.12.86,Accès autorisé - utilisateur validé
+2025-05-26 16:54:31,PROXY,user.latifa,GET,http://um6p.ma/it/helpdesk,IP:10.10.12.85,Téléchargement de fichier malveillant bloqué
+2025-05-26 16:55:28,PROXY,user.taha,GET,http://notepad.download.com/plugin.exe,IP:10.10.12.47,Suspicion d'activité automatisée
+2025-05-26 16:56:23,PROXY,user.meriem.k,POST,http://mail.um6p.ma/webmail,IP:10.10.12.50,Connexion depuis IP Tor
+2025-05-26 16:57:42,PROXY,user.hanae,POST,https://secure-login.um6p.ma/verify,IP:10.10.12.87,Protocole non sécurisé utilisé
+2025-05-26 16:58:35,PROXY,user.rania.m,GET,http://helpdesk.um6p.ma/reset-password,IP:10.10.12.68,Réponse 403 reçue
+2025-05-26 16:59:05,PROXY,user.nour,GET,http://gitlab.um6p.ma/projectX/commit,IP:10.10.12.29,Lien suspect partagé via messagerie interne
+2025-05-26 17:00:50,PROXY,user.farah,POST,http://exfiltration.tor/data.zip,IP:10.10.12.46,URL classée dans catégorie interdite
+2025-05-26 17:01:46,PROXY,user.malek.r,POST,http://iot.um6p.ma/devices/status,IP:10.10.12.100,Signature de malware détectée
+2025-05-26 17:02:24,PROXY,user.souad,GET,http://malicious-domain.ru/steal.php,IP:10.10.12.14,Requête HTTP non conforme
+2025-05-26 17:03:45,PROXY,user.malek.r,POST,http://ext-malicious.net/redir,IP:10.10.12.100,Proxy chain détecté
+2025-05-26 17:04:26,PROXY,user.mohamed,GET,http://smtp.um6p.ma/outbound,IP:10.10.12.15,Lien contenu dans email suspect
+2025-05-26 17:05:44,PROXY,user.fouad,POST,https://um6p.ma/resources/css/style.css,IP:10.10.12.65,Connexion validée via double authentification
+2025-05-26 17:06:52,PROXY,user.khalil,POST,http://192.168.100.5/api/v1/token,IP:10.10.12.95,Connexion bloquée - comportement anormal
+2025-05-26 17:07:38,PROXY,user.samir.b,GET,http://spoofed-mail.com/open,IP:10.10.12.77,Fichier exécutable détecté
+2025-05-26 17:08:52,PROXY,user.soufiane.b,POST,http://proxy.um6p.ma/logs,IP:10.10.12.88,Connexion sécurisée
+2025-05-26 17:09:56,PROXY,user.samir,GET,http://compromised-site.ru,IP:10.10.12.61,Requête redondante sur même endpoint
+2025-05-26 17:10:38,PROXY,user.abdellah,GET,http://unusual-traffic.com/redirect,IP:10.10.12.69,Tentative de phishing détectée
+2025-05-26 17:11:29,PROXY,user.houda,GET,http://um6p-docs-support.com/login,IP:10.10.12.24,Navigation vers site de partage interdit
+2025-05-26 17:12:41,PROXY,user.mohamed,POST,http://legacy-portal.um6p.ma,IP:10.10.12.15,Bloqué\, domaine inconnu
+2025-05-26 17:13:05,PROXY,user.tarik,POST,http://social-engineering.org/um6p_login,IP:10.10.12.25,Connexion simultanée depuis plusieurs pays
+2025-05-26 17:14:07,PROXY,user.reda,GET,http://phishing-site.com/login,IP:10.10.12.42,Lien suspect partagé via messagerie interne
+2025-05-26 17:15:14,PROXY,user.latifa,GET,http://ext-malicious.net/redir,IP:10.10.12.85,Requête vers domaine anonyme
+2025-05-26 17:16:15,PROXY,user.oumaima,POST,http://phishing-site.com/login,IP:10.10.12.19,Lien suspect partagé via messagerie interne
+2025-05-26 17:17:25,PROXY,user.salma,GET,https://downloadcenter.um6p.ma/tools,IP:10.10.12.7,Requête HTTP bloquée
+2025-05-26 17:18:20,PROXY,user.amine,GET,http://admin.um6p.ma/tools/logs,IP:10.10.12.13,Redirection vers site de phishing
+2025-05-26 17:19:44,PROXY,user.najlae,GET,http://fake-um6p-login.org/confirm,IP:10.10.12.59,Domaine non blacklisté - accès autorisé
+2025-05-26 17:20:30,PROXY,user.yasmine,GET,http://malware-download.com/file.exe,IP:10.10.12.64,Accès autorisé - utilisateur validé
+2025-05-26 17:21:40,PROXY,user.reda,GET,http://10.10.12.45/login.html,IP:10.10.12.42,Exécution de script JS inconnu
+2025-05-26 17:22:06,PROXY,user.tarik,POST,http://smtp.um6p.ma/outbound,IP:10.10.12.25,Contenu malveillant détecté par antivirus

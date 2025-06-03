@@ -1,0 +1,500 @@
+[SIEM] [2025-05-26T09:00:00Z] Source=SIEM Alert=AccessRequest DetectedOn=PC-Thamer Severity=High
+[SIEM] [2025-05-26T09:00:25Z] Source=ActiveDirectory Alert=DNSRequest DetectedOn=PC-Samira Severity=High
+[SIEM] [2025-05-26T09:01:40Z] Source=ActiveDirectory User=nidaa.farouk Event=Login Result=Success Device=PC-Lina
+[SIEM] [2025-05-26T09:02:51Z] Source=ActiveDirectory Alert=Mitigation DetectedOn=PC-Zaina Severity=High
+[SIEM] [2025-05-26T09:02:16Z] Source=UserPC Action=Quarantined dstIP=144.76.62.128 dstPort=219 Signature="Known Threat"
+[SIEM] [2025-05-26T09:04:30Z] Source=Router Alert=ThreatScore DetectedOn=PC-Dania Severity=High
+[SIEM] [2025-05-26T09:04:48Z] Source=UserPC Action=Detected dstIP=144.76.57.161 dstPort=80 Signature="Known Threat"
+[SIEM] [2025-05-26T09:02:34Z] Source=Firewall Event=URLAccess process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:06:16Z] Source=IAM Action=Detected dstIP=144.76.22.97 dstPort=165 Signature="Known Threat"
+[SIEM] [2025-05-26T09:03:00Z] Source=AD Correlation=ChainDetected + AccessRequest User=samira.karim Score=8.61
+[SIEM] [2025-05-26T09:03:00Z] Source=Router Correlation=ChainDetected + BrowserAccess User=zainab.karim Score=9.66
+[SIEM] [2025-05-26T09:09:32Z] Source=Proxy User=ibraheem.shaar Event=Login Result=Success Device=PC-Layla
+[SIEM] [2025-05-26T09:05:36Z] Source=IAM Event=ThreatScore User=zohair.salim Host=PC-Nader File=presentation_securite_2025.pptx Action=Allowed Verdict=Blocked
+[SIEM] [2025-05-26T09:12:34Z] Source=MailServer Correlation=ChainDetected + AccessRequest User=khaled.nasser Score=9.3
+[SIEM] [2025-05-26T09:10:02Z] Source=UserPC Event=CorrelationLog process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:04:00Z] Source=Firewall Event=ThreatScore process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:09:36Z] Source=Proxy Correlation=ChainDetected + ProcessStart User=firas.mohamed Score=9.26
+[SIEM] [2025-05-26T09:11:20Z] Source=Router Event=FileCreated URL="http://dropbox-share-secure.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T09:18:00Z] Source=ActiveDirectory User=fatima.alami Event=Login Result=Success Device=PC-Ahmed
+[SIEM] [2025-05-26T09:12:02Z] Source=EDR Event=DNSRequest process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:05:40Z] Source=Proxy Action=Blocked dstIP=144.76.32.210 dstPort=292 Signature="Known Threat"
+[SIEM] [2025-05-26T09:10:51Z] Source=MailServer Event=URLAccess URL="http://corp-login-verify.org" Verdict=Blocked
+[SIEM] [2025-05-26T09:06:14Z] Source=ActiveDirectory Event=DNSRequest process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:04:36Z] Source=Proxy Action=Quarantined dstIP=144.76.48.104 dstPort=61 Signature="Known Threat"
+[SIEM] [2025-05-26T09:14:24Z] Source=AD User=shaden.naqib Event=Login Result=Success Device=PC-Khalifa
+[SIEM] [2025-05-26T09:22:55Z] Source=SIEM Correlation=ChainDetected + CorrelationLog User=najwa.bassem Score=8.62
+[SIEM] [2025-05-26T09:10:24Z] Source=SIEM Event=LDAPBind URL="http://shadow-access-um6p.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T09:14:51Z] Source=SIEM Event=Login process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:11:40Z] Source=Router Correlation=ChainDetected + DNSRequest User=fadi.kassem Score=8.68
+[SIEM] [2025-05-26T09:21:45Z] Source=MailServer User=raed.khaled Event=Login Result=Success Device=PC-Ali
+[SIEM] [2025-05-26T09:26:30Z] Source=MailServer Event=ProcessStart User=wahid.farhan Host=PC-Mohamed File=users_db.csv Action=Allowed Verdict=Phishing_Link
+[SIEM] [2025-05-26T09:24:17Z] Source=UserPC Alert=Alert DetectedOn=PC-Farah Severity=High
+[SIEM] [2025-05-26T09:16:32Z] Source=SIEM Action=Blocked dstIP=144.76.35.61 dstPort=426 Signature="Known Threat"
+[SIEM] [2025-05-26T09:09:54Z] Source=SIEM Event=ScriptExecution User=mohanna.hadi Host=PC-Sabir File=fiche_rapport_incident.docx Action=Blocked Verdict=Suspicious
+[SIEM] [2025-05-26T09:30:02Z] Source=MailServer Alert=ScriptExecution DetectedOn=PC-Hala Severity=High
+[SIEM] [2025-05-26T09:07:00Z] Source=Proxy Correlation=ChainDetected + FileCreated User=noura.salem Score=7.5
+[SIEM] [2025-05-26T09:34:12Z] Source=IAM Event=AccessRequest process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:25:17Z] Source=MailServer Event=EmailRead URL="http://admin-um6p-reset.net" Verdict=Suspicious
+[SIEM] [2025-05-26T09:34:50Z] Source=MailServer User=zain.ghazal Event=Login Result=Success Device=PC-Jumana
+[SIEM] [2025-05-26T09:14:57Z] Source=MailServer Alert=URLAccess DetectedOn=PC-Bilal Severity=High
+[SIEM] [2025-05-26T09:24:40Z] Source=Router User=maysa.abdelrahman Event=Login Result=Success Device=PC-Nabil
+[SIEM] [2025-05-26T09:31:26Z] Source=IAM Event=EmailRead User=farouk.karim Host=PC-Hamza File=rapport_migration_systeme.pdf Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:26:36Z] Source=Firewall Correlation=ChainDetected + Alert User=younes.abdullah Score=9.52
+[SIEM] [2025-05-26T09:15:46Z] Source=Firewall Event=LDAPBind process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:38:08Z] Source=AD Event=ScriptExecution process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:20:15Z] Source=Firewall Action=Quarantined dstIP=144.76.68.248 dstPort=228 Signature="Known Threat"
+[SIEM] [2025-05-26T09:36:48Z] Source=UserPC Event=DNSRequest process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:43:52Z] Source=Firewall Alert=Mitigation DetectedOn=PC-Hamza Severity=High
+[SIEM] [2025-05-26T09:39:12Z] Source=Proxy Action=Detected dstIP=144.76.80.121 dstPort=60 Signature="Known Threat"
+[SIEM] [2025-05-26T09:29:24Z] Source=Firewall Event=CorrelationLog process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:29:10Z] Source=IAM Alert=ScriptExecution DetectedOn=PC-Abdulrahman Severity=High
+[SIEM] [2025-05-26T09:49:18Z] Source=Proxy User=dania.kassem Event=Login Result=Success Device=PC-Sawsan
+[SIEM] [2025-05-26T09:23:24Z] Source=Router Action=Denied dstIP=144.76.38.123 dstPort=165 Signature="Known Threat"
+[SIEM] [2025-05-26T09:50:21Z] Source=ActiveDirectory Event=ScriptExecution process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:27:54Z] Source=Firewall Event=BrowserAccess process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:46:45Z] Source=EDR Alert=Alert DetectedOn=PC-Rashid Severity=High
+[SIEM] [2025-05-26T09:22:24Z] Source=Firewall Action=Quarantined dstIP=144.76.57.236 dstPort=406 Signature="Known Threat"
+[SIEM] [2025-05-26T09:47:30Z] Source=Router Correlation=ChainDetected + ScriptExecution User=omar.fahad Score=8.04
+[SIEM] [2025-05-26T09:31:54Z] Source=EDR Event=Mitigation process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:12:47Z] Source=Proxy Alert=FileCreated DetectedOn=PC-Nabil Severity=High
+[SIEM] [2025-05-26T09:40:00Z] Source=IAM Event=FileCreated URL="http://um6p-password-reset.net" Verdict=Benign
+[SIEM] [2025-05-26T09:42:42Z] Source=UserPC Correlation=ChainDetected + BrowserAccess User=manal.rashid Score=8.55
+[SIEM] [2025-05-26T09:17:34Z] Source=Router Event=BrowserAccess URL="http://phish-portal.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T09:11:33Z] Source=EDR Event=AccessRequest URL="http://bypass-authentication.org" Verdict=Blocked
+[SIEM] [2025-05-26T09:29:52Z] Source=Proxy User=zubair.abdulqadir Event=Login Result=Success Device=PC-Rina
+[SIEM] [2025-05-26T09:32:30Z] Source=MailServer Correlation=ChainDetected + EmailRead User=samah.abdelfattah Score=8.18
+[SIEM] [2025-05-26T09:19:48Z] Source=Proxy Event=ProcessStart process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:59:11Z] Source=MailServer Action=Quarantined dstIP=144.76.42.6 dstPort=339 Signature="Known Threat"
+[SIEM] [2025-05-26T10:06:52Z] Source=ActiveDirectory Event=Alert URL="http://c2.um6p-covert.net" Verdict=Suspicious
+[SIEM] [2025-05-26T09:28:45Z] Source=SIEM Event=Quarantine URL="http://drive-share-secure.net" Verdict=Benign
+[SIEM] [2025-05-26T09:39:40Z] Source=EDR Action=Allowed dstIP=144.76.62.209 dstPort=108 Signature="Known Threat"
+[SIEM] [2025-05-26T09:37:52Z] Source=Proxy Event=EmailRead URL="http://um6p-password-reset.net" Verdict=Suspicious
+[SIEM] [2025-05-26T09:44:24Z] Source=Firewall Event=ThreatScore URL="http://malware-distribution-center.com" Verdict=Blocked
+[SIEM] [2025-05-26T09:35:17Z] Source=ActiveDirectory Alert=Alert DetectedOn=PC-Jumana Severity=High
+[SIEM] [2025-05-26T09:55:30Z] Source=AD Event=Login User=laila.badran Host=PC-Khalifa File=budget_IT_urgent.xlsx Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:23:45Z] Source=Router Alert=Login DetectedOn=PC-Sami Severity=High
+[SIEM] [2025-05-26T09:12:40Z] Source=UserPC Correlation=ChainDetected + Quarantine User=hafsa.mansur Score=9.9
+[SIEM] [2025-05-26T09:44:55Z] Source=UserPC Event=LDAPBind process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:28:36Z] Source=AD Event=Mitigation User=rashid.nour Host=PC-Hassan File=rapport_evaluation_risque_IT.pdf Action=Allowed Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:48:43Z] Source=Router Alert=ThreatScore DetectedOn=PC-Samah Severity=High
+[SIEM] [2025-05-26T09:46:40Z] Source=AD User=sabir.jarrah Event=Login Result=Success Device=PC-Layla
+[SIEM] [2025-05-26T09:28:21Z] Source=IAM Event=AccessRequest process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:16:24Z] Source=EDR User=zayd.abdelrahim Event=Login Result=Success Device=PC-Laila
+[SIEM] [2025-05-26T09:13:50Z] Source=Firewall Event=CorrelationLog User=dina.farouk Host=PC-Rania File=guide_configuration_switch.cfg Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:58:48Z] Source=UserPC Event=LDAPBind URL="http://shadow-access-um6p.com" Verdict=Blocked
+[SIEM] [2025-05-26T09:42:30Z] Source=Firewall Action=Detected dstIP=144.76.31.198 dstPort=54 Signature="Known Threat"
+[SIEM] [2025-05-26T09:24:22Z] Source=MailServer Alert=Mitigation DetectedOn=PC-Youssef Severity=High
+[SIEM] [2025-05-26T10:24:06Z] Source=AD User=noura.abdul Event=Login Result=Success Device=PC-Younes
+[SIEM] [2025-05-26T09:29:20Z] Source=MailServer Event=LDAPBind User=adil.najjar Host=PC-Dina File=manuel_politique_access.docx Action=Denied Verdict=Suspicious
+[SIEM] [2025-05-26T09:26:42Z] Source=Firewall Event=SMTP process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:51:00Z] Source=IAM Correlation=ChainDetected + LDAPBind User=jafar.mohamed Score=9.94
+[SIEM] [2025-05-26T10:06:44Z] Source=MailServer User=raihan.abdul Event=Login Result=Success Device=PC-Salma
+[SIEM] [2025-05-26T09:46:00Z] Source=Router Event=ThreatScore process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:23:42Z] Source=ActiveDirectory Event=LogReview URL="http://vpn-malicious-connect.net" Verdict=Blocked
+[SIEM] [2025-05-26T09:43:52Z] Source=Proxy Action=Denied dstIP=144.76.79.219 dstPort=292 Signature="Known Threat"
+[SIEM] [2025-05-26T10:09:40Z] Source=IAM User=omar.fahad Event=Login Result=Success Device=PC-Noura
+[SIEM] [2025-05-26T09:22:24Z] Source=UserPC Action=Detected dstIP=144.76.60.147 dstPort=271 Signature="Known Threat"
+[SIEM] [2025-05-26T09:16:10Z] Source=IAM Event=LDAPBind URL="http://malware-distribution-center.com" Verdict=Benign
+[SIEM] [2025-05-26T10:24:56Z] Source=AD User=zohair.salim Event=Login Result=Success Device=PC-Farid
+[SIEM] [2025-05-26T10:22:30Z] Source=AD Event=ScriptExecution process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:03:20Z] Source=SIEM User=zainab.karim Event=Login Result=Success Device=PC-Tamer
+[SIEM] [2025-05-26T10:32:35Z] Source=Firewall User=zayd.abdelrahim Event=Login Result=Success Device=PC-Dalia
+[SIEM] [2025-05-26T09:32:18Z] Source=MailServer Alert=ThreatScore DetectedOn=PC-Laila Severity=High
+[SIEM] [2025-05-26T09:17:10Z] Source=MailServer Correlation=ChainDetected + ProcessStart User=asmaa.rahman Score=8.35
+[SIEM] [2025-05-26T10:16:16Z] Source=ActiveDirectory User=farid.shaheen Event=Login Result=Success Device=PC-Farid
+[SIEM] [2025-05-26T09:33:15Z] Source=AD Alert=Login DetectedOn=PC-Lina Severity=High
+[SIEM] [2025-05-26T09:53:00Z] Source=SIEM User=zain.ghazal Event=Login Result=Success Device=PC-Omar
+[SIEM] [2025-05-26T09:49:56Z] Source=SIEM Alert=URLAccess DetectedOn=PC-Najwa Severity=High
+[SIEM] [2025-05-26T10:24:36Z] Source=ActiveDirectory User=samira.karim Event=Login Result=Success Device=PC-Bilal
+[SIEM] [2025-05-26T10:03:35Z] Source=Router Event=LogReview User=aya.zahra Host=PC-Reem File=rapport_veille_juridique.pdf Action=Detected Verdict=Benign
+[SIEM] [2025-05-26T09:27:30Z] Source=IAM Action=Quarantined dstIP=144.76.43.33 dstPort=412 Signature="Known Threat"
+[SIEM] [2025-05-26T09:53:39Z] Source=Proxy Event=FileCreated User=zayd.abdelrahim Host=PC-Jihad File=rapport_audit_reseau.pdf Action=Detected Verdict=Blocked
+[SIEM] [2025-05-26T09:31:44Z] Source=MailServer User=habib.mahfouz Event=Login Result=Success Device=PC-Omar
+[SIEM] [2025-05-26T10:45:28Z] Source=UserPC Event=AccessRequest URL="http://mailgate-um6p.net" Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:36:06Z] Source=IAM Event=ProcessStart URL="http://cloud-sync-access.org" Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:53:05Z] Source=MailServer Event=EmailRead User=noor.jalal Host=PC-Ibrahim File=dossier_cybersecurite_2025.docx Action=Allowed Verdict=Benign
+[SIEM] [2025-05-26T10:34:44Z] Source=AD Alert=AccessRequest DetectedOn=PC-Omar Severity=High
+[SIEM] [2025-05-26T09:48:45Z] Source=AD Action=Detected dstIP=144.76.14.30 dstPort=435 Signature="Known Threat"
+[SIEM] [2025-05-26T10:52:06Z] Source=SIEM Event=FileCreated URL="http://login-um6p-security.org" Verdict=Benign
+[SIEM] [2025-05-26T09:31:44Z] Source=EDR Event=FileCreated User=zubair.abdulqadir Host=PC-Hada File=notes_support_technique.txt Action=Blocked Verdict=Benign
+[SIEM] [2025-05-26T10:18:00Z] Source=SIEM Action=Quarantined dstIP=144.76.28.223 dstPort=44 Signature="Known Threat"
+[SIEM] [2025-05-26T09:54:27Z] Source=EDR Event=LogReview URL="http://um6p-student-auth.com" Verdict=Suspicious
+[SIEM] [2025-05-26T10:19:18Z] Source=MailServer Correlation=ChainDetected + AccessRequest User=joud.nasser Score=8.32
+[SIEM] [2025-05-26T10:28:09Z] Source=IAM Correlation=ChainDetected + LogReview User=mohamed.sharif Score=8.88
+[SIEM] [2025-05-26T10:26:48Z] Source=UserPC Event=LDAPBind User=jamal.alfaraj Host=PC-Salma File=contrat_confidentialite_2025.pdf Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:33:45Z] Source=MailServer Event=ThreatScore URL="http://ssh-drop-access.org" Verdict=Phishing_Link
+[SIEM] [2025-05-26T09:29:24Z] Source=AD Event=BrowserAccess process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:46:34Z] Source=Proxy Event=BrowserAccess process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:03:44Z] Source=ActiveDirectory User=kalil.hakim Event=Login Result=Success Device=PC-Mohsen
+[SIEM] [2025-05-26T10:26:00Z] Source=IAM User=bilal.mansour Event=Login Result=Success Device=PC-Raed
+[SIEM] [2025-05-26T09:39:00Z] Source=Router Action=Detected dstIP=144.76.80.199 dstPort=47 Signature="Known Threat"
+[SIEM] [2025-05-26T09:54:35Z] Source=UserPC Event=Mitigation process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:26:24Z] Source=ActiveDirectory Event=Login process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:53:12Z] Source=Router Event=Quarantine User=fadi.kassem Host=PC-Salma File=infra_config_UM6P.pdf Action=Detected Verdict=Benign
+[SIEM] [2025-05-26T09:24:34Z] Source=SIEM Correlation=ChainDetected + URLAccess User=kalil.hakim Score=7.14
+[SIEM] [2025-05-26T10:52:30Z] Source=Router Correlation=ChainDetected + LogReview User=mohamed.hassan Score=9.95
+[SIEM] [2025-05-26T09:58:56Z] Source=SIEM Event=LogReview process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:54:48Z] Source=Proxy Event=BrowserAccess User=rima.bashir Host=PC-Mariyam File=rapport_financier_2025.xlsx Action=Detected Verdict=Benign
+[SIEM] [2025-05-26T10:04:24Z] Source=MailServer Event=SMTP URL="http://fileshare-locked.org" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:21:05Z] Source=Firewall Event=ThreatScore URL="http://encrypted-dump.net" Verdict=Suspicious
+[SIEM] [2025-05-26T10:00:40Z] Source=EDR Event=ThreatScore process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:50:27Z] Source=SIEM Event=Mitigation process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:26:02Z] Source=AD User=fadi.kassem Event=Login Result=Success Device=Laptop12
+[SIEM] [2025-05-26T09:33:22Z] Source=Firewall Event=LogReview URL="http://secure-file-exchange.org" Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:36:00Z] Source=MailServer Action=Detected dstIP=144.76.47.60 dstPort=74 Signature="Known Threat"
+[SIEM] [2025-05-26T10:24:35Z] Source=AD Event=ScriptExecution User=sara.abdelkarim Host=PC-Raihan File=rapport_activite_trimestre_1.pdf Action=Denied Verdict=Blocked
+[SIEM] [2025-05-26T09:41:22Z] Source=UserPC Correlation=ChainDetected + AccessRequest User=rashid.nour Score=9.94
+[SIEM] [2025-05-26T10:30:39Z] Source=AD Event=BrowserAccess URL="http://bit.ly/um6p-reset" Verdict=Blocked
+[SIEM] [2025-05-26T10:38:40Z] Source=SIEM User=tarik.makki Event=Login Result=Success Device=PC-Sara
+[SIEM] [2025-05-26T10:36:51Z] Source=ActiveDirectory User=aya.zahra Event=Login Result=Success Device=PC-Salma
+[SIEM] [2025-05-26T10:07:30Z] Source=EDR Event=LDAPBind User=kamilah.mohamed Host=PC-Shaden File=guide_securite_informatique.pdf Action=Quarantined Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:18:01Z] Source=MailServer User=yasir.abdullah Event=Login Result=Success Device=PC-Nader
+[SIEM] [2025-05-26T10:38:48Z] Source=Proxy Correlation=ChainDetected + EmailRead User=samar.ridha Score=7.02
+[SIEM] [2025-05-26T09:51:00Z] Source=Firewall User=lina.abdulaziz Event=Login Result=Success Device=PC-Reem
+[SIEM] [2025-05-26T10:42:40Z] Source=Proxy Event=Alert User=dina.farouk Host=PC-Nisreen File=export_donnees_clients.csv Action=Allowed Verdict=Benign
+[SIEM] [2025-05-26T09:36:10Z] Source=Router Action=Quarantined dstIP=144.76.46.137 dstPort=193 Signature="Known Threat"
+[SIEM] [2025-05-26T11:33:24Z] Source=Router Correlation=ChainDetected + AccessRequest User=mustafa.alraqi Score=8.29
+[SIEM] [2025-05-26T11:13:27Z] Source=AD Event=Mitigation User=samir.shaheen Host=Laptop12 File=users_db.csv Action=Blocked Verdict=Blocked
+[SIEM] [2025-05-26T09:55:18Z] Source=EDR User=nader.shams Event=Login Result=Success Device=PC-Noura
+[SIEM] [2025-05-26T09:47:42Z] Source=Proxy Action=Denied dstIP=144.76.64.209 dstPort=292 Signature="Known Threat"
+[SIEM] [2025-05-26T10:09:20Z] Source=Router Event=LDAPBind process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:52:42Z] Source=Firewall Action=Allowed dstIP=144.76.97.180 dstPort=76 Signature="Known Threat"
+[SIEM] [2025-05-26T11:20:24Z] Source=AD Event=SMTP URL="http://suspicious-api.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:15:50Z] Source=UserPC Event=URLAccess URL="http://corp-login-verify.org" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:52:04Z] Source=Router Alert=ThreatScore DetectedOn=PC-Mohsen Severity=High
+[SIEM] [2025-05-26T10:58:15Z] Source=Router Event=ThreatScore User=muna.rashid Host=PC-Zainab File=plan_continuite_activite_2025.xlsx Action=Detected Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:14:42Z] Source=UserPC Correlation=ChainDetected + SMTP User=zubair.abdulqadir Score=9.86
+[SIEM] [2025-05-26T10:12:22Z] Source=EDR Event=Login User=nader.shams Host=PC-Maya File=rapport_recherche_cybermenaces.pdf Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:47:36Z] Source=SIEM Alert=ProcessStart DetectedOn=PC-Zainab Severity=High
+[SIEM] [2025-05-26T10:10:25Z] Source=MailServer Event=EmailRead User=yara.khaled Host=PC-Raihan File=plan_sauvegarde_automatique.xlsx Action=Blocked Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:38:40Z] Source=MailServer Event=Login process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:16:57Z] Source=ActiveDirectory Event=Quarantine process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:20:28Z] Source=ActiveDirectory Event=EmailRead URL="http://payload-drop-server.net" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:44:21Z] Source=SIEM Event=LDAPBind process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:56:00Z] Source=IAM Correlation=ChainDetected + LDAPBind User=hamza.karim Score=9.89
+[SIEM] [2025-05-26T10:50:50Z] Source=IAM Event=LDAPBind User=tarek.bahaa Host=PC-Sawsan File=rapport_audit_securite.pdf Action=Quarantined Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:16:16Z] Source=Firewall Alert=Login DetectedOn=PC-Tamer Severity=High
+[SIEM] [2025-05-26T11:54:03Z] Source=AD Event=LDAPBind process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:16:28Z] Source=Firewall Action=Allowed dstIP=144.76.26.139 dstPort=404 Signature="Known Threat"
+[SIEM] [2025-05-26T11:35:08Z] Source=ActiveDirectory User=farah.dawoud Event=Login Result=Success Device=PC-Najat
+[SIEM] [2025-05-26T11:48:00Z] Source=Router Alert=EmailRead DetectedOn=PC-Zayd Severity=High
+[SIEM] [2025-05-26T10:30:30Z] Source=EDR Correlation=ChainDetected + SMTP User=layla.abdullah Score=9.31
+[SIEM] [2025-05-26T11:49:52Z] Source=ActiveDirectory User=jumana.ghazi Event=Login Result=Success Device=PC-Hala
+[SIEM] [2025-05-26T10:25:24Z] Source=AD Action=Blocked dstIP=144.76.81.53 dstPort=414 Signature="Known Threat"
+[SIEM] [2025-05-26T10:13:36Z] Source=SIEM Correlation=ChainDetected + Login User=fadi.kassem Score=7.81
+[SIEM] [2025-05-26T11:58:50Z] Source=Firewall Alert=URLAccess DetectedOn=PC-Bilal Severity=High
+[SIEM] [2025-05-26T11:19:30Z] Source=Router Event=SMTP URL="http://ssh-drop-access.org" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:08:34Z] Source=Router Event=EmailRead process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:34:28Z] Source=Proxy Action=Allowed dstIP=144.76.49.36 dstPort=415 Signature="Known Threat"
+[SIEM] [2025-05-26T10:50:15Z] Source=SIEM Event=EmailRead URL="http://shadow-access-um6p.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:25:30Z] Source=AD Event=Quarantine User=maysa.abdelrahman Host=PC-Saif File=mailing_list_clients.txt Action=Blocked Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:19:35Z] Source=UserPC Alert=LDAPBind DetectedOn=PC-Yara Severity=High
+[SIEM] [2025-05-26T09:57:36Z] Source=ActiveDirectory User=samir.shaheen Event=Login Result=Success Device=PC-Muhannad
+[SIEM] [2025-05-26T10:13:59Z] Source=AD Action=Allowed dstIP=144.76.29.120 dstPort=58 Signature="Known Threat"
+[SIEM] [2025-05-26T11:54:36Z] Source=UserPC Event=AccessRequest process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:45:30Z] Source=UserPC Action=Detected dstIP=144.76.16.98 dstPort=394 Signature="Known Threat"
+[SIEM] [2025-05-26T10:11:52Z] Source=AD User=sabir.jarrah Event=Login Result=Success Device=PC-Noura
+[SIEM] [2025-05-26T11:31:02Z] Source=UserPC Event=ProcessStart URL="http://um6p-authenticator.net" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:09:18Z] Source=UserPC Action=Quarantined dstIP=144.76.35.202 dstPort=253 Signature="Known Threat"
+[SIEM] [2025-05-26T09:43:07Z] Source=ActiveDirectory Correlation=ChainDetected + AccessRequest User=farid.shaheen Score=9.77
+[SIEM] [2025-05-26T10:13:20Z] Source=SIEM Event=Quarantine User=sawsan.mansour Host=PC-Kalil File=fichier_audit_interne.xlsx Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:44:09Z] Source=Proxy Alert=URLAccess DetectedOn=PC-Reem Severity=High
+[SIEM] [2025-05-26T10:14:04Z] Source=MailServer Action=Detected dstIP=144.76.67.73 dstPort=22 Signature="Known Threat"
+[SIEM] [2025-05-26T11:05:11Z] Source=ActiveDirectory Event=ScriptExecution process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T09:54:24Z] Source=MailServer Correlation=ChainDetected + FileCreated User=adil.najjar Score=8.0
+[SIEM] [2025-05-26T09:37:35Z] Source=AD Action=Quarantined dstIP=144.76.85.41 dstPort=307 Signature="Known Threat"
+[SIEM] [2025-05-26T10:53:18Z] Source=EDR Action=Allowed dstIP=144.76.13.76 dstPort=55 Signature="Known Threat"
+[SIEM] [2025-05-26T10:53:51Z] Source=EDR Correlation=ChainDetected + ThreatScore User=mohamed.hassan Score=7.94
+[SIEM] [2025-05-26T12:24:32Z] Source=EDR Event=BrowserAccess User=reem.taleb Host=PC-Fahd File=contrat_client_2025.docx Action=Detected Verdict=Suspicious
+[SIEM] [2025-05-26T11:43:43Z] Source=Firewall Event=ProcessStart URL="http://shadow-access-um6p.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:51:30Z] Source=UserPC Alert=LDAPBind DetectedOn=PC-Hazem Severity=High
+[SIEM] [2025-05-26T10:45:30Z] Source=SIEM Event=URLAccess User=mohsen.najjar Host=PC-Nadia File=dossier_suivi_projet_2025.docx Action=Allowed Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:56:36Z] Source=SIEM Correlation=ChainDetected + LDAPBind User=hamza.zaki Score=7.77
+[SIEM] [2025-05-26T11:00:42Z] Source=ActiveDirectory User=lina.hadi Event=Login Result=Success Device=PC-Shatha
+[SIEM] [2025-05-26T11:26:14Z] Source=AD Correlation=ChainDetected + SMTP User=manal.rashid Score=9.23
+[SIEM] [2025-05-26T09:35:50Z] Source=AD Event=FileCreated User=habib.mahfouz Host=PC-Firas File=fichier_config_serveur_vpn.cfg Action=Blocked Verdict=Blocked
+[SIEM] [2025-05-26T10:33:36Z] Source=Router Event=SMTP URL="http://internal-sync-corp.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:31:54Z] Source=Firewall Alert=DNSRequest DetectedOn=PC-Yasir Severity=High
+[SIEM] [2025-05-26T12:34:22Z] Source=SIEM User=jumana.ghazi Event=Login Result=Success Device=PC-Lamia
+[SIEM] [2025-05-26T10:45:51Z] Source=MailServer Correlation=ChainDetected + FileCreated User=adil.najjar Score=9.15
+[SIEM] [2025-05-26T10:42:40Z] Source=ActiveDirectory Correlation=ChainDetected + Quarantine User=nour.elmasri Score=9.59
+[SIEM] [2025-05-26T12:26:16Z] Source=ActiveDirectory Event=Login User=noura.abdul Host=PC-Siham File=notes_techniques_systeme.txt Action=Blocked Verdict=Blocked
+[SIEM] [2025-05-26T09:51:48Z] Source=EDR Action=Quarantined dstIP=144.76.43.184 dstPort=101 Signature="Known Threat"
+[SIEM] [2025-05-26T10:29:12Z] Source=UserPC Action=Blocked dstIP=144.76.61.135 dstPort=128 Signature="Known Threat"
+[SIEM] [2025-05-26T10:22:08Z] Source=EDR Alert=ProcessStart DetectedOn=PC-Rina Severity=High
+[SIEM] [2025-05-26T12:00:00Z] Source=MailServer Action=Quarantined dstIP=144.76.89.169 dstPort=395 Signature="Known Threat"
+[SIEM] [2025-05-26T10:41:42Z] Source=MailServer Event=SMTP process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:20:31Z] Source=Router Event=Alert User=adil.azzam Host=PC-Rima File=notes_reunion_um6p.docx Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:13:00Z] Source=UserPC Event=ThreatScore User=amin.ghanim Host=PC-Mustafa File=document_validation_projet.pdf Action=Denied Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:44:07Z] Source=Firewall Event=ScriptExecution process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:00:10Z] Source=Firewall Alert=URLAccess DetectedOn=PC-Farid Severity=High
+[SIEM] [2025-05-26T11:26:18Z] Source=AD Alert=Alert DetectedOn=PC-Nabil Severity=High
+[SIEM] [2025-05-26T12:17:12Z] Source=Proxy Correlation=ChainDetected + EmailRead User=raed.saleh Score=7.74
+[SIEM] [2025-05-26T12:49:07Z] Source=Router Alert=ProcessStart DetectedOn=PC-Yara Severity=High
+[SIEM] [2025-05-26T11:55:30Z] Source=AD Action=Denied dstIP=144.76.72.109 dstPort=60 Signature="Known Threat"
+[SIEM] [2025-05-26T10:30:05Z] Source=ActiveDirectory Action=Denied dstIP=144.76.62.238 dstPort=320 Signature="Known Threat"
+[SIEM] [2025-05-26T09:43:16Z] Source=SIEM Event=Alert process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:21:27Z] Source=AD User=noura.abdul Event=Login Result=Success Device=PC-Shatha
+[SIEM] [2025-05-26T12:18:20Z] Source=IAM Alert=Login DetectedOn=PC-Khaled Severity=High
+[SIEM] [2025-05-26T09:43:49Z] Source=SIEM Event=ProcessStart process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:20:00Z] Source=AD Event=ThreatScore User=fahd.saadi Host=PC-Rasha File=mailing_list_clients.txt Action=Allowed Verdict=Suspicious
+[SIEM] [2025-05-26T10:04:16Z] Source=EDR User=ibrahim.hamed Event=Login Result=Success Device=PC-Dina
+[SIEM] [2025-05-26T11:01:00Z] Source=Router User=omar.hakim Event=Login Result=Success Device=PC-Omar
+[SIEM] [2025-05-26T12:50:51Z] Source=IAM Event=Login process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:51:48Z] Source=Router Event=LDAPBind process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:33:55Z] Source=Router Event=Login URL="http://shadow-access-um6p.com" Verdict=Blocked
+[SIEM] [2025-05-26T11:52:12Z] Source=IAM Alert=EmailRead DetectedOn=PC-Yasmeen Severity=High
+[SIEM] [2025-05-26T12:17:36Z] Source=MailServer Event=Mitigation User=jafar.mohamed Host=PC-Rasha File=document_validation_projet.pdf Action=Detected Verdict=Blocked
+[SIEM] [2025-05-26T12:01:52Z] Source=AD User=nadia.abdel Event=Login Result=Success Device=PC-Omar
+[SIEM] [2025-05-26T11:00:21Z] Source=Router Action=Allowed dstIP=144.76.69.64 dstPort=205 Signature="Known Threat"
+[SIEM] [2025-05-26T12:24:10Z] Source=Proxy Alert=BrowserAccess DetectedOn=PC-Abdulrahman Severity=High
+[SIEM] [2025-05-26T12:16:37Z] Source=IAM Event=ProcessStart URL="http://shadow-access-um6p.com" Verdict=Blocked
+[SIEM] [2025-05-26T11:52:12Z] Source=Firewall Alert=ProcessStart DetectedOn=PC-Bilal Severity=High
+[SIEM] [2025-05-26T11:02:17Z] Source=EDR Event=FileCreated User=mohamed.sharif Host=PC-Muna File=archive_emails_phishing.zip Action=Denied Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:11:58Z] Source=MailServer Event=FileCreated URL="http://hidden-c2-channel.org" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:42:00Z] Source=IAM Action=Detected dstIP=144.76.12.87 dstPort=375 Signature="Known Threat"
+[SIEM] [2025-05-26T12:03:28Z] Source=MailServer Action=Denied dstIP=144.76.60.211 dstPort=120 Signature="Known Threat"
+[SIEM] [2025-05-26T11:47:03Z] Source=UserPC Event=Alert URL="http://um6p-login-verification.com" Verdict=Suspicious
+[SIEM] [2025-05-26T10:43:12Z] Source=Proxy Event=LDAPBind User=laila.mohsen Host=PC-Salwa File=guide_utilisation_outils_collab.pdf Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T12:18:34Z] Source=Router Event=LDAPBind User=ghassan.sharif Host=PC-Aya File=plan_reprise_activite_urgence.pdf Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:56:20Z] Source=EDR Correlation=ChainDetected + EmailRead User=salwa.hamdi Score=7.43
+[SIEM] [2025-05-26T10:35:42Z] Source=SIEM Alert=Mitigation DetectedOn=PC-Mohamed Severity=High
+[SIEM] [2025-05-26T12:07:46Z] Source=Router Event=ProcessStart User=ali.mostafa Host=PC-Joud File=guide_utilisation_outils_collab.pdf Action=Denied Verdict=Benign
+[SIEM] [2025-05-26T12:47:56Z] Source=SIEM Event=LDAPBind URL="http://office365-um6p-help.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:06:00Z] Source=Proxy User=khaled.rafat Event=Login Result=Success Device=PC-Hala
+[SIEM] [2025-05-26T09:44:10Z] Source=EDR Event=Mitigation process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:02:04Z] Source=Proxy Event=ScriptExecution User=nidaa.farouk Host=PC-Yara File=presentation_politique_securite.pptx Action=Allowed Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:04:36Z] Source=UserPC Action=Allowed dstIP=144.76.27.179 dstPort=167 Signature="Known Threat"
+[SIEM] [2025-05-26T10:33:48Z] Source=EDR User=samir.shaheen Event=Login Result=Success Device=PC-Rana
+[SIEM] [2025-05-26T12:26:14Z] Source=IAM Event=ProcessStart User=muna.bakr Host=PC-Rania File=manuel_utilisateur_app_mobile.pdf Action=Quarantined Verdict=Blocked
+[SIEM] [2025-05-26T11:28:30Z] Source=Proxy Correlation=ChainDetected + LDAPBind User=mariyam.farid Score=9.76
+[SIEM] [2025-05-26T11:56:09Z] Source=SIEM Alert=Quarantine DetectedOn=PC-Ghassan Severity=High
+[SIEM] [2025-05-26T10:03:28Z] Source=IAM Event=DNSRequest User=ahmed.nafih Host=PC-Mariyam File=contrat_client_2025.docx Action=Detected Verdict=Suspicious
+[SIEM] [2025-05-26T11:34:42Z] Source=Router Event=Mitigation User=rana.azzam Host=PC-Bilal File=presentation_projet.pptx Action=Quarantined Verdict=Malware_Detected
+[SIEM] [2025-05-26T09:45:40Z] Source=Proxy Correlation=ChainDetected + Mitigation User=hala.karim Score=9.42
+[SIEM] [2025-05-26T12:44:35Z] Source=ActiveDirectory Action=Detected dstIP=144.76.16.58 dstPort=164 Signature="Known Threat"
+[SIEM] [2025-05-26T10:22:48Z] Source=Router Event=ScriptExecution User=jamal.alfaraj Host=PC-Hafsa File=plan_formation_employes_IT.xlsx Action=Detected Verdict=Benign
+[SIEM] [2025-05-26T11:18:30Z] Source=Router Event=AccessRequest process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T13:28:44Z] Source=AD Action=Allowed dstIP=144.76.54.103 dstPort=88 Signature="Known Threat"
+[SIEM] [2025-05-26T12:29:15Z] Source=AD Event=EmailRead User=samah.fahmi Host=PC-Jafar File=dossier_risques_informatiques.pdf Action=Allowed Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:52:00Z] Source=MailServer Alert=LogReview DetectedOn=PC-Siham Severity=High
+[SIEM] [2025-05-26T10:33:40Z] Source=IAM Correlation=ChainDetected + DNSRequest User=hibah.yusuf Score=9.34
+[SIEM] [2025-05-26T13:42:00Z] Source=MailServer Correlation=ChainDetected + LogReview User=abdulrahman.karim Score=7.2
+[SIEM] [2025-05-26T11:16:47Z] Source=ActiveDirectory User=nader.shams Event=Login Result=Success Device=PC-Mohamed
+[SIEM] [2025-05-26T13:01:24Z] Source=Proxy Event=ThreatScore User=aya.zahra Host=PC-Dina File=plan_formation_employes_IT.xlsx Action=Denied Verdict=Suspicious
+[SIEM] [2025-05-26T12:48:00Z] Source=Router Action=Blocked dstIP=144.76.33.245 dstPort=377 Signature="Known Threat"
+[SIEM] [2025-05-26T10:49:38Z] Source=Router Event=Login process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:42:38Z] Source=Router Event=ScriptExecution User=sawsan.mansour Host=PC-Wajih File=mailing_list_clients.txt Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T12:50:24Z] Source=Proxy User=najwa.bassem Event=Login Result=Success Device=PC-Mustafa
+[SIEM] [2025-05-26T13:34:33Z] Source=UserPC Event=ScriptExecution User=mohamed.hassan Host=PC-Mahmoud File=fichier_logs_proxy.log Action=Allowed Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:29:50Z] Source=EDR User=hafsa.mansur Event=Login Result=Success Device=PC-Rasha
+[SIEM] [2025-05-26T10:03:03Z] Source=MailServer Alert=AccessRequest DetectedOn=Workstation5 Severity=High
+[SIEM] [2025-05-26T12:00:04Z] Source=EDR Alert=DNSRequest DetectedOn=PC-Sami Severity=High
+[SIEM] [2025-05-26T11:36:16Z] Source=SIEM Action=Denied dstIP=144.76.25.244 dstPort=381 Signature="Known Threat"
+[SIEM] [2025-05-26T10:03:42Z] Source=ActiveDirectory Correlation=ChainDetected + LogReview User=dania.kassem Score=7.71
+[SIEM] [2025-05-26T10:28:30Z] Source=Proxy Event=Login URL="http://um6p-student-auth.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T13:16:32Z] Source=SIEM Action=Denied dstIP=144.76.78.43 dstPort=59 Signature="Known Threat"
+[SIEM] [2025-05-26T12:13:03Z] Source=Firewall Action=Quarantined dstIP=144.76.45.87 dstPort=324 Signature="Known Threat"
+[SIEM] [2025-05-26T10:19:28Z] Source=ActiveDirectory Alert=BrowserAccess DetectedOn=PC-Laila Severity=High
+[SIEM] [2025-05-26T13:59:00Z] Source=Firewall Correlation=ChainDetected + Quarantine User=fatima.alami Score=9.27
+[SIEM] [2025-05-26T12:45:00Z] Source=SIEM User=jamila.kamal Event=Login Result=Success Device=PC-Sawsan
+[SIEM] [2025-05-26T10:05:13Z] Source=MailServer Event=FileCreated URL="http://internal-sync-corp.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:15:30Z] Source=ActiveDirectory Event=ProcessStart URL="http://drive-share-secure.net" Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:36:33Z] Source=AD Alert=Mitigation DetectedOn=PC-Zaina Severity=High
+[SIEM] [2025-05-26T12:37:52Z] Source=Proxy Event=Alert User=muna.rashid Host=PC-Mona File=rapport_formation_employes.pdf Action=Quarantined Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:27:25Z] Source=MailServer Action=Denied dstIP=144.76.28.164 dstPort=34 Signature="Known Threat"
+[SIEM] [2025-05-26T10:57:18Z] Source=UserPC Correlation=ChainDetected + ProcessStart User=hazem.younis Score=8.61
+[SIEM] [2025-05-26T11:02:48Z] Source=Router Event=Quarantine User=siham.faraj Host=PC-Farouk File=plan_controle_acces.xlsx Action=Detected Verdict=Malware_Detected
+[SIEM] [2025-05-26T12:15:04Z] Source=MailServer Event=Login process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T13:27:48Z] Source=UserPC Event=ScriptExecution process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:26:40Z] Source=Router Event=SMTP User=maysa.abdelrahman Host=PC-Aya File=rapport_financier_2025.xlsx Action=Detected Verdict=Phishing_Link
+[SIEM] [2025-05-26T12:16:58Z] Source=AD Action=Blocked dstIP=144.76.69.198 dstPort=256 Signature="Known Threat"
+[SIEM] [2025-05-26T11:30:48Z] Source=Proxy Correlation=ChainDetected + LDAPBind User=alaa.salem Score=7.09
+[SIEM] [2025-05-26T10:13:02Z] Source=Proxy Alert=SMTP DetectedOn=PC-Farouk Severity=High
+[SIEM] [2025-05-26T10:28:58Z] Source=MailServer Event=Quarantine URL="http://drive-share-secure.net" Verdict=Malware_Detected
+[SIEM] [2025-05-26T13:17:15Z] Source=IAM Event=Quarantine process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:19:00Z] Source=Router Event=Login process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:01:31Z] Source=Router Action=Denied dstIP=144.76.36.144 dstPort=178 Signature="Known Threat"
+[SIEM] [2025-05-26T10:08:54Z] Source=Proxy Event=LogReview process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:03:48Z] Source=Router User=zainab.karim Event=Login Result=Success Device=PC-Firas
+[SIEM] [2025-05-26T12:44:00Z] Source=AD User=ghassan.sharif Event=Login Result=Success Device=PC-Dalia
+[SIEM] [2025-05-26T12:07:15Z] Source=AD Alert=Alert DetectedOn=PC-Hala Severity=High
+[SIEM] [2025-05-26T14:16:38Z] Source=Proxy User=mariyam.farid Event=Login Result=Success Device=PC-Hala
+[SIEM] [2025-05-26T13:13:01Z] Source=Firewall User=bilal.jaber Event=Login Result=Success Device=UserPC
+[SIEM] [2025-05-26T11:04:12Z] Source=Firewall Event=LogReview User=dania.kassem Host=PC-Reem File=plan_sauvegarde_automatique.xlsx Action=Quarantined Verdict=Suspicious
+[SIEM] [2025-05-26T10:15:50Z] Source=SIEM Action=Blocked dstIP=144.76.32.125 dstPort=182 Signature="Known Threat"
+[SIEM] [2025-05-26T10:05:12Z] Source=Firewall Alert=URLAccess DetectedOn=PC-Yara Severity=High
+[SIEM] [2025-05-26T11:32:36Z] Source=Router Correlation=ChainDetected + ScriptExecution User=ahmed.alsayed Score=9.83
+[SIEM] [2025-05-26T12:27:44Z] Source=UserPC Event=DNSRequest process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:11:55Z] Source=MailServer Event=ThreatScore URL="http://ssh-drop-access.org" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:12:00Z] Source=MailServer Alert=FileCreated DetectedOn=PC-Dina Severity=High
+[SIEM] [2025-05-26T10:17:14Z] Source=Proxy User=rashid.nour Event=Login Result=Success Device=PC-Asmaa
+[SIEM] [2025-05-26T13:53:16Z] Source=SIEM Alert=SMTP DetectedOn=PC-Maya Severity=High
+[SIEM] [2025-05-26T13:26:24Z] Source=AD Correlation=ChainDetected + Alert User=mahmoud.najjar Score=9.96
+[SIEM] [2025-05-26T11:30:18Z] Source=Router Event=ProcessStart process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:18:15Z] Source=Router Action=Quarantined dstIP=144.76.49.109 dstPort=263 Signature="Known Threat"
+[SIEM] [2025-05-26T11:20:00Z] Source=ActiveDirectory Alert=BrowserAccess DetectedOn=PC-Sara Severity=High
+[SIEM] [2025-05-26T10:18:38Z] Source=UserPC Alert=LogReview DetectedOn=PC-Bilal Severity=High
+[SIEM] [2025-05-26T10:47:02Z] Source=EDR Correlation=ChainDetected + Login User=samir.shaheen Score=7.51
+[SIEM] [2025-05-26T10:36:03Z] Source=Firewall Event=LogReview User=habib.mahfouz Host=PC-Hafsa File=manuel_utilisateur_app_mobile.pdf Action=Allowed Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:47:40Z] Source=ActiveDirectory Event=Quarantine User=lamia.bader Host=PC-Najwa File=formulaire_demande_acces.pdf Action=Quarantined Verdict=Blocked
+[SIEM] [2025-05-26T14:06:54Z] Source=AD Action=Detected dstIP=144.76.94.1 dstPort=253 Signature="Known Threat"
+[SIEM] [2025-05-26T12:59:24Z] Source=ActiveDirectory Correlation=ChainDetected + ScriptExecution User=laila.badran Score=8.28
+[SIEM] [2025-05-26T11:45:47Z] Source=IAM Event=LDAPBind User=farid.shaheen Host=PC-Farid File=plan_formation_employes_IT.xlsx Action=Allowed Verdict=Suspicious
+[SIEM] [2025-05-26T12:43:36Z] Source=IAM Correlation=ChainDetected + LDAPBind User=fahim.aljaber Score=8.29
+[SIEM] [2025-05-26T14:27:45Z] Source=AD Event=LDAPBind User=hala.sharif Host=PC-Farid File=rapport_bilan_trimestriel.pdf Action=Blocked Verdict=Blocked
+[SIEM] [2025-05-26T13:02:12Z] Source=AD Event=SMTP process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:05:04Z] Source=UserPC Alert=LDAPBind DetectedOn=PC-Mahmoud Severity=High
+[SIEM] [2025-05-26T10:32:48Z] Source=Firewall User=rashid.nour Event=Login Result=Success Device=PC-Zayd
+[SIEM] [2025-05-26T10:38:53Z] Source=Proxy User=salwa.hamdi Event=Login Result=Success Device=PC-Firas
+[SIEM] [2025-05-26T14:20:50Z] Source=MailServer Correlation=ChainDetected + DNSRequest User=firas.mohamed Score=8.76
+[SIEM] [2025-05-26T13:40:48Z] Source=Firewall Event=ProcessStart URL="http://secure.um6p-auth.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:03:12Z] Source=IAM Event=SMTP URL="http://encrypted-dump.net" Verdict=Benign
+[SIEM] [2025-05-26T11:44:44Z] Source=Proxy Alert=Quarantine DetectedOn=PC-Youssef Severity=High
+[SIEM] [2025-05-26T13:31:24Z] Source=Firewall Correlation=ChainDetected + Login User=zahra.mahdi Score=7.28
+[SIEM] [2025-05-26T13:26:15Z] Source=ActiveDirectory Event=CorrelationLog process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:16:28Z] Source=IAM Event=LogReview URL="http://payload-drop-server.net" Verdict=Benign
+[SIEM] [2025-05-26T14:51:03Z] Source=Firewall Event=LogReview process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T13:16:34Z] Source=SIEM User=rasha.younis Event=Login Result=Success Device=PC-Rami
+[SIEM] [2025-05-26T10:35:44Z] Source=UserPC Action=Denied dstIP=144.76.15.53 dstPort=233 Signature="Known Threat"
+[SIEM] [2025-05-26T12:36:00Z] Source=Router Correlation=ChainDetected + ThreatScore User=noor.jalal Score=8.0
+[SIEM] [2025-05-26T12:18:33Z] Source=MailServer Alert=LDAPBind DetectedOn=PC-Ahmed Severity=High
+[SIEM] [2025-05-26T12:43:14Z] Source=Router User=nisreen.jamal Event=Login Result=Success Device=PC-Bilal
+[SIEM] [2025-05-26T14:20:39Z] Source=SIEM Correlation=ChainDetected + AccessRequest User=fahim.aljaber Score=7.38
+[SIEM] [2025-05-26T12:38:24Z] Source=UserPC Event=LDAPBind User=mustafa.alraqi Host=PC-Muna File=dossier_deploiement_serveur.docx Action=Quarantined Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:07:45Z] Source=ActiveDirectory Alert=LDAPBind DetectedOn=PC-Ahmed Severity=High
+[SIEM] [2025-05-26T13:28:24Z] Source=EDR Event=ProcessStart URL="http://admin-um6p-reset.net" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:57:23Z] Source=Router Action=Quarantined dstIP=144.76.63.69 dstPort=236 Signature="Known Threat"
+[SIEM] [2025-05-26T10:07:28Z] Source=ActiveDirectory Action=Quarantined dstIP=144.76.44.137 dstPort=140 Signature="Known Threat"
+[SIEM] [2025-05-26T10:01:30Z] Source=UserPC Event=Login process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:07:50Z] Source=Firewall Correlation=ChainDetected + ThreatScore User=jamal.alfaraj Score=9.54
+[SIEM] [2025-05-26T14:02:59Z] Source=EDR Correlation=ChainDetected + LogReview User=kalil.hakim Score=9.39
+[SIEM] [2025-05-26T14:28:36Z] Source=SIEM Event=EmailRead URL="http://corp-login-verify.org" Verdict=Blocked
+[SIEM] [2025-05-26T13:39:45Z] Source=MailServer Event=URLAccess process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:58:26Z] Source=MailServer Event=LogReview User=siham.faraj Host=PC-Tarek File=document_veille_technologique.pdf Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:46:15Z] Source=MailServer Event=LDAPBind URL="http://invoice-portal-mail.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T12:58:08Z] Source=Proxy Correlation=ChainDetected + Login User=amina.talal Score=8.13
+[SIEM] [2025-05-26T13:30:11Z] Source=MailServer Event=Alert User=yasin.abdelrahman Host=PC-Hibah File=archive_logs_authentification.zip Action=Allowed Verdict=Benign
+[SIEM] [2025-05-26T10:53:24Z] Source=UserPC Event=SMTP URL="http://proxy-forwarder.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:56:52Z] Source=EDR Alert=DNSRequest DetectedOn=PC-Zahra Severity=High
+[SIEM] [2025-05-26T10:35:00Z] Source=Router Alert=ThreatScore DetectedOn=PC-Ahmed Severity=High
+[SIEM] [2025-05-26T12:42:15Z] Source=SIEM Correlation=ChainDetected + ProcessStart User=hazem.younis Score=7.54
+[SIEM] [2025-05-26T13:27:24Z] Source=AD Action=Detected dstIP=144.76.28.111 dstPort=46 Signature="Known Threat"
+[SIEM] [2025-05-26T13:08:57Z] Source=Router Action=Denied dstIP=144.76.29.128 dstPort=320 Signature="Known Threat"
+[SIEM] [2025-05-26T12:44:00Z] Source=MailServer User=mohamed.sharif Event=Login Result=Success Device=PC-Shimaa
+[SIEM] [2025-05-26T15:05:45Z] Source=UserPC Event=LDAPBind URL="http://dropbox-share-secure.com" Verdict=Suspicious
+[SIEM] [2025-05-26T12:25:52Z] Source=Firewall Event=EmailRead URL="http://phish-portal.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T15:20:33Z] Source=MailServer Correlation=ChainDetected + LDAPBind User=salma.hamdan Score=9.55
+[SIEM] [2025-05-26T12:39:52Z] Source=Router Event=ThreatScore URL="http://malware-distribution-center.com" Verdict=Phishing_Link
+[SIEM] [2025-05-26T14:37:08Z] Source=Firewall Event=Alert User=farid.shaheen Host=PC-Manal File=presentation_cyberattaque.pptx Action=Blocked Verdict=Suspicious
+[SIEM] [2025-05-26T12:47:30Z] Source=AD User=noor.jalal Event=Login Result=Success Device=PC-Yasir
+[SIEM] [2025-05-26T11:49:26Z] Source=Firewall Event=DNSRequest process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T13:34:24Z] Source=EDR User=fahim.aljaber Event=Login Result=Success Device=PC-Zain
+[SIEM] [2025-05-26T10:18:36Z] Source=AD User=farouk.karim Event=Login Result=Success Device=PC-Noura
+[SIEM] [2025-05-26T15:27:26Z] Source=EDR Correlation=ChainDetected + Alert User=fatma.ismail Score=8.4
+[SIEM] [2025-05-26T12:50:25Z] Source=MailServer Event=Quarantine User=samar.ridha Host=PC-Abdulrahman File=plan_controle_acces.xlsx Action=Allowed Verdict=Suspicious
+[SIEM] [2025-05-26T12:11:24Z] Source=Router Event=EmailRead User=lina.abdulaziz Host=PC-Rima File=manuel_procedures_IT.pdf Action=Denied Verdict=Blocked
+[SIEM] [2025-05-26T15:10:32Z] Source=IAM User=hassan.amir Event=Login Result=Success Device=PC-Bilal
+[SIEM] [2025-05-26T15:11:28Z] Source=AD User=thamer.najjar Event=Login Result=Success Device=PC-Farah
+[SIEM] [2025-05-26T11:59:33Z] Source=SIEM User=mohamed.hassan Event=Login Result=Success Device=PC-Omar
+[SIEM] [2025-05-26T14:33:20Z] Source=AD Event=SMTP URL="http://login-um6p-security.org" Verdict=Blocked
+[SIEM] [2025-05-26T13:54:04Z] Source=Proxy Correlation=ChainDetected + ThreatScore User=samir.alhassan Score=7.29
+[SIEM] [2025-05-26T11:40:48Z] Source=Proxy Event=AccessRequest process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:34:29Z] Source=AD Alert=CorrelationLog DetectedOn=PC-Maya Severity=High
+[SIEM] [2025-05-26T12:28:44Z] Source=AD Event=AccessRequest User=shimaa.hassan Host=PC-Kareem File=mailing_list_clients.txt Action=Allowed Verdict=Malware_Detected
+[SIEM] [2025-05-26T13:30:00Z] Source=EDR Alert=LDAPBind DetectedOn=PC-Abdulrahman Severity=High
+[SIEM] [2025-05-26T11:55:56Z] Source=UserPC Event=CorrelationLog process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T13:44:54Z] Source=ActiveDirectory Correlation=ChainDetected + LDAPBind User=aya.zahra Score=9.1
+[SIEM] [2025-05-26T11:09:12Z] Source=SIEM Action=Denied dstIP=144.76.44.231 dstPort=301 Signature="Known Threat"
+[SIEM] [2025-05-26T11:57:14Z] Source=SIEM Event=Login process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:52:20Z] Source=Proxy Alert=DNSRequest DetectedOn=PC-Noura Severity=High
+[SIEM] [2025-05-26T12:46:03Z] Source=EDR Event=CorrelationLog User=manal.rashid Host=PC-Shimaa File=fichier_config_serveur_vpn.cfg Action=Allowed Verdict=Malware_Detected
+[SIEM] [2025-05-26T12:12:16Z] Source=UserPC Event=ProcessStart process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T13:55:59Z] Source=EDR Event=Quarantine process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:15:54Z] Source=MailServer Event=EmailRead User=muna.bakr Host=PC-Fahd File=fichier_politique_confidentialite.pdf Action=Quarantined Verdict=Benign
+[SIEM] [2025-05-26T11:04:30Z] Source=MailServer Event=ProcessStart URL="http://mailgate-um6p.net" Verdict=Phishing_Link
+[SIEM] [2025-05-26T12:28:00Z] Source=MailServer User=shaden.naqib Event=Login Result=Success Device=PC-Salim
+[SIEM] [2025-05-26T13:38:00Z] Source=Firewall Correlation=ChainDetected + CorrelationLog User=reem.taleb Score=7.78
+[SIEM] [2025-05-26T13:38:40Z] Source=SIEM Event=ThreatScore User=lina.abdulaziz Host=PC-Shatha File=plan_reprise_activite_urgence.pdf Action=Denied Verdict=Suspicious
+[SIEM] [2025-05-26T14:49:10Z] Source=SIEM Action=Allowed dstIP=144.76.29.105 dstPort=375 Signature="Known Threat"
+[SIEM] [2025-05-26T15:53:00Z] Source=IAM Event=Alert process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:13:19Z] Source=MailServer Event=DNSRequest process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:41:46Z] Source=AD Event=Quarantine process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:45:27Z] Source=MailServer Alert=LogReview DetectedOn=PC-Mohamed Severity=High
+[SIEM] [2025-05-26T14:25:04Z] Source=UserPC Action=Detected dstIP=144.76.39.147 dstPort=342 Signature="Known Threat"
+[SIEM] [2025-05-26T15:15:25Z] Source=ActiveDirectory Event=LDAPBind process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T10:18:06Z] Source=Firewall Event=BrowserAccess User=hamza.zaki Host=PC-Dalia File=document_politique_IT.pdf Action=Quarantined Verdict=Malware_Detected
+[SIEM] [2025-05-26T15:59:53Z] Source=AD Event=LogReview User=samir.shaheen Host=PC-Jihad File=fiche_signalement_incident.pdf Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T11:22:40Z] Source=ActiveDirectory Action=Detected dstIP=144.76.79.141 dstPort=231 Signature="Known Threat"
+[SIEM] [2025-05-26T10:18:39Z] Source=Router Alert=ThreatScore DetectedOn=PC-Zubair Severity=High
+[SIEM] [2025-05-26T10:40:20Z] Source=IAM Action=Blocked dstIP=144.76.15.239 dstPort=206 Signature="Known Threat"
+[SIEM] [2025-05-26T13:04:14Z] Source=EDR Correlation=ChainDetected + AccessRequest User=alaa.salem Score=7.38
+[SIEM] [2025-05-26T10:55:12Z] Source=AD Event=Quarantine URL="http://encrypted-dump.net" Verdict=Phishing_Link
+[SIEM] [2025-05-26T13:19:48Z] Source=ActiveDirectory Action=Allowed dstIP=144.76.87.129 dstPort=172 Signature="Known Threat"
+[SIEM] [2025-05-26T15:59:32Z] Source=AD Action=Blocked dstIP=144.76.28.244 dstPort=337 Signature="Known Threat"
+[SIEM] [2025-05-26T15:09:45Z] Source=SIEM Correlation=ChainDetected + FileCreated User=joud.nasser Score=9.78
+[SIEM] [2025-05-26T15:46:56Z] Source=EDR Event=Login User=hala.sharif Host=PC-Farid File=presentation_politique_securite.pptx Action=Quarantined Verdict=Suspicious
+[SIEM] [2025-05-26T13:51:20Z] Source=Proxy Event=Alert User=omar.hakim Host=PC-Youssef File=plan_reprise_activite_urgence.pdf Action=Allowed Verdict=Phishing_Link
+[SIEM] [2025-05-26T14:50:24Z] Source=SIEM Action=Detected dstIP=144.76.31.71 dstPort=130 Signature="Known Threat"
+[SIEM] [2025-05-26T13:45:21Z] Source=IAM Alert=Alert DetectedOn=PC-Lamia Severity=High
+[SIEM] [2025-05-26T13:38:40Z] Source=MailServer Action=Denied dstIP=144.76.50.172 dstPort=349 Signature="Known Threat"
+[SIEM] [2025-05-26T13:31:57Z] Source=Proxy Correlation=ChainDetected + URLAccess User=rashid.nour Score=7.71
+[SIEM] [2025-05-26T11:56:48Z] Source=Firewall Correlation=ChainDetected + BrowserAccess User=kamilah.mohamed Score=7.72
+[SIEM] [2025-05-26T14:02:43Z] Source=Router Event=EmailRead URL="http://login-um6p-security.org" Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:42:48Z] Source=EDR Event=Login URL="http://fileshare-locked.org" Verdict=Malware_Detected
+[SIEM] [2025-05-26T13:12:10Z] Source=IAM Event=ScriptExecution process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T16:03:42Z] Source=AD Event=DNSRequest User=kalil.hakim Host=PC-Ahmed File=rapport_evaluation_risque_IT.pdf Action=Allowed Verdict=Phishing_Link
+[SIEM] [2025-05-26T14:42:42Z] Source=Firewall Event=LDAPBind URL="http://malware-distribution-center.com" Verdict=Malware_Detected
+[SIEM] [2025-05-26T10:59:28Z] Source=UserPC Action=Blocked dstIP=144.76.33.100 dstPort=184 Signature="Known Threat"
+[SIEM] [2025-05-26T12:59:28Z] Source=ActiveDirectory Correlation=ChainDetected + URLAccess User=wajih.alhassan Score=8.17
+[SIEM] [2025-05-26T12:52:30Z] Source=Firewall Alert=DNSRequest DetectedOn=PC-Tarek Severity=High
+[SIEM] [2025-05-26T13:30:36Z] Source=EDR Action=Blocked dstIP=144.76.93.91 dstPort=408 Signature="Known Threat"
+[SIEM] [2025-05-26T14:31:28Z] Source=AD Event=URLAccess process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T12:01:12Z] Source=AD Event=ProcessStart process=cmd.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:55:38Z] Source=MailServer Correlation=ChainDetected + AccessRequest User=yasmeen.salim Score=9.3
+[SIEM] [2025-05-26T12:55:05Z] Source=AD Action=Detected dstIP=144.76.29.182 dstPort=284 Signature="Known Threat"
+[SIEM] [2025-05-26T14:26:48Z] Source=IAM Correlation=ChainDetected + DNSRequest User=omar.salem Score=7.38
+[SIEM] [2025-05-26T12:02:48Z] Source=ActiveDirectory Event=ScriptExecution process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T15:21:40Z] Source=Firewall Event=AccessRequest User=sami.jaber Host=PC-Muhannad File=rapport_incident_informatique.docx Action=Detected Verdict=Phishing_Link
+[SIEM] [2025-05-26T10:31:48Z] Source=EDR Alert=ProcessStart DetectedOn=PC-Hala Severity=High
+[SIEM] [2025-05-26T11:02:40Z] Source=UserPC Correlation=ChainDetected + EmailRead User=najwa.bassem Score=9.69
+[SIEM] [2025-05-26T15:16:29Z] Source=IAM User=laila.badran Event=Login Result=Success Device=PC-Hamza
+[SIEM] [2025-05-26T14:46:30Z] Source=AD Event=DNSRequest process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T15:33:33Z] Source=EDR Action=Allowed dstIP=144.76.47.5 dstPort=92 Signature="Known Threat"
+[SIEM] [2025-05-26T15:34:24Z] Source=MailServer Event=ThreatScore User=hafsa.mansur Host=PC-Nour File=formulaire_demande_acces.pdf Action=Allowed Verdict=Suspicious
+[SIEM] [2025-05-26T13:15:45Z] Source=Proxy Action=Allowed dstIP=144.76.78.123 dstPort=431 Signature="Known Threat"
+[SIEM] [2025-05-26T10:40:58Z] Source=Router Event=EmailRead User=ghassan.sharif Host=PC-Wael File=liste_contacts.csv Action=Blocked Verdict=Malware_Detected
+[SIEM] [2025-05-26T14:34:41Z] Source=IAM Event=ProcessStart process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:27:36Z] Source=MailServer Correlation=ChainDetected + LDAPBind User=hala.karim Score=8.63
+[SIEM] [2025-05-26T15:30:50Z] Source=EDR User=asmaa.rahman Event=Login Result=Success Device=PC-Nisreen
+[SIEM] [2025-05-26T15:16:00Z] Source=IAM Event=EmailRead User=sara.farid Host=PC-Samah File=document_validation_projet.pdf Action=Quarantined Verdict=Suspicious
+[SIEM] [2025-05-26T16:51:00Z] Source=MailServer Alert=Mitigation DetectedOn=PC-Maysa Severity=High
+[SIEM] [2025-05-26T13:27:28Z] Source=SIEM Alert=DNSRequest DetectedOn=PC-Rina Severity=High
+[SIEM] [2025-05-26T16:29:21Z] Source=IAM Event=BrowserAccess URL="http://remoteshell-backdoor.com" Verdict=Suspicious
+[SIEM] [2025-05-26T14:00:12Z] Source=IAM Correlation=ChainDetected + Login User=rashid.nour Score=7.72
+[SIEM] [2025-05-26T12:57:30Z] Source=Firewall Event=AccessRequest User=khaled.rafat Host=PC-Younes File=dossier_mediation_clients.pdf Action=Blocked Verdict=Phishing_Link
+[SIEM] [2025-05-26T11:14:52Z] Source=IAM Correlation=ChainDetected + AccessRequest User=joud.nasser Score=9.1
+[SIEM] [2025-05-26T14:49:48Z] Source=Proxy Event=ScriptExecution process=svchost.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:58:30Z] Source=UserPC Correlation=ChainDetected + ProcessStart User=rashid.nour Score=7.23
+[SIEM] [2025-05-26T13:15:28Z] Source=ActiveDirectory Event=ScriptExecution URL="http://api-stealer-c2.com" Verdict=Suspicious
+[SIEM] [2025-05-26T14:28:00Z] Source=ActiveDirectory Alert=Login DetectedOn=PC-Maya Severity=High
+[SIEM] [2025-05-26T14:12:39Z] Source=MailServer Event=FileCreated User=shatha.abdallah Host=PC-Shaden File=plan_sauvegarde_donnees.xlsx Action=Denied Verdict=Blocked
+[SIEM] [2025-05-26T10:20:20Z] Source=Firewall Action=Allowed dstIP=144.76.79.46 dstPort=142 Signature="Known Threat"
+[SIEM] [2025-05-26T13:09:33Z] Source=EDR User=mona.abdul Event=Login Result=Success Device=PC-Muhannad
+[SIEM] [2025-05-26T16:47:52Z] Source=Router Action=Quarantined dstIP=144.76.25.188 dstPort=31 Signature="Known Threat"
+[SIEM] [2025-05-26T17:05:00Z] Source=MailServer Alert=Mitigation DetectedOn=PC-Tarek Severity=High
+[SIEM] [2025-05-26T15:36:54Z] Source=SIEM Event=BrowserAccess process=powershell.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:32:47Z] Source=ActiveDirectory Correlation=ChainDetected + Quarantine User=kareem.jamal Score=7.85
+[SIEM] [2025-05-26T16:11:04Z] Source=SIEM Alert=EmailRead DetectedOn=PC-Nisreen Severity=High
+[SIEM] [2025-05-26T13:53:24Z] Source=SIEM Alert=SMTP DetectedOn=PC-Shaden Severity=High
+[SIEM] [2025-05-26T11:02:30Z] Source=IAM Event=URLAccess process=winword.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T14:02:47Z] Source=MailServer User=sara.abdelkarim Event=Login Result=Success Device=PC-Rana
+[SIEM] [2025-05-26T12:33:12Z] Source=SIEM Correlation=ChainDetected + ScriptExecution User=asmaa.rahman Score=7.19
+[SIEM] [2025-05-26T12:50:04Z] Source=Router Correlation=ChainDetected + FileCreated User=saif.alqahtani Score=8.63
+[SIEM] [2025-05-26T14:04:38Z] Source=AD Event=Login process=outlook.exe cmd="/c powershell -enc ..." Suspicious=True
+[SIEM] [2025-05-26T11:45:00Z] Source=MailServer Alert=LogReview DetectedOn=PC-Kalil Severity=High
+[SIEM] [2025-05-26T11:04:00Z] Source=SIEM Event=FileCreated URL="http://corp-login-verify.org" Verdict=Benign
+[SIEM] [2025-05-26T16:35:35Z] Source=AD Event=Mitigation URL="http://fileshare-locked.org" Verdict=Benign
+[SIEM] [2025-05-26T13:58:48Z] Source=EDR Alert=SMTP DetectedOn=PC-Omar Severity=High
+[SIEM] [2025-05-26T12:52:52Z] Source=SIEM Event=SMTP User=mariyam.farid Host=PC-Mustafa File=manual_utilisation_vpn.pdf Action=Detected Verdict=Malware_Detected
